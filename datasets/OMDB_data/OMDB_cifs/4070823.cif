@@ -1,0 +1,281 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 08:09:40 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178597 $
+#$URL: svn://www.crystallography.net/cod/cif/4/07/08/4070823.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4070823
+loop_
+_publ_author_name
+'Jutzi, Peter'
+'Izundu, Joseph'
+'Neumann, Beate'
+'Mix, Andreas'
+'Stammler, Hans-Georg'
+_publ_section_title
+;
+ Aryl(dimethyl)gallium Compounds and Methyl(diphenyl)gallium: Synthesis,
+ Structure, and Redistribution Reactions
+;
+_journal_issue                   18
+_journal_name_full               Organometallics
+_journal_page_first              4565
+_journal_paper_doi               10.1021/om701055a
+_journal_volume                  27
+_journal_year                    2008
+_chemical_formula_moiety         'C9 H13 Ga'
+_chemical_formula_sum            'C9 H13 Ga'
+_chemical_formula_weight         190.91
+_chemical_name_systematic        ?
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                72.703(2)
+_cell_angle_beta                 76.898(3)
+_cell_angle_gamma                65.767(3)
+_cell_formula_units_Z            2
+_cell_length_a                   7.0200(3)
+_cell_length_b                   7.1210(3)
+_cell_length_c                   10.3090(5)
+_cell_measurement_reflns_used    23492
+_cell_measurement_temperature    100(2)
+_cell_measurement_theta_max      30.034
+_cell_measurement_theta_min      2.910
+_cell_volume                     445.43(4)
+_computing_cell_refinement       'HKL Scalepack (Otwinowski & Minor 1997)'
+_computing_data_collection       'KappaCCD '
+_computing_data_reduction
+'Denzo and Scalepack (Otwinowski & Minor, 1997)'
+_computing_molecular_graphics    'SHELXTL-PLUS (1990)'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      100(2)
+_diffrn_measured_fraction_theta_full 0.992
+_diffrn_measured_fraction_theta_max 0.992
+_diffrn_measurement_device_type  KappaCCD
+_diffrn_measurement_method       CCD
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.070
+_diffrn_reflns_av_sigmaI/netI    0.0402
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            13902
+_diffrn_reflns_theta_full        30.00
+_diffrn_reflns_theta_max         30.00
+_diffrn_reflns_theta_min         3.21
+_exptl_absorpt_coefficient_mu    3.014
+_exptl_absorpt_correction_T_max  0.5840
+_exptl_absorpt_correction_T_min  0.4650
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+'Denzo and Scalepack (Otwinowski & Minor, 1997)'
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    1.423
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       fragment
+_exptl_crystal_F_000             196
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.25
+_exptl_crystal_size_min          0.20
+_refine_diff_density_max         1.472
+_refine_diff_density_min         -0.931
+_refine_diff_density_rms         0.140
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.043
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     94
+_refine_ls_number_reflns         2570
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.043
+_refine_ls_R_factor_all          0.0439
+_refine_ls_R_factor_gt           0.0370
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0642P)^2^+0.2228P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0986
+_refine_ls_wR_factor_ref         0.1021
+_reflns_number_gt                2282
+_reflns_number_total             2570
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            om701055a_si_002.cif
+_cod_data_source_block           compound2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_atom_site_symetry_multiplicity' tag replaced with
+'_atom_site_symmetry_multiplicity'.
+
+Automatic conversion script
+Id: cif_correct_tags 1440 2010-10-19 06:21:57Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Triclinic' changed to 'triclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        445.43(3)
+_cod_database_code               4070823
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ga1 Ga 0.10171(4) 0.26648(4) -0.14123(2) 0.02045(11) Uani 1 1 d .
+C1 C -0.0409(4) 0.2444(3) 0.0481(2) 0.0192(4) Uani 1 1 d .
+C2 C 0.0477(4) 0.2515(4) 0.1557(3) 0.0211(4) Uani 1 1 d .
+H2 H 0.1811 0.2647 0.1365 0.025 Uiso 1 1 calc R
+C3 C -0.0528(4) 0.2398(3) 0.2882(2) 0.0217(4) Uani 1 1 d .
+H3 H 0.0116 0.2467 0.3575 0.026 Uiso 1 1 calc R
+C4 C -0.2475(4) 0.2179(4) 0.3211(2) 0.0231(5) Uani 1 1 d .
+C5 C -0.3383(4) 0.2089(4) 0.2176(3) 0.0219(4) Uani 1 1 d .
+H5 H -0.4705 0.1929 0.2381 0.026 Uiso 1 1 calc R
+C6 C -0.2377(4) 0.2231(4) 0.0844(2) 0.0208(4) Uani 1 1 d .
+H6 H -0.3042 0.2182 0.0154 0.025 Uiso 1 1 calc R
+C7 C -0.3568(5) 0.2062(5) 0.4644(3) 0.0308(5) Uani 1 1 d .
+H7A H -0.3336 0.0582 0.5106 0.046 Uiso 1 1 calc R
+H7B H -0.5080 0.2872 0.4622 0.046 Uiso 1 1 calc R
+H7C H -0.3002 0.2657 0.5142 0.046 Uiso 1 1 calc R
+C8 C -0.0649(4) 0.3240(4) -0.2874(3) 0.0243(5) Uani 1 1 d .
+H8A H 0.0161 0.3544 -0.3766 0.036 Uiso 1 1 calc R
+H8B H -0.1957 0.4462 -0.2791 0.036 Uiso 1 1 calc R
+H8C H -0.0984 0.2000 -0.2796 0.036 Uiso 1 1 calc R
+C9 C 0.3981(4) 0.2334(4) -0.1678(3) 0.0228(4) Uani 1 1 d .
+H9A H 0.4529 0.2407 -0.2647 0.034 Uiso 1 1 calc R
+H9B H 0.4791 0.0960 -0.1129 0.034 Uiso 1 1 calc R
+H9C H 0.4106 0.3468 -0.1391 0.034 Uiso 1 1 calc R
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ga1 0.01795(16) 0.02248(15) 0.02120(16) -0.00570(10) -0.00444(10) -0.00619(11)
+C1 0.0197(11) 0.0156(9) 0.0219(10) -0.0050(8) -0.0049(8) -0.0045(8)
+C2 0.0192(11) 0.0188(10) 0.0265(11) -0.0063(8) -0.0056(9) -0.0060(8)
+C3 0.0250(12) 0.0179(9) 0.0246(11) -0.0060(8) -0.0082(9) -0.0067(8)
+C4 0.0270(12) 0.0189(10) 0.0216(11) -0.0055(8) -0.0026(9) -0.0063(9)
+C5 0.0218(11) 0.0194(10) 0.0260(11) -0.0070(8) -0.0028(9) -0.0078(8)
+C6 0.0199(11) 0.0200(10) 0.0244(11) -0.0074(8) -0.0066(9) -0.0055(8)
+C7 0.0324(14) 0.0336(13) 0.0277(12) -0.0085(10) -0.0059(11) -0.0113(11)
+C8 0.0260(12) 0.0214(10) 0.0274(12) -0.0056(9) -0.0102(9) -0.0071(9)
+C9 0.0174(11) 0.0239(11) 0.0270(11) -0.0069(9) -0.0025(9) -0.0067(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ga Ga 0.2307 1.6083 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+C9 Ga1 C8 125.31(11)
+C9 Ga1 C1 117.06(10)
+C8 Ga1 C1 117.63(10)
+C6 C1 C2 115.7(2)
+C6 C1 Ga1 122.36(16)
+C2 C1 Ga1 121.97(17)
+C3 C2 C1 122.4(2)
+C3 C2 H2 118.8
+C1 C2 H2 118.8
+C2 C3 C4 120.6(2)
+C2 C3 H3 119.7
+C4 C3 H3 119.7
+C5 C4 C3 118.4(2)
+C5 C4 C7 120.9(2)
+C3 C4 C7 120.7(2)
+C6 C5 C4 120.7(2)
+C6 C5 H5 119.7
+C4 C5 H5 119.7
+C5 C6 C1 122.2(2)
+C5 C6 H6 118.9
+C1 C6 H6 118.9
+C4 C7 H7A 109.5
+C4 C7 H7B 109.5
+H7A C7 H7B 109.5
+C4 C7 H7C 109.5
+H7A C7 H7C 109.5
+H7B C7 H7C 109.5
+Ga1 C8 H8A 109.5
+Ga1 C8 H8B 109.5
+H8A C8 H8B 109.5
+Ga1 C8 H8C 109.5
+H8A C8 H8C 109.5
+H8B C8 H8C 109.5
+Ga1 C9 H9A 109.5
+Ga1 C9 H9B 109.5
+H9A C9 H9B 109.5
+Ga1 C9 H9C 109.5
+H9A C9 H9C 109.5
+H9B C9 H9C 109.5
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Ga1 C9 1.959(2)
+Ga1 C8 1.961(2)
+Ga1 C1 1.975(2)
+C1 C6 1.406(3)
+C1 C2 1.411(3)
+C2 C3 1.383(4)
+C2 H2 0.9500
+C3 C4 1.393(3)
+C3 H3 0.9500
+C4 C5 1.390(3)
+C4 C7 1.498(4)
+C5 C6 1.390(4)
+C5 H5 0.9500
+C6 H6 0.9500
+C7 H7A 0.9800
+C7 H7B 0.9800
+C7 H7C 0.9800
+C8 H8A 0.9800
+C8 H8B 0.9800
+C8 H8C 0.9800
+C9 H9A 0.9800
+C9 H9B 0.9800
+C9 H9C 0.9800

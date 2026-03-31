@@ -1,0 +1,290 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/46/2004696.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004696
+loop_
+_publ_author_name
+'Blackburn, A. C.'
+'Dobson, A. J.'
+'Gerkin, R. E.'
+_publ_section_title
+;
+ Fluorene-1-carboxylic Acid
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              907
+_journal_page_last               910
+_journal_paper_doi               10.1107/S0108270195014971
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_moiety         'C14 H10 O2'
+_chemical_formula_sum            'C14 H10 O2'
+_chemical_formula_weight         210.23
+_chemical_name_common            'fluorene-1-carboxylic acid'
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 92.81(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.564(2)
+_cell_length_b                   5.327(2)
+_cell_length_c                   34.038(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      17.4
+_cell_measurement_theta_min      15.4
+_cell_volume                     1007.7(5)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control Software'
+_computing_data_collection
+;MSC/AFC Diffractometer Control Software (Molecular Structure Corporation,
+ 1988)
+;
+_computing_data_reduction
+'TEXSAN (Molecular Structure Corporation, 1989)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  TEXSAN
+_computing_structure_refinement  TEXSAN
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1985)'
+_diffrn_ambient_temperature      296
+_diffrn_measurement_device       AFC5S
+_diffrn_measurement_method       ' \w scans '
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.033
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       44
+_diffrn_reflns_limit_l_min       -44
+_diffrn_reflns_number            2806
+_diffrn_reflns_theta_max         27.50
+_diffrn_reflns_theta_min         2.00
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    0.086
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.385
+_exptl_crystal_description       'cut column'
+_exptl_crystal_F_000             440
+_exptl_crystal_size_max          0.34
+_exptl_crystal_size_mid          0.27
+_exptl_crystal_size_min          0.27
+_refine_diff_density_max         0.26
+_refine_diff_density_min         -0.19
+_refine_ls_extinction_coef       '1.0(4) x 10^-6^'
+_refine_ls_extinction_method     'Zachariasen (1963, 1968)'
+_refine_ls_goodness_of_fit_obs   2.06
+_refine_ls_hydrogen_treatment    'H atoms: see text'
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     158
+_refine_ls_number_reflns         1168
+_refine_ls_R_factor_obs          0.054
+_refine_ls_shift/esd_max         '< 0.01'
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=\s~F~^-2^
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.066
+_reflns_number_observed          1168
+_reflns_number_total             2553
+_reflns_observed_criterion       'I >3\s~I~'
+_cod_data_source_file            bk1185.cif
+_cod_data_source_block           fluorene-1-carboxylic_acid
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=\s~F~^-2^' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=\s~F~^-2^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1007.8(6)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2004696
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,1/2+y,1/2-z
+'-x, -y, -z'
+' x, 1/2 -y, 1/2 +z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O(1) 0.075(2) 0.064(2) 0.0420(10) 0.025(2) 0.0230(10) 0.0200(10)
+O(2) 0.063(2) 0.061(2) 0.048(2) 0.026(2) 0.0170(10) 0.0150(10)
+C(1) 0.045(2) 0.038(2) 0.035(2) 0.004(2) 0.002(2) 0.004(2)
+C(2) 0.053(2) 0.047(2) 0.037(2) 0.010(2) 0.011(2) 0.004(2)
+C(3) 0.053(2) 0.054(3) 0.053(2) 0.014(2) 0.012(2) 0.005(2)
+C(4) 0.055(2) 0.043(2) 0.045(2) 0.010(2) 0.007(2) 0.011(2)
+C(5) 0.056(2) 0.049(2) 0.042(2) 0.003(2) 0.005(2) 0.006(2)
+C(6) 0.060(2) 0.052(2) 0.048(2) -0.004(2) 0.008(2) 0.010(2)
+C(7) 0.058(2) 0.064(3) 0.046(2) -0.001(2) 0.016(2) 0.003(2)
+C(8) 0.053(2) 0.055(3) 0.044(2) 0.007(2) 0.011(2) -0.002(2)
+C(9) 0.048(2) 0.038(2) 0.037(2) 0.009(2) 0.003(2) -0.001(2)
+C(10) 0.042(2) 0.035(2) 0.035(2) -0.001(2) 0.000(2) 0.000(2)
+C(11) 0.044(2) 0.032(2) 0.036(2) 0.002(2) 0.004(2) 0.002(2)
+C(12) 0.042(2) 0.040(2) 0.032(2) 0.001(2) 0.0010(10) -0.002(2)
+C(13) 0.046(2) 0.040(2) 0.034(2) 0.000(2) 0.000(2) -0.002(2)
+C(14) 0.048(2) 0.044(2) 0.037(2) 0.006(2) 0.006(2) 0.002(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_type_symbol
+O(1) 0.7083(5) 0.2582(5) 0.00564(7) 0.0600(9) Uij O
+O(2) 0.4088(5) 0.3720(5) 0.04288(7) 0.0570(8) Uij O
+C(1) 0.6628(6) 0.0359(6) 0.06474(9) 0.0391(10) Uij C
+C(2) 0.8499(7) -0.1235(7) 0.05526(9) 0.045(1) Uij C
+C(3) 0.9300(7) -0.3106(8) 0.08096(10) 0.053(1) Uij C
+C(4) 0.8255(7) -0.3435(7) 0.11657(10) 0.048(1) Uij C
+C(5) 0.5036(7) -0.3389(7) 0.19409(10) 0.049(1) Uij C
+C(6) 0.3391(7) -0.3001(8) 0.22239(10) 0.053(1) Uij C
+C(7) 0.1688(7) -0.1134(9) 0.21826(10) 0.056(1) Uij C
+C(8) 0.1602(7) 0.0452(8) 0.18582(10) 0.050(1) Uij C
+C(9) 0.3516(7) 0.1440(7) 0.11844(10) 0.041(1) Uij C
+C(10) 0.5557(6) 0.0037(6) 0.10042(9) 0.0372(9) Uij C
+C(11) 0.6390(6) -0.1872(6) 0.12611(9) 0.0371(9) Uij C
+C(12) 0.4947(6) -0.1836(7) 0.16118(9) 0.0380(9) Uij C
+C(13) 0.3241(6) 0.0074(7) 0.15705(9) 0.0398(10) Uij C
+C(14) 0.5850(7) 0.2348(7) 0.03680(9) 0.043(1) Uij C
+H(1) 0.656(8) 0.406(11) -0.012(1) 0.12(2) Uiso H
+H(9) 0.388(6) 0.329(7) 0.125(1) 0.05(1) Uiso H
+H(10) 0.203(6) 0.144(7) 0.102(1) 0.05(1) Uiso H
+H(2) 0.926 -0.103 0.030 0.054 Uiso H
+H(3) 1.062 -0.421 0.074 0.064 Uiso H
+H(4) 0.883 -0.476 0.135 0.058 Uiso H
+H(5) 0.624 -0.473 0.197 0.059 Uiso H
+H(6) 0.343 -0.407 0.246 0.064 Uiso H
+H(7) 0.052 -0.092 0.239 0.067 Uiso H
+H(8) 0.041 0.181 0.183 0.060 Uiso H
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+H 0 0 'Stewart, Davidson and Simpson (1965)'
+C .002 .002 'Cromer and Waber (1974)'
+O .008 .006 'Cromer and Waber (1974)'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 1 2
+1 -1 -7
+1 -2 6
+3 0 -8
+4 0 6
+2 4 4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C(2) C(1) C(10) 118.9(3) yes
+C(1) C(2) C(3) 120.9(3) yes
+C(2) C(3) C(4) 120.6(3) yes
+C(3) C(4) C(11) 118.9(3) yes
+C(6) C(5) C(12) 118.4(3) yes
+C(5) C(6) C(7) 121.0(3) yes
+C(6) C(7) C(8) 121.1(3) yes
+C(7) C(8) C(13) 118.4(4) yes
+C(10) C(9) C(13) 102.9(3) yes
+C(1) C(10) C(9) 130.9(3) yes
+C(1) C(10) C(11) 119.4(3) yes
+C(9) C(10) C(11) 109.6(3) yes
+C(4) C(11) C(10) 121.2(3) yes
+C(4) C(11) C(12) 130.1(3) yes
+C(10) C(11) C(12) 108.6(3) yes
+C(5) C(12) C(11) 130.3(3) yes
+C(5) C(12) C(13) 120.8(3) yes
+C(11) C(12) C(13) 108.9(3) yes
+C(8) C(13) C(9) 129.8(3) yes
+C(8) C(13) C(12) 120.2(3) yes
+C(9) C(13) C(12) 109.9(3) yes
+C(10) C(9) H(9) 114.0(10) yes
+C(10) C(9) H(10) 114.0(10) yes
+C(13) C(9) H(9) 107.0(10) yes
+C(13) C(9) H(10) 111.0(10) yes
+H(9) C(9) H(10) 105(2) yes
+C(2) C(1) C(14) 119.2(3) yes
+C(10) C(1) C(14) 121.9(3) yes
+C(1) C(14) O(1) 116.5(3) yes
+C(1) C(14) O(2) 121.4(3) yes
+O(1) C(14) O(2) 122.0(3) yes
+C(14) O(1) H(1) 114(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C(1) C(2) 1.394(5) yes
+C(1) C(10) 1.389(4) yes
+C(2) C(3) 1.385(5) yes
+C(3) C(4) 1.381(5) yes
+C(4) C(11) 1.382(5) yes
+C(5) C(6) 1.377(5) yes
+C(5) C(12) 1.392(4) yes
+C(6) C(7) 1.376(5) yes
+C(7) C(8) 1.389(5) yes
+C(8) C(13) 1.385(4) yes
+C(9) C(10) 1.515(5) yes
+C(9) C(13) 1.517(5) yes
+C(10) C(11) 1.405(5) yes
+C(11) C(12) 1.471(4) yes
+C(12) C(13) 1.394(4) yes
+C(9) H(9) 1.03(4) yes
+C(9) H(10) 0.97(3) yes
+C(1) C(14) 1.474(5) yes
+C(14) O(1) 1.297(4) yes
+C(14) O(2) 1.248(4) yes
+O(1) O(2) 2.227(4) yes
+O(1) H(1) 1.03(5) yes

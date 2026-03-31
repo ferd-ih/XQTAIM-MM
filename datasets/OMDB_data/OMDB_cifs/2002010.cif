@@ -1,0 +1,184 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/20/2002010.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2002010
+loop_
+_publ_author_name
+'Koh, L. L.'
+'Lee, C.-K.'
+'Sim, K. Y.'
+'Zhu, J.'
+_publ_section_title
+;
+ Structure of 1-deoxycastanospermine
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              391
+_journal_page_last               392
+_journal_paper_doi               10.1107/S0108270192009120
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'C8 H15 N O3'
+_chemical_formula_weight         173.2
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   6.841(8)
+_cell_length_b                   7.219(6)
+_cell_length_c                   18.51(2)
+_cell_measurement_reflns_used    12
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      10.5
+_cell_measurement_theta_min      3.5
+_cell_volume                     914.1(16)
+_diffrn_measurement_device       'Siemens R3m/V'
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  n/a
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            875
+_diffrn_reflns_theta_max         24
+_diffrn_standards_decay_%        2
+_diffrn_standards_interval_count 98
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    0.096
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    1.258
+_exptl_crystal_description       Prism
+_exptl_crystal_size_max          0.45
+_exptl_crystal_size_mid          0.45
+_exptl_crystal_size_min          0.25
+_refine_diff_density_max         0.14
+_refine_diff_density_min         -0.16
+_refine_ls_extinction_coef       \c=0.0042
+_refine_ls_extinction_method     F*=F[1+0.002\cF^2^/sin(2\q)]^-0.25^
+_refine_ls_goodness_of_fit_obs   1.74
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     110
+_refine_ls_number_reflns         731
+_refine_ls_R_factor_obs          0.040
+_refine_ls_shift/esd_max         0.009
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0004F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.050
+_reflns_number_observed          731
+_reflns_number_total             857
+_reflns_observed_criterion       I>2.5\s(I)
+_cod_data_source_file            hl1013.cif
+_cod_data_source_block           hl1013_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s^2^(F)+0.0004F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.0004F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        914.3(17)
+_cod_original_formula_sum        'C8 H15 N1 O3'
+_cod_database_code               2002010
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+C(1) .8350(6) .1943(6) .3107(2) .0600(10)
+C(2) .7567(6) .3837(6) .2859(3) .072(2)
+C(3) .5552(5) .4018(5) .3214(2) .0530(10)
+C(5) .3778(5) .2205(5) .4135(2) .0380(10)
+C(6) .4096(4) .0911(4) .4766(2) .0360(10)
+C(7) .5292(5) -.0777(4) .4543(2) .0380(10)
+C(8) .7134(5) -.0262(4) .4128(2) .0380(10)
+C(8a) .6664(5) .1087(5) .3526(2) .0410(10)
+N(1) .5664(3) .2731(3) .3827(2) .0370(10)
+O(6) .2242(3) .0274(3) .50330(10) .0440(10)
+O(7) .5742(3) -.1803(3) .51810(10) .0500(10)
+O(8) .8005(4) -.1854(3) .38060(10) .0530(10)
+H(1A) .8703 .1184 .2702 .080
+H(1B) .9473 .2099 .3412 .080
+H(2A) .7445 .3866 .2343 .080
+H(2B) .8423 .4820 .3007 .080
+H(3A) .4524 .3688 .2885 .070
+H(3B) .5346 .5264 .3378 .070
+H(5A) .3104 .3296 .4296 .050
+H(5B) .2989 .1613 .3773 .050
+H(6A) .4772 .1553 .5145 .050
+H(7A) .4496 -.1536 .4235 .050
+H(8A) .8051 .0296 .4455 .050
+H(8aa) .5805 .0487 .3189 .050
+H(O6) .1930 .0889 .5433 .050
+H(O7) .6142 -.2938 .5065 .060
+H(O8) .8705 -.2444 .4139 .070
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C(2) C(1) C(8a) 104.4(3) yes
+C(2) C(3) N(1) 103.3(3) yes
+C(5) C(6) C(7) 111.2(3) yes
+C(7) C(6) O(6) 108.1(2) yes
+C(6) C(7) O(7) 107.8(3) yes
+C(7) C(8) C(8a) 110.6(3) yes
+C(8a) C(8) O(8) 107.4(3) yes
+C(1) C(8a) N(1) 102.5(3) yes
+C(3) N(1) C(5) 114.8(3) yes
+C(5) N(1) C(8a) 110.3(3) yes
+C(1) C(2) C(3) 105.1(3) yes
+C(6) C(5) N(1) 109.6(3) yes
+C(5) C(6) O(6) 109.6(3) yes
+C(6) C(7) C(8) 112.7(3) yes
+C(8) C(7) O(7) 111.4(3) yes
+C(7) C(8) O(8) 111.1(3) yes
+C(1) C(8a) C(8) 118.4(3) yes
+C(8) C(8a) N(1) 109.7(3) yes
+C(3) N(1) C(8a) 103.9(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C(1) C(2) 1.539(6) yes
+C(2) C(3) 1.533(6) yes
+C(5) C(6) 1.512(5) yes
+C(6) C(7) 1.524(5) yes
+C(7) C(8) 1.522(5) yes
+C(8) C(8a) 1.514(5) yes
+C(8a) N(1) 1.479(5) yes
+C(1) C(8a) 1.521(5) yes
+C(3) N(1) 1.468(5) yes
+C(5) N(1) 1.461(4) yes
+C(6) O(6) 1.437(4) yes
+C(7) O(7) 1.428(4) yes
+C(8) O(8) 1.425(4) yes

@@ -1,0 +1,214 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-28 18:08:17 +0300 (Wed, 28 Sep 2022) $
+#$Revision: 278247 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/20/2002021.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2002021
+loop_
+_publ_author_name
+'Kawata, T.'
+'Okuda, M.'
+'Ohba, S.'
+'Umehara, M.'
+'Honnami, H.'
+'Hishida, S.'
+_publ_section_title
+;Tricyclo[9.3.0.0^3,7^]tetradec-3-ene-5,10-dione (I),
+ tetracyclo[9.3.0.0^1,5^.0^5,9^]tetradecane-2,7-dione (II) and
+ <i>cis</i>-<i>cisoid</i>-<i>cis</i>-2,9-epoxy-9-methyltricyclo[9.3.0.0^4,8^]tetradecan-2-ol
+ (III)
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              410
+_journal_page_last               413
+_journal_paper_doi               10.1107/S0108270192009491
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'C14 H18 O2'
+_chemical_formula_weight         218.3
+_space_group_IT_number           2
+_space_group_name_Hall           '-P 1'
+_space_group_name_H-M_alt        'P -1'
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                102.900(10)
+_cell_angle_beta                 91.170(10)
+_cell_angle_gamma                81.140(10)
+_cell_formula_units_Z            2
+_cell_length_a                   9.8940(10)
+_cell_length_b                   10.971(2)
+_cell_length_c                   5.6580(10)
+_cell_measurement_reflns_used    40
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      15
+_cell_measurement_theta_min      10
+_cell_volume                     591.45(16)
+_diffrn_measurement_device       'Rigaku AFC-5 four-circle'
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.009
+_diffrn_reflns_limit_h_max       0
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            2880
+_diffrn_reflns_theta_max         27.5
+_diffrn_standards_decay_%        0.988-1.012
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         5
+_exptl_absorpt_coefficient_mu    0.075
+_exptl_absorpt_correction_T_max  0.991
+_exptl_absorpt_correction_T_min  0.978
+_exptl_absorpt_correction_type   integration
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    1.226
+_exptl_crystal_description       Prism
+_exptl_crystal_size_max          0.50
+_exptl_crystal_size_mid          0.30
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.13
+_refine_diff_density_min         -0.15
+_refine_ls_goodness_of_fit_obs   1.79
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_number_parameters     218
+_refine_ls_number_reflns         1501
+_refine_ls_R_factor_obs          0.044
+_refine_ls_shift/esd_max         0.109
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = [\s^2^|F~o~|+(0.015|F~o~|)^2^]^-1^'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.047
+_reflns_number_observed          1501
+_reflns_number_total             2720
+_reflns_observed_criterion       |F~o~|>3\s|F~o~|
+_cod_data_source_file            as1019.cif
+_cod_data_source_block           as1019_structure_1_of_3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value
+'[\s^2^|F~o~|+(0.015|F~o~|)^2^]^-1^' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = [\s^2^|F~o~|+(0.015|F~o~|)^2^]^-1^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        591.50(10)
+_cod_database_code               2002021
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+O1 .6019(2) .35160(10) 1.0144(2) .057
+O2 1.0937(2) .1619(2) 1.0533(3) .091
+C1 .5622(2) .3064(2) .5901(3) .038
+C2 .6285(2) .3702(2) .8181(3) .038
+C3 .7249(2) .4614(2) .8010(4) .048
+C4 .8264(2) .4252(2) .5876(4) .052
+C5 .9341(2) .3085(2) .5854(4) .052
+C6 .8754(2) .1880(2) .5729(3) .043
+C7 .7721(2) .1464(2) .3860(3) .048
+C8 .6273(2) .1671(2) .4930(3) .041
+C9 .5213(3) .1182(2) .3097(4) .058
+C10 .3823(3) .1880(3) .4134(5) .075
+C11 .4115(2) .2945(2) .6248(4) .055
+C12 1.0270(2) .3157(2) .8076(5) .071
+C13 1.0249(2) .1946(2) .8899(4) .060
+C14 .9268(2) .1259(2) .7414(4) .051
+H1 .571(2) .357(2) .461(3) .052
+H31 .656(2) .548(2) .774(4) .084
+H32 .772(2) .483(2) .951(3) .067
+H41 .878(2) .500(2) .591(3) .066
+H42 .774(2) .415(2) .425(3) .066
+H5 .990(2) .301(2) .430(4) .071
+H71 .772(2) .194(2) .244(3) .061
+H72 .797(2) .050(2) .315(3) .068
+H8 .631(2) .121(2) .641(3) .060
+H91 .546(2) .133(2) .150(4) .071
+H92 .529(2) .022(2) .292(3) .065
+H101 .323(2) .220(2) .290(4) .087
+H102 .333(2) .120(2) .490(4) .095
+H111 .401(2) .273(2) .794(4) .073
+H112 .349(2) .378(2) .632(4) .075
+H121 .986(2) .392(2) .947(4) .090
+H122 1.124(3) .326(2) .765(4) .098
+H14 .900(2) .040(2) .767(4) .076
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C2 C1 C8 113.3(2) yes
+C2 C1 C11 114.0(2) yes
+C8 C1 C11 102.1(2) yes
+O1 C2 C1 121.0(2) yes
+O1 C2 C3 119.8(2) yes
+C1 C2 C3 119.2(2) yes
+C2 C3 C4 117.5(2) yes
+C3 C4 C5 115.6(2) yes
+C4 C5 C6 114.2(2) yes
+C4 C5 C12 115.9(2) yes
+C6 C5 C12 103.3(2) yes
+C5 C6 C7 121.6(2) yes
+C5 C6 C14 112.6(2) yes
+C7 C6 C14 125.8(2) yes
+C6 C7 C8 112.60(10) yes
+C1 C8 C7 115.9(2) yes
+C1 C8 C9 102.0(2) yes
+C7 C8 C9 113.7(2) yes
+C8 C9 C10 106.0(2) yes
+C9 C10 C11 106.4(2) yes
+C1 C11 C10 104.9(2) yes
+C5 C12 C13 105.7(2) yes
+O2 C13 C12 125.1(2) yes
+O2 C13 C14 127.1(2) yes
+C12 C13 C14 107.8(2) yes
+C6 C14 C13 110.3(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 C2 1.214(2) yes
+O2 C13 1.223(3) yes
+C1 C2 1.513(2) yes
+C1 C8 1.545(2) yes
+C1 C11 1.537(3) yes
+C2 C3 1.503(3) yes
+C3 C4 1.528(3) yes
+C4 C5 1.532(3) yes
+C5 C6 1.511(3) yes
+C5 C12 1.537(3) yes
+C6 C7 1.502(3) yes
+C6 C14 1.340(3) yes
+C7 C8 1.531(3) yes
+C8 C9 1.531(3) yes
+C9 C10 1.527(3) yes
+C10 C11 1.531(3) yes
+C12 C13 1.507(4) yes
+C13 C14 1.457(3) yes

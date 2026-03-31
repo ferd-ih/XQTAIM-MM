@@ -1,0 +1,240 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 17:23:40 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180391 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/60/7206037.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7206037
+loop_
+_publ_author_name
+Nonappa,
+'Ahonen, Kari'
+'Lahtinen, Manu'
+'Kolehmainen, Erkki'
+_publ_section_title
+;
+ Cyclic dipeptides: catalyst/promoter-free, rapid and environmentally
+ benign cyclization of free amino acids
+;
+_journal_issue                   5
+_journal_name_full               'Green Chemistry'
+_journal_page_first              1203
+_journal_paper_doi               10.1039/c1gc15043j
+_journal_volume                  13
+_journal_year                    2011
+_chemical_formula_moiety         'C4 H6 N2 O2'
+_chemical_formula_sum            'C4 H6 N2 O2'
+_chemical_formula_weight         114.11
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 96.461(8)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   3.9045(4)
+_cell_length_b                   11.5645(17)
+_cell_length_c                   5.1679(7)
+_cell_measurement_reflns_used    499
+_cell_measurement_temperature    123(2)
+_cell_measurement_theta_max      28.283
+_cell_measurement_theta_min      0.407
+_cell_volume                     231.87(5)
+_computing_cell_refinement       DENZO-SMN
+_computing_data_collection       Collect
+_computing_data_reduction        DENZO-SMN
+_computing_molecular_graphics    'Mercury 2.3'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 or SIR2002'
+_diffrn_ambient_temperature      123(2)
+_diffrn_detector_area_resol_mean 9
+_diffrn_measured_fraction_theta_full 0.994
+_diffrn_measured_fraction_theta_max 0.973
+_diffrn_measurement_device_type  'Kappa APEX II'
+_diffrn_measurement_method       '\f and \w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0258
+_diffrn_reflns_av_sigmaI/netI    0.0314
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -4
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            1467
+_diffrn_reflns_theta_full        27.00
+_diffrn_reflns_theta_max         28.50
+_diffrn_reflns_theta_min         3.52
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 0
+_diffrn_standards_interval_time  0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    0.133
+_exptl_absorpt_correction_T_max  0.8621
+_exptl_absorpt_correction_T_min  0.7456
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS (Sheldrick, G. M., 1995)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.634
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             120
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.24
+_exptl_crystal_size_min          0.24
+_refine_diff_density_max         0.284
+_refine_diff_density_min         -0.196
+_refine_diff_density_rms         0.049
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.083
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     41
+_refine_ls_number_reflns         570
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.083
+_refine_ls_R_factor_all          0.0417
+_refine_ls_R_factor_gt           0.0367
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0293P)^2^+0.1221P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0852
+_refine_ls_wR_factor_ref         0.0875
+_reflns_number_gt                509
+_reflns_number_total             570
+_reflns_threshold_expression     >2\s(I)
+_cod_data_source_file            c1gc15043j.txt
+_cod_data_source_block           sodu142
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1555 2011-01-17 13:19:09Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               7206037
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+H3 H 0.690(4) -0.0724(16) 0.138(3) 0.024(4) Uiso 1 1 d . . .
+O1 O 0.5940(2) 0.13328(8) 0.16807(18) 0.0198(3) Uani 1 1 d . . .
+C4 C 0.9828(3) 0.12390(10) 0.5531(2) 0.0160(3) Uani 1 1 d . . .
+H4A H 1.1377 0.1836 0.4932 0.019 Uiso 1 1 calc R . .
+H4B H 0.8193 0.1634 0.6569 0.019 Uiso 1 1 calc R . .
+C2 C 0.7819(3) 0.06977(11) 0.3185(2) 0.0155(3) Uani 1 1 d . . .
+N3 N 0.8114(3) -0.04301(9) 0.2787(2) 0.0169(3) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+O1 0.0240(5) 0.0161(5) 0.0180(5) 0.0015(3) -0.0041(4) 0.0010(3)
+C4 0.0179(6) 0.0131(6) 0.0161(6) -0.0008(5) -0.0016(4) 0.0006(4)
+C2 0.0158(6) 0.0172(6) 0.0135(6) 0.0003(5) 0.0017(4) -0.0012(5)
+N3 0.0209(6) 0.0152(6) 0.0134(5) -0.0016(4) -0.0030(4) -0.0008(4)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N3 C4 C2 114.61(10) 3_756 . ?
+N3 C4 H4A 108.6 3_756 . ?
+C2 C4 H4A 108.6 . . ?
+N3 C4 H4B 108.6 3_756 . ?
+C2 C4 H4B 108.6 . . ?
+H4A C4 H4B 107.6 . . ?
+O1 C2 N3 122.53(12) . . ?
+O1 C2 C4 118.31(11) . . ?
+N3 C2 C4 119.16(11) . . ?
+C2 N3 C4 126.21(10) . 3_756 ?
+C2 N3 H3 117.0(11) . . ?
+C4 N3 H3 116.8(11) 3_756 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O1 C2 1.2465(15) . ?
+C4 N3 1.4556(15) 3_756 ?
+C4 C2 1.5044(17) . ?
+C4 H4A 0.9900 . ?
+C4 H4B 0.9900 . ?
+C2 N3 1.3273(17) . ?
+N3 C4 1.4556(15) 3_756 ?
+N3 H3 0.889(18) . ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+N3 C4 C2 O1 178.56(11) 3_756 . . . ?
+N3 C4 C2 N3 -1.62(18) 3_756 . . . ?
+O1 C2 N3 C4 -178.36(12) . . . 3_756 ?
+C4 C2 N3 C4 1.8(2) . . . 3_756 ?

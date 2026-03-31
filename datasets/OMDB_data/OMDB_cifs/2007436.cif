@@ -1,0 +1,242 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/74/2007436.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007436
+loop_
+_publ_author_name
+'Barclay, Tosha M.'
+'Cordes, A. Wallace'
+'Oakley, Richard T.'
+'Preuss, Kathryn E.'
+'Zhang, Hongzhou'
+_publ_section_title
+;
+ 2,5-Diamino-3,6-dichloropyrazine
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1018
+_journal_page_last               1019
+_journal_paper_doi               10.1107/S0108270198001152
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'C4 H4 Cl2 N4 '
+_chemical_formula_sum            'C4 H4 Cl2 N4'
+_chemical_formula_weight         179.01
+_chemical_name_systematic
+;
+ 2,5-diamino-dichloropyrazine
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 101.162(8)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   3.7582(4)
+_cell_length_b                   14.5505(15)
+_cell_length_c                   6.2451(6)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      15.00
+_cell_measurement_theta_min      12.00
+_cell_volume                     335.05(6)
+_computing_cell_refinement       'CAD-4/PC Software'
+_computing_data_collection       'CAD-4/PC Software (Enraf--Nonius, 1994)'
+_computing_data_reduction        'DATRD2 in NRCVAX (Gabe et al., 1989)'
+_computing_molecular_graphics    NRCVAX
+_computing_publication_material  NRCVAX
+_computing_structure_refinement  NRCVAX
+_computing_structure_solution    NRCVAX
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       '\q/2\q scan'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'xray tube'
+_diffrn_radiation_type           'Molybdenum K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.026
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       -4
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1617
+_diffrn_reflns_theta_max         27.40
+_diffrn_reflns_theta_min         0.00
+_diffrn_standards_decay_%        2.0
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.89
+_exptl_absorpt_correction_T_max  0.813
+_exptl_absorpt_correction_T_min  0.754
+_exptl_absorpt_correction_type   'analytical (ABSORB; Gabe et al., 1989)'
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.774
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       block
+_exptl_crystal_F_000             180.6
+_exptl_crystal_size_max          0.42
+_exptl_crystal_size_mid          0.32
+_exptl_crystal_size_min          0.26
+_refine_diff_density_max         0.26
+_refine_diff_density_min         -0.25
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.08
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     54
+_refine_ls_number_reflns         757
+_refine_ls_R_factor_all          0.033
+_refine_ls_R_factor_obs          .033
+_refine_ls_shift/esd_max         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0025F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.063
+_refine_ls_wR_factor_obs         .063
+_reflns_number_observed          765
+_reflns_number_total             765
+_reflns_observed_criterion       'Inet > 0'
+_cod_data_source_file            fr1107.cif
+_cod_data_source_block           fr1107
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 5 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F)+0.0025F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.0025F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_original_formula_sum        'C4 H4 Cl2 N4 '
+_cod_database_code               2007436
+_cod_database_fobs_code          2007436
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Cl .0462(3) .0277(3) .0407(3) -.0053(3) .0111(3) .0043(3) Cl
+N1 .0775(17) .0380(12) .0284(13) -.0158(12) .0138(12) -.0045(10) N
+N2 .0382(11) .0289(10) .0246(10) .0014(8) .0081(9) .0022(8) N
+C1 .0377(13) .0281(11) .0260(13) .0026(10) .0074(11) -.0006(10) C
+C2 .0322(12) .0237(11) .0312(13) .0008(9) .0090(11) .0043(9) C
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_type_symbol
+Cl .67959(15) .81283(3) .06751(10) .0378(3) Uani ? . Cl
+N1 .8140(7) .89041(14) -.3591(4) .0475(14) Uani ? . N
+N2 .9522(5) .97172(11) .2038(3) .0303(10) Uani ? . N
+C1 .8998(6) .94546(13) -.1801(4) .0305(12) Uani ? . C
+C2 .8597(6) .91998(12) .0281(4) .0286(11) Uani ? . C
+H1 .819(6) .9172(13) -.491(4) .052(8) Uiso ? . H
+H2 .658(6) .8492(13) -.354(4) .057(9) Uiso ? . H
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cl 0.132 0.159 'International Tables Vol. IV Table 2.2B'
+N 0.004 0.003 'International Tables Vol. IV Table 2.2B'
+C 0.002 0.002 'International Tables Vol. IV Table 2.2B'
+H 0.000 0.000 'International Tables Vol. IV Table 2.2B'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+1 9 1
+-2 4 1
+-2 -4 1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C1 N1 H1 ? ? 116.4(13) yes
+C1 N1 H2 ? ? 116.4(16) yes
+H1 N1 H2 ? ? 118(2) yes
+C1 N2 C2 2_775 ? 117.80(17) yes
+N1 C1 N2 ? 2_775 118.2(2) yes
+N1 C1 C2 ? ? 124.07(19) yes
+N2 C1 C2 2_775 ? 117.63(19) yes
+Cl C2 N2 ? ? 116.18(15) yes
+Cl C2 C1 ? ? 119.25(16) yes
+N2 C2 C1 ? ? 124.57(17) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cl C2 ? ? 1.7361(19) yes
+N1 C1 ? ? 1.362(3) yes
+N1 H1 ? ? .91(2) yes
+N1 H2 ? ? .84(2) yes
+N2 C1 ? 2_775 1.347(3) yes
+N2 C2 ? ? 1.321(3) yes
+C1 N2 2_775 ? 1.347(3) yes
+C1 C2 ? ? 1.388(3) yes

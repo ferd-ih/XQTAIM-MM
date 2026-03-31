@@ -1,0 +1,202 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/53/2005371.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005371
+loop_
+_publ_author_name
+'Schormann, N.'
+'Egert, E.'
+_publ_section_title
+;
+ A Fully Cyclo-Substituted Cyclohexane
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2254
+_journal_page_last               2256
+_journal_paper_doi               10.1107/S0108270196003885
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'C18 H24 O3'
+_chemical_formula_weight         288.4
+_space_group_IT_number           31
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac -2'
+_symmetry_space_group_name_H-M   'P m n 21'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   13.734(2)
+_cell_length_b                   8.281(1)
+_cell_length_c                   6.530(1)
+_cell_measurement_reflns_used    40
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      12.5
+_cell_measurement_theta_min      10
+_cell_volume                     742.67(18)
+_computing_cell_refinement       'profile-fitting program'
+_computing_data_collection       'profile-fitting program (Clegg, 1981)'
+_computing_data_reduction        'SHELXTL (Sheldrick, 1983)'
+_computing_molecular_graphics    'XP SHELXTL'
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  'SHELXTL using blocked-cascade least squares'
+_computing_structure_solution    'SHELXTL using direct methods'
+_diffrn_measurement_device       'Stoe-Siemens four-circle'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.027
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            1465
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.08
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.290
+_exptl_crystal_density_method    none
+_exptl_crystal_description       block
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.3
+_exptl_crystal_size_min          0.2
+_refine_diff_density_max         0.21
+_refine_diff_density_min         -0.19
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.21
+_refine_ls_hydrogen_treatment    'H atoms riding, C-H 0.96\%A'
+_refine_ls_number_parameters     105
+_refine_ls_number_reflns         645
+_refine_ls_R_factor_obs          0.049
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.001F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.056
+_reflns_number_observed          645
+_reflns_number_total             746
+_reflns_observed_criterion       F>3\s(F)
+_cod_data_source_file            jz1118.cif
+_cod_data_source_block           jz1118a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' 1/[\s^2^(F)+0.001F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.001F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        742.7
+_cod_database_code               2005371
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,-y,1/2+z
+1/2+x,-y,1/2+z
+-x,y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+O(1) .5000 .7320(4) .6081 .052(1)
+C(2) .5000 .5824(6) .5002(11) .051(2)
+C(3) .5000 .7342(5) .3851(10) .032(2)
+C(4) .4050(2) .7987(4) .2969(8) .037(1)
+C(5) .3113(3) .7288(5) .3978(11) .060(2)
+C(6) .2983(3) .6160(5) .2130(10) .065(2)
+C(7) .3721(3) .7173(5) .0918(9) .052(1)
+C(8) .4125(2) .9828(4) .2956(9) .034(1)
+O(9) .3221(2) 1.0671(3) .2649(8) .055(1)
+C(10) .3675(3) 1.0724(4) .4635(9) .045(1)
+C(11) .5000 1.0526(5) .1873(10) .036(2)
+C(12) .5000 1.0400(7) -.0509(11) .059(2)
+C(13) .5000 1.2190(7) -.0673(13) .073(3)
+C(14) .5000 1.2406(6) .1605(11) .053(2)
+H(2a) .5571 .5154 .5003 .068
+H(5a) .2598 .8060 .4146 .076
+H(5b) .3224 .6739 .5251 .076
+H(6a) .2338 .6161 .1561 .077
+H(6b) .3186 .5067 .2375 .077
+H(7a) .4220 .6552 .0254 .064
+H(7b) .3433 .7903 -.0050 .064
+H(10a) .3966 1.1707 .5118 .057
+H(10b) .3389 1.0155 .5767 .057
+H(12a) .4429 .9896 -.1069 .075
+H(13a) .5571 1.2620 -.1322 .094
+H(14a) .5571 1.2928 .2137 .070
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C(4) C(3) C(4) 4_655 117.9(5) yes
+C(3) C(4) C(8) . 107.1(3) yes
+C(12) C(11) C(14) . 87.4(4) yes
+C(5) C(4) C(7) . 87.9(3) yes
+C(4) C(8) C(11) . 116.0(3) yes
+C(8) C(11) C(8) 4_655 105.5(5) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C(3) C(4) . 1.523(5) yes
+C(4) C(7) . 1.566(7) yes
+C(5) C(6) . 1.536(8) yes
+C(8) C(11) . 1.509(5) yes
+C(11) C(14) . 1.567(7) yes
+C(12) C(13) . 1.486(9) yes
+C(4) C(5) . 1.558(6) yes
+C(4) C(8) . 1.528(5) yes
+C(6) C(7) . 1.536(7) yes
+C(11) C(12) . 1.560(10) yes
+C(13) C(14) . 1.500(10) yes
+O(1) C(2) . 1.425(6) no
+C(2) C(3) . 1.465(8) no
+C(3) C(4) 4_655 1.523(5) no
+C(8) O(9) . 1.439(4) no
+C(11) C(8) 4_655 1.509(5) no
+O(1) C(3) . 1.456(7) no
+C(8) C(10) . 1.461(7) no
+O(9) C(10) . 1.440(7) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+C(4) C(3) C(4) C(8) 4_655 . -49.6(7) yes
+C(4) C(5) C(6) C(7) . . -14.8(3) yes
+C(3) C(4) C(8) C(11) . . 54.4(6) yes
+C(4) C(8) C(11) C(8) . 4_655 -58.8(7) yes

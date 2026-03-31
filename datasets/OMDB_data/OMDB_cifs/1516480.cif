@@ -1,0 +1,272 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-04-22 18:26:23 +0300 (Fri, 22 Apr 2022) $
+#$Revision: 274633 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/51/64/1516480.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1516480
+loop_
+_publ_author_name
+'Harrison, Andrew'
+'Ibberson, Richard'
+'Robb, Graeme'
+'Whittaker, Gavin'
+'Wilson, Chick'
+'Youngson, Douglas'
+_publ_section_title
+;
+ In situ neutron diffraction studies of single crystals and powders during
+ microwave irradiation
+;
+_journal_coden_ASTM              FDISE6
+_journal_name_full               'Faraday Discussions'
+_journal_page_first              363
+_journal_page_last               379
+_journal_paper_doi               10.1039/b203379h
+_journal_volume                  122
+_journal_year                    2003
+_chemical_formula_sum            'C9 H8 O4'
+_chemical_formula_weight         180.16
+_chemical_name_common            Aspirin
+_chemical_name_systematic        '2-(acetoyloxy)benzoic acid'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 95.89(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   11.233(3)
+_cell_length_b                   6.5440(10)
+_cell_length_c                   11.231(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    100(1)
+_cell_volume                     821.2(3)
+_computing_molecular_graphics    'ORTEP (Johnson, 1994)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      100(2)
+_diffrn_measurement_device       SXD
+_diffrn_measurement_method       'time-of-flight LAUE diffraction'
+_diffrn_radiation_source         'ISIS spallation source'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     0.5-5.0
+_diffrn_reflns_av_R_equivalents  0.095
+_diffrn_reflns_av_sigmaI/netI    0.0361
+_diffrn_reflns_limit_h_max       23
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            3325
+_exptl_absorpt_coefficient_mu    '1.0550, at 1 Angstrom'
+_exptl_absorpt_correction_T_max  0.75
+_exptl_absorpt_correction_T_min  0.45
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+The linear absorption coefficient is wavelength dependent
+and it is calculated as: 
+mu = 0.80 + 0.75 * lambda  [cm^-1]
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.456
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'irregular prism'
+_exptl_crystal_F_000             21
+_exptl_crystal_size_max          8
+_exptl_crystal_size_mid          4
+_exptl_crystal_size_min          1.5
+_refine_diff_density_max         0.151
+_refine_diff_density_min         -0.122
+_refine_diff_density_rms         0.035
+_refine_ls_extinction_coef       0.06
+_refine_ls_extinction_method     'Becker-Coppens Lorentzian model'
+_refine_ls_goodness_of_fit_ref   1.764
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     190
+_refine_ls_number_reflns         766
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.764
+_refine_ls_R_factor_all          0.1302
+_refine_ls_R_factor_gt           0.1302
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0763P)^2^+0.3996P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.3090
+_refine_ls_wR_factor_ref         0.3090
+_reflns_number_gt                766
+_reflns_number_total             766
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            program.txt
+_cod_data_source_block           asp100mw
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to
+/usr/data/users/saulius/automatic-downloads/retrospective/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+;
+_cod_original_sg_symbol_H-M      P21/c
+_cod_database_code               1516480
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+C1 C 0.1526(8) 0.5638(16) 0.0676(12) 0.030(3) Uani 1 1 d
+C2 C 0.2462(7) 0.4861(18) 0.0075(11) 0.033(3) Uani 1 1 d
+C3 C 0.2983(9) 0.3039(15) 0.0403(14) 0.040(3) Uani 1 1 d
+C4 C 0.2599(10) 0.1957(19) 0.1334(14) 0.043(3) Uani 1 1 d
+C5 C 0.1706(9) 0.2672(17) 0.1941(12) 0.035(3) Uani 1 1 d
+C6 C 0.1168(8) 0.4454(16) 0.1600(13) 0.037(3) Uani 1 1 d
+C7 C 0.0904(8) 0.7579(14) 0.0378(11) 0.031(3) Uani 1 1 d
+C8 C 0.3651(8) 0.7386(17) -0.0640(12) 0.035(3) Uani 1 1 d
+C9 C 0.3968(12) 0.841(2) -0.1730(18) 0.048(4) Uani 1 1 d
+O1 O 0.1197(11) 0.858(2) -0.0513(17) 0.044(4) Uani 1 1 d
+O2 O 0.0112(12) 0.8114(19) 0.0969(17) 0.044(4) Uani 1 1 d
+O3 O 0.2854(10) 0.5848(19) -0.0875(13) 0.032(3) Uani 1 1 d
+O4 O 0.4028(12) 0.780(2) 0.0338(17) 0.049(4) Uani 1 1 d
+H1 H 0.372(2) 0.239(4) -0.005(3) 0.060(8) Uani 1 1 d
+H2 H 0.304(2) 0.046(4) 0.156(3) 0.065(9) Uani 1 1 d
+H3 H 0.141(2) 0.173(4) 0.277(3) 0.057(7) Uani 1 1 d
+H4 H 0.044(2) 0.510(4) 0.207(3) 0.051(7) Uani 1 1 d
+H5 H 0.468(3) 0.942(7) -0.142(5) 0.100(15) Uani 1 1 d
+H6 H 0.326(4) 0.875(12) -0.235(6) 0.15(3) Uani 1 1 d
+H7 H 0.440(5) 0.713(8) -0.231(7) 0.13(3) Uani 1 1 d
+H8 H 0.071(2) 0.998(5) -0.065(4) 0.068(9) Uani 1 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+C1 0.028(4) 0.032(5) 0.030(9) 0.004(4) -0.004(4) 0.000(4)
+C2 0.025(4) 0.052(6) 0.022(9) -0.008(5) 0.000(4) -0.001(4)
+C3 0.038(5) 0.025(5) 0.059(11) -0.001(5) 0.009(5) 0.010(4)
+C4 0.044(5) 0.038(6) 0.048(12) 0.015(5) 0.007(5) 0.005(4)
+C5 0.040(5) 0.039(6) 0.028(10) 0.009(5) 0.010(5) 0.002(4)
+C6 0.034(4) 0.039(6) 0.037(10) 0.005(5) 0.007(5) 0.005(4)
+C7 0.029(4) 0.018(4) 0.044(9) -0.007(4) -0.003(4) 0.005(3)
+C8 0.032(4) 0.043(6) 0.030(10) -0.004(5) 0.003(4) 0.000(4)
+C9 0.049(6) 0.058(8) 0.037(12) 0.011(6) 0.008(6) -0.012(6)
+O1 0.046(6) 0.038(7) 0.050(14) 0.020(6) 0.008(7) 0.008(5)
+O2 0.054(7) 0.029(6) 0.052(14) 0.010(5) 0.019(7) 0.014(5)
+O3 0.036(5) 0.046(7) 0.016(10) -0.006(5) 0.012(5) -0.007(4)
+O4 0.050(7) 0.067(10) 0.031(12) 0.000(7) 0.004(6) -0.020(6)
+H1 0.054(12) 0.070(16) 0.06(3) 0.009(13) 0.037(13) 0.027(11)
+H2 0.076(15) 0.053(16) 0.07(3) 0.003(14) 0.026(15) 0.025(12)
+H3 0.084(16) 0.051(15) 0.04(2) 0.005(11) 0.021(13) 0.000(11)
+H4 0.063(12) 0.061(14) 0.04(2) 0.013(12) 0.036(11) 0.018(10)
+H5 0.09(2) 0.12(3) 0.10(5) -0.02(2) 0.04(2) -0.04(2)
+H6 0.10(3) 0.26(7) 0.08(5) 0.10(5) -0.02(3) -0.06(4)
+H7 0.15(4) 0.11(4) 0.16(8) -0.04(4) 0.11(4) -0.02(3)
+H8 0.064(14) 0.069(17) 0.08(3) 0.008(15) 0.032(14) 0.014(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+C C 6.646 'International Tables Vol C Table 4.4.4.1'
+H H -3.739 'International Tables Vol C Table 4.4.4.1'
+O O 5.803 'International Tables Vol C Table 4.4.4.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+C6 C1 C2 116.6(10)
+C6 C1 C7 119.0(10)
+C2 C1 C7 124.4(10)
+O3 C2 C3 117.6(11)
+O3 C2 C1 121.7(11)
+C3 C2 C1 120.7(12)
+C2 C3 C4 119.9(12)
+C2 C3 H1 122.4(19)
+C4 C3 H1 117.7(18)
+C5 C4 C3 121.0(11)
+C5 C4 H2 122(2)
+C3 C4 H2 117(2)
+C6 C5 C4 119.3(12)
+C6 C5 H3 121.3(17)
+C4 C5 H3 119.5(16)
+C5 C6 C1 122.6(11)
+C5 C6 H4 121.9(17)
+C1 C6 H4 115.4(16)
+O2 C7 O1 123.1(13)
+O2 C7 C1 118.7(12)
+O1 C7 C1 118.1(11)
+O4 C8 O3 121.6(15)
+O4 C8 C9 125.7(13)
+O3 C8 C9 112.7(12)
+C8 C9 H5 104(3)
+C8 C9 H6 115(3)
+H5 C9 H6 126(5)
+C8 C9 H7 107(3)
+H5 C9 H7 107(4)
+H6 C9 H7 96(6)
+C7 O1 H8 113(3)
+C8 O3 C2 117.4(12)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+C1 C6 1.387(17)
+C1 C2 1.402(16)
+C1 C7 1.472(14)
+C2 O3 1.358(19)
+C2 C3 1.362(15)
+C3 C4 1.369(19)
+C3 H1 1.10(2)
+C4 C5 1.35(2)
+C4 H2 1.12(3)
+C5 C6 1.351(15)
+C5 H3 1.19(3)
+C6 H4 1.10(3)
+C7 O2 1.215(19)
+C7 O1 1.27(2)
+C8 O4 1.17(2)
+C8 O3 1.355(16)
+C8 C9 1.47(2)
+C9 H5 1.07(4)
+C9 H6 1.03(5)
+C9 H7 1.19(5)
+O1 H8 1.06(4)
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2022-04-22T18:20:00+03:00
+'Updated bibliographic information.'

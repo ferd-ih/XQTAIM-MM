@@ -1,0 +1,247 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 13:16:50 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201980 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/30/00/2300005.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300005
+loop_
+_publ_author_name
+'Bolotina, Nadezhda B.'
+'Zhurova, Elizabeth'
+'Pinkerton, A. Alan'
+_publ_section_title
+;
+ Energetic materials: variable-temperature crystal structure of \b-NTO
+;
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              280
+_journal_page_last               285
+_journal_paper_doi               10.1107/S002188980300092X
+_journal_volume                  36
+_journal_year                    2003
+_chemical_formula_structural     C2H2N4O3
+_chemical_formula_sum            'C2 H2 N4 O3'
+_chemical_formula_weight         130.08
+_chemical_name_systematic
+;
+ 5-nitro-2,4-dihydro-3H-1,2,4,-triazol-3-one
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXTL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 101.3320(10)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   9.3185(4)
+_cell_length_b                   5.4615(2)
+_cell_length_c                   9.0475(3)
+_cell_measurement_reflns_used    1287
+_cell_measurement_temperature    150.0(10)
+_cell_measurement_theta_max      33.42
+_cell_measurement_theta_min      1.76
+_cell_volume                     451.48(3)
+_computing_cell_refinement       'Bruker SAINT'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'Bruker SHELXTL'
+_computing_structure_solution    'Bruker SHELXTL'
+_diffrn_ambient_temperature      150.0(10)
+_diffrn_measurement_device       'Bruker platform'
+_diffrn_measurement_method       \w-scan
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           AgK\a
+_diffrn_radiation_wavelength     0.56086
+_diffrn_reflns_av_R_equivalents  0.0299
+_diffrn_reflns_av_sigmaI/netI    0.0382
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            2578
+_diffrn_reflns_theta_max         33.42
+_diffrn_reflns_theta_min         1.76
+_exptl_absorpt_coefficient_mu    0.104
+_exptl_absorpt_correction_T_max  1.000000
+_exptl_absorpt_correction_T_min  0.911542
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Sheldrick, 1996)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.914
+_exptl_crystal_description       plate-like
+_exptl_crystal_F_000             264
+_exptl_crystal_size_max          0.24
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         0.530
+_refine_diff_density_min         -0.243
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.077
+_refine_ls_goodness_of_fit_obs   1.077
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     90
+_refine_ls_number_reflns         894
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.077
+_refine_ls_restrained_S_obs      1.077
+_refine_ls_R_factor_all          0.0392
+_refine_ls_R_factor_obs          0.0392
+_refine_ls_shift/esd_max         0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0607P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0921
+_refine_ls_wR_factor_obs         0.0921
+_reflns_number_observed          894
+_reflns_number_total             894
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            do0018.cif
+_cod_data_source_block           150
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0607P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0607P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2300005
+_cod_database_fobs_code          2300005
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+N2 0.0089(7) 0.0142(7) 0.0214(8) -0.0019(6) 0.0024(6) -0.0039(6)
+O3 0.0132(7) 0.0199(7) 0.0195(7) 0.0028(5) 0.0027(6) -0.0045(6)
+N1 0.0107(7) 0.0151(7) 0.0180(8) 0.0009(6) 0.0023(6) -0.0012(6)
+N4 0.0083(7) 0.0139(7) 0.0150(8) -0.0012(6) 0.0021(6) -0.0016(6)
+C3 0.0090(7) 0.0152(8) 0.0131(8) -0.0002(7) 0.0001(6) 0.0015(7)
+O5B 0.0212(8) 0.0196(7) 0.0255(8) -0.0081(6) 0.0042(7) -0.0037(6)
+O5A 0.0209(8) 0.0282(8) 0.0289(10) 0.0066(6) 0.0064(7) -0.0088(6)
+N5 0.0179(8) 0.0152(7) 0.0159(8) 0.0005(7) 0.0028(7) 0.0006(6)
+C5 0.0125(8) 0.0123(8) 0.0145(9) 0.0007(6) 0.0025(7) -0.0005(6)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+N2 0.6538(2) 0.7362(3) 0.2357(2) 0.0149(3) Uani d . 1 . N
+H2 0.585(3) 0.640(5) 0.198(3) 0.027(7) Uiso d . 1 . H
+O3 0.8630(2) 0.5905(2) 0.1601(2) 0.0176(3) Uani d . 1 . O
+N1 0.6155(2) 0.9272(3) 0.3179(2) 0.0147(3) Uani d . 1 . N
+N4 0.8522(2) 0.9456(3) 0.3060(2) 0.0124(3) Uani d . 1 . N
+H4 0.945(4) 0.995(6) 0.318(4) 0.046(9) Uiso d . 1 . H
+C3 0.7987(2) 0.7406(3) 0.2251(2) 0.0127(3) Uani d . 1 . C
+O5B 0.8699(2) 1.3613(3) 0.4764(2) 0.0222(3) Uani d . 1 . O
+O5A 0.6413(2) 1.3242(3) 0.4975(2) 0.0258(4) Uani d . 1 . O
+N5 0.7507(2) 1.2599(3) 0.4508(2) 0.0164(3) Uani d . 1 . N
+C5 0.7378(2) 1.0433(3) 0.3572(2) 0.0131(3) Uani d . 1 . C
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0015 0.0009 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0030 0.0019 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0056 0.0036 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+N1 N2 C3 112.9(2)
+C5 N1 N2 102.34(15)
+C5 N4 C3 106.0(2)
+O3 C3 N2 126.9(2)
+O3 C3 N4 129.5(2)
+N2 C3 N4 103.6(2)
+O5B N5 O5A 126.2(2)
+O5B N5 C5 116.7(2)
+O5A N5 C5 117.1(2)
+N1 C5 N4 115.1(2)
+N1 C5 N5 122.0(2)
+N4 C5 N5 122.9(2)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+N2 N1 . 1.369(2) ?
+N2 C3 . 1.372(2) ?
+O3 C3 . 1.231(2) ?
+N1 C5 . 1.291(2) ?
+N4 C5 . 1.353(2) ?
+N4 C3 . 1.377(2) ?
+O5B N5 . 1.222(2) ?
+O5A N5 . 1.228(2) ?
+N5 C5 . 1.447(3) ?
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 2696109

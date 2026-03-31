@@ -1,0 +1,200 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 17:28:16 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180395 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/64/7206440.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7206440
+loop_
+_publ_author_name
+'Dziubek, Kamil F.'
+'Katrusiak, Andrzej'
+_publ_section_title
+;
+ Pressure-induced pseudorotation in crystalline pyrrolidine.
+;
+_journal_issue                   34
+_journal_name_full               'Physical chemistry chemical physics : PCCP'
+_journal_page_first              15428
+_journal_page_last               15431
+_journal_paper_doi               10.1039/c1cp21087d
+_journal_volume                  13
+_journal_year                    2011
+_chemical_formula_moiety         'C4 H9 N'
+_chemical_formula_sum            'C4 H9 N'
+_chemical_formula_weight         71.12
+_chemical_melting_point          210.15
+_chemical_name_common            pyrrolidine
+_chemical_name_systematic
+;
+azacyclopentane
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 110.45(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   8.717(2)
+_cell_length_b                   5.2330(10)
+_cell_length_c                   10.831(2)
+_cell_measurement_reflns_used    2296
+_cell_measurement_temperature    200(2)
+_cell_measurement_theta_max      27.05
+_cell_measurement_theta_min      2.74
+_cell_volume                     462.93(19)
+_computing_cell_refinement       'CrysAlisPro (Oxford Diffraction, 2010)'
+_computing_data_collection       'CrysAlisPro (Oxford Diffraction, 2010)'
+_computing_data_reduction        'CrysAlisPro (Oxford Diffraction, 2010)'
+_computing_molecular_graphics    'X-Seed (Barbour, 1999)'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      200(2)
+_diffrn_measured_fraction_theta_full 0.895
+_diffrn_measured_fraction_theta_max 0.895
+_diffrn_measurement_device_type  'KM-4 CCD'
+_diffrn_measurement_method       \w-scans
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0722
+_diffrn_reflns_av_sigmaI/netI    0.0629
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            2975
+_diffrn_reflns_theta_full        29.80
+_diffrn_reflns_theta_max         29.80
+_diffrn_reflns_theta_min         2.49
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    0.062
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.020
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       cylinder
+_exptl_crystal_F_000             160
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.3
+_exptl_crystal_size_min          0.3
+_exptl_crystal_size_rad          0.15
+_refine_diff_density_max         0.224
+_refine_diff_density_min         -0.374
+_refine_diff_density_rms         0.074
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.005
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     73
+_refine_ls_number_reflns         1187
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.005
+_refine_ls_R_factor_all          0.1047
+_refine_ls_R_factor_gt           0.0629
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.2000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1892
+_refine_ls_wR_factor_ref         0.2815
+_reflns_number_gt                712
+_reflns_number_total             1187
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            c1cp21087d.txt
+_cod_data_source_block           pyrrolidine_200K
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               7206440
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+N1 N 0.3921(2) 1.0242(3) 0.19653(19) 0.0496(6) Uani 1 1 d
+H1 H 0.456(3) 0.909(5) 0.235(3) 0.060 Uiso 1 1 d
+C2 C 0.3109(3) 0.9330(4) 0.0621(2) 0.0522(7) Uani 1 1 d
+H21 H 0.379(3) 0.876(6) 0.025(3) 0.063 Uiso 1 1 d
+H22 H 0.253(3) 1.082(5) 0.002(3) 0.063 Uiso 1 1 d
+C3 C 0.1896(3) 0.7291(5) 0.0676(2) 0.0521(7) Uani 1 1 d
+H31 H 0.097(3) 0.738(5) -0.004(3) 0.062 Uiso 1 1 d
+H32 H 0.235(3) 0.569(6) 0.068(3) 0.062 Uiso 1 1 d
+C4 C 0.1550(3) 0.7880(5) 0.1928(2) 0.0571(7) Uani 1 1 d
+H41 H 0.194(3) 0.647(6) 0.255(3) 0.068 Uiso 1 1 d
+H42 H 0.055(4) 0.814(5) 0.188(3) 0.068 Uiso 1 1 d
+C5 C 0.2630(3) 1.0171(4) 0.2528(3) 0.0583(8) Uani 1 1 d
+H51 H 0.195(4) 1.163(6) 0.223(3) 0.070 Uiso 1 1 d
+H52 H 0.300(4) 1.019(5) 0.344(4) 0.070 Uiso 1 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+N1 0.0426(10) 0.0403(10) 0.0567(12) -0.0008(7) 0.0056(8) -0.0032(6)
+C2 0.0571(13) 0.0524(13) 0.0510(12) -0.0014(10) 0.0239(10) -0.0105(10)
+C3 0.0545(12) 0.0484(13) 0.0489(12) -0.0026(9) 0.0127(10) -0.0139(10)
+C4 0.0597(13) 0.0513(13) 0.0682(15) 0.0028(10) 0.0324(12) -0.0076(10)
+C5 0.0800(17) 0.0415(14) 0.0585(15) -0.0024(9) 0.0306(13) -0.0033(10)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C5 N1 C2 103.48(17) n
+N1 C2 C3 106.96(17) n
+C2 C3 C4 104.53(18) n
+C3 C4 C5 104.77(18) n
+N1 C5 C4 107.11(19) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+N1 C5 1.456(3) n
+N1 C2 1.459(3) n
+C2 C3 1.518(3) n
+C3 C4 1.519(3) n
+C4 C5 1.522(3) n

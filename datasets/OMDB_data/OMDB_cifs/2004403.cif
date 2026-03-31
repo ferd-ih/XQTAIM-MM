@@ -1,0 +1,230 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/44/2004403.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004403
+loop_
+_publ_author_name
+'Yoneda, A.'
+'Hakushi, T.'
+'Newkome, G. R.'
+'Matsushita, T.'
+_publ_section_title
+;
+ <i>trans</i>-1,2-Bis(8-hydroxy-2-quinolinyl)ethene: Comparison with
+ <i>trans</i>-Stilbene
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              172
+_journal_page_last               174
+_journal_paper_doi               10.1107/S0108270195011450
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'C20 H14 N2 O2'
+_chemical_formula_weight         314.34
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 92.25(7)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.380(7)
+_cell_length_b                   4.650(4)
+_cell_length_c                   16.040(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      14.90
+_cell_measurement_theta_min      13.05
+_cell_volume                     773.6(10)
+_computing_cell_refinement       'Rigaku AFC7R software'
+_computing_data_collection       'Rigaku AFC7R software'
+_computing_data_reduction        'Rigaku AFC7R software'
+_computing_molecular_graphics
+'TEXSAN (Molecular Structure Corporation, 1992)'
+_computing_structure_refinement  'DIRDIF92 (Beurskens et al., 1992)'
+_computing_structure_solution    'SAPI91 (Fan, 1991)'
+_diffrn_measurement_device       'Rigaku AFC-7R'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.010
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_limit_l_min       -21
+_diffrn_reflns_number            1833
+_diffrn_reflns_theta_max         27.5
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_count 150
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.089
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.349
+_exptl_crystal_density_meas      1.346
+_exptl_crystal_density_method    pycnometry
+_exptl_crystal_description       prismatic
+_exptl_crystal_size_max          0.70
+_exptl_crystal_size_mid          0.50
+_exptl_crystal_size_min          0.30
+_refine_diff_density_max         0.13
+_refine_diff_density_min         -0.14
+_refine_ls_extinction_coef       3.68605E-6
+_refine_ls_extinction_method     'Lp secondary'
+_refine_ls_goodness_of_fit_obs   2.45
+_refine_ls_hydrogen_treatment    refU
+_refine_ls_number_parameters     138
+_refine_ls_number_reflns         1078
+_refine_ls_R_factor_obs          0.036
+_refine_ls_shift/esd_max         0.48
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.032
+_reflns_number_observed          1078
+_reflns_number_total             1740
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            kh1043.cif
+_cod_data_source_block           kh1043a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' w = 1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        773.6(9)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2004403
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,-y,-z
+-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+O1 .40640(10) .4602(3) 1.25654(7) 5.96(4)
+N1 .37500(10) .3303(3) 1.09415(7) 3.37(3)
+C1 .3068(2) .5840(4) 1.21170(10) 4.40(4)
+C2 .2255(2) .7702(5) 1.24830(10) 5.81(6)
+C3 .1242(2) .8970(4) 1.2016(2) 6.14(6)
+C4 .1033(2) .8350(4) 1.1193(2) 5.42(5)
+C5 .18570(10) .6421(3) 1.07960(10) 3.96(4)
+C6 .28930(10) .5164(3) 1.12609(9) 3.49(3)
+C7 .1730(2) .5604(4) .99490(10) 4.75(5)
+C8 .2579(2) .3727(4) .96300(10) 4.25(4)
+C9 .36010(10) .2605(3) 1.01407(9) 3.32(3)
+C10 .45230(10) .0627(3) .97855(9) 3.57(4)
+H1 .440(2) .328(5) 1.2220(10) 10.4(8)
+H2 .243(2) .814(4) 1.3040(10) 7.0(5)
+H3 .0690(10) 1.028(4) 1.2300(10) 6.9(5)
+H4 .032(2) .917(4) 1.0870(10) 6.6(5)
+H5 .1030(10) .639(3) .9589(10) 5.8(4)
+H6 .2510(10) .304(3) .9043(9) 5.0(4)
+H7 .4420(10) .019(3) .9194(9) 3.9(3)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 C1 C6 . . 119.0(2) yes
+C6 N1 C9 . . 117.90(10) yes
+N1 C9 C10 . . 118.60(10) yes
+C9 C10 C10 . 3_657 124.4(2) yes
+C10 C10 H7 3_657 . 118.1(8) yes
+O1 C1 C2 . . 120.8(2) yes
+C2 C1 C6 . . 120.2(2) yes
+N1 C9 C8 . . 121.7(2) yes
+C8 C9 C10 . . 119.70(10) yes
+C9 C10 H7 . . 117.4(8) yes
+C1 O1 H1 . . 105.0(10) no
+C1 C2 H2 . . 116.0(10) no
+C2 C3 C4 . . 121.2(2) no
+C4 C3 H3 . . 121.0(10) no
+C3 C4 H4 . . 122.0(10) no
+C4 C5 C6 . . 119.2(2) no
+C6 C5 C7 . . 116.0(2) no
+N1 C6 C5 . . 124.20(10) no
+C5 C7 C8 . . 119.9(2) no
+C8 C7 H5 . . 119.8(10) no
+C7 C8 H6 . . 122.4(8) no
+C1 C2 C3 . . 120.3(2) no
+C3 C2 H2 . . 122.0(10) no
+C2 C3 H3 . . 117.0(10) no
+C3 C4 C5 . . 119.8(2) no
+C5 C4 H4 . . 118.0(10) no
+C4 C5 C7 . . 124.8(2) no
+N1 C6 C1 . . 116.60(10) no
+C1 C6 C5 . . 119.2(2) no
+C5 C7 H5 . . 120.4(10) no
+C7 C8 C9 . . 120.3(2) no
+C9 C8 H6 . . 117.3(8) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 C1 . 1.363(2) yes
+N1 C6 . 1.355(2) yes
+C1 C2 . 1.358(3) yes
+C2 C3 . 1.397(3) yes
+C4 C5 . 1.410(3) yes
+C5 C7 . 1.412(2) yes
+C8 C9 . 1.413(2) yes
+C10 C10 3_657 1.319(3) yes
+N1 C9 . 1.328(2) yes
+C1 C6 . 1.414(2) yes
+C3 C4 . 1.360(3) yes
+C5 C6 . 1.411(2) yes
+C7 C8 . 1.355(3) yes
+C9 C10 . 1.459(2) yes
+O1 H1 . 0.91(2) no
+C2 H2 . 0.93(2) no
+C3 H3 . 0.96(2) no
+C4 H4 . 0.97(2) no
+C7 H5 . 0.98(2) no
+C8 H6 . 0.990(10) no
+C10 H7 . 0.970(10) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+O1 C1 C6 N1 . . -0.3(2) yes
+C8 C9 C10 C10 . 3_657 -177.1(2) yes
+N1 C9 C10 C10 . 3_657 2.9(3) yes
+C9 C10 C10 C9 3_657 3_657 180.0 yes

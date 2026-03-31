@@ -1,0 +1,229 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-07-05 14:53:58 +0300 (Wed, 05 Jul 2017) $
+#$Revision: 198476 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/58/2005841.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005841
+loop_
+_publ_author_name
+'D\'avila, A.'
+'McLaughlin, M. L.'
+'Fronczek, F. R.'
+'Watkins, S. F.'
+_publ_section_title
+;
+ 1,5-Dibromocycloocta-1,5-diene
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              84
+_journal_page_last               86
+_journal_paper_doi               10.1107/S0108270196012322
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'C8 H10 Br2'
+_chemical_formula_weight         266.0
+_chemical_name_systematic        ' ?'
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           15
+_space_group_name_Hall           '-C 2yc'
+_space_group_name_H-M_alt        'C 1 2/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.00
+_cell_angle_beta                 127.95(1)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   18.8917(8)
+_cell_length_b                   4.6858(3)
+_cell_length_c                   12.7916(8)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      16
+_cell_measurement_theta_min      12
+_cell_volume                     892.91(15)
+_computing_cell_refinement       CAD4_Software
+_computing_data_collection       CAD4_Software_(Enraf-Nonius,_1977)
+_computing_data_reduction        PROCESS_MolEN_(Fair,_1990)
+_computing_molecular_graphics    ORTEPII_(Johnson,_1976)
+_computing_publication_material  CIF_IN_MolEN
+_computing_structure_refinement  LSFM_MolEN
+_computing_structure_solution    Patterson_and_Fourier_methods
+_diffrn_measurement_device       Enraf_Nonius_CAD4
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.037
+_diffrn_reflns_limit_h_max       28
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -19
+_diffrn_reflns_number            3175
+_diffrn_reflns_theta_max         32.00
+_diffrn_standards_decay_%        -0.2
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    9.0
+_exptl_absorpt_correction_T_max  0.164
+_exptl_absorpt_correction_T_min  0.107
+_exptl_absorpt_correction_type   \y_scans_(North,_Phillips,_&_Mathews,_1968)
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.980
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             512
+_exptl_crystal_size_max          0.33
+_exptl_crystal_size_mid          0.28
+_exptl_crystal_size_min          0.20
+_refine_diff_density_max         1.07
+_refine_diff_density_min         -1.06
+_refine_ls_abs_structure_details
+;
+?
+;
+_refine_ls_extinction_coef       1.06(8)E-6
+_refine_ls_extinction_method     isotropic_(Zachariasen,_1963)
+_refine_ls_goodness_of_fit_obs   1.128
+_refine_ls_hydrogen_treatment    'H atoms refined isotropically'
+_refine_ls_number_parameters     67
+_refine_ls_number_reflns         1239
+_refine_ls_R_factor_obs          0.069
+_refine_ls_shift/esd_max         0.003
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 4Fo^2^/[\s^2^(Fo^2^) + 0.0004Fo^4^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.038
+_reflns_number_observed          1239
+_reflns_number_total             1548
+_reflns_observed_criterion       I>0
+_cod_data_source_file            bk1224.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+ Changing the space group from '-P 2yc' to '-C 2yc' after consulting the
+ original publication. All related space group information was changed
+ accordingly.
+
+ Antanas Vaitkus,
+ 2017-07-05
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '4Fo^2^/[\s^2^(Fo^2^) +
+0.0004Fo^4^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 4Fo^2^/[\s^2^(Fo^2^) + 0.0004Fo^4^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        892.8(3)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2005841
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,-z+1/2
+3 -x,-y,-z
+4 x,-y,z+1/2
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z+1/2
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Br 0.04711(9) 0.0664(3) 0.06140(10) -0.0027(2) 0.03750(6) 0.0008(2)
+C1 0.0378(9) 0.045(2) 0.0390(10) 0.0040(10) 0.0243(6) -0.0010(10)
+C2 0.0420(9) 0.050(2) 0.0408(9) 0.0050(10) 0.0283(6) -0.0030(10)
+C3 0.0440(10) 0.059(2) 0.0400(10) -0.006(2) 0.0209(7) -0.013(2)
+C8 0.0340(10) 0.062(2) 0.0390(10) 0.0040(10) 0.0185(7) 0.005(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+Br 0.66801(2) 0.48532(8) 0.73984(3) 0.0556(1) Uani
+C1 0.5866(2) 0.2413(7) 0.7417(2) 0.0400(9) Uani
+C2 0.5086(2) 0.1867(8) 0.6273(2) 0.0423(9) Uani
+C3 0.4344(2) -0.0017(8) 0.5999(3) 0.051(1) Uani
+C8 0.6275(2) 0.1448(9) 0.8800(3) 0.048(1) Uani
+H2 0.498(1) 0.289(6) 0.551(2) 0.043(9) Uiso
+H3a 0.398(1) -0.050(6) 0.507(2) 0.05(1) Uiso
+H3b 0.458(2) -0.191(7) 0.650(2) 0.06(1) Uiso
+H8a 0.652(2) 0.321(8) 0.931(3) 0.07(1) Uiso
+H8b 0.679(2) 0.017(7) 0.908(3) 0.07(1) Uiso
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Br C1 C2 . . 117.4(3) yes
+Br C1 C8 . . 110.9(2) yes
+C2 C1 C8 . . 131.7(3) yes
+C1 C2 C3 . . 128.4(3) yes
+C1 C2 H2 . . 114.0(10) ?
+C3 C2 H2 . . 117.0(10) ?
+C2 C3 C8' . 4_657 113.7(3) yes
+C2 C3 H3a . . 106.0(10) ?
+C2 C3 H3b . . 112.0(10) ?
+C8' C3 H3a 4_657 . 105.0(10) ?
+C8' C3 H3b 4_657 . 111(2) ?
+H3a C3 H3b . . 105(2) ?
+C1 C8 C3' . 4_657 116.6(2) yes
+C1 C8 H8a . . 102(2) ?
+C1 C8 H8b . . 106(2) ?
+C3' C8 H8a 4_657 . 111(2) ?
+C3' C8 H8b 4_657 . 110(2) ?
+H8a C8 H8b . . 108(2) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Br C1 . 1.928(3) yes
+C1 C2 . 1.314(3) yes
+C1 C8 . 1.500(4) yes
+C2 C3 . 1.504(5) yes
+C2 H2 . 0.99(3) yes
+C3 C8' 4_657 1.507(6) yes
+C3 H3a . 0.96(2) yes
+C3 H3b . 1.02(3) yes
+C8 H8a . 0.97(4) yes
+C8 H8b . 0.99(3) yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+Br C1 C2 C3 . . 178.0(3) ?
+C8 C1 C2 C3 . . -1.2(7) yes
+Br C1 C8 C3' . 4_657 169.1(3) ?
+C2 C1 C8 C3' . 4_657 -11.7(6) yes
+C1 C2 C3 C8' . 4_657 84.3(5) yes
+C2 C3 C8' C1' 4_657 4_657 -63.8(4) yes

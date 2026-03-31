@@ -1,0 +1,227 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/7/22/04/7220415.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7220415
+loop_
+_publ_author_name
+'Wu, L.-C.'
+'Chung, W.-C.'
+'Wang, C.-C.'
+'Lee, G.-H.'
+'Lu, S.-I.'
+'Wang, Y.'
+_publ_section_title
+;
+ A charge density study of \p-delocalization and intermolecular
+ interactions.
+;
+_journal_issue                   21
+_journal_name_full               'Physical chemistry chemical physics : PCCP'
+_journal_page_first              14177
+_journal_page_last               14184
+_journal_paper_doi               10.1039/c5cp01575h
+_journal_volume                  17
+_journal_year                    2015
+_chemical_formula_sum            'C4 H4 N8'
+_chemical_formula_weight         164.15
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_audit_update_record
+;
+2013-05-01 deposited with the CCDC.
+2015-04-24 downloaded from the CCDC.
+;
+_cell_angle_alpha                90.00
+_cell_angle_beta                 92.28(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   4.9579(10)
+_cell_length_b                   6.4613(13)
+_cell_length_c                   10.181(2)
+_cell_measurement_reflns_used    678
+_cell_measurement_temperature    100(2)
+_cell_measurement_theta_max      20
+_cell_measurement_theta_min      5
+_cell_volume                     325.88(11)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      100(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  CCD
+_diffrn_measurement_method       'Omega scane'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0315
+_diffrn_reflns_av_sigmaI/netI    0.0126
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       24
+_diffrn_reflns_limit_l_min       -24
+_diffrn_reflns_number            60794
+_diffrn_reflns_theta_full        58.52
+_diffrn_reflns_theta_max         58.52
+_diffrn_reflns_theta_min         3.74
+_exptl_absorpt_coefficient_mu    0.126
+_exptl_absorpt_correction_T_max  0.9752
+_exptl_absorpt_correction_T_min  0.9704
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+A combination of a face-indexed absorption and a multi-scan 
+correction (in SADABS) was applied.
+;
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.673
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             168
+_exptl_crystal_size_max          0.24
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.20
+_refine_diff_density_max         0.677
+_refine_diff_density_min         -0.317
+_refine_diff_density_rms         0.081
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.083
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     63
+_refine_ls_number_reflns         4718
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.083
+_refine_ls_R_factor_all          0.0333
+_refine_ls_R_factor_gt           0.0283
+_refine_ls_shift/su_max          0.002
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0599P)^2^+0.0118P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0891
+_refine_ls_wR_factor_ref         0.0941
+_reflns_number_gt                4181
+_reflns_number_total             4718
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            c5cp01575h2.cif
+_cod_data_source_block           atr12
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 3271 2015-04-21 07:52:19Z andrius 
+
+ Adding full bibliography for 7220415.cif.
+;
+_cod_original_cell_volume        325.87(11)
+_cod_original_sg_symbol_H-M      P2(1)/n
+_cod_database_code               7220415
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+N1 N 0.76798(4) -0.00123(3) 0.62658(2) 0.01248(3) Uani 1 1 d
+N2 N 0.55354(4) 0.00193(3) 0.71285(2) 0.01237(3) Uani 1 1 d
+N3 N 0.53569(3) 0.28205(3) 0.592293(17) 0.00916(3) Uani 1 1 d
+N4 N 0.43457(4) 0.46731(3) 0.546692(18) 0.01001(3) Uani 1 1 d
+C1 C 0.75366(4) 0.16715(3) 0.55594(2) 0.01092(3) Uani 1 1 d
+C2 C 0.41976(4) 0.17296(3) 0.69059(2) 0.01068(3) Uani 1 1 d
+H2 H 0.264(2) 0.2168(14) 0.7339(9) 0.0217(18) Uiso 1 1 d
+H1 H 0.8725(18) 0.2011(14) 0.4893(9) 0.025(2) Uiso 1 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+N1 0.01203(6) 0.01066(6) 0.01483(7) 0.00191(4) 0.00155(5) 0.00283(4)
+N2 0.01302(6) 0.01064(6) 0.01353(6) 0.00288(4) 0.00157(5) 0.00099(4)
+N3 0.00956(5) 0.00814(5) 0.00985(5) 0.00074(3) 0.00119(4) 0.00114(3)
+N4 0.01078(5) 0.00867(5) 0.01067(5) 0.00109(4) 0.00159(4) 0.00155(4)
+C1 0.01021(6) 0.01043(6) 0.01222(6) 0.00097(4) 0.00189(5) 0.00182(4)
+C2 0.01110(6) 0.01020(6) 0.01086(6) 0.00111(4) 0.00190(4) 0.00062(4)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+C1 N1 N2 107.84(2) .
+C2 N2 N1 107.20(2) .
+C2 N3 N4 122.57(2) .
+C2 N3 C1 106.03(3) .
+N4 N3 C1 131.39(2) .
+N4 N4 N3 111.09(2) 3_666
+N1 C1 N3 109.17(3) .
+N1 C1 H1 124.7(5) .
+N3 C1 H1 126.1(5) .
+N2 C2 N3 109.75(2) .
+N2 C2 H2 126.2(5) .
+N3 C2 H2 124.0(5) .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+N1 C1 1.3045(4) .
+N1 N2 1.4059(5) .
+N2 C2 1.3040(4) .
+N3 C2 1.3691(4) .
+N3 N4 1.3715(3) .
+N3 C1 1.3740(4) .
+N4 N4 1.2459(5) 3_666
+C1 H1 0.942(10) .
+C2 H2 0.949(9) .

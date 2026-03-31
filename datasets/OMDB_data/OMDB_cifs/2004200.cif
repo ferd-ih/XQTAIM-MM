@@ -1,0 +1,171 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/42/2004200.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004200
+loop_
+_publ_author_name
+'Laknifli, A.'
+'Pierrot, M.'
+'Chanon, F.'
+'Chanon, M.'
+_publ_section_title
+;
+ Six Substituted Thiazolidine-2-thiones
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2661
+_journal_page_last               2665
+_journal_paper_doi               10.1107/S0108270195007955
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'C6 H11 N S2'
+_chemical_formula_weight         161.29
+_space_group_IT_number           33
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2c -2n'
+_symmetry_space_group_name_H-M   'P n a 21'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   13.494(4)
+_cell_length_b                   8.205(3)
+_cell_length_c                   7.491(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      16
+_cell_measurement_theta_min      14
+_cell_volume                     829.4(4)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.025
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2426
+_diffrn_reflns_theta_max         26
+_diffrn_standards_decay_%        0.017
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.537
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.292
+_exptl_crystal_description       cubic
+_exptl_crystal_size_max          0.6
+_exptl_crystal_size_mid          0.6
+_exptl_crystal_size_min          0.6
+_refine_diff_density_max         0.471
+_refine_diff_density_min         -0.45
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   0.556
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     82
+_refine_ls_number_reflns         1085
+_refine_ls_R_factor_obs          0.0398
+_refine_ls_shift/esd_max         0.04
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)/4F^2^ + 0.0016F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0383
+_reflns_number_observed          1085
+_reflns_number_total             2311
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            ab1269.cif
+_cod_data_source_block           6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' w = 1/[\s^2^(F)/4F^2^ +
+0.0016F^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[\s^2^(F)/4F^2^ + 0.0016F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        829.4(7)
+_cod_database_code               2004200
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,1/2+z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+S2 .37454(9) .1536(2) .6582(4) 4.79(2)
+S1 .30645(9) -.0716(1) .9412(2) 4.87(2)
+N3 .4032(3) .1873(4) 1.0118(4) 3.95(7)
+C2 .3673(3) .1058(5) .8744(5) 3.29(7)
+C4 .3831(4) .1187(6) 1.1871(5) 5.7(1)
+C5 .3375(5) -.0411(7) 1.1690(8) 8.9(1)
+C31 .4560(3) .3425(5) .9937(6) 4.40(9)
+C311 .5582(4) .3296(7) 1.0765(9) 6.3(1)
+C312 .3976(4) .4813(6) 1.0736(9) 6.3(1)
+H41 .3361 .1940 1.2549 7.4
+H42 .4479 .1078 1.2562 7.4
+H51 .3862 -.1288 1.2093 11.6
+H52 .2751 -.0467 1.2454 11.6
+H31 .4642 .3675 .8611 5.7
+H311 .5943 .4381 1.0632 8.2
+H312 .5515 .3016 1.2086 8.2
+H313 .5974 .2403 1.0134 8.2
+H321 .4361 .5873 1.0588 8.2
+H322 .33310 .4908 1.0099 8.2
+H323 .3860 .4594 1.2060 8.2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C2 S1 C5 92.7(2) yes
+C2 N3 C4 116.1(4) yes
+C2 N3 C31 123.1(3) yes
+C4 N3 C31 120.8(3) yes
+S2 C2 S1 120.1(2) yes
+S2 C2 N3 128.1(3) yes
+S1 C2 N3 111.8(3) yes
+N3 C4 C5 110.1(4) yes
+S1 C5 C4 108.5(4) yes
+N3 C31 C311 110.0(4) yes
+N3 C31 C312 111.4(4) yes
+C311 C31 C312 111.5(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+S2 C2 1.670(4) yes
+S1 C2 1.745(4) yes
+S1 C5 1.774(6) yes
+N3 C2 1.320(5) yes
+N3 C4 1.454(5) yes
+N3 C31 1.466(5) yes
+C4 C5 1.454(5) yes
+C31 C311 1.515(7) yes
+C31 C312 1.509(7) yes

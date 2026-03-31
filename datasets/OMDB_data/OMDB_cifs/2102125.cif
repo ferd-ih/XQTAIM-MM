@@ -1,0 +1,272 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/21/2102125.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102125
+loop_
+_publ_author_name
+'Britton, Doyle'
+'Noland, Wayland E.'
+'Pinnow, Matthew J.'
+_publ_section_title
+;
+ Isomorphism and pseudosymmetry in 2,6-dichloro- and
+ 2,6-dibromobenzonitrile
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              822
+_journal_page_last               827
+_journal_paper_doi               10.1107/S0108768100003773
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_sum            'C7 H3 Cl2 N'
+_chemical_formula_weight         172.00
+_chemical_name_systematic
+;
+ 2,6-dichlorobenzonitrile
+;
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_audit_creation_method           'SHELXTL plus manual additions'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 101.1430(10)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   18.0525(8)
+_cell_length_b                   20.7374(10)
+_cell_length_c                   3.8334(2)
+_cell_measurement_reflns_used    2740
+_cell_measurement_temperature    172(2)
+_cell_measurement_theta_max      25.0
+_cell_measurement_theta_min      1.5
+_cell_volume                     1408.02(12)
+_computing_cell_refinement       SAINT
+_computing_data_collection       'SAINT (Siemens, 1995)'
+_computing_data_reduction        SAINT
+_computing_molecular_graphics    SHELXTL
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  SHELXTL
+_computing_structure_solution    'SHELXTL (Sheldrick, 1994)'
+_diffrn_ambient_temperature      172(2)
+_diffrn_measurement_device       'Siemens SMART  area detector'
+_diffrn_measurement_method       w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .021
+_diffrn_reflns_av_sigmaI/netI    .025
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       -21
+_diffrn_reflns_limit_k_max       24
+_diffrn_reflns_limit_k_min       -24
+_diffrn_reflns_limit_l_max       4
+_diffrn_reflns_limit_l_min       -4
+_diffrn_reflns_number            3625
+_diffrn_reflns_theta_max         25.03
+_diffrn_reflns_theta_min         1.51
+_diffrn_standards_decay_%        'less than 1'
+_diffrn_standards_interval_time
+;
+ the first 125 reflections were remeasured at the end of the data
+  collection 6 hours later
+;
+_diffrn_standards_number         125
+_exptl_absorpt_coefficient_mu    .828
+_exptl_absorpt_correction_T_max  .88
+_exptl_absorpt_correction_T_min  .69
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS (Sheldrick, 1996; Blessing, 1995)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.623
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       'thick needle'
+_exptl_crystal_F_000             688
+_exptl_crystal_size_max          .45
+_exptl_crystal_size_mid          .15
+_exptl_crystal_size_min          .15
+_refine_diff_density_max         .246
+_refine_diff_density_min         -.240
+_refine_ls_extinction_coef       .0077(7)
+_refine_ls_extinction_method     SHELXTL
+_refine_ls_goodness_of_fit_all   1.02
+_refine_ls_goodness_of_fit_obs   1.05
+_refine_ls_hydrogen_treatment    riding
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     100
+_refine_ls_number_reflns         1289
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.02
+_refine_ls_restrained_S_obs      1.05
+_refine_ls_R_factor_all          .037
+_refine_ls_R_factor_obs          .030
+_refine_ls_shift/esd_max         .001
+_refine_ls_shift/esd_mean        .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0450P)^2^+0.9200P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .081
+_refine_ls_wR_factor_obs         .077
+_reflns_number_observed          1114
+_reflns_number_total             1289
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            bk0072.cif
+_cod_data_source_block           Cl2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0450P)^2^+0.9200P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0450P)^2^+0.9200P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2102125
+_cod_database_fobs_code          2102125
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'-x, -y, -z'
+'x, -y, z'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cl12 .0268(3) .0342(3) .0423(3) -.0026(2) .0134(2) -.0022(2)
+N11 .0354(13) .0286(14) .059(2) .000 .0214(12) .000
+C11 .0254(13) .0257(13) .0240(12) .000 .0037(10) .000
+C12 .0244(9) .0305(10) .0259(9) -.0015(7) .0049(7) -.0016(7)
+C13 .0295(10) .0294(10) .0369(10) .0039(7) .0059(8) -.0037(8)
+C14 .0359(15) .0228(13) .044(2) .000 .0068(12) .000
+C17 .0242(13) .033(2) .0314(14) .000 .0099(10) .000
+Cl22 .0383(3) .0239(3) .0448(3) .0000(2) .0132(2) -.0007(2)
+N21 .0330(13) .0302(13) .055(2) .000 .0200(11) .000
+C21 .0237(13) .0275(14) .0218(12) .000 .0034(10) .000
+C22 .0277(9) .0269(10) .0242(9) .0006(7) .0030(7) -.0007(7)
+C23 .0283(9) .0351(11) .0310(9) -.0061(8) .0059(7) .0019(8)
+C24 .0225(13) .045(2) .0291(13) .000 .0066(11) .000
+C27 .0323(15) .0215(12) .0289(13) .000 .0062(11) .000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_type_symbol
+Cl12 .36135(3) .24609(2) .16576(13) .0335(2) Uani d . 1 Cl
+N11 .5000 .12857(11) .0000 .0393(6) Uani d S 1 N
+C11 .5000 .25326(11) .0000 .0252(6) Uani d S 1 C
+C12 .43829(9) .28813(8) .0742(4) .0270(4) Uani d . 1 C
+C13 .43795(10) .35460(9) .0742(5) .0320(4) Uani d . 1 C
+H13 .3958 .3777 .1245 .038 Uiso calc . 1 H
+C14 .5000 .38722(13) .0000 .0345(6) Uani d S 1 C
+H14 .5000 .4330 .0000 .041 Uiso calc S 1 H
+C17 .5000 .18391(13) .0000 .0288(6) Uani d S 1 C
+Cl22 .24617(2) .13011(2) .51158(12) .0350(2) Uani d . 1 Cl
+N21 .12163(13) .0000 .6686(7) .0378(6) Uani d S 1 N
+C21 .25257(12) .0000 .4900(6) .0245(5) Uani d S 1 C
+C22 .28927(9) .05788(8) .4425(4) .0265(4) Uani d . 1 C
+C23 .35903(10) .05818(9) .3443(5) .0314(4) Uani d . 1 C
+H23 .3833 .0977 .3109 .038 Uiso calc . 1 H
+C24 .39295(14) .0000 .2954(7) .0319(6) Uani d S 1 C
+H24 .4408 .0000 .2265 .038 Uiso calc S 1 H
+C27 .17964(14) .0000 .5879(6) .0276(6) Uani d S 1 C
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C .0033 .0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H .0000 .0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N .0061 .0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl .1484 .1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+C12 C11 C12 . 2_655 117.9(2)
+C12 C11 C17 . . 121.04(10)
+C12 C11 C17 2_655 . 121.04(10)
+C13 C12 C11 . . 121.3(2)
+C13 C12 Cl12 . . 119.96(13)
+C11 C12 Cl12 . . 118.75(14)
+C12 C13 C14 . . 119.0(2)
+C12 C13 H13 . . 120.5(2)
+C14 C13 H13 . . 120.5(2)
+C13 C14 C13 . 2_655 121.5(2)
+C13 C14 H14 . . 119.25(12)
+C13 C14 H14 2_655 . 119.25(12)
+N11 C17 C11 . . 180.0
+C22 C21 C22 6 . 118.1(2)
+C22 C21 C27 6 . 120.97(10)
+C22 C21 C27 . . 120.97(10)
+C23 C22 C21 . . 121.2(2)
+C23 C22 Cl22 . . 119.84(13)
+C21 C22 Cl22 . . 118.94(13)
+C24 C23 C22 . . 118.9(2)
+C24 C23 H23 . . 120.5(2)
+C22 C23 H23 . . 120.5(2)
+C23 C24 C23 . 6 121.6(2)
+C23 C24 H24 . . 119.19(11)
+C23 C24 H24 6 . 119.19(11)
+N21 C27 C21 . . 179.5(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Cl12 C12 . 1.732(2)
+N11 C17 . 1.148(3)
+C11 C12 . 1.403(2)
+C11 C12 2_655 1.403(2)
+C11 C17 . 1.438(3)
+C12 C13 . 1.378(3)
+C13 C14 . 1.384(2)
+C13 H13 . .950(2)
+C14 C13 2_655 1.384(2)
+C14 H14 . .950(3)
+Cl22 C22 . 1.732(2)
+N21 C27 . 1.148(3)
+C21 C22 6 1.400(2)
+C21 C22 . 1.400(2)
+C21 C27 . 1.437(3)
+C22 C23 . 1.382(2)
+C23 C24 . 1.382(2)
+C23 H23 . .950(2)
+C24 C23 6 1.382(2)
+C24 H24 . .950(2)

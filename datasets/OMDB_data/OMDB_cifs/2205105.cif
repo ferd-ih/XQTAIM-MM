@@ -1,0 +1,306 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 09:09:21 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201973 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/20/51/2205105.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2205105
+loop_
+_publ_author_name
+'Cousson, A.'
+'Nicola\"i, B.'
+'Fillaux, F.'
+_publ_section_title
+;
+ Melamine (1,3,5-triazine-2,4,6-triamine): a neutron diffraction study
+ at 14K
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              o222
+_journal_page_last               o224
+_journal_paper_doi               10.1107/S160053680403332X
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'C3 H6 N6'
+_chemical_formula_moiety         'C3 H6 N6'
+_chemical_formula_sum            'C3 H6 N6'
+_chemical_formula_weight         126.12
+_chemical_name_systematic
+;
+1,3,5-triazine-2,4,6-triamine
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_cell_angle_alpha                90
+_cell_angle_beta                 113.30(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.4330(10)
+_cell_length_b                   7.4580(10)
+_cell_length_c                   7.2380(10)
+_cell_measurement_reflns_used    15
+_cell_measurement_temperature    14
+_cell_measurement_theta_max      44
+_cell_measurement_theta_min      32
+_cell_volume                     517.25(14)
+_computing_cell_refinement
+;
+ DIF4N (modified linux version of DIF4; Stoe & Cie, 2000)
+;
+_computing_data_collection
+;
+  DIF4N (modified linux version of DIF4; Stoe & Cie, 2000)
+;
+_computing_data_reduction
+;
+PRON (modified version of REDU4; Stoe & Cie, 2000)
+;
+_computing_molecular_graphics
+;
+ CAMERON (Watkin et al., 1996)
+;
+_computing_publication_material
+;
+ CRYSTALS (Watkin et al., 2001)
+;
+_computing_structure_refinement
+;
+ CRYSTALS (Watkin et al., 2001)
+;
+_computing_structure_solution
+;
+ CRYSTALS (Watkin et al., 2001)
+;
+_diffrn_ambient_temperature      14
+_diffrn_measured_fraction_theta_full 0.999
+_diffrn_measured_fraction_theta_max 0.999
+_diffrn_measurement_device_type
+;
+Orph\ee reactor (Saclay, France): 5-C2 four-circle
+;
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  Cu_(220)
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           ' neutron '
+_diffrn_radiation_wavelength     0.83100
+_diffrn_reflns_av_R_equivalents  0.08
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       -16
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            2714
+_diffrn_reflns_theta_full        42.580
+_diffrn_reflns_theta_max         42.580
+_diffrn_reflns_theta_min         3.583
+_diffrn_standards_decay_%        0.00
+_diffrn_standards_interval_count 0
+_diffrn_standards_interval_time  2
+_diffrn_standards_number         450
+_exptl_absorpt_coefficient_mu    0.121
+_exptl_absorpt_correction_T_max  1.00
+_exptl_absorpt_correction_T_min  1.00
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            ' white '
+_exptl_crystal_density_diffrn    1.619
+_exptl_crystal_description       ' prism '
+_exptl_crystal_F_000             204.000
+_exptl_crystal_size_max          3.50
+_exptl_crystal_size_mid          3.00
+_exptl_crystal_size_min          3.00
+_refine_diff_density_max         1.81
+_refine_diff_density_min         -1.67
+_refine_ls_extinction_coef       17.2(5)
+_refine_ls_extinction_method
+'Larson 1970 Crystallographic Computing eq 22'
+_refine_ls_goodness_of_fit_ref   1.1111
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     137
+_refine_ls_number_reflns         1819
+_refine_ls_R_factor_all          0.0557
+_refine_ls_R_factor_gt           0.0467
+_refine_ls_shift/su_max          0.000257
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+;
+Method  Prince modified Chebychev polynomial, (Watkin, 1994)
+ W = [weight] * [1-(deltaF/6*sigmaF)^2]^2
+ 1.42 -1.26 0.982 -0.228
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0438
+_refine_ls_wR_factor_gt          0.0434
+_refine_ls_wR_factor_ref         0.0434
+_reflns_number_gt                1819
+_reflns_number_total             2327
+_reflns_threshold_expression     I>3.00\s(I)
+_cod_data_source_file            lh6307.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        517.26(14)
+_cod_original_sg_symbol_H-M      'P 21/a'
+_cod_database_code               2205105
+_cod_database_fobs_code          2205105
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+-x+1/2,y+1/2,-z
+x+1/2,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_type_symbol
+C1 0.17300(10) 0.65231(13) 0.07285(14) 0.0028 Uani 1.0000 C
+C2 0.12101(9) 0.51341(13) 0.31363(14) 0.0029 Uani 1.0000 C
+C3 0.06430(10) 0.80507(12) 0.24100(14) 0.0026 Uani 1.0000 C
+N1 0.22332(8) 0.64800(10) -0.07076(11) 0.0050 Uani 1.0000 N
+N2 0.12275(8) 0.36680(10) 0.42209(11) 0.0051 Uani 1.0000 N
+N3 0.01348(7) 0.96283(9) 0.27868(11) 0.0048 Uani 1.0000 N
+N4 0.06065(7) 0.66176(9) 0.35010(10) 0.0041 Uani 1.0000 N
+N5 0.11664(7) 0.80893(9) 0.09890(10) 0.0038 Uani 1.0000 N
+N6 0.18120(7) 0.50207(9) 0.18040(10) 0.0041 Uani 1.0000 N
+H1 0.2411(3) 0.7663(4) -0.1263(4) 0.0185 Uani 1.0000 H
+H2 0.2715(3) 0.5352(4) -0.0883(4) 0.0183 Uani 1.0000 H
+H3 0.1577(4) 0.2514(4) 0.3879(5) 0.0229 Uani 1.0000 H
+H4 0.0621(3) 0.3627(4) 0.5037(4) 0.0188 Uani 1.0000 H
+H5 -0.0184(3) 1.0510(3) 0.1610(4) 0.0176 Uani 1.0000 H
+H6 -0.0537(3) 0.9515(4) 0.3478(5) 0.0204 Uani 1.0000 H
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+C1 0.0029(3) 0.0027(3) 0.0026(3) 0.0006(2) 0.0008(3) 0.0010(2)
+C2 0.0034(3) 0.0017(3) 0.0035(3) 0.0003(2) 0.0013(3) 0.0010(2)
+C3 0.0029(3) 0.0016(3) 0.0031(3) 0.0004(2) 0.0011(3) 0.0004(2)
+N1 0.0067(3) 0.0045(3) 0.0049(3) 0.0013(2) 0.0037(2) 0.00096(19)
+N2 0.0064(3) 0.0037(3) 0.0059(3) 0.00021(19) 0.0031(2) 0.0017(2)
+N3 0.0059(2) 0.0030(2) 0.0051(2) 0.00112(19) 0.0018(2) 0.00005(19)
+N4 0.0055(3) 0.0034(2) 0.0043(3) 0.00080(19) 0.0029(2) 0.00074(19)
+N5 0.0048(2) 0.0026(2) 0.0044(3) 0.00099(18) 0.0023(2) 0.00097(19)
+N6 0.0055(3) 0.0025(2) 0.0049(2) 0.00132(18) 0.0029(2) 0.00120(18)
+H1 0.0267(12) 0.0121(9) 0.0219(11) 0.0022(8) 0.0153(9) 0.0054(8)
+H2 0.0249(11) 0.0124(9) 0.0220(10) 0.0054(8) 0.0146(9) -0.0001(8)
+H3 0.0367(15) 0.0116(9) 0.0286(13) 0.0085(9) 0.0217(12) 0.0016(9)
+H4 0.0220(10) 0.0190(10) 0.0224(11) 0.0027(8) 0.0162(9) 0.0047(8)
+H5 0.0220(10) 0.0137(9) 0.0162(9) 0.0054(8) 0.0070(8) 0.0066(8)
+H6 0.0242(11) 0.0180(10) 0.0260(12) 0.0035(9) 0.0180(10) 0.0012(9)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+'O   ' 0.0000 0.0000 'Varley F. Sears, Neutron News, vol 3, n3 (1992) p26-37'
+'C   ' 0.0000 0.0000 'Varley F. Sears, Neutron News, vol 3, n3 (1992) p26-37'
+'N   ' 0.0000 0.0000 'Varley F. Sears, Neutron News, vol 3, n3 (1992) p26-37'
+'H   ' 0.0000 0.0000 'Varley F. Sears, Neutron News, vol 3, n3 (1992) p26-37'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+N1 C1 N5 117.02(8) yes
+N1 C1 N6 118.30(8) yes
+N5 C1 N6 124.68(8) yes
+N2 C2 N4 116.94(8) yes
+N2 C2 N6 117.77(8) yes
+N4 C2 N6 125.28(8) yes
+N3 C3 N4 117.88(8) yes
+N3 C3 N5 116.34(8) yes
+N4 C3 N5 125.76(8) yes
+C1 N1 H1 118.42(17) yes
+C1 N1 H2 118.91(17) yes
+H1 N1 H2 119.6(2) yes
+C2 N2 H3 118.49(18) yes
+C2 N2 H4 119.59(17) yes
+H3 N2 H4 119.0(2) yes
+C3 N3 H5 114.42(17) yes
+C3 N3 H6 115.30(17) yes
+H5 N3 H6 113.9(2) yes
+C2 N4 C3 114.53(7) yes
+C1 N5 C3 114.76(7) yes
+C1 N6 C2 114.87(7) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C1 N1 1.3376(12) yes
+C1 N5 1.3539(12) yes
+C1 N6 1.3475(12) yes
+C2 N2 1.3420(12) yes
+C2 N4 1.3497(12) yes
+C2 N6 1.3457(12) yes
+C3 N3 1.3618(12) yes
+C3 N4 1.3382(12) yes
+C3 N5 1.3420(12) yes
+N1 H1 1.017(3) yes
+N1 H2 1.013(3) yes
+N2 H3 1.003(3) yes
+N2 H4 1.022(3) yes
+N3 H5 1.022(3) yes
+N3 H6 1.013(3) yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+N3 C3 N5 C1 176.64(8) yes
+C3 N5 C1 N1 178.32(8) yes
+C3 N4 C2 N2 178.66(8) yes
+H1 N1 C1 N1 -94.89(7) yes
+H2 N1 C1 N5 176.29(17) yes
+H3 N2 C2 N6 -7.47(17) yes
+H4 N2 C2 N4 13.01(17) yes
+H5 N3 C3 N5 25.12(17) yes
+H6 N3 C3 N4 -21.30(17) yes
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 7667

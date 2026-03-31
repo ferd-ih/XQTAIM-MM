@@ -1,0 +1,236 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 12:20:41 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179811 $
+#$URL: svn://www.crystallography.net/cod/cif/7/01/07/7010760.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7010760
+loop_
+_publ_author_name
+'Hinchley, Sarah L.'
+'Smart, Bruce A.'
+'Morrison, Carole'
+'Robertson, Heather E.'
+'Rankin, David W. H.'
+'Coxall, Robert A.'
+'Parsons, Simon'
+'Zink, Robert'
+'Siegl, Harald'
+'Hassler, Karl'
+'Mawhorter, Richard'
+_publ_section_title
+;
+ Molecular structure of ButCl2SiSiCl2But in the gas phase by electron
+ diffraction and ab initio calculations. Molecular structures of the
+ compounds ButX2SiSiX2But (X = Cl, Br or I) by vibrational
+ spectroscopy, X-ray crystallography and ab initio calculations&#x2020;
+;
+_journal_issue                   19
+_journal_name_full
+'Journal of the Chemical Society, Dalton Transactions'
+_journal_page_first              2916
+_journal_paper_doi               10.1039/b103315h
+_journal_year                    2001
+_chemical_formula_sum            'C8 H18 Br4 Si2'
+_chemical_formula_weight         490.04
+_chemical_name_common            '1,2-di-butyltetrabromodisilane '
+_chemical_name_systematic
+; 
+? 
+;
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                96.49(3)
+_cell_angle_beta                 108.36(3)
+_cell_angle_gamma                114.02(3)
+_cell_formula_units_Z            1
+_cell_length_a                   7.0720(10)
+_cell_length_b                   7.637(2)
+_cell_length_c                   8.827(2)
+_cell_measurement_temperature    293(2)
+_cell_volume                     397.0(2)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0459
+_diffrn_reflns_av_sigmaI/netI    0.0537
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            2709
+_diffrn_reflns_theta_max         30.00
+_diffrn_reflns_theta_min         3.04
+_exptl_absorpt_coefficient_mu    10.259
+_exptl_crystal_density_diffrn    2.050
+_exptl_crystal_F_000             234
+_refine_diff_density_max         2.540
+_refine_diff_density_min         -2.597
+_refine_diff_density_rms         0.366
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.303
+_refine_ls_goodness_of_fit_obs   1.300
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     67
+_refine_ls_number_reflns         2301
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.307
+_refine_ls_restrained_S_obs      1.300
+_refine_ls_R_factor_all          0.0924
+_refine_ls_R_factor_obs          0.0704
+_refine_ls_shift/esd_max         -3.387
+_refine_ls_shift/esd_mean        0.065
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1902
+_refine_ls_wR_factor_obs         0.1696
+_reflns_number_observed          1853
+_reflns_number_total             2303
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            b103315h.txt
+_cod_data_source_block           1,2-di-butyltetrabromodisilane
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        396.96(15)
+_cod_database_code               7010760
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Br1 0.0123(4) 0.0184(4) 0.0071(3) 0.0017(3) 0.0006(3) 0.0005(3)
+Br2 0.0137(4) 0.0246(4) 0.0046(3) 0.0006(3) -0.0058(3) 0.0133(3)
+Si1 0.0068(8) 0.0092(8) 0.0000(7) -0.0021(6) -0.0045(6) 0.0037(7)
+C1 0.010(3) 0.012(3) 0.000(3) -0.005(2) -0.003(2) 0.005(2)
+C2 0.025(4) 0.023(4) 0.009(3) -0.001(3) 0.000(3) 0.017(3)
+C3 0.022(4) 0.013(3) 0.015(4) -0.006(3) -0.003(3) 0.003(3)
+C4 0.026(4) 0.024(4) 0.000(3) -0.003(3) 0.000(3) 0.014(3)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Br1 Br 0.20655(12) 0.28060(11) 0.13615(9) 0.0161(2) Uani 1 d . .
+Br2 Br 0.80788(12) 0.48150(11) 0.28152(8) 0.0156(2) Uani 1 d . .
+Si1 Si 0.5162(3) 0.5255(3) 0.1386(2) 0.0073(4) Uani 1 d . .
+C1 C 0.5588(12) 0.7732(10) 0.2529(8) 0.0095(12) Uani 1 d . .
+C2 C 0.3608(14) 0.8105(12) 0.1577(10) 0.019(2) Uani 1 d . .
+H2A H 0.3702(94) 0.9249(88) 0.2239(51) 0.080 Uiso 1 calc R .
+H2B H 0.2204(14) 0.6957(59) 0.1352(107) 0.080 Uiso 1 calc R .
+H2C H 0.3686(95) 0.8341(144) 0.0548(56) 0.080 Uiso 1 calc R .
+C3 C 0.7800(15) 0.9414(11) 0.2645(10) 0.022(2) Uani 1 d . .
+H3A H 0.8020(84) 1.0666(20) 0.3228(108) 0.080 Uiso 1 calc R .
+H3B H 0.7736(66) 0.9447(95) 0.1546(10) 0.080 Uiso 1 calc R .
+H3C H 0.9034(23) 0.9183(79) 0.3233(108) 0.080 Uiso 1 calc R .
+C4 C 0.5695(15) 0.7614(12) 0.4280(9) 0.018(2) Uani 1 d . .
+H4A H 0.5910(170) 0.8849(55) 0.4892(43) 0.080 Uiso 1 calc R .
+H4B H 0.6932(104) 0.7376(149) 0.4847(46) 0.080 Uiso 1 calc R .
+H4C H 0.4310(67) 0.6542(96) 0.4194(9) 0.080 Uiso 1 calc R .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Br Br -0.2901 2.4595 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C1 Si1 Br1 109.3(2) . . ?
+C1 Si1 Br2 107.8(2) . . ?
+Br1 Si1 Br2 107.57(9) . . ?
+C1 Si1 Si1 119.2(2) . 2_665 ?
+Br1 Si1 Si1 106.06(12) . 2_665 ?
+Br2 Si1 Si1 106.46(12) . 2_665 ?
+C3 C1 C4 110.1(6) . . ?
+C3 C1 C2 109.3(6) . . ?
+C4 C1 C2 110.9(6) . . ?
+C3 C1 Si1 109.4(5) . . ?
+C4 C1 Si1 107.4(5) . . ?
+C2 C1 Si1 109.6(5) . . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Br1 Si1 2.218(2) . ?
+Br2 Si1 2.232(2) . ?
+Si1 C1 1.897(7) . ?
+Si1 Si1 2.355(4) 2_665 ?
+C1 C3 1.530(11) . ?
+C1 C4 1.538(10) . ?
+C1 C2 1.545(10) . ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+Br1 Si1 C1 C3 176.5(4) . . . . ?
+Br2 Si1 C1 C3 59.9(5) . . . . ?
+Si1 Si1 C1 C3 -61.5(5) 2_665 . . . ?
+Br1 Si1 C1 C4 56.9(5) . . . . ?
+Br2 Si1 C1 C4 -59.7(5) . . . . ?
+Si1 Si1 C1 C4 179.0(4) 2_665 . . . ?
+Br1 Si1 C1 C2 -63.7(5) . . . . ?
+Br2 Si1 C1 C2 179.7(4) . . . . ?
+Si1 Si1 C1 C2 58.4(6) 2_665 . . . ?
+C1 Si1 Si1 C1 180.0 . . 2_665 2_665 ?

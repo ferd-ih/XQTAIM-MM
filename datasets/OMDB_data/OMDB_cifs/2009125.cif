@@ -1,0 +1,275 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/91/2009125.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009125
+loop_
+_publ_author_name
+'Gerkin, Roger E.'
+_publ_section_title
+;
+ 3-(2-Methylphenyl)propanoic acid
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1857
+_journal_page_last               1859
+_journal_paper_doi               10.1107/S0108270199009063
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_moiety         'C10 H12 O2'
+_chemical_formula_sum            'C10 H12 O2'
+_chemical_formula_weight         164.20
+_chemical_name_common            '3-(2-methylphenyl)propan-1-oic acid'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 109.920(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.3180(10)
+_cell_length_b                   23.1000(10)
+_cell_length_c                   7.619(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      17.3
+_cell_measurement_theta_min      14.5
+_cell_volume                     880.0(3)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control Software'
+_computing_data_collection
+;  MSC/AFC Diffractometer Control Software (Molecular Structure
+Corporation, 1988)
+;
+_computing_data_reduction
+'TEXSAN (Molecular Structure Corporation, 1995)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  'TEXSAN and PLATON (Spek, 1990)'
+_computing_structure_refinement  TEXSAN
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1985)'
+_diffrn_ambient_temperature      296
+_diffrn_measurement_device_type  AFC5S
+_diffrn_measurement_method       '\w scans '
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .038
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       30
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            2220
+_diffrn_reflns_theta_max         27.56
+_diffrn_reflns_theta_min         2.0
+_diffrn_standards_decay_%        5.83
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    .085
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.239
+_exptl_crystal_description       'cut plate'
+_exptl_crystal_F_000             352
+_exptl_crystal_size_max          .38
+_exptl_crystal_size_mid          .23
+_exptl_crystal_size_min          .08
+_refine_diff_density_max         .42
+_refine_diff_density_min         -.42
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.44
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     113
+_refine_ls_number_reflns         2014
+_refine_ls_R_factor_gt           .051
+_refine_ls_shift/su_max          .0004
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/[ \s^2^~cs~ + (0.006I)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .082
+_reflns_number_gt                956
+_reflns_number_total             2014
+_reflns_threshold_expression     'I > 2.0\s~I~'
+_cod_data_source_file            fr1221.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_atom_site_adp_type' tag value 'Uij' was replaced with 'Uani' value
+12 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[ \s^2^~cs~ +
+(0.006I)^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[ \s^2^~cs~ + (0.006I)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        879.9(3)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2009125
+loop_
+_symmetry_equiv_pos_as_xyz
+'  +x,  +y,  +z'
+'  -x,1/2+y,1/2-z'
+'  -x,  -y,  -z'
+'  +x,1/2-y,1/2+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+O1 .2758(3) .50972(7) .2637(2) .0565(6) Uani ? ?
+O2 .2631(3) .45398(7) .4989(2) .0525(5) Uani ? ?
+C1 .1642(4) .46989(10) .3376(3) .0409(7) Uani ? ?
+C2 -.0906(4) .44682(9) .2029(3) .0431(7) Uani ? ?
+C3 -.2152(4) .40044(9) .2899(3) .0410(7) Uani ? ?
+C4 -.4690(4) .37274(9) .1608(3) .0364(7) Uani ? ?
+C5 -.5959(5) .33010(9) .2318(3) .0408(7) Uani ? ?
+C6 -.8316(5) .30588(10) .1162(3) .0487(8) Uani ? ?
+C7 -.9455(5) .32230(10) -.0679(3) .0510(8) Uani ? ?
+C8 -.8203(5) .36360(10) -.1397(3) .0522(8) Uani ? ?
+C9 -.5834(5) .38826(10) -.0252(3) .0468(8) Uani ? ?
+C10 -.4785(5) .31090(10) .4332(3) .0622(9) Uani ? ?
+H1 .450(6) .5230(10) .345(4) .130(10) Uiso ? ?
+H2A -.2178 .4788 .1601 .0517 Uiso calc C2
+H2B -.0538 .4300 .0961 .0517 Uiso calc C2
+H3A -.2565 .4182 .3937 .0493 Uiso calc C3
+H3B -.0824 .3697 .3380 .0493 Uiso calc C3
+H6 -.9201 .2762 .1663 .0585 Uiso calc C6
+H7 -1.1140 .3049 -.1469 .0612 Uiso calc C7
+H8 -.8981 .3754 -.2707 .0626 Uiso calc C8
+H9 -.4947 .4174 -.0772 .0561 Uiso calc C9
+H10A -.2911 .2997 .4608 .0747 Uiso calc C10
+H10B -.4888 .3427 .5153 .0747 Uiso calc C10
+H10C -.5796 .2776 .4537 .0747 Uiso calc C10
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 .0520(10) .0650(10) .0480(10) -.0216(10) .0118(10) .0087(10)
+O2 .0460(10) .0670(10) .0391(10) -.0159(9) .0081(8) .0069(9)
+C1 .0360(10) .0450(10) .0460(10) -.0030(10) .0190(10) -.0040(10)
+C2 .0390(10) .047(2) .0440(10) -.0030(10) .0140(10) -.0010(10)
+C3 .0350(10) .0480(10) .0390(10) -.0030(10) .0110(10) .0010(10)
+C4 .0320(10) .0410(10) .0360(10) .0000(10) .0120(10) -.0040(10)
+C5 .043(2) .0390(10) .0420(10) .0000(10) .0150(10) .0010(10)
+C6 .048(2) .048(2) .050(2) -.0100(10) .0160(10) -.0030(10)
+C7 .0410(10) .056(2) .051(2) -.0110(10) .0090(10) -.0140(10)
+C8 .049(2) .064(2) .0390(10) -.0010(10) .0100(10) -.0030(10)
+C9 .0420(10) .054(2) .0440(10) -.0060(10) .0140(10) .0020(10)
+C10 .062(2) .065(2) .055(2) -.013(2) .0140(10) .0120(10)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+H 0 0 'Stewart et al. (1965)'
+C .003 .002 'Creagh & McAuley (1992)'
+O .011 .006 'Creagh & McAuley (1992)'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C1 O1 H1 114.0(10) no
+O1 C1 O2 122.6(2) yes
+O1 C1 C2 113.0(2) yes
+O2 C1 C2 124.4(2) yes
+C1 C2 C3 112.3(2) no
+C1 C2 H2A 108.8 no
+C1 C2 H2B 108.8 no
+C3 C2 H2A 108.8 no
+C3 C2 H2B 108.8 no
+H2A C2 H2B 109.5 no
+C2 C3 C4 116.0(2) no
+C2 C3 H3A 107.8 no
+C2 C3 H3B 107.8 no
+C4 C3 H3A 107.8 no
+C4 C3 H3B 107.8 no
+H3A C3 H3B 109.5 no
+C3 C4 C5 119.0(2) no
+C3 C4 C9 122.6(2) no
+C5 C4 C9 118.4(2) no
+C4 C5 C6 119.3(2) no
+C4 C5 C10 120.7(2) no
+C6 C5 C10 119.9(2) no
+C5 C6 C7 121.7(2) no
+C5 C6 H6 119.1 no
+C7 C6 H6 119.1 no
+C6 C7 C8 119.4(2) no
+C6 C7 H7 120.3 no
+C8 C7 H7 120.3 no
+C7 C8 C9 119.5(2) no
+C7 C8 H8 120.2 no
+C9 C8 H8 120.2 no
+C4 C9 C8 121.7(2) no
+C4 C9 H9 119.2 no
+C8 C9 H9 119.2 no
+C5 C10 H10A 109.5 no
+C5 C10 H10B 109.5 no
+C5 C10 H10C 109.5 no
+H10A C10 H10B 109.5 no
+H10A C10 H10C 109.5 no
+H10B C10 H10C 109.5 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 C1 ? ? 1.320(3) yes
+O1 H1 ? ? .97(3) no
+O2 C1 ? ? 1.217(2) yes
+C1 C2 ? ? 1.492(3) no
+C2 C3 ? ? 1.525(3) no
+C2 H2A ? ? .980 no
+C2 H2B ? ? .980 no
+C3 C4 ? ? 1.514(3) no
+C3 H3A ? ? .980 no
+C3 H3B ? ? .980 no
+C4 C5 ? ? 1.403(3) no
+C4 C9 ? ? 1.385(3) no
+C5 C6 ? ? 1.381(3) no
+C5 C10 ? ? 1.513(3) no
+C6 C7 ? ? 1.378(3) no
+C6 H6 ? ? .980 no
+C7 C8 ? ? 1.378(3) no
+C7 H7 ? ? .980 no
+C8 C9 ? ? 1.387(3) no
+C8 H8 ? ? .980 no
+C9 H9 ? ? .980 no
+C10 H10A ? ? .980 no
+C10 H10B ? ? .980 no
+C10 H10C ? ? .980 no

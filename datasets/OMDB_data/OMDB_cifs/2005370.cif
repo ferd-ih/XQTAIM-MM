@@ -1,0 +1,246 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/53/2005370.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005370
+loop_
+_publ_author_name
+'Beck, H.'
+'Egert, E.'
+_publ_section_title
+;
+ A Dihydrooxazinone
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2253
+_journal_page_last               2254
+_journal_paper_doi               10.1107/S0108270196003873
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'C16 H25 N O4'
+_chemical_formula_weight         295.4
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                100.69(1)
+_cell_angle_beta                 94.99(2)
+_cell_angle_gamma                103.29(1)
+_cell_formula_units_Z            2
+_cell_length_a                   6.806(1)
+_cell_length_b                   8.166(1)
+_cell_length_c                   15.568(2)
+_cell_measurement_reflns_used    50
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      12.5
+_cell_measurement_theta_min      10
+_cell_volume                     819.8(2)
+_computing_cell_refinement       'Profile fitting'
+_computing_data_collection       'Profile fitting (Clegg, 1981)'
+_computing_data_reduction        'SHELXTL (Sheldrick, 1983)'
+_computing_molecular_graphics    'XP SHELXTL'
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  'SHELXTL using blocked-cascade least squares'
+_computing_structure_solution    'SHELXTL using direct methods'
+_diffrn_measurement_device       'Stoe-Siemens four-circle'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.025
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -4
+_diffrn_reflns_number            3763
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.08
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.197
+_exptl_crystal_density_method    none
+_exptl_crystal_description       block
+_exptl_crystal_size_max          0.6
+_exptl_crystal_size_mid          0.4
+_exptl_crystal_size_min          0.1
+_refine_diff_density_max         0.20
+_refine_diff_density_min         -0.18
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.58
+_refine_ls_hydrogen_treatment    'H atoms riding, C-H 0.96\%A'
+_refine_ls_number_parameters     206
+_refine_ls_number_reflns         1941
+_refine_ls_R_factor_obs          0.067
+_refine_ls_shift/esd_max         0.008
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0003F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.057
+_reflns_number_observed          1947
+_reflns_number_total             2882
+_reflns_observed_criterion       F>3\s(F)
+_cod_data_source_file            jz1117.cif
+_cod_data_source_block           jz1117a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' 1/[\s^2^(F)+0.0003F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.0003F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        819.8
+_cod_database_code               2005370
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+O(1) .7960(2) .8109(2) .7747(1) .064(1)
+C(2) .6957(4) .9153(3) .7439(2) .056(1)
+C(3) .4657(4) .8623(3) .7239(2) .050(1)
+N(4) .3689(3) .6942(2) .7397(1) .047(1)
+C(5) .4747(4) .6086(3) .7731(2) .044(1)
+C(6) .7004(4) .6564(3) .8023(2) .049(1)
+O(2) .7968(3) 1.0483(2) .7317(1) .089(1)
+C(31) .3859(4) .9994(3) .7819(2) .069(1)
+O(5) .3907(3) .4502(2) .7867(1) .055(1)
+C(51) .1792(4) .3774(3) .7530(2) .066(1)
+C(61) .7673(4) .6789(3) .9021(2) .055(1)
+C(62) .6516(5) .7914(4) .9551(2) .083(1)
+C(63) .9962(4) .7644(4) .9226(2) .078(1)
+C(64) .7302(5) .5020(4) .9269(2) .082(1)
+C(1') .4108(3) .8588(3) .6247(2) .049(1)
+C(2') .5015(4) .7292(3) .5680(2) .058(1)
+C(3') .4483(4) .7120(3) .4711(2) .059(1)
+O(3') .5752(3) .7141(3) .4213(1) .085(1)
+C(4') .2298(4) .6912(4) .4397(2) .075(1)
+C(5') .1394(4) .8192(4) .4968(2) .074(1)
+C(6') .1836(4) .8210(3) .5941(2) .063(1)
+H(6) .7444 .5587 .7741 .059
+H(31a) .4300 1.1103 .7677 .104
+H(31b) .4380 1.0054 .8421 .104
+H(31c) .2397 .9642 .7745 .104
+H(51a) .1367 .2735 .7743 .100
+H(51b) .1598 .3508 .6897 .100
+H(51c) .0996 .4558 .7738 .100
+H(62a) .5091 .7342 .9454 .125
+H(62b) .6700 .9022 .9400 .125
+H(62c) .7038 .8057 1.0160 .125
+H(63a) 1.0206 .8790 .9120 .117
+H(63b) 1.0729 .7003 .8870 .117
+H(63c) 1.0375 .7696 .9838 .117
+H(64a) .5860 .4513 .9184 .122
+H(64b) .7838 .5137 .9875 .122
+H(64c) .7951 .4294 .8896 .122
+H(1') .4690 .9734 .6175 .059
+H(2'a) .4524 .6186 .5821 .070
+H(2'b) .6471 .7652 .5822 .070
+H(4'a) .2173 .7083 .3803 .090
+H(4'b) .1555 .5767 .4408 .090
+H(5'a) -.0055 .7887 .4799 .089
+H(5'b) .1962 .9323 .4871 .089
+H(6'a) .1300 .9081 .6274 .076
+H(6'b) .1181 .7105 .6046 .076
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C(2) O(1) C(6) 124.5(2) yes
+C(2) C(3) N(4) 115.4(2) yes
+N(4) C(5) C(6) 128.5(2) yes
+O(1) C(2) C(3) 120.2(2) yes
+C(3) N(4) C(5) 120.0(2) yes
+O(1) C(6) C(5) 110.3(2) yes
+O(1) C(2) O(2) 116.9(2) no
+N(4) C(3) C(31) 108.7(2) no
+N(4) C(3) C(1') 107.8(2) no
+N(4) C(5) O(5) 121.6(2) no
+C(5) C(6) C(61) 116.0(2) no
+C(6) C(61) C(62) 110.2(2) no
+C(6) C(61) C(64) 109.8(2) no
+C(3) C(1') C(6') 114.3(2) no
+C(1') C(2') C(3') 113.8(2) no
+C(2') C(3') C(4') 115.8(2) no
+C(3') C(4') C(5') 112.1(2) no
+C(1') C(6') C(5') 111.9(2) no
+C(3) C(2) O(2) 122.9(3) no
+C(2) C(3) C(31) 107.0(2) no
+C(2) C(3) C(1') 107.0(2) no
+C(31) C(3) C(1') 111.0(2) no
+C(6) C(5) O(5) 109.9(2) no
+O(1) C(6) C(61) 108.9(2) no
+C(5) O(5) C(51) 116.7(2) no
+C(6) C(61) C(63) 108.7(2) no
+C(3) C(1') C(2') 110.3(2) no
+C(2') C(1') C(6') 109.6(2) no
+C(2') C(3') O(3') 122.0(2) no
+O(3') C(3') C(4') 122.2(2) no
+C(4') C(5') C(6') 112.2(3) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O(1) C(2) 1.336(3) yes
+C(2) C(3) 1.513(3) yes
+N(4) C(5) 1.256(3) yes
+O(1) C(6) 1.439(3) yes
+C(3) N(4) 1.455(3) yes
+C(5) C(6) 1.502(3) yes
+C(3) C(1') 1.550(3) no
+C(6) C(61) 1.545(3) no
+C(61) C(62) 1.520(4) no
+C(61) C(64) 1.535(4) no
+C(1') C(6') 1.520(3) no
+C(3') O(3') 1.209(3) no
+C(4') C(5') 1.519(4) no
+C(2) O(2) 1.203(3) no
+C(3) C(31) 1.534(4) no
+C(5) O(5) 1.352(3) no
+O(5) C(51) 1.435(3) no
+C(61) C(63) 1.532(3) no
+C(1') C(2') 1.526(4) no
+C(2') C(3') 1.494(4) no
+C(3') C(4') 1.485(5) no
+C(5') C(6') 1.516(4) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+C(6) O(1) C(2) C(3) -8.7(3) yes
+O(1) C(2) C(3) N(4) -.5(3) yes
+C(3) N(4) C(5) C(6) .8(3) yes
+C(2) O(1) C(6) C(5) 12.6(3) yes
+C(2) C(3) N(4) C(5) 4.3(3) yes
+N(4) C(5) C(6) O(1) -8.9(3) yes

@@ -1,0 +1,45 @@
+{
+  "structure_id": "JULSOY",
+  "node_features": [
+    "e_density",
+    "e_loc_func",
+    "iri",
+    "sign_lambda2_rho",
+    "delta_g_promolecular",
+    "esp_nuc",
+    "esp_e",
+    "grad_norm",
+    "ellip_e_dens"
+  ],
+  "edge_features": [
+    "e_density",
+    "Lagrangian_K",
+    "e_loc_func",
+    "iri",
+    "sign_lambda2_rho",
+    "ave_loc_ion_E",
+    "delta_g_promolecular",
+    "delta_g_hirsh",
+    "esp_e",
+    "grad_norm",
+    "det_hessian",
+    "ellip_e_dens",
+    "eta"
+  ],
+  "transforms": {
+    "method": "signed_log1p",
+    "formula": "sign(x) * log1p(|x|)",
+    "node_transformed": [
+      "iri",
+      "e_density",
+      "esp_nuc",
+      "sign_lambda2_rho",
+      "grad_norm"
+    ],
+    "edge_transformed": [
+      "iri",
+      "grad_norm",
+      "det_hessian"
+    ]
+  }
+}

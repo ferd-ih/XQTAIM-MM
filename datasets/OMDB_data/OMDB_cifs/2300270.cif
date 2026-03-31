@@ -1,0 +1,229 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/02/2300270.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300270
+loop_
+_publ_author_name
+'Pagola, Silvina'
+'Stephens, Peter W.'
+_publ_section_title
+;
+ <i>PSSP</i>, a computer program for the crystal structure solution of
+ molecular materials from X-ray powder diffraction data
+;
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              370
+_journal_page_last               376
+_journal_paper_doi               10.1107/S0021889810005509
+_journal_volume                  43
+_journal_year                    2010
+_chemical_formula_moiety         'C10 H13 N1 O3'
+_chemical_formula_sum            'C10 H13 N O3'
+_chemical_formula_weight         195.21
+_chemical_name_systematic
+;
+2-amino-4,5-dimethoxyacetophenone
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_sites_solution_hydrogens   geom
+_cell_angle_alpha                90.0
+_cell_angle_beta                 108.3294(3)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   13.00247(8)
+_cell_length_b                   6.86966(4)
+_cell_length_c                   11.51889(5)
+_cell_measurement_temperature    298
+_cell_volume                     976.695(9)
+_diffrn_measurement_device_type  'Huber adapted'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     1.1499
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_l_max       8
+_exptl_absorpt_coefficient_mu    0.525
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    1.328
+_exptl_crystal_F_000             416.0
+_pd_char_colour                  yellow
+_pd_char_particle_morphology     powder
+_pd_proc_info_excluded_regions
+;
+2.0-5.0 degrees (no peaks) and 11.789-11.908 degrees. Impurity peak.
+;
+_pd_proc_ls_background_function
+;
+GSAS Background function number 2 with 36 terms.
+;
+_pd_proc_ls_peak_cutoff          0.01000
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function
+;
+ Pseudovoigt profile function as parameterized in
+ P. Thompson et al. J. Appl. Cryst. 20 (1987) 79-83, with 
+ asymmetry correction of L. W. Finger et al. 
+ J. Appl. Cryst.27 (1994) 892-900, and microstrain broadening 
+ by P.W. Stephens, J. Appl. Cryst. 32 (1999) 281-289.
+;
+_pd_proc_ls_prof_R_factor        0.0496
+_pd_proc_ls_prof_wR_expected     0.0373
+_pd_proc_ls_prof_wR_factor       0.0628
+_refine_diff_density_max         0.295
+_refine_diff_density_min         -0.285
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.70
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    27
+_refine_ls_number_parameters     124
+_refine_ls_number_restraints     76
+_refine_ls_R_Fsqd_factor         0.09996
+_refine_ls_R_I_factor            0.0838
+_refine_ls_shift/su_max          0.10
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        1.356
+_reflns_d_resolution_low         9.869
+_reflns_number_total             409
+_cod_data_source_file            hx5102.cif
+_cod_data_source_block           2-amino-4,5-dimethoxyacetophenone
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_original_formula_sum        'C10 H13 N1 O3'
+_cod_database_code               2300270
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C1 -1.010(1) -1.548(2) -0.693(2) 1.0 Uiso 0.037(2) 4
+C C2 -1.105(1) -1.633(2) -0.766(2) 1.0 Uiso 0.037(2) 4
+C C3 -1.0986(9) -1.813(2) -0.828(1) 1.0 Uiso 0.037(2) 4
+C C4 -1.0039(9) -1.909(2) -0.809(2) 1.0 Uiso 0.037(2) 4
+C C5 -0.9062(9) -1.821(2) -0.737(2) 1.0 Uiso 0.037(2) 4
+C C6 -0.911(1) -1.649(2) -0.678(2) 1.0 Uiso 0.037(2) 4
+C C7 -1.0090(8) -1.370(2) -0.625(2) 1.0 Uiso 0.037(2) 4
+C C8 -0.905(1) -1.272(2) -0.554(2) 1.0 Uiso 0.037(2) 4
+C C9 -1.093(1) -2.168(2) -0.935(2) 1.0 Uiso 0.037(2) 4
+C C10 -0.718(1) -1.872(3) -0.637(2) 1.0 Uiso 0.037(2) 4
+N N1 -1.202(1) -1.554(2) -0.787(2) 1.0 Uiso 0.037(2) 4
+O O1 -1.093(1) -1.284(2) -0.630(1) 1.0 Uiso 0.037(2) 4
+O O2 -0.9931(9) -2.083(2) -0.863(1) 1.0 Uiso 0.037(2) 4
+O O3 -0.817(1) -1.921(2) -0.730(1) 1.0 Uiso 0.037(2) 4
+H H1A -1.212 -1.47 -0.740 1.0 Uiso 0.044 4
+H H1B -1.254 -1.59 -0.852 1.0 Uiso 0.044 4
+H H3 -1.160 -1.859 -0.887 1.0 Uiso 0.044 4
+H H6 -0.847 -1.595 -0.63 1.0 Uiso 0.044 4
+H H8A -0.919 -1.139 -0.54 1.0 Uiso 0.044 4
+H H8B -0.855 -1.27 -0.600 1.0 Uiso 0.044 4
+H H8C -0.873 -1.34 -0.478 1.0 Uiso 0.044 4
+H H9A -1.105 -2.14 -1.020 1.0 Uiso 0.044 4
+H H9B -1.151 -2.12 -0.910 1.0 Uiso 0.044 4
+H H9C -1.089 -2.307 -0.925 1.0 Uiso 0.044 4
+H H10A -0.661 -1.96 -0.643 1.0 Uiso 0.044 4
+H H10B -0.727 -1.89 -0.558 1.0 Uiso 0.044 4
+H H10C -0.698 -1.740 -0.648 1.0 Uiso 0.044 4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C3 C2 C1 118.8(13) 1_555 . 1_555 n
+C3 C2 N1 117.4(15) 1_555 . 1_555 n
+C1 C2 N1 123.7(15) 1_555 . 1_555 n
+C2 C3 C4 121.9(13) 1_555 . 1_555 n
+C2 C1 C6 117.9(14) 1_555 . 1_555 n
+C2 C1 C7 122.5(13) 1_555 . 1_555 n
+C6 C1 C7 119.4(15) 1_555 . 1_555 n
+C3 C4 C5 119.4(13) 1_555 . 1_555 n
+C3 C4 O2 124.6(15) 1_555 . 1_555 n
+C5 C4 O2 115.8(12) 1_555 . 1_555 n
+C1 C6 C5 122.6(16) 1_555 . 1_555 n
+C4 C5 C6 119.0(13) 1_555 . 1_555 n
+C4 C5 O3 114.8(14) 1_555 . 1_555 n
+C6 C5 O3 126.1(15) 1_555 . 1_555 n
+C1 C7 O1 121.6(15) 1_555 . 1_555 n
+C1 C7 C8 121.7(12) 1_555 . 1_555 n
+O1 C7 C8 116.5(14) 1_555 . 1_555 n
+C4 O2 C9 114.5(12) 1_555 . 1_555 n
+C5 O3 C10 119.1(14) 1_555 . 1_555 n
+C1 C6 H6 119 1_555 . 1_555 n
+C5 C6 H6 118 1_555 . 1_555 n
+C2 C3 H3 119 1_555 . 1_555 n
+C4 C3 H3 119 1_555 . 1_555 n
+C2 N1 H1A 120 1_555 . 1_555 n
+C2 N1 H1B 119 1_555 . 1_555 n
+H1A N1 H1B 121 1_555 . 1_555 n
+C7 C8 H8A 110 1_555 . 1_555 n
+C7 C8 H8B 111 1_555 . 1_555 n
+C7 C8 H8C 110 1_555 . 1_555 n
+O2 C9 H9A 110 1_555 . 1_555 n
+O2 C9 H9B 110 1_555 . 1_555 n
+O2 C9 H9C 109 1_555 . 1_555 n
+O3 C10 H10A 109 1_555 . 1_555 n
+O3 C10 H10B 109 1_555 . 1_555 n
+O3 C10 H10C 110 1_555 . 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C2 C3 1.44(2) . 1_555 n
+C2 C1 1.39(2) . 1_555 n
+C2 N1 1.32(2) . 1_555 n
+C3 C4 1.353(19) . 1_555 n
+C1 C6 1.42(2) . 1_555 n
+C1 C7 1.45(2) . 1_555 n
+C4 C3 1.353(19) . 1_555 n
+C4 C5 1.42(2) . 1_555 n
+C4 O2 1.38(2) . 1_555 n
+C6 C5 1.37(2) . 1_555 n
+C5 O3 1.329(19) . 1_555 n
+C7 O1 1.227(19) . 1_555 n
+C7 C8 1.50(2) . 1_555 n
+O2 C9 1.43(2) . 1_555 n
+O3 C10 1.43(2) . 1_555 n
+C3 H3 0.93 . 1_555 n
+C6 H6 0.92 . 1_555 n
+C8 H8A 0.96 . 1_555 n
+C8 H8B 0.96 . 1_555 n
+C8 H8C 0.96 . 1_555 n
+C9 H9A 0.96 . 1_555 n
+C9 H9B 0.95 . 1_555 n
+C9 H9C 0.96 . 1_555 n
+C10 H10A 0.98 . 1_555 n
+C10 H10B 0.96 . 1_555 n
+C10 H10C 0.96 . 1_555 n
+N1 H1A 0.83 . 1_555 n
+N1 H1B 0.87 . 1_555 n

@@ -1,0 +1,226 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/26/2102695.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102695
+loop_
+_publ_author_name
+'Loehlin, James H.'
+'Okasako, Elizabeth L. N.'
+_publ_section_title
+;
+ Analysis of structures with saturated hydrogen bonding
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              132
+_journal_page_last               141
+_journal_paper_doi               10.1107/S0108768106045046
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_analytical     C4H10N2
+_chemical_formula_moiety         'C4 H10 N2'
+_chemical_formula_sum            'C4 H10 N2'
+_chemical_formula_weight         86.14
+_chemical_name_systematic
+;
+piperazine
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_audit_creation_method           from_xtal_archive_file_using_CIFIO
+_cell_angle_alpha                90
+_cell_angle_beta                 108.207(14)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.0817(12)
+_cell_length_b                   5.2501(4)
+_cell_length_c                   8.4646(14)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      50
+_cell_measurement_theta_min      36
+_cell_volume                     256.74(7)
+_computing_cell_refinement       EXPRESS
+_computing_data_collection       EXPRESS
+_computing_data_reduction        xtal3.7
+_computing_molecular_graphics    xtal_ORTEP
+_computing_publication_material  xtal_BONDLA_CIFIO
+_computing_structure_refinement  xtal_CRYLSQ
+_computing_structure_solution
+'model ring fit on i, H-bond chain along 21 axis'
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.834
+_diffrn_measured_fraction_theta_max 0.834
+_diffrn_measurement_device       CAD4
+_diffrn_measurement_method       omega_scan
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         xray_tube
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.5418
+_diffrn_reflns_av_R_equivalents  0.02
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            535
+_diffrn_reflns_theta_full        76.716
+_diffrn_reflns_theta_max         76.716
+_diffrn_reflns_theta_min         7.924
+_diffrn_standards_decay_%        .2
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    .55
+_exptl_absorpt_correction_T_max  .87
+_exptl_absorpt_correction_T_min  .77
+_exptl_absorpt_correction_type   cylinder
+_exptl_absorpt_process_details   psi_scans
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.114
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             96
+_exptl_crystal_size_max          .60
+_exptl_crystal_size_mid          .35
+_exptl_crystal_size_min          .25
+_refine_diff_density_max         0.17
+_refine_diff_density_min         -0.10
+_refine_ls_extinction_coef       69.(5)
+_refine_ls_extinction_method
+'Larson 1970 Crystallographic Computing eq 22'
+_refine_ls_goodness_of_fit_ref   1.0373
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_number_parameters     33
+_refine_ls_number_reflns         424
+_refine_ls_R_factor_all          0.0478
+_refine_ls_R_factor_gt           0.0462
+_refine_ls_shift/su_max          0.000139
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+;
+Method = Prince modified Chebychev polynomial, (Watkin, 1994)
+ W = [weight] * [1-(deltaF/6*sigmaF)^2]^2
+ 0.140E+04 0.222E+04 0.125E+04 385.
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1127
+_refine_ls_wR_factor_gt          0.1109
+_refine_ls_wR_factor_ref         0.1109
+_reflns_number_gt                424
+_reflns_number_total             453
+_reflns_threshold_expression     I>2.00u(I)
+_cod_data_source_file            gp5014.cif
+_cod_data_source_block           PZ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value 'not measured' was changed to '?' -
+the value is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value 'not measured' was changed to '?' -
+the value is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_Hall     -p_2yn
+_cod_original_sg_symbol_H-M      P_1_21/n_1
+_cod_database_code               2102695
+_cod_database_fobs_code          2102695
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+-x+1/2,y+1/2,-z+1/2
+x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+N N1 0.3631(2) 0.1225(2) 0.35460(14) 0.0531 Uani 1.0000
+C C2 0.6083(3) 0.0807(4) 0.38357(18) 0.0585 Uani 1.0000
+C C3 0.6820(3) -0.1576(3) 0.4868(2) 0.0543 Uani 1.0000
+H H21 0.6979(3) 0.2299(4) 0.44433(18) 0.0713 Uiso 1.0000
+H H22 0.6384(3) 0.0595(4) 0.27475(18) 0.0713 Uiso 1.0000
+H H31 0.8509(3) -0.1887(3) 0.5074(2) 0.0645 Uiso 1.0000
+H H32 0.5914(3) -0.3066(3) 0.4266(2) 0.0645 Uiso 1.0000
+H H1 0.319(4) 0.262(6) 0.295(2) 0.082(6) Uiso 1.0000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+N1 0.0588(9) 0.0459(8) 0.0417(8) 0.0019(5) -0.0031(6) 0.0048(3)
+C2 0.0704(12) 0.0530(10) 0.0580(10) -0.0004(7) 0.0288(8) 0.0074(6)
+C3 0.0497(9) 0.0470(10) 0.0650(10) 0.0053(5) 0.0163(7) -0.0003(6)
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+-1 5 0
+-1 1 8
+5 2 0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C2 N1 C3 . 2_656 110.00(10) yes
+C2 N1 H1 . . 109.4(14) no
+C3 N1 H1 2_656 . 108.1(13) no
+N1 C2 C3 . . 109.05(13) yes
+N1 C2 H21 . . 109.59(9) no
+C3 C2 H21 . . 109.59(9) no
+N1 C2 H22 . . 109.63(8) no
+C3 C2 H22 . . 109.50(9) no
+H21 C2 H22 . . 109.467 no
+N1 C3 C2 2_656 . 108.61(12) yes
+N1 C3 H31 2_656 . 109.72(7) no
+C2 C3 H31 . . 109.81(9) no
+N1 C3 H32 2_656 . 109.58(8) no
+C2 C3 H32 . . 109.64(9) no
+H31 C3 H32 . . 109.467 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+N1 C2 . 1.450(2) yes
+N1 C3 2_656 1.4634(18) yes
+N1 H1 . 0.88(3) no
+C2 C3 . 1.512(2) yes
+C2 H21 . 1.000 no
+C2 H22 . 1.000 no
+C3 H31 . 1.000 no
+C3 H32 . 1.000 no

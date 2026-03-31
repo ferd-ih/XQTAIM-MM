@@ -1,0 +1,182 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/15/2001552.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001552
+loop_
+_publ_author_name
+'Burns, J. H.'
+'Hagaman, E. W.'
+_publ_section_title
+;
+ Three monofluorinated small molecules:
+ <i>ortho</i>-fluorophenylglycine, methyl 4-(fluorocarbonyl)benzoate
+ and 16\a-fluoro-\a-estradiol 3-methyl ether
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1393
+_journal_page_last               1396
+_journal_paper_doi               10.1107/S0108270193000605
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'C9 H7 F O3'
+_chemical_formula_weight         182.15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           'IntTabIV Table 2.2A'
+_cell_angle_alpha                90.
+_cell_angle_beta                 116.51(2)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   7.394(4)
+_cell_length_b                   17.363(4)
+_cell_length_c                   7.288(3)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    297
+_cell_measurement_theta_max      13.2
+_cell_measurement_theta_min      7.1
+_cell_volume                     837.3(6)
+_diffrn_measurement_device       CAD-4
+_diffrn_measurement_method
+;\w-2\q scans, \w-scan width (0.6 + 0.35tan\q)\%,
+background scanned at each end for 1/4 scan width
+;
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.02
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            1300
+_diffrn_reflns_theta_max         23
+_diffrn_standards_decay_%        -3.5
+_diffrn_standards_interval_time  168
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    .116
+_exptl_absorpt_correction_T_max  0.99
+_exptl_absorpt_correction_T_min  0.957
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            Colorless
+_exptl_crystal_density_diffrn    1.445
+_exptl_crystal_density_meas      1.49
+_exptl_crystal_density_method    flotation
+_exptl_crystal_description       Platelet
+_exptl_crystal_size_max          0.37
+_exptl_crystal_size_mid          0.22
+_exptl_crystal_size_min          0.06
+_refine_diff_density_max         0.16
+_refine_diff_density_min         -0.20
+_refine_ls_extinction_coef       no
+_refine_ls_extinction_method     no
+_refine_ls_goodness_of_fit_obs   1.35
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_number_parameters     139
+_refine_ls_number_reflns         518
+_refine_ls_R_factor_obs          0.050
+_refine_ls_shift/esd_max         0.04
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=4F~o~^2^/{[\s(I)]^2^+(0.05F~o~^2^)^2^}
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.050
+_reflns_number_observed          518
+_reflns_number_total             1160
+_reflns_observed_criterion       I>\s(I)
+_cod_data_source_file            hh1019.cif
+_cod_data_source_block           hh1019b_structure_2_of_3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value
+'w=4F~o~^2^/{[\s(I)]^2^+(0.05F~o~^2^)^2^}' was changed to 'calc'. New
+tag '_refine_ls_weighting_details' was created. The value of the new
+tag was set to 'w=4F~o~^2^/{[\s(I)]^2^+(0.05F~o~^2^)^2^}'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        837.2
+_cod_original_formula_sum        'C9 H7 F1 O3'
+_cod_database_code               2001552
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+F .8531(4) .1368(2) .4852(4) .113(2)
+O1 .6936(4) -.0952(2) -.4104(4) .078(2)
+O2 .6641(4) -.1682(2) -.1742(4) .076(2)
+O3 .8443(5) .2177(2) .2549(4) .090(2)
+C1 .7270(5) -.0369(2) -.0998(6) .047(3)
+C2 .7391(5) .0373(3) -.1643(6) .056(3)
+C3 .7750(5) .0981(3) -.0311(6) .057(3)
+C4 .7953(5) .0851(2) .1655(5) .047(2)
+C5 .7805(5) .0111(2) .2280(6) .052(2)
+C6 .7468(5) -.0494(2) .0978(6) .052(2)
+C7 .6937(6) -.1013(3) -.2452(6) .056(2)
+C8 .6393(7) -.2355(3) -.3027(7) .096(3)
+C9 .8330(6) .1509(3) .3026(6) .072(3)
+H1 .733(5) .045(2) -.301(5) .056
+H2 .787(5) .151(2) -.079(6) .057
+H3 .811(5) .004(2) .376(6) .051
+H4 .739(5) -.103(2) .138(5) .051
+H5 .618(6) -.277(3) -.230(6) .096
+H6 .531(6) -.223(3) -.443(6) .096
+H7 .772(6) -.244(3) -.317(6) .096
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C7 O2 C8 116.5(4) yes
+C2 C1 C6 119.9(4) yes
+C2 C1 C7 118.3(4) yes
+C6 C1 C7 121.8(4) yes
+C1 C2 C3 119.7(4) yes
+C2 C3 C4 120.0(4) yes
+C3 C4 C5 120.1(4) yes
+C3 C4 C9 118.6(4) yes
+C5 C4 C9 121.3(4) yes
+C4 C5 C6 120.2(4) yes
+C1 C6 C5 120.1(4) yes
+O1 C7 O2 122.5(4) yes
+O1 C7 C1 124.9(4) yes
+O2 C7 C1 112.6(4) yes
+F C9 O3 118.7(4) yes
+F C9 C4 117.1(4) yes
+O3 C9 C4 124.2(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+F C9 1.294(6) yes
+O1 C7 1.208(6) yes
+O3 C9 1.225(6) yes
+O2 C7 1.328(5) yes
+O2 C8 1.458(6) yes
+C1 C2 1.388(6) yes
+C1 C6 1.398(6) yes
+C1 C7 1.483(6) yes
+C2 C3 1.378(6) yes
+C3 C4 1.391(6) yes
+C4 C5 1.383(6) yes
+C4 C9 1.460(6) yes
+C5 C6 1.362(6) yes

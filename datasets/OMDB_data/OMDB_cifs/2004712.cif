@@ -1,0 +1,275 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/47/2004712.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004712
+loop_
+_publ_author_name
+'Prince, P.'
+'Fronczek, F. R.'
+'Gandour, R. D.'
+_publ_section_title
+;
+ 1-Iodo-2-methoxy-7-naphthyl Acetate
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              944
+_journal_page_last               947
+_journal_paper_doi               10.1107/S0108270195010432
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_moiety         'C13 H11 I O3'
+_chemical_formula_sum            'C13 H11 I O3'
+_chemical_formula_weight         342.1
+_space_group_IT_number           4
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 93.338(9)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.7051(9)
+_cell_length_b                   8.0610(8)
+_cell_length_c                   20.419(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      13
+_cell_measurement_theta_min      10
+_cell_volume                     1266.1(2)
+_diffrn_measurement_device       'Enraf-Nonius CAD4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.032
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       28
+_diffrn_reflns_limit_l_min       -28
+_diffrn_reflns_number            4173
+_diffrn_reflns_theta_max         30
+_diffrn_standards_decay_%        <2
+_diffrn_standards_interval_time  166.67
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    2.5
+_exptl_absorpt_correction_T_max  0.9998
+_exptl_absorpt_correction_T_min  0.5670
+_exptl_absorpt_correction_type   '\y scans (North, Phillips & Mathews, 1968)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.795
+_exptl_crystal_description       plate
+_exptl_crystal_size_max          0.62
+_exptl_crystal_size_mid          0.52
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         1.10
+_refine_diff_density_min         -0.23
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   2.493
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     307
+_refine_ls_number_reflns         3382
+_refine_ls_R_factor_obs          0.0417
+_refine_ls_shift/esd_max         <0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+'w = 4Fo^2^Lp[S^2^(C + R^2^B) + (0.02Fo^2^)^2^]-1'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0485
+_reflns_number_observed          3382
+_reflns_number_total             3931
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            cr1135.cif
+_cod_data_source_block           cr1135a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 4Fo^2^Lp[S^2^(C + R^2^B) +
+(0.02Fo^2^)^2^]-1' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 4Fo^2^Lp[S^2^(C + R^2^B) + (0.02Fo^2^)^2^]-1'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1266.1(4)
+_cod_original_sg_symbol_Hall     'P 2y1'
+_cod_original_sg_symbol_H-M      'P 21'
+_cod_database_code               2004712
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y+1/2,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+I1A .06011(6) 0 .57128(2) 6.220(10)
+O1A .4315(6) .1230(10) .6020(3) 5.80(10)
+O2A -0.1475(6) .0129(8) .3155(2) 5.40(10)
+O3A -.0503(7) -0.2101(9) .2655(3) 6.8(2)
+C1A .4060(9) .1320(10) .5356(4) 4.7(2)
+C2A .5333(9) .1840(10) .4932(4) 5.5(2)
+C3A .4990(10) .193(2) .4289(4) 6.4(2)
+C4A .3380(10) .1490(10) .3984(4) 4.9(2)
+C5A .2990(10) .166(2) .3316(4) 6.7(2)
+C6A .1390(10) .1200(10) .3034(4) 5.7(2)
+C7A .0174(8) .0530(10) .3436(3) 4.60(10)
+C8A .0463(7) .0410(10) .4086(3) 4.20(10)
+C9A .2073(8) .0888(8) .4402(3) 4.00(10)
+C10A .2443(8) .0836(9) .5081(3) 3.90(10)
+C11A -0.1610(10) -0.1170(10) .2748(4) 4.8(2)
+C12A .6000(10) .147(2) .6317(5) 7.5(3)
+C13A -0.3470(10) -0.125(2) .2442(5) 7.1(3)
+I1B .82111(4) 1.04150(10) .81204(2) 3.880(7)
+O1B .4473(5) .9365(9) .7813(2) 5.00(10)
+O2B 1.0728(6) .8870(8) 1.0565(2) 4.80(10)
+O3B .9844(7) 1.0620(10) 1.1336(3) 6.9(2)
+C1B .4814(7) .8920(10) .8449(4) 3.90(10)
+C2B .3602(8) .8110(10) .8835(4) 4.7(2)
+C3B .4017(9) .7680(10) .9468(4) 4.9(2)
+C4B .5723(8) .7990(10) .9753(3) 4.00(10)
+C5B .6224(9) .7480(10) 1.0394(4) 4.9(2)
+C6B .7850(10) .7780(10) 1.0674(4) 4.8(2)
+C7B .9012(8) .8620(10) 1.0306(3) 4.30(10)
+C8B .8638(8) .9140(10) .9680(3) 3.80(10)
+C9B .6967(7) .8831(8) .9382(3) 3.40(10)
+C10B .6464(7) .9271(8) .8722(3) 3.30(10)
+C11B 1.0983(9) .9870(10) 1.1099(3) 4.50(10)
+C12B .2860(10) .8930(10) .7494(5) 5.7(2)
+C13B 1.2825(9) .9890(10) 1.1338(4) 5.3(2)
+H2A .6460 .2122 .5109 7
+H3A .5871 .2325 .4023 8
+H5A .3844 .2106 .3046 8
+H6A .1123 .1338 .2577 7
+H8A -0.0430 -0.0009 .4342 5
+H121A .5958 .1370 .6779 9
+H122A .6769 .0668 .6159 9
+H123A .6395 .2553 .6213 9
+H131A -0.3671 -0.2460 .2295 9
+H132A -0.3592 -0.0520 .2075 9
+H133A -0.4273 -0.0941 .2756 9
+H2B .2475 .7855 .8646 6
+H3B .3168 .7175 .9722 6
+H5B .5405 .6913 1.0642 6
+H6B .8170 .7427 1.1107 6
+H8B .9490 .9700 .9445 4
+H121B .2818 .9329 .7055 7
+H122B .2735 .7761 .7492 7
+H123B .1945 .9420 .7719 7
+H131B 1.3219 .8779 1.1487 6
+H132B 1.2968 1.0642 1.1693 6
+H133B 1.3512 1.0236 1.0992 6
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C1A O1A C12A 119.7(6) yes
+C7A O2A C11A 118.1(6) yes
+O1A C1A C2A 124.3(6) yes
+O1A C1A C10A 117.4(6) yes
+C2A C1A C10A 118.3(7) yes
+C1A C2A C3A 121.2(7) yes
+C2A C3A C4A 123.2(8) yes
+C3A C4A C5A 122.8(9) yes
+C3A C4A C9A 116.9(7) yes
+C5A C4A C9A 120.3(7) yes
+C4A C5A C6A 121.3(8) yes
+C5A C6A C7A 118.4(7) yes
+O2A C7A C6A 118.2(6) yes
+O2A C7A C8A 119.0(6) yes
+C6A C7A C8A 122.4(7) yes
+C7A C8A C9A 121.4(6) yes
+C4A C9A C8A 116.2(6) yes
+C4A C9A C10A 119.1(6) yes
+C8A C9A C10A 124.3(6) yes
+I1A C10A C1A 117.9(5) yes
+I1A C10A C9A 121.1(4) yes
+C1A C10A C9A 121.1(6) yes
+I1B C10B C1B 117.4(5) yes
+I1B C10B C9B 121.1(4) yes
+C1B C10B C9B 121.5(6) yes
+O2A C11A O3A 125.2(7) yes
+O2A C11A C13A 108.8(7) yes
+O3A C11A C13A 126.0(8) yes
+C1B O1B C12B 119.4(6) yes
+C7B O2B C11B 118.2(5) yes
+O1B C1B C2B 123.9(6) yes
+O1B C1B C10B 116.9(6) yes
+C2B C1B C10B 119.3(6) yes
+C1B C2B C3B 121.3(6) yes
+C2B C3B C4B 120.3(7) yes
+C3B C4B C5B 121.8(7) yes
+C3B C4B C9B 119.7(6) yes
+C5B C4B C9B 118.4(6) yes
+C4B C5B C6B 122.2(7) yes
+C5B C6B C7B 117.8(7) yes
+O2B C7B C6B 119.3(6) yes
+O2B C7B C8B 116.8(6) yes
+C6B C7B C8B 123.7(6) yes
+C7B C8B C9B 119.3(6) yes
+C4B C9B C8B 118.5(6) yes
+C4B C9B C10B 117.8(5) yes
+C8B C9B C10B 123.7(6) yes
+O2B C11B O3B 123.4(6) yes
+O2B C11B C13B 111.1(6) yes
+O3B C11B C13B 125.5(7) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+I1A C10A 2.084(6) yes
+O1A C1A 1.361(9) yes
+O1A C12A 1.410(10) yes
+O2A C7A 1.401(8) yes
+O2A C11A 1.340(10) yes
+O3A C11A 1.160(10) yes
+C1A C2A 1.410(10) yes
+C1A C10A 1.392(9) yes
+C2A C3A 1.330(10) yes
+C3A C4A 1.400(10) yes
+C4A C5A 1.390(10) yes
+C4A C9A 1.440(10) yes
+C5A C6A 1.380(10) yes
+C6A C7A 1.390(10) yes
+C7A C8A 1.336(9) yes
+C8A C9A 1.418(9) yes
+C9A C10A 1.401(9) yes
+C11A C13A 1.530(10) yes
+I1B C10B 2.090(6) yes
+O1B C1B 1.359(9) yes
+O1B C12B 1.411(9) yes
+O2B C7B 1.409(8) yes
+O2B C11B 1.364(9) yes
+O3B C11B 1.190(10) yes
+C1B C2B 1.420(10) yes
+C1B C10B 1.389(8) yes
+C2B C3B 1.360(10) yes
+C3B C4B 1.427(9) yes
+C4B C5B 1.400(10) yes
+C4B C9B 1.429(9) yes
+C5B C6B 1.370(10) yes
+C6B C7B 1.380(10) yes
+C7B C8B 1.359(9) yes
+C8B C9B 1.414(8) yes
+C9B C10B 1.423(9) yes
+C11B C13B 1.470(10) yes

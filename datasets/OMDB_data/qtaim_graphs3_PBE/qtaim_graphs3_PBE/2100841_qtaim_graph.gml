@@ -1,0 +1,60 @@
+graph [
+  node [
+    id 0
+    label "1"
+    element "C"
+    pos 0.339002540089
+    pos 0.339002540089
+    pos 0.339002540089
+    e_density 4.830275320140104
+    e_loc_func 0.9999996347
+    iri 9.226911330999575E-14
+    sign_lambda2_rho -4.8070320783298115
+    delta_g_promolecular 0.02543966992
+    esp_nuc 13.490116874425004
+    esp_e -14.72137362
+    grad_norm 1.8567987949827614E-11
+    ellip_e_dens 0.0
+  ]
+  node [
+    id 1
+    label "2"
+    element "H"
+    pos 0.919618929996
+    pos 0.919618929996
+    pos 0.919618929996
+    e_density 0.3938710251958242
+    e_loc_func 0.9999851057
+    iri 3.681328388999993E-15
+    sign_lambda2_rho -0.26151535178151863
+    delta_g_promolecular 0.1402401333
+    esp_nuc 3.434045532784018
+    esp_e -3.811210153
+    grad_norm 1.6521854639999987E-15
+    ellip_e_dens 0.0
+  ]
+  edge [
+    source 0
+    target 1
+    e_density 0.3675574356
+    bcp_pos 0.755283618924
+    bcp_pos 0.755283618924
+    bcp_pos 0.755283618924
+    Lagrangian_K 0.005854207392
+    e_loc_func 0.9998827409
+    iri 5.161883802999999E-16
+    sign_lambda2_rho -0.1924165008
+    ave_loc_ion_E 0.9203707544
+    delta_g_promolecular 0.3625042065
+    delta_g_hirsh 0.7123239735
+    esp_e -4.593753302
+    grad_norm 1.7165875489999996E-16
+    det_hessian 0.8685912805211782
+    ellip_e_dens 0.0
+    eta 1.712261
+    bcp_category_standard 1
+    bcp_category_orphaned 0
+    bcp_category_hydrogen_bond 0
+    bond_distance 1.0056570870261456
+  ]
+]

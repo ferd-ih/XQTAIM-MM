@@ -1,0 +1,304 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/66/2006671.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006671
+loop_
+_publ_author_name
+'Gauthier, Ted J.'
+'Yokum, T. Scott'
+'Morales, Guillermo A.'
+'McLaughlin, Mark L.'
+'Liu, Yen-Hsiang'
+'Fronczek, Frank R.'
+_publ_section_title
+;
+ Two Cyclohexanespiro-5'-hydantoin Monohydrates
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1659
+_journal_page_last               1661
+_journal_paper_doi               10.1107/S0108270197007488
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_moiety         'C8 H12 N2 O2, H2O'
+_chemical_formula_sum            'C8 H14 N2 O3'
+_chemical_formula_weight         186.21
+_chemical_name_systematic
+;
+cyclohexanespiro-5'-hydantoin monohydrate
+;
+_space_group_IT_number           33
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2c -2n'
+_symmetry_space_group_name_H-M   'P n a 21'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   16.8890(10)
+_cell_length_b                   9.2407(5)
+_cell_length_c                   6.2644(6)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      30
+_cell_measurement_theta_min      14
+_cell_volume                     977.66(12)
+_computing_cell_refinement       CAD4_Software
+_computing_data_collection       CAD4_Software_(Enraf-Nonius,_1977)
+_computing_data_reduction        PROCESS_MolEN_(Fair,_1990)
+_computing_molecular_graphics    ORTEPII_(Johnson,_1976)
+_computing_publication_material  CIF_IN_MolEN
+_computing_structure_refinement  LSFM_MolEN
+_computing_structure_solution    direct_methods_SHELXS86_(Sheldrick,_1990)
+_diffrn_measurement_device       Enraf_Nonius_CAD4
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54184
+_diffrn_reflns_av_R_equivalents  0.034
+_diffrn_reflns_limit_h_max       21
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            3174
+_diffrn_reflns_theta_max         75.0
+_diffrn_standards_decay_%        0.4
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.78
+_exptl_absorpt_correction_T_max  0.93
+_exptl_absorpt_correction_T_min  0.84
+_exptl_absorpt_correction_type   \y_scans_(North,_Phillips_&_Mathews,_1968)
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.265
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       fragment
+_exptl_crystal_F_000             400
+_exptl_crystal_size_max          0.33
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.23
+_refine_diff_density_min         -0.30
+_refine_ls_abs_structure_details
+;
+Refinement of the antipodal structure was inconclusive. For the reported
+absolute structure, R=0.03803, wR=0.03908, S=1.466, while the alternate
+structure yielded R=0.03801, wR=0.03910, S=1.467.
+;
+_refine_ls_extinction_coef       8.5(2)\\times10^-6^
+_refine_ls_extinction_method     isotropic_(Zachariasen,_1963)
+_refine_ls_goodness_of_fit_obs   1.466
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_number_parameters     174
+_refine_ls_number_reflns         1722
+_refine_ls_R_factor_obs          .038
+_refine_ls_shift/esd_max         0.005
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 4Fo^2^/[\s^2^(Fo^2^) + 0.0004Fo^4^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .039
+_reflns_number_observed          1722
+_reflns_number_total             2002
+_reflns_observed_criterion       >1.0\s(I)
+_cod_data_source_file            fg1332.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 4Fo^2^/[\s^2^(Fo^2^) +
+0.0004Fo^4^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 4Fo^2^/[\s^2^(Fo^2^) + 0.0004Fo^4^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        977.6(2)
+_cod_database_code               2006671
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, 1/2+z'
+'1/2+x, 1/2-y, z'
+'1/2-x, 1/2+y, 1/2+z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 .0380(6) .1210(10) .0443(6) .0120(8) .0018(5) .0046(8)
+O2 .0584(7) .1120(10) .0277(5) .0080(8) -.0008(5) .0013(7)
+N1' .0381(6) .0760(10) .0239(5) .0060(8) -.0016(5) .0016(7)
+N3' .0396(7) .0770(10) .0313(6) .0059(8) -.0075(6) .0006(8)
+C2' .0372(7) .0700(10) .0332(7) .0050(9) -.0024(6) .0030(9)
+C2 .0541(9) .0510(10) .0513(9) -.0033(9) -.0030(9) .0085(9)
+C3 .0590(10) .0630(10) .0590(10) -.0180(10) -.0126(9) .0000(10)
+C4 .0439(9) .084(2) .0680(10) -.0050(10) -.0163(8) .0110(10)
+C4' .0433(8) .0620(10) .0283(6) .0058(9) -.0032(6) .0007(8)
+C5 .0451(9) .0600(10) .0580(10) .0101(9) -.0125(8) .0070(10)
+C5' .0356(7) .0501(8) .0264(6) .0026(8) -.0021(6) .0004(8)
+C6 .0459(8) .0530(10) .0469(9) .0049(9) -.0058(8) -.0036(9)
+O1W .0478(6) .0870(10) .0454(6) .0074(8) -.0114(5) -.0034(8)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+O1 .40878(7) .5878(2) 0 .0679(4) Uani ?
+O2 .23740(8) .6069(2) .5584(2) .0662(4) Uani ?
+N1' .27283(7) .6010(2) .0126(2) .0460(4) Uani ?
+N3' .33847(8) .5985(2) .3146(2) .0494(4) Uani ?
+C2' .34549(9) .5956(2) .0924(3) .0469(4) Uani ?
+C2 .15820(10) .4710(2) .1689(3) .0521(5) Uani ?
+C3 .10360(10) .4736(2) -.0260(4) .0602(6) Uani ?
+C4 .05520(10) .6101(3) -.0342(4) .0653(6) Uani ?
+C4' .26220(10) .6043(2) .3754(3) .0446(4) Uani ?
+C5 .10780(10) .7428(2) -.0300(3) .0541(5) Uani ?
+C5' .21116(9) .6048(2) .1759(3) .0373(4) Uani ?
+C6 .16170(10) .7430(2) .1652(3) .0485(4) Uani ?
+O1W .46711(7) .61340(10) -.4146(2) .0599(4) Uani ?
+H1N' .2610(10) .600(2) -.114(3) .075(7) Uiso ?
+H3N' .3810(10) .601(2) .413(3) .082(7) Uiso ?
+H2a .1270(10) .474(2) .308(4) .062(6) Uiso ?
+H2b .1950(10) .386(2) .181(4) .077(6) Uiso ?
+H3a .0690(10) .394(2) -.026(4) .069(6) Uiso ?
+H3b .1380(10) .466(2) -.151(3) .063(6) Uiso ?
+H4a .0190(10) .609(2) .107(5) .119(9) Uiso ?
+H4b .0170(10) .616(2) -.159(4) .091(7) Uiso ?
+H5a .0730(10) .829(2) -.041(4) .077(7) Uiso ?
+H5b .1470(10) .744(2) -.161(3) .083(7) Uiso ?
+H6a .2000(10) .829(2) .165(4) .067(6) Uiso ?
+H6b .1298(9) .740(2) .304(3) .054(5) Uiso ?
+H1W .5050(10) .552(2) -.437(5) .110(8) Uiso ?
+H2W .4460(10) .602(2) -.273(4) .093(8) Uiso ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C2' N1' C5' 113.40(10) yes
+C2' N1' H1N' 125.0(10) no
+C5' N1' H1N' 120.0(10) no
+C2' N3' C4' 111.40(10) yes
+C2' N3' H3N' 125.0(10) no
+C4' N3' H3N' 122.0(10) no
+O1 C2' N1' 129.4(2) yes
+O1 C2' N3' 123.30(10) yes
+N1' C2' N3' 107.30(10) yes
+C3 C2 C5' 111.3(2) no
+C3 C2 H2a 111.0(10) no
+C3 C2 H2b 116.0(10) no
+C5' C2 H2a 104.0(10) no
+C5' C2 H2b 105.0(10) no
+H2a C2 H2b 106.0(10) no
+C2 C3 C4 111.6(2) no
+C2 C3 H3a 111.0(10) no
+C2 C3 H3b 106.0(10) no
+C4 C3 H3a 108.0(10) no
+C4 C3 H3b 110.0(10) no
+H3a C3 H3b 108.0(10) no
+C3 C4 C5 111.1(2) no
+C3 C4 H4a 105.0(10) no
+C3 C4 H4b 114.0(10) no
+C5 C4 H4a 108.0(10) no
+C5 C4 H4b 109.0(10) no
+H4a C4 H4b 106.0(10) no
+O2 C4' N3' 126.6(2) yes
+O2 C4' C5' 125.30(10) yes
+N3' C4' C5' 108.10(10) yes
+C4 C5 C6 111.4(2) no
+C4 C5 H5a 107.0(10) no
+C4 C5 H5b 111.0(10) no
+C6 C5 H5a 114.0(10) no
+C6 C5 H5b 104.0(10) no
+H5a C5 H5b 108.0(10) no
+N1' C5' C2 112.20(10) no
+N1' C5' C4' 99.90(10) yes
+N1' C5' C6 112.30(10) no
+C2 C5' C4' 110.70(10) no
+C2 C5' C6 110.80(10) no
+C4' C5' C6 110.50(10) no
+C5 C6 C5' 111.2(2) no
+C5 C6 H6a 112.0(10) no
+C5 C6 H6b 111.6(9) no
+C5' C6 H6a 107.0(10) no
+C5' C6 H6b 103.0(10) no
+H6a C6 H6b 110.0(10) no
+H1W O1W H2W 110(2) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 C2' 1.218(2) yes
+O2 C4' 1.220(2) yes
+N1' C2' 1.326(2) yes
+N1' C5' 1.461(2) yes
+N1' H1N' .82(2) no
+N3' C2' 1.397(2) yes
+N3' C4' 1.345(2) yes
+N3' H3N' .95(2) no
+C2 C3 1.530(3) no
+C2 C5' 1.526(2) no
+C2 H2a 1.02(2) no
+C2 H2b 1.00(2) no
+C3 C4 1.505(3) no
+C3 H3a .94(2) no
+C3 H3b .98(2) no
+C4 C5 1.515(3) no
+C4 H4a 1.07(3) no
+C4 H4b 1.02(2) no
+C4' C5' 1.518(2) yes
+C5 C6 1.525(3) no
+C5 H5a .99(2) no
+C5 H5b 1.06(2) no
+C5' C6 1.528(2) no
+C6 H6a 1.03(2) no
+C6 H6b 1.03(2) no
+O1W H1W .88(2) no
+O1W H2W .96(2) no
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+N1' H1' O2 1_554 0.82(2) 2.09(2) 2.908(2) 176(2) yes
+N3' H3' O1W 1_556 0.95(2) 1.82(2) 2.760(2) 175(2) yes
+O1W H2W O1 . 0.96(2) 1.83(2) 2.788(2) 177(2) yes
+O1W H1W O1 2_664 0.88(2) 1.98(2) 2.852(2) 178(3) yes

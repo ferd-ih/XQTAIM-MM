@@ -1,0 +1,245 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 14:27:39 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180263 $
+#$URL: svn://www.crystallography.net/cod/cif/7/11/49/7114917.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7114917
+loop_
+_publ_author_name
+'Robinson, James J.'
+'Buchanan, J. Grant'
+'Kinsman, Richard G.'
+'Mahon, Mary F.'
+'Williams, Ian H.'
+'Charlton, Michael H.'
+_publ_section_title
+;
+ Evidence for \a-lactone intermediates in addition of aqueous bromine to
+ disodium dimethyl-maleate and -fumarate
+;
+_journal_issue                   5
+_journal_name_full               'Chemical Communications'
+_journal_page_first              485
+_journal_paper_doi               10.1039/b100335f
+_journal_year                    2001
+_chemical_formula_sum            'C6 H7 Br O4'
+_chemical_formula_weight         223.03
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                81.379(11)
+_cell_angle_beta                 88.407(13)
+_cell_angle_gamma                61.999(10)
+_cell_formula_units_Z            2
+_cell_length_a                   6.0820(8)
+_cell_length_b                   6.3290(12)
+_cell_length_c                   11.666(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    170(2)
+_cell_measurement_theta_max      18
+_cell_measurement_theta_min      12
+_cell_volume                     391.55(12)
+_computing_data_reduction
+'Denzo and Scalepack (otwinowski & Minor, 1997'
+_computing_molecular_graphics    'ORTEX (P.McArdle, 1995)'
+_computing_publication_material  'SHELXL-97/2 (Sheldrick,1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      170(2)
+_diffrn_measured_fraction_theta_full 0.989
+_diffrn_measured_fraction_theta_max 0.989
+_diffrn_measurement_device_type  KappaCCD
+_diffrn_measurement_method       KappaCCD
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71070
+_diffrn_reflns_av_R_equivalents  0.0669
+_diffrn_reflns_av_sigmaI/netI    0.0592
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            4088
+_diffrn_reflns_theta_full        26.37
+_diffrn_reflns_theta_max         26.37
+_diffrn_reflns_theta_min         3.54
+_exptl_absorpt_coefficient_mu    5.212
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    1.892
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Needle
+_exptl_crystal_F_000             220
+_exptl_crystal_size_max          0.13
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         0.498
+_refine_diff_density_min         -0.665
+_refine_diff_density_rms         0.100
+_refine_ls_extinction_coef       0.020(7)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   0.341
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     106
+_refine_ls_number_reflns         1583
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.341
+_refine_ls_R_factor_all          0.0369
+_refine_ls_R_factor_gt           0.0332
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.1886P)^2^+11.3423P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0964
+_refine_ls_wR_factor_ref         0.1050
+_reflns_number_gt                1467
+_reflns_number_total             1583
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            b100335f.txt
+_cod_data_source_block           (Compound_3)k00gb2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_atom_site_symetry_multiplicity' tag replaced with
+'_atom_site_symmetry_multiplicity'.
+
+Automatic conversion script
+Id: cif_correct_tags 1440 2010-10-19 06:21:57Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Triclinic' changed to 'triclinic'
+according to
+/usr/data/users/saulius/automatic-downloads/retrospective/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+;
+_cod_original_sg_symbol_H-M      P-1
+_cod_database_code               7114917
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Br1 Br 0.39962(7) 0.44255(7) 0.85561(3) 0.0311(2) Uani 1 1 d .
+O1 O -0.2477(6) 0.7153(6) 0.8254(3) 0.0382(7) Uani 1 1 d .
+O2 O -0.1077(5) 0.5124(5) 0.6703(2) 0.0282(6) Uani 1 1 d .
+O3 O 0.2307(5) 0.6089(5) 0.5611(2) 0.0297(6) Uani 1 1 d .
+O4 O 0.5295(6) 0.2205(5) 0.5887(3) 0.0363(7) Uani 1 1 d .
+H4 H 0.6127 0.2760 0.5483 0.050 Uiso 1 1 calc R
+C1 C -0.0949(7) 0.5576(7) 0.7798(3) 0.0248(7) Uani 1 1 d .
+C2 C 0.1608(7) 0.3423(7) 0.8114(3) 0.0233(7) Uani 1 1 d .
+C3 C 0.1527(7) 0.3104(7) 0.6818(3) 0.0232(7) Uani 1 1 d .
+C4 C 0.1647(8) 0.1437(8) 0.9039(3) 0.0299(8) Uani 1 1 d .
+H4A H 0.1445 0.1963 0.9801 0.050 Uiso 1 1 calc R
+H4B H 0.3241 -0.0038 0.9044 0.050 Uiso 1 1 calc R
+H4C H 0.0280 0.1105 0.8869 0.050 Uiso 1 1 calc R
+C5 C 0.1697(8) 0.0788(7) 0.6544(4) 0.0303(8) Uani 1 1 d .
+H5A H 0.0389 0.0505 0.6933 0.050 Uiso 1 1 calc R
+H5B H 0.3335 -0.0563 0.6817 0.041(14) Uiso 1 1 calc R
+H5C H 0.1479 0.0911 0.5703 0.033(13) Uiso 1 1 calc R
+C6 C 0.3097(7) 0.3980(7) 0.6034(3) 0.0237(7) Uani 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Br1 0.0285(3) 0.0407(3) 0.0313(3) -0.00530(17) -0.00201(16) -0.0220(2)
+O1 0.0246(15) 0.0423(17) 0.0426(17) -0.0159(14) 0.0044(12) -0.0091(13)
+O2 0.0198(13) 0.0300(14) 0.0308(14) -0.0055(11) -0.0007(10) -0.0080(11)
+O3 0.0313(15) 0.0277(14) 0.0265(14) -0.0022(11) 0.0048(11) -0.0117(12)
+O4 0.0290(15) 0.0285(15) 0.0414(17) 0.0013(12) 0.0124(12) -0.0078(12)
+C1 0.0209(17) 0.0273(18) 0.0299(19) -0.0065(15) 0.0017(14) -0.0138(15)
+C2 0.0210(17) 0.0291(18) 0.0230(17) -0.0026(14) 0.0012(13) -0.0148(15)
+C3 0.0179(16) 0.0231(17) 0.0248(17) -0.0020(13) -0.0001(13) -0.0071(14)
+C4 0.034(2) 0.034(2) 0.0244(18) -0.0016(15) 0.0020(15) -0.0189(18)
+C5 0.031(2) 0.0276(19) 0.033(2) -0.0076(16) -0.0023(15) -0.0134(16)
+C6 0.0257(18) 0.0268(18) 0.0194(16) -0.0060(14) 0.0028(13) -0.0123(15)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Br Br -0.2901 2.4595 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+C1 O2 C3 92.5(3)
+O1 C1 O2 127.7(4)
+O1 C1 C2 137.5(4)
+O2 C1 C2 94.8(3)
+C4 C2 C1 114.9(3)
+C4 C2 C3 117.7(3)
+C1 C2 C3 84.1(3)
+C4 C2 Br1 109.9(3)
+C1 C2 Br1 111.6(3)
+C3 C2 Br1 116.4(2)
+O2 C3 C6 107.0(3)
+O2 C3 C5 112.6(3)
+C6 C3 C5 112.7(3)
+O2 C3 C2 88.1(3)
+C6 C3 C2 114.3(3)
+C5 C3 C2 119.0(3)
+O3 C6 O4 126.0(3)
+O3 C6 C3 121.9(3)
+O4 C6 C3 112.1(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Br1 C2 1.945(4)
+O1 C1 1.184(5)
+O2 C1 1.362(5)
+O2 C3 1.490(4)
+O3 C6 1.212(5)
+O4 C6 1.309(5)
+C1 C2 1.518(5)
+C2 C4 1.520(5)
+C2 C3 1.560(5)
+C3 C6 1.534(5)
+C3 C5 1.503(5)

@@ -1,0 +1,279 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/71/2007132.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007132
+loop_
+_publ_author_name
+' Crisp, Geoffrey T.'
+' Jiang, Yin-Lin '
+' Tiekink, Edward R.T. '
+_publ_contact_author
+;
+ Dr ERT TIEKINK,
+ Department of Chemistry,
+ The University of Adelaide,
+ AUSTRALIA 5005
+;
+_publ_section_title
+;
+ 2-(<i>N</i>-Acetylamino)pent-4-ynamide
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              436
+_journal_page_last               437
+_journal_paper_doi               10.1107/S0108270197016429
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'C7 H10 N2 O2'
+_chemical_formula_sum            'C7 H10 N2 O2'
+_chemical_formula_weight         154.17
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           'from TEXRAY.INF file'
+_cell_angle_alpha                90
+_cell_angle_beta                 97.780(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.5160(10)
+_cell_length_b                   12.962(2)
+_cell_length_c                   8.5500(10)
+_cell_measurement_reflns_used    21
+_cell_measurement_temperature    213
+_cell_measurement_theta_max      27.2
+_cell_measurement_theta_min      25.2
+_cell_volume                     825.29(19)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control  Software'
+_computing_data_collection
+;MSC/AFC Diffractometer Control Software (Molecular Structure Corporation,
+ 1988)
+;
+_computing_data_reduction
+'TEXSAN (Molecular Structure Corporation, 1992)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  TEXSAN
+_computing_structure_refinement  TEXSAN
+_computing_structure_solution    'SIR92 (Altomare et al., 1994)'
+_diffrn_ambient_temperature      213
+_diffrn_measurement_device       AFC6R
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rigaku rotating anode'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.047
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            2143
+_diffrn_reflns_theta_max         27.6
+_diffrn_reflns_theta_min         3.0
+_diffrn_standards_decay_%        4.00
+_diffrn_standards_interval_count 400
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.093
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.241
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       block
+_exptl_crystal_F_000             328.00
+_exptl_crystal_size_max          0.32
+_exptl_crystal_size_mid          0.32
+_exptl_crystal_size_min          0.23
+_refine_diff_density_max         0.19
+_refine_diff_density_min         -0.19
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   2.151
+_refine_ls_hydrogen_treatment    'refall (located from a difference map)'
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     140
+_refine_ls_number_reflns         1405
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_obs          .0441
+_refine_ls_shift/esd_max         0.0055
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(Fo) + (0.021F)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .0511
+_reflns_number_observed          1405
+_reflns_number_total             2001
+_reflns_observed_criterion       >2\sI
+_cod_data_source_file            ta1190.cif
+_cod_data_source_block           global
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(Fo) + (0.021F)^2^]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/[\s^2^(Fo) +
+(0.021F)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        825.3(2)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_original_formula_sum        'C7 H10 N2 O2 '
+_cod_database_code               2007132
+loop_
+_symmetry_equiv_pos_as_xyz
+'  +x,  +y,  +z'
+'  -x,1/2+y,1/2-z'
+'  -x,  -y,  -z'
+'  +x,1/2-y,1/2+z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 .0577(9) .0314(7) .0206(6) .0055(6) .0090(6) .0030(5)
+O22 .0416(8) .0448(8) .0375(7) -.0072(6) -.0036(6) .0161(6)
+N1 .0422(9) .0268(8) .0242(8) .0052(7) .0094(7) .0026(6)
+N21 .0369(8) .0238(7) .0239(7) -.0008(6) .0050(6) .0025(6)
+C1 .0258(8) .0255(8) .0245(8) -.0022(7) .0033(6) .0006(6)
+C2 .0304(9) .0272(9) .0233(8) .0006(7) .0059(7) .0009(7)
+C3 .0320(10) .0350(10) .0410(10) .0057(8) .0063(8) -.0028(9)
+C4 .0300(10) .0460(10) .071(2) .0057(10) .0042(10) .0050(10)
+C5 .0370(10) .063(2) .148(3) -.0060(10) -.005(2) .013(2)
+C22 .0303(9) .0298(9) .0283(9) .0020(7) .0057(7) .0021(7)
+C23 .0370(10) .0380(10) .0440(10) -.0043(10) .0003(9) .0078(10)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+O1 .5159(2) .15334(10) .03550(10) .0362(4) Uani ? ?
+O22 .2949(2) .08380(10) -.47510(10) .0421(4) Uani ? ?
+N1 .4552(2) .26630(10) -.1640(2) .0306(4) Uani ? ?
+N21 .4382(2) .01920(10) -.2470(2) .0281(4) Uani ? ?
+C1 .5146(2) .17680(10) -.1050(2) .0253(4) Uani ? ?
+C2 .5759(2) .09870(10) -.2204(2) .0268(4) Uani ? ?
+C3 .7547(2) .0480(2) -.1541(2) .0359(5) Uani ? ?
+C4 .8995(3) .1231(2) -.1154(3) .0493(6) Uani ? ?
+C5 1.0125(4) .1843(2) -.0813(4) .0840(10) Uani ? ?
+C22 .3073(2) .01830(10) -.3697(2) .0293(4) Uani ? ?
+C23 .1764(3) -.0691(2) -.3704(3) .0404(6) Uani ? ?
+H1a .462(3) .278(2) -.265(3) .042(6) Uiso ? ?
+H1b .418(3) .315(2) -.092(3) .050(6) Uiso ? ?
+H2 .583(2) .1330(10) -.323(2) .024(4) Uiso ? ?
+H3a .744(3) .006(2) -.051(2) .049(6) Uiso ? ?
+H3b .789(3) -.002(2) -.225(3) .051(6) Uiso ? ?
+H5 1.100(4) .234(2) -.058(4) .110(10) Uiso ? ?
+H21 .435(3) -.028(2) -.181(2) .038(6) Uiso ? ?
+H23a .209(3) -.116(2) -.288(3) .057(7) Uiso ? ?
+H23b .172(3) -.107(2) -.465(3) .079(9) Uiso ? ?
+H23c .077(5) -.044(2) -.364(4) .100(10) Uiso ? ?
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C 0.003 0.002 'International Tables'
+H 0.000 0.000 'International Tables'
+N 0.006 0.003 'International Tables'
+O 0.011 0.006 'International Tables'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+1 0 -2
+2 -1 -1
+2 1 -1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C1 N1 H1a 117.0(10) no
+C1 N1 H1b 117.0(10) no
+H1a N1 H1b 125.0(10) no
+C2 N21 C22 124.10(10) yes
+C2 N21 H21 119.0(10) no
+C22 N21 H21 116.0(10) no
+O1 C1 N1 123.1(2) yes
+O1 C1 C2 120.00(10) yes
+N1 C1 C2 116.90(10) yes
+N21 C2 C1 107.50(10) yes
+N21 C2 C3 108.90(10) yes
+N21 C2 H2 107.5(9) no
+C1 C2 C3 111.80(10) yes
+C1 C2 H2 109.5(10) no
+C3 C2 H2 111.5(10) no
+C2 C3 C4 112.8(2) yes
+C2 C3 H3a 111.0(10) no
+C2 C3 H3b 110.0(10) no
+C4 C3 H3a 107.0(10) no
+C4 C3 H3b 110.0(10) no
+H3a C3 H3b 103.0(10) no
+C3 C4 C5 178.1(3) yes
+C4 C5 H5 177.0(10) no
+O22 C22 N21 122.8(2) yes
+O22 C22 C23 122.2(2) yes
+N21 C22 C23 115.0(2) yes
+C22 C23 H23a 112.0(10) no
+C22 C23 H23b 110.0(10) no
+C22 C23 H23c 107(2) no
+H23a C23 H23b 106.0(10) no
+H23a C23 H23c 110(2) no
+H23b C23 H23c 109(2) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 C1 ? ? 1.238(2) yes
+O22 C22 ? ? 1.233(2) yes
+N1 C1 ? ? 1.319(2) yes
+N1 H1a ? ? .88(2) no
+N1 H1b ? ? .95(2) no
+N21 C2 ? ? 1.456(2) yes
+N21 C22 ? ? 1.338(2) yes
+N21 H21 ? ? .83(2) no
+C1 C2 ? ? 1.528(2) yes
+C2 C3 ? ? 1.534(2) yes
+C2 H2 ? ? .99(2) no
+C3 C4 ? ? 1.464(3) yes
+C3 H3a ? ? 1.05(2) no
+C3 H3b ? ? .94(2) no
+C4 C5 ? ? 1.169(3) yes
+C5 H5 ? ? .92(3) no
+C22 C23 ? ? 1.500(3) yes
+C23 H23a ? ? .94(2) no
+C23 H23b ? ? .94(3) no
+C23 H23c ? ? .82(3) no

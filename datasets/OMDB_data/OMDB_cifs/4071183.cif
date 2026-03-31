@@ -1,0 +1,216 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 08:16:44 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178600 $
+#$URL: svn://www.crystallography.net/cod/cif/4/07/11/4071183.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4071183
+loop_
+_publ_author_name
+'Poyatos, Macarena'
+'McNamara, William'
+'Incarvito, Chris'
+'Clot, Eric'
+'Peris, Eduardo'
+'Crabtree, Robert H.'
+_publ_section_title
+;
+ A Weak Donor, Planar Chelating Bitriazole N-Heterocyclic Carbene Ligand
+ for Ruthenium(II), Palladium(II), and Rhodium
+;
+_journal_issue                   9
+_journal_name_full               Organometallics
+_journal_page_first              2128
+_journal_paper_doi               10.1021/om800021c
+_journal_volume                  27
+_journal_year                    2008
+_chemical_formula_sum            'C6 H8 N6'
+_chemical_formula_weight         164.18
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 93.52(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   15.068(3)
+_cell_length_b                   6.8810(14)
+_cell_length_c                   7.0171(14)
+_cell_measurement_temperature    173(2)
+_cell_volume                     726.2(3)
+_computing_cell_refinement       Denzo
+_computing_data_collection       'Nonius Collect'
+_computing_data_reduction        Denzo
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      173(2)
+_diffrn_measured_fraction_theta_full 0.976
+_diffrn_measured_fraction_theta_max 0.976
+_diffrn_measurement_device_type  'Nonius KappaCCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0323
+_diffrn_reflns_av_sigmaI/netI    0.0537
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       -20
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            1500
+_diffrn_reflns_theta_full        28.99
+_diffrn_reflns_theta_max         28.99
+_diffrn_reflns_theta_min         4.31
+_exptl_absorpt_coefficient_mu    0.106
+_exptl_absorpt_correction_T_max  0.9916
+_exptl_absorpt_correction_T_min  0.9792
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.502
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       blade
+_exptl_crystal_F_000             344
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         0.400
+_refine_diff_density_min         -0.406
+_refine_diff_density_rms         0.061
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.057
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     55
+_refine_ls_number_reflns         953
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.057
+_refine_ls_R_factor_all          0.0802
+_refine_ls_R_factor_gt           0.0558
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0810P)^2^+1.0740P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1534
+_refine_ls_wR_factor_ref         0.1677
+_reflns_number_gt                708
+_reflns_number_total             953
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            om800021c-file007.cif
+_cod_data_source_block           bm02
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      C2/c
+_cod_database_code               4071183
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+N1 N -0.07892(11) -0.1993(2) -0.0654(2) 0.0228(5) Uani 1 1 d .
+N2 N -0.18388(11) 0.0245(3) -0.1473(2) 0.0243(5) Uani 1 1 d .
+N3 N -0.10768(10) 0.1143(2) -0.0827(2) 0.0211(4) Uani 1 1 d .
+C1 C -0.04552(12) -0.0212(3) -0.0358(3) 0.0188(5) Uani 1 1 d .
+C2 C -0.16313(13) -0.1613(3) -0.1335(3) 0.0238(5) Uani 1 1 d .
+H2A H -0.2043 -0.2614 -0.1689 0.029 Uiso 1 1 calc R
+C3 C -0.10499(14) 0.3265(3) -0.0782(3) 0.0280(5) Uani 1 1 d .
+H3A H -0.0462 0.3695 -0.0277 0.042 Uiso 1 1 calc R
+H3B H -0.1504 0.3749 0.0039 0.042 Uiso 1 1 calc R
+H3C H -0.1166 0.3773 -0.2078 0.042 Uiso 1 1 calc R
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+N1 0.0203(9) 0.0196(9) 0.0282(9) -0.0006(6) -0.0012(7) -0.0023(6)
+N2 0.0174(9) 0.0262(10) 0.0287(9) -0.0011(7) -0.0036(6) -0.0007(7)
+N3 0.0181(9) 0.0202(9) 0.0244(8) 0.0005(6) -0.0029(6) 0.0002(6)
+C1 0.0189(10) 0.0170(10) 0.0201(9) 0.0000(7) -0.0003(7) 0.0005(7)
+C2 0.0207(10) 0.0228(10) 0.0278(10) -0.0023(8) -0.0011(7) -0.0033(8)
+C3 0.0257(11) 0.0180(10) 0.0397(12) 0.0005(9) -0.0023(8) 0.0028(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_3
+C1 N1 C2 102.37(17) .
+C2 N2 N3 103.04(15) .
+C1 N3 N2 109.09(17) .
+C1 N3 C3 131.92(16) .
+N2 N3 C3 118.97(16) .
+N1 C1 N3 110.30(16) .
+N1 C1 C1 125.0(2) 5
+N3 C1 C1 124.7(2) 5
+N2 C2 N1 115.20(18) .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+N1 C1 1.336(2) .
+N1 C2 1.354(3) .
+N2 C2 1.318(3) .
+N2 N3 1.357(2) .
+N3 C1 1.348(2) .
+N3 C3 1.460(2) .
+C1 C1 1.461(4) 5

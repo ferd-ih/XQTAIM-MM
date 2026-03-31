@@ -1,0 +1,365 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-02-10 18:21:58 +0200 (Fri, 10 Feb 2017) $
+#$Revision: 191977 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/74/2007420.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007420
+loop_
+_publ_author_name
+'Mamak, Marc'
+'Zavalij, Peter Y.'
+'Whittingham, M. Stanley'
+_publ_section_title
+;
+ Layered Structure of Lithium Ethylene Glycolate, Li(OCH~2~CH~2~OH)
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              937
+_journal_page_last               939
+_journal_paper_doi               10.1107/S0108270198002121
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         '[Li (C2 H5 O2)]'
+_chemical_formula_structural     LiOCH2CH2OH
+_chemical_formula_sum            'C2 H5 Li O2'
+_chemical_formula_weight         68.01
+_chemical_name_common            'Lithium Ethylene Glyconate'
+_chemical_name_systematic        ' mono lithium ethylene glyconate'
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   5.0283(3)
+_cell_length_b                   8.0427(5)
+_cell_length_c                   16.0300(10)
+_cell_measurement_reflns_used    509
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      28
+_cell_measurement_theta_min      5
+_cell_volume                     648.27(7)
+_computing_cell_refinement       'SAINT (Siemens, 1995)'
+_computing_data_collection       'SMART (Siemens, 1995)'
+_computing_data_reduction        SAINT
+_computing_molecular_graphics
+;
+CrystalDesigner (Crystal Structure Design, 1997) and ORTEP3 (Farrugia, 1997)
+;
+_computing_publication_material  CSD
+_computing_structure_refinement  CSD
+_computing_structure_solution    'CSD (Akselrud et al., 1993)'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device       'Siemens SMART CCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.029
+_diffrn_reflns_av_sigmaI/netI    0.014
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            4116
+_diffrn_reflns_theta_max         28.2
+_diffrn_reflns_theta_min         1.8
+_diffrn_standards_decay_%        0.2
+_exptl_absorpt_coefficient_mu    0.115
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.3935
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             288
+_exptl_crystal_size_max          0.32
+_exptl_crystal_size_mid          0.26
+_exptl_crystal_size_min          0.13
+_refine_diff_density_max         0.21
+_refine_diff_density_min         -0.27
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.63
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     66
+_refine_ls_number_reflns         772
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_obs          .036
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s(F~o~)^2^+0.002F~o~^2^)]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .055
+_reflns_number_observed          772
+_reflns_number_total             945
+_reflns_observed_criterion       'F~o~ > 4\s(F~o~)'
+_cod_data_source_file            da1011.cif
+_cod_data_source_block           LIOCH2CH2OH
+_cod_depositor_comments
+;
+ Changing the _atom_site_occupancy data item value from '.' to '1'
+ for all fully occupied atom sites.
+
+ Antanas Vaitkus,
+ 2017-02-10
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'none' was changed to '?' - the
+value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s(F~o~)^2^+0.002F~o~^2^)]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s(F~o~)^2^+0.002F~o~^2^)]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        648.30(10)
+_cod_database_code               2007420
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,1/2+y,z
+x,1/2-y,1/2+z
+1/2-x,-y,1/2+z
+-x,-y,-z
+-1/2+x,-1/2-y,-z
+-x,-1/2+y,-1/2-z
+-1/2+x,y,-1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Li .0146(9) .0168(8) .0181(9) -.0010(5) .0004(5) -.0005(6)
+O1 .0133(5) .0128(5) .0152(5) -.0006(2) -.0002(2) .0006(2)
+O2 .0147(5) .0145(5) .0139(5) .0030(2) -.0005(2) -.0018(2)
+C1 .0153(6) .0155(6) .0166(6) .0019(3) .0044(4) .0009(3)
+C2 .0179(6) .0170(6) .0117(6) .0024(3) -.0001(3) -.0002(3)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Li .1331(3) .6367(2) -.014120(10) .0165(5) Uani 1 Li
+O1 -.046660(10) .78876(8) .06592(4) .0137(3) Uani 1 O
+O2 .155160(10) .46838(8) .07685(4) .0143(3) Uani 1 O
+C1 -.0941(2) .690420(10) .13803(6) .0158(3) Uani 1 C
+C2 .1252(2) .562980(10) .15127(5) .0155(3) Uani 1 C
+H1 -.101(3) .7597(14) .1897(9) .019(3) Uiso 1 H
+H2 -.268(4) .633(2) .1332(10) .032(3) Uiso 1 H
+H3 .292(3) .622(2) .1646(8) .018(3) Uiso 1 H
+H4 .096(3) .4961(14) .2023(8) .023(3) Uiso 1 H
+H5 .371(5) .383(2) .0752(14) .091(10) Uiso 1 H
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.003 0.002 International_Tables_Vol_IV_Table_2.3.1
+O O 0.011 0.006 International_Tables_Vol_IV_Table_2.3.1
+Li Li 0.000 0.000 International_Tables_Vol_IV_Table_2.3.1
+H H 0.000 0.000 International_Tables_Vol_IV_Table_2.3.1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Li O2 6_675 5_565 122.50(9) no
+O1 Li O1 6_675 . 118.10(9) no
+O1 Li O2 6_675 . 118.99(9) no
+O1 Li Li 6_675 5_565 140.50(9) no
+O2 Li O1 5_565 . 105.10(8) no
+O2 Li O2 5_565 . 97.11(7) no
+O2 Li Li 5_565 5_565 49.16(5) no
+O1 Li O2 . . 88.33(7) no
+O1 Li Li . 5_565 99.94(7) no
+O2 Li Li . 5_565 47.95(5) no
+H5 O1 C1 2_555 . 112.5(10) no
+H5 O1 Li 2_555 6_575 119.2(10) no
+H5 O1 Li 2_555 . 97.9(10) no
+C1 O1 Li . 6_575 112.78(7) no
+C1 O1 Li . . 105.00(7) no
+Li O1 Li 6_575 . 107.20(7) no
+H5 O2 C2 . . 113.1(10) no
+H5 O2 Li . 5_565 112.6(10) no
+H5 O2 Li . . 113.3(10) no
+C2 O2 Li . 5_565 125.71(7) no
+C2 O2 Li . . 104.14(7) no
+Li O2 Li 5_565 . 82.89(7) no
+H2 C1 H1 . . 107.1(12) no
+H2 C1 O1 . . 110.0(9) no
+H2 C1 C2 . . 109.8(9) no
+H1 C1 O1 . . 111.7(8) no
+H1 C1 C2 . . 106.6(8) no
+O1 C1 C2 . . 111.54(7) no
+H3 C2 H4 . . 102.0(11) no
+H3 C2 O2 . . 110.4(8) no
+H3 C2 C1 . . 108.8(8) no
+H4 C2 O2 . . 114.7(8) no
+H4 C2 C1 . . 112.0(8) no
+O2 C2 C1 . . 108.67(7) no
+O1 H5 O2 2_545 . 170.(2) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Li O1 6_675 1.908(2) yes
+Li O2 5_565 1.956(2) yes
+Li O1 . 1.990(2) yes
+Li O2 . 1.993(2) yes
+Li Li 5_565 2.614(2) no
+O1 H5 2_555 1.18(2) no
+O1 C1 . 1.4210(10) yes
+O2 H5 . 1.28(2) no
+O2 C2 . 1.4230(10) yes
+C1 H2 . .99(2) no
+C1 H1 . .999(14) no
+C1 C2 . 1.5200(10) yes
+C2 H3 . .989(14) no
+C2 H4 . .989(13) no
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+O2 H5 O1 2_545 1.18(2) 1.28(2) 2.4480(10) 170(2)
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+O2 Li O1 H5 5_565 6_675 5_665 -86.2 no
+O2 Li O1 C1 5_565 6_675 6_675 -49.0 no
+O2 Li O1 Li 5_565 6_675 6_675 -164.1 no
+O1 Li O1 H5 . 6_675 5_665 140.1 no
+O1 Li O1 C1 . 6_675 6_675 84.6 no
+O1 Li O1 Li . 6_675 6_675 30.4 no
+O2 Li O1 H5 . 6_675 5_665 -35.2 no
+O2 Li O1 C1 . 6_675 6_675 -170.4 no
+O2 Li O1 Li . 6_675 6_675 74.5 no
+Li Li O1 H5 5_565 6_675 5_665 -22.7 no
+Li Li O1 C1 5_565 6_675 6_675 -112.5 no
+Li Li O1 Li 5_565 6_675 6_675 132.4 no
+O1 Li O2 H5 6_675 5_565 5_565 -116.5 no
+O1 Li O2 C2 6_675 5_565 5_565 -28.9 no
+O1 Li O2 Li 6_675 5_565 5_565 -131.2 no
+O1 Li O2 H5 . 5_565 5_565 22.1 no
+O1 Li O2 C2 . 5_565 5_565 167.5 no
+O1 Li O2 Li . 5_565 5_565 -90.2 no
+O2 Li O2 H5 . 5_565 5_565 112.3 no
+O2 Li O2 C2 . 5_565 5_565 102.3 no
+O2 Li O2 Li . 5_565 5_565 .0 no
+Li Li O2 H5 5_565 5_565 5_565 112.3 no
+Li Li O2 C2 5_565 5_565 5_565 -102.3 no
+O1 Li O1 H5 6_675 . 2_555 14.2 no
+O1 Li O1 C1 6_675 . . 130.1 no
+O1 Li O1 Li 6_675 . 6_575 109.8 no
+O2 Li O1 H5 5_565 . 2_555 -155.0 no
+O2 Li O1 C1 5_565 . . 89.1 no
+O2 Li O1 Li 5_565 . 6_575 -31.0 no
+O2 Li O1 H5 . . 2_555 -108.1 no
+O2 Li O1 C1 . . . -7.8 no
+O2 Li O1 Li . . 6_575 -128.0 no
+Li Li O1 H5 5_565 . 2_555 154.9 no
+Li Li O1 C1 5_565 . . 39.0 no
+Li Li O1 Li 5_565 . 6_575 -81.2 no
+O1 Li O2 H5 6_675 . . -21.9 no
+O1 Li O2 C2 6_675 . . 101.4 no
+O1 Li O2 Li 6_675 . 5_565 -133.5 no
+O2 Li O2 H5 5_565 . . 111.6 no
+O2 Li O2 C2 5_565 . . 125.1 no
+O2 Li O2 Li 5_565 . 5_565 .0 no
+O1 Li O2 H5 . . . -143.4 no
+O1 Li O2 C2 . . . -20.1 no
+O1 Li O2 Li . . 5_565 105.0 no
+Li Li O2 H5 5_565 . . 111.6 no
+Li Li O2 C2 5_565 . . 125.1 no
+O1 Li Li O1 6_675 5_565 2_445 -180.0 no
+O1 Li Li O2 6_675 5_565 . 86.1 no
+O1 Li Li O1 6_675 5_565 5_565 -15.3 no
+O1 Li Li O2 6_675 5_565 5_565 -93.9 no
+O2 Li Li O2 5_565 5_565 . 180.0 no
+O1 Li Li O1 . 5_565 2_445 15.3 no
+O1 Li Li O2 . 5_565 . -78.6 no
+O1 Li Li O1 . 5_565 5_565 180.0 no
+O1 Li Li O2 . 5_565 5_565 101.4 no
+O2 Li Li O2 . 5_565 5_565 180.0 no
+C1 O1 H5 O2 . 2_555 2_555 106.3 no
+Li O1 H5 O2 6_575 2_555 2_555 -118.4 no
+Li O1 H5 O2 . 2_555 2_555 3.6 no
+H5 O1 C1 H2 2_555 . . 166.2 no
+H5 O1 C1 H1 2_555 . . 47.4 no
+H5 O1 C1 C2 2_555 . . 71.8 no
+Li O1 C1 H2 6_575 . . 27.9 no
+Li O1 C1 H1 6_575 . . -90.9 no
+Li O1 C1 C2 6_575 . . 149.9 no
+Li O1 C1 H2 . . . -88.5 no
+Li O1 C1 H1 . . . -152.7 no
+Li O1 C1 C2 . . . -33.5 no
+C2 O2 H5 O1 . . 2_545 -152.2 no
+Li O2 H5 O1 5_565 . 2_545 2.3 no
+Li O2 H5 O1 . . 2_545 89.6 no
+H5 O2 C2 H3 . . . -46.5 no
+H5 O2 C2 H4 . . . -68.0 no
+H5 O2 C2 C1 . . . -165.8 no
+Li O2 C2 H3 5_565 . . -168.3 no
+Li O2 C2 H4 5_565 . . 77.2 no
+Li O2 C2 C1 5_565 . . -49.0 no
+Li O2 C2 H3 . . . -76.9 no
+Li O2 C2 H4 . . . 168.6 no
+Li O2 C2 C1 . . . 42.4 no
+H2 C1 C2 H3 . . . 171.4 no
+H2 C1 C2 H4 . . . 59.4 no
+H2 C1 C2 O2 . . . 68.3 no
+H1 C1 C2 H3 . . . -55.8 no
+H1 C1 C2 H4 . . . -56.2 no
+H1 C1 C2 O2 . . . -176.0 no
+O1 C1 C2 H3 . . . 66.4 no
+O1 C1 C2 H4 . . . 178.4 no
+O1 C1 C2 O2 . . . 53.9 no

@@ -1,0 +1,239 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-08-07 19:19:09 +0300 (Tue, 07 Aug 2018) $
+#$Revision: 209450 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/05/00/7050083.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7050083
+loop_
+_publ_author_name
+'Wilson, Chick C.'
+'Myles, Dean'
+'Ghosh, Minakshi'
+'Johnson, Louise N.'
+'Wang, Wenging'
+_publ_section_title
+;
+ Neutron diffraction investigations of l- and d-alanine at different
+ temperatures: the search for structural evidence for parity violation
+;
+_journal_issue                   10
+_journal_name_full               'New Journal of Chemistry'
+_journal_page_first              1318
+_journal_paper_doi               10.1039/b419295h
+_journal_volume                  29
+_journal_year                    2005
+_chemical_formula_sum            'C3 H7 N O2'
+_chemical_formula_weight         89.00
+_space_group_IT_number           19
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_atom_sites_solution_hydrogens   difmap
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            4
+_cell_length_a                   5.942(3)
+_cell_length_b                   12.261(5)
+_cell_length_c                   5.7850(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    60(1)
+_cell_volume                     421.5(3)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      60(1)
+_diffrn_measurement_device       SXD
+_diffrn_measurement_method       'time-of-flight LAUE diffraction'
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         'ISIS spallation source'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     0.5-5.0
+_diffrn_reflns_av_R_equivalents  0.069
+_diffrn_reflns_av_sigmaI/netI    0.0208
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       30
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            4081
+_exptl_absorpt_coefficient_mu    '2.610, at 1 Angstrom'
+_exptl_absorpt_correction_T_max  0.64
+_exptl_absorpt_correction_T_min  0.26
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+The linear absorption coefficient is wavelength dependent
+and it is calculated as:
+mu = 1.34 + 1.27 * lambda [cm^-1]
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.403
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'irregular prism'
+_exptl_crystal_F_000             5.87
+_exptl_crystal_size_max          3.0
+_exptl_crystal_size_mid          3.0
+_exptl_crystal_size_min          2.0
+_refine_diff_density_max         0.440
+_refine_diff_density_min         -0.366
+_refine_diff_density_rms         0.071
+_refine_ls_extinction_coef       0.042
+_refine_ls_extinction_method     'Becker-Coppens Lorentzian model'
+_refine_ls_goodness_of_fit_ref   1.941
+_refine_ls_hydrogen_treatment    'mixed refall'
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     119
+_refine_ls_number_reflns         1968
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.941
+_refine_ls_R_factor_all          0.0799
+_refine_ls_R_factor_gt           0.0799
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.2012
+_refine_ls_wR_factor_ref         0.2012
+_reflns_number_gt                1968
+_reflns_number_total             1968
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            b419295h.txt
+_cod_data_source_block           dala60kinv
+_cod_depositor_comments
+;
+ Adding quotes around the values of the _atom_type_scat_source data item.
+
+ Antanas Vaitkus,
+ 2018-08-07
+;
+_cod_original_cell_volume        421.47
+_cod_original_sg_symbol_H-M      P212121
+_cod_database_code               7050083
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x+1/2, -y+1/2, -z'
+'-x, y+1/2, -z+1/2'
+'-x+1/2, -y, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+H3 H 0.6945(8) -0.0046(5) 0.6949(12) 0.0295(9) Uani 1 1 d . . .
+H5 H 0.8706(6) -0.1054(5) 0.5687(10) 0.0273(8) Uani 1 1 d . . .
+C3 C 0.73843(18) -0.09060(11) 0.6960(3) 0.01016(17) Uani 1 1 d . . .
+H7 H 0.8050(8) -0.1101(5) 0.8673(10) 0.0280(8) Uani 1 1 d . . .
+O1 O 0.2728(2) -0.08393(12) 0.3744(3) 0.00942(18) Uani 1 1 d . . .
+H1 H 0.2937(6) -0.0581(3) 0.8040(8) 0.0213(6) Uani 1 1 d . . .
+O2 O 0.5580(2) -0.18441(12) 0.2386(3) 0.01012(19) Uani 1 1 d . . .
+C1 C 0.44528(15) -0.14090(9) 0.3995(2) 0.00686(14) Uani 1 1 d . . .
+C2 C 0.53305(16) -0.16124(9) 0.6455(2) 0.00709(14) Uani 1 1 d . . .
+N1 N 0.35203(11) -0.13750(7) 0.81662(16) 0.00802(11) Uani 1 1 d . . .
+H4 H 0.4157(6) -0.1497(3) 0.9840(7) 0.0196(5) Uani 1 1 d . . .
+H2 H 0.5751(6) -0.2482(3) 0.6605(7) 0.0201(5) Uani 1 1 d . . .
+H6 H 0.2202(5) -0.1917(3) 0.7913(8) 0.0201(5) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+H3 0.0303(15) 0.027(2) 0.031(3) -0.0042(16) 0.0001(16) -0.0044(14)
+H5 0.0213(11) 0.038(2) 0.022(2) -0.0018(14) 0.0068(12) -0.0036(12)
+C3 0.0099(3) 0.0133(4) 0.0072(5) -0.0001(3) -0.0005(3) -0.0018(2)
+H7 0.0272(13) 0.036(2) 0.020(2) 0.0021(15) -0.0085(13) -0.0033(14)
+O1 0.0110(3) 0.0103(4) 0.0069(6) 0.0003(3) -0.0010(3) 0.0026(3)
+H1 0.0228(10) 0.0187(13) 0.0224(19) 0.0022(9) 0.0039(11) 0.0052(9)
+O2 0.0127(3) 0.0127(5) 0.0049(5) -0.0011(3) 0.0005(3) 0.0030(3)
+C1 0.0088(2) 0.0063(3) 0.0055(4) 0.0001(2) -0.0005(2) 0.0002(2)
+C2 0.0088(2) 0.0067(3) 0.0058(5) 0.0001(2) -0.0003(2) 0.00072(19)
+N1 0.00936(16) 0.0092(2) 0.0055(3) -0.00015(16) 0.00026(17) 0.00051(16)
+H4 0.0235(10) 0.0234(15) 0.0119(13) 0.0018(8) -0.0006(9) 0.0013(9)
+H2 0.0248(11) 0.0173(13) 0.0184(16) 0.0004(8) 0.0000(10) 0.0043(9)
+H6 0.0180(8) 0.0231(14) 0.0191(17) -0.0016(9) -0.0006(9) -0.0056(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+C C 6.646 'International Tables Vol C Table 4.4.4.1'
+H H -3.739 'International Tables Vol C Table 4.4.4.1'
+N N 9.360 'International Tables Vol C Table 4.4.4.1'
+O O 5.803 'International Tables Vol C Table 4.4.4.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C2 C3 H3 111.0(3) . . ?
+C2 C3 H5 110.6(3) . . ?
+H3 C3 H5 109.3(5) . . ?
+C2 C3 H7 109.8(3) . . ?
+H3 C3 H7 107.8(5) . . ?
+H5 C3 H7 108.4(5) . . ?
+O1 C1 O2 125.77(15) . . ?
+O1 C1 C2 118.53(12) . . ?
+O2 C1 C2 115.70(11) . . ?
+N1 C2 C3 109.82(10) . . ?
+N1 C2 C1 109.79(8) . . ?
+C3 C2 C1 110.93(10) . . ?
+N1 C2 H2 107.5(2) . . ?
+C3 C2 H2 110.7(2) . . ?
+C1 C2 H2 108.0(2) . . ?
+C2 N1 H1 112.2(2) . . ?
+C2 N1 H4 109.0(2) . . ?
+H1 N1 H4 108.6(4) . . ?
+C2 N1 H6 109.0(2) . . ?
+H1 N1 H6 109.8(3) . . ?
+H4 N1 H6 108.1(3) . . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C3 C2 1.5249(15) . ?
+C3 H3 1.086(6) . ?
+C3 H5 1.092(5) . ?
+C3 H7 1.093(5) . ?
+O1 C1 1.2487(16) . ?
+O2 C1 1.2649(19) . ?
+C1 C2 1.5357(16) . ?
+C2 N1 1.4906(14) . ?
+C2 H2 1.099(4) . ?
+N1 H1 1.036(4) . ?
+N1 H4 1.050(4) . ?
+N1 H6 1.038(3) . ?
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 64234

@@ -1,0 +1,239 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/55/2105563.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105563
+loop_
+_publ_author_name
+'Fu, Y.'
+'Brock, C. P.'
+_publ_section_title
+;
+ Temperature Dependence of the Rigid-Body Motion of Anthraquinone
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              308
+_journal_page_last               315
+_journal_paper_doi               10.1107/S0108768197013414
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'C14 H8 O2'
+_chemical_formula_sum            'C14 H8 O2'
+_chemical_formula_weight         208.22
+_chemical_melting_point          558.0(10)
+_chemical_name_systematic
+;
+anthraquinone
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           'created by SHELXL-93 and C P Brock'
+_cell_angle_alpha                90.
+_cell_angle_beta                 102.591(15)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            2
+_cell_length_a                   7.8621(9)
+_cell_length_b                   3.9121(7)
+_cell_length_c                   15.679(4)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    197.0(10)
+_cell_measurement_theta_max      13.1
+_cell_measurement_theta_min      10.4
+_cell_volume                     470.65(16)
+_computing_cell_refinement       'CAD4-VAX (ENRAF-Nonius, 1988)'
+_computing_data_collection       'CAD4-VAX (ENRAF-Nonius, 1988)'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_diffrn_ambient_temperature      197.0(10)
+_diffrn_measurement_device       'ENRAF-Nonius CAD4-VAX diffractometer'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_sigmaI/netI    0.019
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            1076
+_diffrn_reflns_theta_max         27.48
+_diffrn_reflns_theta_min         2.65
+_diffrn_standards_decay_%        -1.8
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.09
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.469
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description
+;
+Laths.  Major faces are {001}, {100}, {111}, and {10-2}.
+;
+_exptl_crystal_F_000             216
+_exptl_crystal_size_max          0.55
+_exptl_crystal_size_mid          0.52
+_exptl_crystal_size_min          0.18
+_refine_diff_density_max         0.27
+_refine_diff_density_min         -0.26
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.03
+_refine_ls_goodness_of_fit_obs   1.08
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     89
+_refine_ls_number_reflns         1076
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.066
+_refine_ls_R_factor_obs          0.047
+_refine_ls_shift/esd_max         -0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.1000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.146
+_refine_ls_wR_factor_obs         0.132
+_reflns_number_observed          818
+_reflns_number_total             1076
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            cr0524.cif
+_cod_data_source_block           197
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.1000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.1000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        470.63(15)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2105563
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O 0.0337(6) 0.0738(10) 0.0304(6) -0.0088(6) 0.0177(5) -0.0100(6)
+C1 0.0245(7) 0.0332(9) 0.0308(7) 0.0001(6) 0.0060(5) 0.0034(6)
+C2 0.0274(8) 0.0343(9) 0.0355(9) -0.0024(6) -0.0031(6) 0.0027(7)
+C3 0.0393(9) 0.0361(9) 0.0229(7) -0.0015(7) -0.0025(6) -0.0004(6)
+C4 0.0355(8) 0.0346(9) 0.0205(7) 0.0009(6) 0.0057(5) 0.0008(6)
+C5 0.0258(7) 0.0284(8) 0.0197(7) 0.0020(6) 0.0043(5) 0.0030(6)
+C6 0.0227(7) 0.0292(8) 0.0215(7) 0.0020(5) 0.0037(5) 0.0034(6)
+C7 0.0250(7) 0.0350(9) 0.0219(7) 0.0017(6) 0.0077(5) 0.0027(6)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_type_symbol
+O -0.21007(15) 0.0235(4) 0.11388(8) 0.0443(4) Uani d 1 O
+C1 0.3426(2) 0.2708(4) 0.04941(10) 0.0295(4) Uani d 1 C
+C2 0.4018(2) 0.4160(5) 0.13109(11) 0.0339(4) Uani d 1 C
+C3 0.2937(2) 0.4290(5) 0.18991(10) 0.0342(4) Uani d 1 C
+C4 0.1262(2) 0.2992(4) 0.16741(9) 0.0303(4) Uani d 1 C
+C5 0.0648(2) 0.1537(4) 0.08534(9) 0.0247(4) Uani d 1 C
+C6 0.1742(2) 0.1403(4) 0.02580(9) 0.0246(4) Uani d 1 C
+C7 -0.1145(2) 0.0139(4) 0.06235(9) 0.0269(4) Uani d 1 C
+H1 0.418(2) 0.252(5) 0.0076(12) 0.032(5) Uiso d 1 H
+H2 0.521(3) 0.508(5) 0.1479(14) 0.043(5) Uiso d 1 H
+H3 0.330(3) 0.536(5) 0.2442(15) 0.047(6) Uiso d 1 H
+H4 0.047(3) 0.313(5) 0.2103(12) 0.038(5) Uiso d 1 H
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C6 C1 C2 . 120.30(14) yes
+C1 C2 C3 . 119.97(14) yes
+C2 C3 C4 . 120.33(15) yes
+C3 C4 C5 . 120.27(15) yes
+C4 C5 C6 . 119.43(13) yes
+C4 C5 C7 . 119.67(13) yes
+C6 C5 C7 . 120.90(13) yes
+C1 C6 C5 . 119.69(14) yes
+C1 C6 C7 3 119.02(13) yes
+C5 C6 C7 3 121.29(13) yes
+O C7 C5 . 121.27(14) yes
+O C7 C6 3 120.92(14) yes
+C5 C7 C6 3 117.82(12) yes
+C2 C1 H1 . 121.3(11) yes
+C6 C1 H1 . 118.4(11) yes
+C1 C2 H2 . 120.4(12) yes
+C3 C2 H2 . 119.7(12) yes
+C2 C3 H3 . 120.6(13) yes
+C4 C3 H3 . 118.9(13) yes
+C3 C4 H4 . 120.0(11) yes
+C5 C4 H4 . 119.7(11) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O C7 . 1.218(2) yes
+C1 C2 . 1.385(2) yes
+C1 C6 . 1.392(2) yes
+C2 C3 . 1.384(2) yes
+C3 C4 . 1.384(2) yes
+C4 C5 . 1.393(2) yes
+C5 C6 . 1.401(2) yes
+C5 C7 . 1.482(2) yes
+C6 C7 3 1.487(2) yes
+C1 H1 . 0.98(2) yes
+C2 H2 . 0.98(2) yes
+C3 H3 . 0.94(2) yes
+C4 H4 . 1.01(2) yes

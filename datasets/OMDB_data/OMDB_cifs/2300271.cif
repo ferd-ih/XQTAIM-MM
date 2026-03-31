@@ -1,0 +1,214 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/02/2300271.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300271
+loop_
+_publ_author_name
+'Pagola, Silvina'
+'Stephens, Peter W.'
+_publ_section_title
+;
+ <i>PSSP</i>, a computer program for the crystal structure solution of
+ molecular materials from X-ray powder diffraction data
+;
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              370
+_journal_page_last               376
+_journal_paper_doi               10.1107/S0021889810005509
+_journal_volume                  43
+_journal_year                    2010
+_chemical_formula_moiety         'C8 H10 O2'
+_chemical_formula_sum            'C8 H10 O2'
+_chemical_formula_weight         138.17
+_chemical_name_systematic
+;
+1,4-benzenedimethanol
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_sites_solution_hydrogens   geom
+_cell_angle_alpha                90.0
+_cell_angle_beta                 101.258(2)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   9.8417(3)
+_cell_length_b                   15.4813(4)
+_cell_length_c                   4.8422(1)
+_cell_measurement_temperature    298
+_cell_volume                     723.57(3)
+_diffrn_measurement_device_type  'Huber adapted'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     1.1499
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_l_max       4
+_exptl_absorpt_coefficient_mu    0.481
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    1.268
+_exptl_crystal_F_000             296.0
+_pd_char_colour                  white
+_pd_char_particle_morphology     powder
+_pd_proc_info_excluded_regions
+;
+61.0-61.43 degrees 
+;
+_pd_proc_ls_background_function
+;
+GSAS Background function number 2 with 36 terms.
+;
+_pd_proc_ls_peak_cutoff          0.01000
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function
+;
+ Pseudovoigt profile function as parameterized in
+ P. Thompson et al. J. Appl. Cryst. 20 (1987) 79-83, with 
+ asymmetry correction of L. W. Finger et al. 
+ J. Appl. Cryst.27 (1994) 892-900, and microstrain broadening 
+ by P. W. Stephens, J. Appl. Cryst. 32 (1999) 281-289.
+;
+_pd_proc_ls_prof_R_factor        0.0334
+_pd_proc_ls_prof_wR_expected     0.0277
+_pd_proc_ls_prof_wR_factor       0.0424
+_refine_diff_density_max         0.306
+_refine_diff_density_min         -0.301
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.56
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    18
+_refine_ls_number_parameters     112
+_refine_ls_number_restraints     58
+_refine_ls_R_Fsqd_factor         0.09823
+_refine_ls_R_I_factor            0.0815
+_refine_ls_shift/su_max          0.06
+_refine_ls_shift/su_mean         0.02
+_reflns_d_resolution_high        1.134
+_reflns_d_resolution_low         8.191
+_reflns_number_total             525
+_cod_data_source_file            hx5102.cif
+_cod_data_source_block           1,4-benzenedimethanol
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_atom_site_thermal_displace_type' value 'uiso' changed to 'Uiso'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (2 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_database_code               2300271
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C1 -0.270(2) 0.5507(8) 0.202(4) 1.0 Uiso 0.02(1) 4
+C C2 -0.369(1) 0.601(1) 0.060(4) 1.0 Uiso 0.06(1) 4
+C C3 -0.335(1) 0.667(1) -0.123(4) 1.0 Uiso 0.04(1) 4
+C C4 -0.200(1) 0.6759(9) -0.166(4) 1.0 Uiso 0.02(1) 4
+C C5 -0.094(2) 0.624(1) -0.006(5) 1.0 Uiso 0.06(1) 4
+C C6 -0.130(2) 0.560(1) 0.161(4) 1.0 Uiso 0.04(1) 4
+C C7 -0.302(2) 0.478(1) 0.383(3) 1.0 Uiso 0.03(1) 4
+C C8 -0.165(1) 0.750(1) -0.352(3) 1.0 Uiso 0.06(1) 4
+O O9 -0.240(2) 0.8258(9) -0.353(3) 1.0 Uiso 0.044(7) 4
+O O10 -0.235(2) 0.3987(8) 0.367(3) 1.0 Uiso 0.049(7) 4
+H H2 -0.459 0.596 0.09 1.0 Uiso 0.07 4
+H H3 -0.404 0.7042 -0.213 1.0 Uiso 0.05 4
+H H5 -0.003 0.630 -0.027 1.0 Uiso 0.07 4
+H H6 -0.0616 0.5235 0.257 1.0 Uiso 0.05 4
+H H7A -0.279 0.497 0.578 1.0 Uiso 0.03 4
+H H7B -0.401 0.468 0.340 1.0 Uiso 0.03 4
+H H8A -0.0670 0.763 -0.30 1.0 Uiso 0.07 4
+H H8B -0.180 0.729 -0.544 1.0 Uiso 0.07 4
+H H9 -0.24852 0.85064 -0.52814 1.0 Uiso 0.07 4
+H H10 -0.24363 0.37352 0.53483 1.0 Uiso 0.07 4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C3 C2 C1 120.1(12) 1_555 . 1_555 n
+C2 C3 C4 120.5(13) 1_555 . 1_555 n
+C2 C1 C6 119.7(15) 1_555 . 1_555 n
+C2 C1 C7 121.8(17) 1_555 . 1_555 n
+C6 C1 C7 118.2(15) 1_555 . 1_555 n
+C3 C4 C5 118.9(16) 1_555 . 1_555 n
+C3 C4 C8 119.4(12) 1_555 . 1_555 n
+C5 C4 C8 121.1(11) 1_555 . 1_555 n
+C1 C6 C5 121.3(17) 1_555 . 1_555 n
+C4 C5 C6 119.0(17) 1_555 . 1_555 n
+C1 C7 O10 118.1(15) 1_555 . 1_555 n
+C4 C8 O9 117.0(11) 1_555 . 1_555 n
+C2 C3 H3 119.5 1_555 . 1_555 n
+C4 C3 H3 120.0 1_555 . 1_555 n
+C3 C2 H2 120 1_555 . 1_555 n
+C1 C2 H2 120 1_555 . 1_555 n
+C1 C6 H6 119.3 1_555 . 1_555 n
+C5 C6 H6 119 1_555 . 1_555 n
+C4 C5 H5 120 1_555 . 1_555 n
+C6 C5 H5 120 1_555 . 1_555 n
+C1 C7 H7A 108 1_555 . 1_555 n
+C1 C7 H7B 108 1_555 . 1_555 n
+O10 C7 H7A 107 1_555 . 1_555 n
+O10 C7 H7B 108 1_555 . 1_555 n
+C4 C8 H8A 109 1_555 . 1_555 n
+C4 C8 H8B 108 1_555 . 1_555 n
+O9 C8 H8A 109 1_555 . 1_555 n
+O9 C8 H8B 107 1_555 . 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C2 C3 1.43(2) . 1_555 n
+C2 C1 1.33(2) . 1_555 n
+C3 C4 1.391(15) . 1_555 n
+C1 C6 1.44(3) . 1_555 n
+C1 C7 1.50(2) . 1_555 n
+C4 C5 1.42(2) . 1_555 n
+C4 C8 1.54(2) . 1_555 n
+C6 C5 1.37(3) . 1_555 n
+C7 O10 1.40(2) . 1_555 n
+C8 O9 1.39(2) . 1_555 n
+C6 H6 0.93 . 1_555 n
+C5 H5 0.93 . 1_555 n
+C3 H3 0.93 . 1_555 n
+C2 H2 0.93 . 1_555 n
+C7 H7A 0.97 . 1_555 n
+C7 H7B 0.97 . 1_555 n
+C8 H8A 0.97 . 1_555 n
+C8 H8B 0.97 . 1_555 n

@@ -1,0 +1,199 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/45/2104593.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104593
+loop_
+_publ_author_name
+'Marsh, Richard E.'
+_publ_section_title
+;
+ Space groups <i>P</i>1 and <i>Cc</i>: how are they doing?
+;
+_journal_coeditor_code           BK5088
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              782
+_journal_page_last               783
+_journal_paper_doi               10.1107/S0108768109046448
+_journal_volume                  65
+_journal_year                    2009
+_chemical_formula_moiety         'C18 H20 O4'
+_chemical_formula_sum            'C18 H20 O4'
+_chemical_formula_weight         300.34
+_chemical_name_systematic
+;
+2,4,13,15-Tetraoxa(5.5)paracyclophane
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                118.167(5)
+_cell_angle_beta                 66.439(5)
+_cell_angle_gamma                124.566(5)
+_cell_formula_units_Z            1
+_cell_length_a                   8.320(5)
+_cell_length_b                   8.445(5)
+_cell_length_c                   7.603(5)
+_cell_measurement_reflns_used    40
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      40
+_cell_measurement_theta_min      21
+_cell_volume                     381.4(4)
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device_type  'Enraf Nonius CAD4'
+_diffrn_measurement_method       'Scintil Counter'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54178
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.308
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             160
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.1
+_cod_data_source_file            bk5088.cif
+_cod_data_source_block           DISHOD
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Triclinic' changed to 'triclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Triclinic' changed to 'triclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      P-1
+_cod_database_code               2104593
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+O1 O 0.07354 0.04256 0.75546 1
+O2 O 0.16348 0.38886 0.86216 1
+C1 C 0.73724 0.46405 0.39252 1
+C2 C 0.74972 0.48896 0.58122 1
+H1 H 0.8653 0.5992 0.6392 1
+C3 C 0.59810 0.35744 0.68765 1
+H2 H 0.6096 0.3775 0.8182 1
+C4 C 0.42997 0.19710 0.60668 1
+C5 C 0.41982 0.16824 0.41526 1
+H3 H 0.3062 0.0552 0.3555 1
+C6 C 0.57100 0.29997 0.30902 1
+H4 H 0.5609 0.2778 0.1770 1
+C7 C 0.26140 0.05670 0.72488 1
+H5 H 0.2510 -0.0767 0.6539 1
+H6 H 0.2930 0.1036 0.8547 1
+C8 C 0.04756 0.20798 0.90984 1
+H7 H -0.0898 0.1738 0.9390 1
+H8 H 0.0796 0.2306 1.0305 1
+C9 C 0.09882 0.37988 0.70848 1
+H9 H -0.0140 0.4043 0.7677 1
+H10 H 0.0592 0.2466 0.6090 1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C7 O1 C8 114.43 . . . yes
+C8 O2 C9 112.14 . . . yes
+C2 C1 C6 118.41 . . . no
+C2 C1 C9 118.29 . . 2_666 no
+C6 C1 C9 123.26 . . 2_666 no
+C1 C2 C3 121.14 . . . no
+C2 C3 C4 120.39 . . . no
+C3 C4 C5 118.56 . . . no
+C3 C4 C7 120.60 . . . no
+C5 C4 C7 120.84 . . . no
+C4 C5 C6 121.07 . . . no
+C1 C6 C5 120.37 . . . no
+O1 C7 C4 114.20 . . . yes
+O1 C8 O2 113.98 . . . yes
+O2 C9 C1 110.51 . . 2_666 yes
+C1 C2 H1 119.00 . . . no
+C3 C2 H1 119.00 . . . no
+C2 C3 H2 120.00 . . . no
+C4 C3 H2 120.00 . . . no
+C4 C5 H3 119.00 . . . no
+C6 C5 H3 119.00 . . . no
+C1 C6 H4 120.00 . . . no
+C5 C6 H4 120.00 . . . no
+O1 C7 H5 109.00 . . . no
+O1 C7 H6 109.00 . . . no
+C4 C7 H5 109.00 . . . no
+C4 C7 H6 109.00 . . . no
+H5 C7 H6 108.00 . . . no
+O1 C8 H7 109.00 . . . no
+O1 C8 H8 109.00 . . . no
+O2 C8 H7 109.00 . . . no
+O2 C8 H8 109.00 . . . no
+H7 C8 H8 108.00 . . . no
+O2 C9 H9 110.00 . . . no
+O2 C9 H10 110.00 . . . no
+H9 C9 H10 108.00 . . . no
+C1 C9 H9 110.00 2_666 . . no
+C1 C9 H10 110.00 2_666 . . no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O1 C7 1.4266 . . yes
+O1 C8 1.4028 . . yes
+O2 C8 1.4023 . . yes
+O2 C9 1.4258 . . yes
+C1 C2 1.3866 . . no
+C1 C6 1.3903 . . no
+C1 C9 1.5052 . 2_666 no
+C2 C3 1.3865 . . no
+C3 C4 1.3862 . . no
+C4 C5 1.3873 . . no
+C4 C7 1.5139 . . no
+C5 C6 1.3858 . . no
+C2 H1 0.9600 . . no
+C3 H2 0.9600 . . no
+C5 H3 0.9600 . . no
+C6 H4 0.9600 . . no
+C7 H5 0.9600 . . no
+C7 H6 0.9600 . . no
+C8 H7 0.9600 . . no
+C8 H8 0.9600 . . no
+C9 H9 0.9600 . . no
+C9 H10 0.9600 . . no

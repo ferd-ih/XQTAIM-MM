@@ -1,0 +1,171 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/04/2010400.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010400
+loop_
+_publ_author_name
+'Benali-Cherif, N.'
+'Pierrot, M.'
+'Baudrion, C.'
+'Aune, J.P.'
+_publ_section_title
+;
+ 5,5'-Bithiazole and 2,5'-Bithiazole
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              76
+_journal_page_last               77
+_journal_paper_doi               10.1107/S0108270194002969
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_moiety         'C6 H4 N2 S2'
+_chemical_formula_sum            'C6 H4 N2 S2'
+_chemical_formula_weight         168.24
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   5.770(3)
+_cell_length_b                   5.923(2)
+_cell_length_c                   21.0560(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      16
+_cell_measurement_theta_min      14
+_cell_volume                     719.6(4)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       25
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            790
+_diffrn_reflns_theta_max         24
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    0.627
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.555
+_exptl_crystal_description       'Crystal shape ?'
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.4
+_exptl_crystal_size_min          0.3
+_refine_diff_density_max         0.35
+_refine_diff_density_min         -0.29
+_refine_ls_goodness_of_fit_obs   2.3
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_number_parameters     91
+_refine_ls_number_reflns         712
+_refine_ls_R_factor_obs          0.041
+_refine_ls_shift/esd_max         0.02
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.054
+_reflns_number_observed          712
+_reflns_number_total             771
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            pa1078.cif
+_cod_data_source_block           pa1078b
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^' was changed to 'calc'.
+New tag '_refine_ls_weighting_details' was created. The value of the
+new tag was set to 'w = 1/\s^2^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        719.6(3)
+_cod_database_code               2010400
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+S 1.0429(2) .5702(2) .86101(4)
+S' .4611(2) .1078(2) .88846(4)
+N .6328(4) .5300(5) .81640(10)
+N' .7446(6) -.0335(5) .97270(10)
+C2 .7754(5) .4423(5) .85810(10)
+C2' .5448(7) -.0746(5) .9475(2)
+C4 .7376(8) .7107(6) .7861(2)
+C4' .8435(5) .1508(6) .9438(2)
+C5 .9544(7) .7551(5) .8038(2)
+C5' .7179(6) .2502(5) .89750(10)
+H2' .456(9) -.188(7) .961(2)
+H4 .648(6) .799(6) .757(2)
+H4' .979(6) .188(7) .959(2)
+H5 1.038(8) .859(9) .788(2)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C2' S' C5' 89.2(2) yes
+C2 S C5 89.3(2) yes
+C2 N C4 109.9(3) yes
+C2' N' C4' 109.8(3) yes
+S C2 N 114.4(2) yes
+S C2 C5' 122.1(2) yes
+N C2 C5' 123.5(3) yes
+S' C2' N' 115.5(2) yes
+S' C2' H2' 123(3) yes
+N' C2' H2' 121(3) yes
+N' C4' C5' 116.3(3) yes
+N' C4' H4' 114(2) yes
+C5' C4' H4' 130(2) yes
+N C4 C5 115.7(3) yes
+N C4 H4 119(2) yes
+C5 C4 H4 125(2) yes
+S C5 C4 110.6(3) yes
+S C5 H5 125(3) yes
+C4 C5 H5 125(3) yes
+S' C5' C2 121.3(2) yes
+S' C5' C4' 109.3(2) yes
+C2 C5' C4' 129.4(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+S' C2' 1.716(4) yes
+S' C5' 1.716(3) yes
+S C2 1.720(3) yes
+S C5 1.707(4) yes
+N C2 1.310(4) yes
+N C4 1.385(4) yes
+N' C2' 1.292(5) yes
+N' C4' 1.374(5) yes
+C2 C5' 1.448(4) yes
+C2' H2' 0.89(4) yes
+C4' C5' 1.349(4) yes
+C4' H4' 0.88(4) yes
+C4 C5 1.331(6) yes
+C4 H4 0.96(4) yes
+C5 H5 0.85(5) yes

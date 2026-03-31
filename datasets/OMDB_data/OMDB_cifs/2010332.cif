@@ -1,0 +1,180 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/03/2010332.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010332
+loop_
+_publ_author_name
+'Zvargulis, Evan S.'
+'Hambley, Trevor W.'
+_publ_section_title
+;
+ Redetermination of the structure of
+ <i>N</i>-carbamyl-<small>D</small>,<small>L</small>-aspartic acid
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2058
+_journal_page_last               2060
+_journal_paper_doi               10.1107/S0108270194006852
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'C5 H8 N2 O5'
+_chemical_formula_sum            'C5 H8 N2 O5'
+_chemical_formula_weight         176.13
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           'SHELX76 (Sheldrick, 1976)'
+_cell_angle_alpha                72.27(2)
+_cell_angle_beta                 80.82(3)
+_cell_angle_gamma                76.23(2)
+_cell_formula_units_Z            2
+_cell_length_a                   6.443(2)
+_cell_length_b                   7.476(2)
+_cell_length_c                   8.058(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    294
+_cell_measurement_theta_max      12
+_cell_measurement_theta_min      8
+_cell_volume                     357.5(2)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.018
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1348
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    1.40
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.635
+_exptl_crystal_description       'triangular plates'
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.11
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.20
+_refine_diff_density_min         -0.17
+_refine_ls_goodness_of_fit_obs   4.88
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_number_parameters     142
+_refine_ls_number_reflns         1141
+_refine_ls_R_factor_obs          0.030
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 4.62/[\s^2^(F~o~) + 0.00018F~o~^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.043
+_reflns_number_observed          1141
+_reflns_number_total             1212
+_reflns_observed_criterion       I>2.5\s(I)
+_cod_data_source_file            oh1065.cif
+_cod_data_source_block           oh1065_structure_1_of_1
+_cod_depositor_comments
+;
+  Adding _atom_site_type_symbol tag in order to prevent confusion
+  of H and Ho atoms.
+
+  Andrius Merkys
+  2014-06-05
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 4.62/[\s^2^(F~o~) +
+0.00018F~o~^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 4.62/[\s^2^(F~o~) + 0.00018F~o~^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        357.50(10)
+_cod_database_code               2010332
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C C(1) .3036(2) .3502(2) .2914(2)
+C C(2) .3155(2) .5610(2) .2333(2)
+C C(3) .1632(2) .6782(2) .0922(2)
+C C(4) -.0667(2) .6786(2) .1626(2)
+C C(5) .3043(2) .7979(2) .3887(2)
+O O(1) .3615(2) .2707(2) .16240(10)
+O O(2) .2490(2) .26730(10) .44010(10)
+O O(3) -.1363(2) .53340(10) .23390(10)
+O O(4) -.1865(2) .8513(2) .1405(2)
+O O(5) .3954(2) .90050(10) .25710(10)
+N N(1) .2684(2) .6299(2) .3871(2)
+N N(2) .2402(2) .8508(2) .5364(2)
+H H(2) .462(2) .568(2) .186(2)
+H H(3A) .186(2) .806(2) .046(2)
+H H(3B) .188(2) .619(2) -.005(2)
+H HO(1) .360(3) .146(3) .201(3)
+H HO(4) -.315(3) .841(3) .184(3)
+H HN(1) .225(3) .559(3) .476(2)
+H HN(2A) .161(3) .787(3) .618(3)
+H HN(2B) .246(3) .965(3) .529(2)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) C(1) C(2) 112.00(10) yes
+O(2) C(1) O(1) 124.80(10) yes
+N(1) C(2) C(1) 107.60(10) yes
+C(4) C(3) C(2) 111.20(10) yes
+O(4) C(4) C(3) 113.50(10) yes
+N(1) C(5) O(5) 121.00(10) yes
+N(2) C(5) N(1) 117.10(10) yes
+O(2) C(1) C(2) 123.20(10) yes
+C(3) C(2) C(1) 112.10(10) yes
+N(1) C(2) C(3) 111.90(10) yes
+O(3) C(4) C(3) 123.50(10) yes
+O(4) C(4) O(3) 123.00(10) yes
+N(2) C(5) O(5) 121.90(10) yes
+C(5) N(1) C(2) 123.10(10) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C(2) C(1) . . 1.518(2) yes
+O(2) C(1) . . 1.208(2) yes
+N(1) C(2) . . 1.446(2) yes
+O(3) C(4) . . 1.217(2) yes
+O(5) C(5) . . 1.257(2) yes
+N(2) C(5) . . 1.340(2) yes
+O(1) C(1) . . 1.312(2) yes
+C(3) C(2) . . 1.537(2) yes
+C(4) C(3) . . 1.499(2) yes
+O(4) C(4) . . 1.313(2) yes
+N(1) C(5) . . 1.334(2) yes

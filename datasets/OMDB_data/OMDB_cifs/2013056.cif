@@ -1,0 +1,262 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/30/2013056.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2013056
+loop_
+_publ_author_name
+'De Ridder, Dirk J. A.'
+'Goubitz, Kees'
+'Sonneveld, Ed J.'
+'Molleman, Wim'
+'Schenk, Henk'
+_publ_section_title
+;
+ Lead tartrate from X-ray powder diffraction data
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              m596
+_journal_page_last               m598
+_journal_paper_doi               10.1107/S0108270102019637
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_iupac          '[Pb (C4 H4 O6)]'
+_chemical_formula_moiety         'Pb^2+^ , C4 H4 O6^2-^'
+_chemical_formula_sum            'C4 H4 O6 Pb'
+_chemical_formula_weight         355.27
+_chemical_name_common            'Lead tartrate'
+_chemical_name_systematic
+;
+Lead tartrate
+;
+_space_group_IT_number           19
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.99482(3)
+_cell_length_b                   8.84525(4)
+_cell_length_c                   8.35318(4)
+_cell_measurement_temperature    295
+_cell_volume                     590.705(4)
+_computing_data_collection       'Please provide missing information'
+_computing_data_reduction        'Please provide missing information'
+_computing_molecular_graphics    'Please provide missing information'
+_computing_publication_material  'Please provide missing information'
+_computing_structure_refinement  'GSAS (Larson & Von Dreele, 1994)'
+_computing_structure_solution    'Please provide missing information'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'XPERT PRO Alpha-1'
+_diffrn_radiation_monochromator  Johannson
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.54056
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       0
+_exptl_absorpt_coefficient_mu    55.348
+_exptl_absorpt_correction_T_max  0.913
+_exptl_absorpt_correction_T_min  0.532
+_exptl_absorpt_process_details
+;
+GSAS absorption/surface roughness correction: function number 3
+Surface roughness absorption correction (Suortti)
+Terms =     0.38408        0.27990
+Correction is not refined.
+;
+_exptl_crystal_density_diffrn    3.983
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             632
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.69
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     43
+_refine_ls_number_restraints     31
+_refine_ls_shift/su_max          0.13
+_refine_ls_shift/su_mean         0.04
+_refine_ls_weighting_scheme      sigma
+_reflns_number_observed          200
+_cod_data_source_file            av1119.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (39 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (39
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (27 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_Hall     p_2ac_2ab
+_cod_database_code               2013056
+_cod_database_fobs_code          2013056
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +x+1/2,-y+1/2,-z
+3 -x,+y+1/2,-z+1/2
+4 -x+1/2,-y,+z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+O1 -0.0771(15) 0.0988(13) 0.1293(14) 0.01 Uiso 1.0 O
+O2 0.1070(14) 0.1712(14) -0.0063(14) 0.01 Uiso 1.0 O
+O3 0.1588(11) -0.007(2) 0.3594(10) 0.01 Uiso 1.0 O
+H3O 0.22898 -0.02231 0.41589 0.01 Uiso 1.0 H
+O4 0.2189(14) 0.3176(13) 0.2999(14) 0.01 Uiso 1.0 O
+H4O 0.14152 0.26983 0.36637 0.01 Uiso 1.0 H
+O5 0.5808(13) 0.0761(12) 0.3292(14) 0.01 Uiso 1.0 O
+O6 0.4835(14) 0.2460(13) 0.4925(14) 0.01 Uiso 1.0 O
+C1 0.0809(17) 0.105(2) 0.1171(19) 0.01 Uiso 1.0 C
+C2 0.2161(15) 0.0544(13) 0.2153(16) 0.01 Uiso 1.0 C
+H2 0.28328 -0.02695 0.14311 0.01 Uiso 1.0 H
+C3 0.3282(18) 0.1926(16) 0.2515(14) 0.01 Uiso 1.0 C
+H3 0.36818 0.22372 0.14406 0.01 Uiso 1.0 H
+C4 0.480(2) 0.1875(18) 0.3470(18) 0.01 Uiso 1.0 C
+Pb -0.34155(8) 0.0007(3) -0.05454(9) 0.01 Uiso 1.0 Pb
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O 0.047 0.032 International_Tables_Vol_C
+H 0.000 0.000 International_Tables_Vol_C
+C 0.017 0.009 International_Tables_Vol_C
+Pb -4.818 8.505 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+H3O O3 C2 1_555 1_555 111.6 n
+H3O O3 Pb 1_555 4_455 123.7 n
+C2 O3 Pb 1_555 4_455 122.7(8) n
+H4O O4 C3 1_555 1_555 102.6 n
+C4 O5 Pb 1_555 4_555 135.8(10) n
+C4 O6 Pb 1_555 3_555 121.3(9) n
+O1 C1 O2 1_555 1_555 105.2(13) n
+O1 C1 C2 1_555 1_555 134.0(13) n
+O2 C1 C2 1_555 1_555 120.8(13) n
+O3 C2 C1 1_555 1_555 111.6(10) n
+O3 C2 H2 1_555 1_555 112.5 n
+O3 C2 C3 1_555 1_555 109.3(11) n
+C1 C2 H2 1_555 1_555 105.2 n
+C1 C2 C3 1_555 1_555 107.7(12) n
+H2 C2 C3 1_555 1_555 110.3 n
+O4 C3 C2 1_555 1_555 107.8(10) n
+O4 C3 H3 1_555 1_555 103.5 n
+O4 C3 C4 1_555 1_555 111.7(11) n
+C2 C3 H3 1_555 1_555 103.3 n
+C2 C3 C4 1_555 1_555 124.5(13) n
+H3 C3 C4 1_555 1_555 103.6 n
+O5 C4 O6 1_555 1_555 113.3(13) n
+O5 C4 C3 1_555 1_555 119.0(13) n
+O6 C4 C3 1_555 1_555 120.5(12) n
+O3 Pb O5 4_454 4_554 137.1(4) n
+O3 Pb O6 4_454 3_545 69.6(5) n
+O5 Pb O6 4_554 3_545 102.5(4) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb O1 . 1_555 2.754(12) yes
+Pb O1 . 4_454 2.859(12) yes
+Pb O2 . 2_455 2.975(13) yes
+Pb O3 . 4_454 2.637(9) yes
+Pb O4 . 2_455 2.649(11) yes
+Pb O4 . 3_545 2.847(12) yes
+Pb O5 . 4_554 2.398(11) yes
+Pb O6 . 3_545 2.575(12) yes
+O1 O2 . 1_555 1.964(16) n
+O1 C1 . 1_555 1.268(12) n
+O1 Pb . 1_555 2.754(12) n
+O1 Pb . 4_455 2.859(12) n
+O2 O1 . 1_555 1.964(16) n
+O2 C1 . 1_555 1.204(12) n
+O2 Pb . 2_555 2.975(13) n
+O3 H3O . 1_555 0.745 n
+O3 C2 . 1_555 1.399(15) n
+O3 Pb . 4_455 2.637(9) n
+H3O O3 . 1_555 0.745 n
+H3O H2 . 4_555 1.949820 n
+O4 H4O . 1_555 0.932 n
+O4 C3 . 1_555 1.466(17) n
+O4 Pb . 2_555 2.649(11) n
+O4 Pb . 3_555 2.847(12) n
+H4O O4 . 1_555 0.932 n
+O5 O6 . 1_555 2.173(16) n
+O5 C4 . 1_555 1.280(12) n
+O5 Pb . 4_555 2.398(11) n
+O6 O5 . 1_555 2.173(16) n
+O6 C4 . 1_555 1.321(12) n
+O6 Pb . 3_555 2.575(12) n
+C1 O1 . 1_555 1.268(12) n
+C1 O2 . 1_555 1.204(12) n
+C1 C2 . 1_555 1.429(12) n
+C2 O3 . 1_555 1.399(15) n
+C2 C1 . 1_555 1.429(12) n
+C2 H2 . 1_555 1.082 n
+C2 C3 . 1_555 1.545(12) n
+H2 C2 . 1_555 1.082 n
+C3 O4 . 1_555 1.466(17) n
+C3 C2 . 1_555 1.545(12) n
+C3 H3 . 1_555 0.991 n
+C3 C4 . 1_555 1.455(13) n
+H3 C3 . 1_555 0.991 n
+C4 O5 . 1_555 1.280(12) n
+C4 O6 . 1_555 1.321(12) n
+C4 C3 . 1_555 1.455(13) n

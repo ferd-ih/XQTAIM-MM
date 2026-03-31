@@ -1,0 +1,233 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-28 18:08:17 +0300 (Wed, 28 Sep 2022) $
+#$Revision: 278247 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/45/2004500.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004500
+loop_
+_publ_author_name
+'Zhong, Z. J.'
+'You, X.-Z.'
+'Yu, K.'
+_publ_section_title
+;
+ 4,5-Dicyano-4',5'-ethylenedithiotetrathiafulvalene (CNET): a New
+ Unsymmetrical TTF Derivative
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              449
+_journal_page_last               451
+_journal_paper_doi               10.1107/S0108270195009942
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'C10 H4 N2 S6'
+_chemical_formula_weight         344
+_space_group_IT_number           2
+_space_group_name_Hall           '-P 1'
+_space_group_name_H-M_alt        'P -1'
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                75.01(2)
+_cell_angle_beta                 87.88(2)
+_cell_angle_gamma                70.56(2)
+_cell_formula_units_Z            2
+_cell_length_a                   6.855(2)
+_cell_length_b                   7.606(2)
+_cell_length_c                   13.587(3)
+_cell_measurement_reflns_used    23
+_cell_measurement_temperature    295.0(15)
+_cell_measurement_theta_max      12.1
+_cell_measurement_theta_min      3.52
+_cell_volume                     644.4(3)
+_diffrn_measurement_device       R3m/E
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0112
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            2831
+_diffrn_reflns_theta_max         26
+_diffrn_standards_decay_%        <1.7
+_diffrn_standards_interval_count 98
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    1.039
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            'Dark purple'
+_exptl_crystal_density_diffrn    1.789
+_exptl_crystal_description       needle
+_exptl_crystal_size_max          0.48
+_exptl_crystal_size_mid          0.34
+_exptl_crystal_size_min          0.30
+_refine_diff_density_max         0.453
+_refine_diff_density_min         -0.278
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.433
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_number_parameters     180
+_refine_ls_number_reflns         2242
+_refine_ls_R_factor_obs          0.0367
+_refine_ls_shift/esd_max         0.071
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+w=1/[\s^2^(F~o~+0.0001|F~o~^2^|].{1-exp[-5(sin\q/\l)^2^]}
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0350
+_reflns_number_observed          2242
+_reflns_number_total             2773
+_reflns_observed_criterion       I>=3\s(I)
+_cod_data_source_file            hu1079.cif
+_cod_data_source_block           hu1079a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value '295(1.5)' was changed to
+'295.0(15)' - precision was estimated.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value '295(1.5)' was changed to
+'295.0(15)' - precision was estimated.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '
+w=1/[\s^2^(F~o~+0.0001|F~o~^2^|].{1-exp[-5(sin\q/\l)^2^]}' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(F~o~+0.0001|F~o~^2^|].{1-exp[-5(sin\q/\l)^2^]}'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        644.3(3)
+_cod_database_code               2004500
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+S(1) .1076(1) -.1427(1) 1.3884(1) .041(1)
+S(2) .5952(1) -.1049(1) 1.3180(1) .046(1)
+S(3) -.0274(1) .0863(1) 1.1767(1) .037(1)
+S(4) .3841(1) .1086(1) 1.1168(1) .034(1)
+S(5) -.2257(1) .3177(1) .9555(1) .039(1)
+S(6) .1808(1) .3495(1) .8836(1) .036(1)
+N(1) -.5495(4) .5706(4) .7156(2) .054(1)
+N(2) -.0050(4) .6262(4) .6095(2) .050(1)
+C(1) .3162(4) -.1507(5) 1.4683(2) .040(1)
+C(2) .5285(4) -.2472(4) 1.4340(2) .040(1)
+C(3) .1778(4) -.0299(4) 1.2701(2) .029(1)
+C(4) .3630(4) -.0176(4) 1.2432(2) .030(1)
+C(5) .1232(4) .1653(4) 1.0797(2) .028(1)
+C(6) .0395(4) .2638(4) .9848(2) .029(1)
+C(7) -.2142(4) .4343(4) .8283(2) .030(1)
+C(8) -.0297(4) .4493(3) .7953(2) .028(1)
+C(9) -.3984(4) .5105(4) .7643(2) .035(1)
+C(10) -.0095(4) .5468(4) .6923(2) .033(1)
+H(1a) .2971(54) -.0160(38) 1.4708(26) .056(10)
+H(1b) .2891(56) -.2164(49) 1.5363(21) .061(10)
+H(2a) .5401(48) -.3718(37) 1.4229(24) .044(8)
+H(2b) .6362(44) -.2577(47) 1.4845(22) .050(9)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C(1) S(1) C(3) 99.30(10) yes
+C(3) S(3) C(5) 95.50(10) yes
+C(6) S(5) C(7) 94.20(10) yes
+S(1) C(1) C(2) 113.3(2) yes
+C(2) C(1) H(1a) 112.(2) no
+C(2) C(1) H(1b) 113.7(18) no
+S(2) C(2) C(1) 113.6(2) yes
+C(1) C(2) H(2a) 111.3(19) no
+C(1) C(2) H(2b) 109.3(18) no
+S(1) C(3) S(3) 114.40(10) yes
+S(3) C(3) C(4) 117.0(2) yes
+S(2) C(4) C(3) 129.0(2) yes
+S(3) C(5) S(4) 114.80(10) yes
+S(4) C(5) C(6) 124.0(2) yes
+S(5) C(6) C(5) 120.7(2) yes
+S(5) C(7) C(8) 118.2(2) yes
+C(8) C(7) C(9) 123.3(2) yes
+S(6) C(8) C(10) 121.1(2) yes
+N(1) C(9) C(7) 177.9(3) yes
+C(2) S(2) C(4) 101.70(10) yes
+C(4) S(4) C(5) 94.90(10) yes
+C(6) S(6) C(8) 94.40(10) yes
+S(1) C(1) H(1a) 108.(2) no
+S(1) C(1) H(1b) 104.(2) no
+H(1a) C(1) H(1b) 106.(3) no
+S(2) C(2) H(2a) 107.5(18) no
+S(2) C(2) H(2b) 102.3(19) no
+H(2a) C(2) H(2b) 113.(3) no
+S(1) C(3) C(4) 128.5(2) yes
+S(2) C(4) S(4) 113.30(10) yes
+S(4) C(4) C(3) 117.7(2) yes
+S(3) C(5) C(6) 121.2(2) yes
+S(5) C(6) S(6) 115.60(10) yes
+S(6) C(6) C(5) 123.7(2) yes
+S(5) C(7) C(9) 118.5(2) yes
+S(6) C(8) C(7) 117.5(2) yes
+C(7) C(8) C(10) 121.4(2) yes
+N(2) C(10) C(8) 176.1(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+S(1) C(1) 1.802(3) yes
+S(2) C(2) 1.805(3) yes
+S(3) C(3) 1.759(2) yes
+S(4) C(4) 1.765(2) yes
+S(5) C(6) 1.761(3) yes
+S(6) C(6) 1.764(2) yes
+N(1) C(9) 1.140(4) yes
+C(1) C(2) 1.513(4) yes
+C(1) H(1b) 0.97(3) no
+C(2) H(2b) 1.00(3) no
+C(5) C(6) 1.350(3) yes
+C(7) C(9) 1.421(3) yes
+S(1) C(3) 1.749(2) yes
+S(2) C(4) 1.754(2) yes
+S(3) C(5) 1.752(2) yes
+S(4) C(5) 1.755(2) yes
+S(5) C(7) 1.740(2) yes
+S(6) C(8) 1.739(2) yes
+N(2) C(10) 1.137(3) yes
+C(1) H(1a) 1.00(3) no
+C(2) H(2a) 0.98(3) no
+C(3) C(4) 1.334(4) yes
+C(7) C(8) 1.357(4) yes
+C(8) C(10) 1.429(3) yes

@@ -1,0 +1,226 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/93/2019334.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2019334
+loop_
+_publ_author_name
+'Dittrich, B.'
+'H\"ubschle, C. B.'
+'Messerschmidt, M.'
+'Kalinowski, R.'
+'Girnt, D.'
+'Luger, P.'
+_publ_section_title
+;
+ The invariom model and its application: refinement ofD,L-serine at
+ different temperatures and resolution
+;
+_journal_issue                   3
+_journal_name_full
+'Acta Crystallographica Section A Foundations of Crystallography'
+_journal_page_first              314
+_journal_page_last               320
+_journal_paper_doi               10.1107/S0108767305005039
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_analytical     'C3 H7 N O3'
+_chemical_formula_moiety         'C3 H7 N O3'
+_chemical_formula_sum            'C3 H7 N O3'
+_chemical_formula_weight         105.10
+_chemical_melting_point          235
+_chemical_name_common            D,L-Serine
+_chemical_name_systematic        '(+-) 2-Amino-3-hydroxypropionic acid'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_atom_type_scat_source
+'Invariomic aspherical-atom scattering factors'
+_audit_conform_dict_name         cif_core.dic
+_audit_conform_dict_version      2.2
+_audit_creation_method           'XD routine XDCIF'
+_cell_angle_alpha                90
+_cell_angle_beta                 106.87(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.7764(10)
+_cell_length_b                   9.1947(9)
+_cell_length_c                   4.7788(5)
+_cell_measurement_reflns_used    10633
+_cell_measurement_temperature    20
+_cell_measurement_theta_max      40.258
+_cell_measurement_theta_min      16.376
+_cell_volume                     453.13(9)
+_computing_molecular_graphics
+'Koritsanszky et al, (2003), Platon (Spek, 2003)'
+_computing_publication_material  'Koritsanszky et al, (2003), EnCIFer 1.1'
+_computing_structure_refinement  'Koritsanszky et al, (2003)'
+_diffrn_ambient_temperature      20
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.80
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type
+'Bruker APEX on a Huber Type 512 diffractometer'
+_diffrn_measurement_method       \w-scans
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0268
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -4
+_diffrn_reflns_limit_k_max       21
+_diffrn_reflns_limit_k_min       -21
+_diffrn_reflns_limit_l_max       24
+_diffrn_reflns_limit_l_min       -24
+_diffrn_reflns_number            38628
+_diffrn_reflns_reduction_process 'Integration: SAINT, merging: SORTAV'
+_diffrn_reflns_theta_full        40.25
+_diffrn_reflns_theta_max         57.37
+_diffrn_standards_interval_count 0
+_diffrn_standards_interval_time  0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    0.138
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.541
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       rectangular
+_exptl_crystal_F_000             224.0
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.45
+_exptl_crystal_size_min          0.35
+_refine_diff_density_max         0.215
+_refine_diff_density_min         -0.239
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.2952
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     93
+_refine_ls_number_reflns         4292
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0272
+_refine_ls_R_factor_gt           0.0196
+_refine_ls_shift/su_max          0.000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+;
+     calc w1 = 1/[s^2^(Fo)]
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0218
+_reflns_number_gt                4292
+_reflns_number_total             5136
+_reflns_threshold_expression     'I > 2\s I'
+_cod_data_source_file            cn5001sup1.cif
+_cod_data_source_block           20K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      P21/a
+_cod_database_code               2019334
+loop_
+_symmetry_equiv_pos_as_xyz
++X,+Y,+Z
+1/2-X,1/2+Y,-Z
+-X,-Y,-Z
+1/2+X,1/2-Y,+Z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O(1) 0.00876(5) 0.00731(5) 0.00610(6) -0.00043(4) 0.00064(4) 0.00097(4)
+O(2) 0.00950(5) 0.00679(5) 0.00720(6) -0.00213(4) 0.00222(4) -0.00038(4)
+O(3) 0.00763(5) 0.00849(5) 0.00943(6) -0.00099(4) 0.00436(4) -0.00187(4)
+N(1) 0.00635(5) 0.00634(5) 0.00684(6) -0.00015(4) 0.00228(4) 0.00060(4)
+C(1) 0.00683(5) 0.00548(5) 0.00525(7) -0.00021(4) 0.00200(4) -0.00002(4)
+C(2) 0.00638(5) 0.00603(5) 0.00531(7) 0.00023(4) 0.00217(4) 0.00030(4)
+C(3) 0.00619(5) 0.00815(6) 0.00659(7) 0.00060(4) 0.00152(4) 0.00026(5)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+O(1) 0.65863(2) 0.40703(2) 0.42739(4) 0.008 1
+O(2) 0.82879(2) 0.51099(2) 0.75170(4) 0.008 1
+O(3) 0.92877(2) 0.17538(2) 0.72150(4) 0.009 1
+N(1) 0.65325(2) 0.17344(2) 0.74378(4) 0.007 1
+C(1) 0.74647(2) 0.41044(2) 0.66619(5) 0.006 1
+C(2) 0.75445(2) 0.28355(2) 0.87889(5) 0.006 1
+C(3) 0.88949(2) 0.21634(2) 0.96983(5) 0.007 1
+H(2) 0.7323(7) 0.3266(8) 1.0683(15) 0.017(2) 1
+H(11) 0.5631(9) 0.2275(10) 0.6859(16) 0.027(2) 1
+H(12) 0.6515(8) 0.0966(10) 0.8979(19) 0.029(2) 1
+H(13) 0.6661(8) 0.1228(9) 0.5615(18) 0.027(2) 1
+H(31) 0.9586(7) 0.2992(8) 1.0924(15) 0.019(2) 1
+H(32) 0.8924(7) 0.1206(9) 1.1175(16) 0.021(2) 1
+H(4) 0.9045(7) 0.0799(9) 0.6731(16) 0.019(2) 1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C(3) O(3) H(4) 1_555 1_555 1_555 109.2(4) yes
+H(11) N(1) H(12) 1_555 1_555 1_555 107.8(6) yes
+H(11) N(1) H(13) 1_555 1_555 1_555 109.3(6) yes
+H(12) N(1) H(13) 1_555 1_555 1_555 109.3(6) yes
+O(1) C(1) O(2) 1_555 1_555 1_555 125.88(2) yes
+O(1) C(1) C(2) 1_555 1_555 1_555 117.815(18) yes
+O(2) C(1) C(2) 1_555 1_555 1_555 116.298(18) yes
+C(1) C(2) C(3) 1_555 1_555 1_555 111.284(16) yes
+C(1) C(2) H(2) 1_555 1_555 1_555 107.1(4) yes
+C(3) C(2) H(2) 1_555 1_555 1_555 109.6(4) yes
+O(3) C(3) C(2) 1_555 1_555 1_555 111.129(17) yes
+O(3) C(3) H(31) 1_555 1_555 1_555 107.9(3) yes
+O(3) C(3) H(32) 1_555 1_555 1_555 110.9(4) yes
+C(2) C(3) H(31) 1_555 1_555 1_555 108.2(4) yes
+C(2) C(3) H(32) 1_555 1_555 1_555 110.3(4) yes
+H(31) C(3) H(32) 1_555 1_555 1_555 108.4(5) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O(1) C(1) 1_555 1_555 1.2539(3) yes
+O(2) C(1) 1_555 1_555 1.2643(3) yes
+O(3) C(3) 1_555 1_555 1.4216(3) yes
+O(3) H(4) 1_555 1_555 0.926(9) yes
+N(1) H(11) 1_555 1_555 1.054(9) yes
+N(1) H(12) 1_555 1_555 1.025(9) yes
+N(1) H(13) 1_555 1_555 1.032(9) yes
+C(1) C(2) 1_555 1_555 1.5333(3) yes
+C(2) C(3) 1_555 1_555 1.5236(3) yes
+C(2) H(2) 1_555 1_555 1.076(7) yes
+C(3) H(31) 1_555 1_555 1.107(8) yes
+C(3) H(32) 1_555 1_555 1.123(8) yes

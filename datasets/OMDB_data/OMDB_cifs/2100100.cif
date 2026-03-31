@@ -1,0 +1,130 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-06-14 04:32:00 +0300 (Thu, 14 Jun 2018) $
+#$Revision: 208360 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/01/2100100.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100100
+loop_
+_publ_author_name
+'Richard E. Marsh'
+_publ_section_title
+;
+ Space group <i>P</i>1: an update
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              359
+_journal_page_last               359
+_journal_paper_doi               10.1107/S0108768105009651
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_moiety         'C21 H30 O3'
+_chemical_formula_sum            'C21 H30 O3'
+_space_group_crystal_system      triclinic
+_space_group_IT_number           2
+_space_group_name_Hall           '-P 1'
+_space_group_name_H-M_alt        'P -1'
+_audit_creation_method           CRYM
+_cell_angle_alpha                100.51
+_cell_angle_beta                 107.29
+_cell_angle_gamma                104.90
+_cell_formula_units_Z            2
+_cell_length_a                   8.0380
+_cell_length_b                   10.3910
+_cell_length_c                   12.2990
+_cell_volume                     909.795
+_cod_data_source_file            bk0148.cif
+_cod_data_source_block           EKOKOE
+_cod_depositor_comments
+;
+ Updating space group information and adding the symmetry operation list.
+
+ Antanas Vaitkus,
+ 2018-06-14
+
+  Added moiety chemical formula and Z value from Marsh (2005) paper.
+  The summary chemical formula is calculated from moiety formula using
+  AdHocParser
+  (svn://www.crystallography.net/cod-tools/trunk/Formulae/AdHocParser.yp,
+  revision 1441.)
+
+  Andrius Merkys
+  2013-11-11
+;
+_cod_original_sg_symbol_H-M      P-1
+_cod_original_formula_sum        'not given'
+_cod_database_code               2100100
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+C1 0.24105 0.19160 0.74260 C
+C2 0.35270 0.09360 0.73465 C
+H1 0.26890 0.00280 0.68590 H
+H2 0.40850 0.08560 0.81315 H
+C3 0.50420 0.13640 0.68570 C
+H3 0.56455 0.06795 0.68255 H
+H4 0.59455 0.22325 0.73660 H
+C4 0.42085 0.15065 0.56160 C
+H5 0.33330 0.06295 0.51070 H
+H6 0.51645 0.17615 0.53020 H
+C5 0.32335 0.26075 0.56215 C
+C6 0.17440 0.22280 0.61995 C
+H7 0.08375 0.13725 0.56660 H
+C7 0.07375 0.33055 0.61565 C
+H8 0.16405 0.42105 0.65510 H
+C8 -0.02415 0.32550 0.48705 C
+C9 0.06715 0.30000 0.40330 C
+C10 0.22835 0.26420 0.43585 C
+C11 0.30470 0.24075 0.34950 C
+H9 0.41575 0.21720 0.36905 H
+C12 0.22410 0.25000 0.23505 C
+C13 0.06305 0.28675 0.20345 C
+C14 -0.01105 0.31085 0.28905 C
+H10 -0.12035 0.33665 0.27015 H
+C15 -0.02440 0.29250 0.07740 C
+H11 0.07210 0.32155 0.04735 H
+C16 -0.13065 0.39520 0.07040 C
+H12 -0.18375 0.39470 -0.01075 H
+H13 -0.22710 0.36825 0.10090 H
+H14 -0.04840 0.48670 0.11665 H
+C17 -0.15320 0.14750 -0.00090 C
+H15 -0.08545 0.08395 0.00130 H
+H16 -0.25070 0.11720 0.02760 H
+H17 -0.20425 0.15065 -0.08085 H
+C18 0.45840 0.19490 0.17640 C
+H18 0.49155 0.18100 0.10740 H
+H19 0.55530 0.27000 0.23905 H
+H20 0.44065 0.11175 0.20145 H
+C19 0.47290 0.40640 0.62435 C
+H21 0.55765 0.42105 0.58325 H
+H22 0.41505 0.47655 0.62310 H
+H23 0.53870 0.41150 0.70505 H
+C20 0.35430 0.32385 0.84685 C
+H24 0.39125 0.29865 0.91945 H
+H25 0.46185 0.37300 0.83380 H
+H26 0.28015 0.38205 0.85215 H
+C21 0.07370 0.11280 0.76805 C
+H27 0.00280 0.02870 0.70545 H
+H28 0.11515 0.09105 0.84185 H
+H29 -0.00170 0.17010 0.77300 H
+O1 -0.05750 0.31155 0.67090 O
+H30 -0.05905 0.34305 0.70355 H
+O2 -0.17455 0.34175 0.45985 O
+O3 0.29425 0.22685 0.14875 O

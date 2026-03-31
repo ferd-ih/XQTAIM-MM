@@ -1,0 +1,289 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/1/51/95/1519592.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1519592
+loop_
+_publ_author_name
+'Skabara, Peter J.'
+'Coles, Simon J.'
+'Hursthouse, Michael B.'
+_publ_section_title
+;
+ C10H10Br2S3
+;
+_journal_name_full               'Crystal Structure Report Archive'
+_journal_page_first              1006
+_journal_year                    2004
+_chemical_formula_sum            'C10 H10 Br2 S3'
+_chemical_formula_weight         386.18
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 118.410(5)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.9737(8)
+_cell_length_b                   24.1031(19)
+_cell_length_c                   7.8367(7)
+_cell_measurement_reflns_used    1590
+_cell_measurement_temperature    120(2)
+_cell_measurement_theta_max      27.48
+_cell_measurement_theta_min      2.91
+_cell_volume                     1324.8(2)
+_computing_cell_refinement       'DENZO and COLLECT'
+_computing_data_collection
+;
+'DENZO (Otwinowski and Minor, 1997) & COLLECT (Hooft, 1998) '
+;
+_computing_data_reduction        'DENZO and COLLECT'
+_computing_publication_material  SHELXL-97
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      120(2)
+_diffrn_detector_area_resol_mean 9.091
+_diffrn_measured_fraction_theta_full 0.986
+_diffrn_measured_fraction_theta_max 0.986
+_diffrn_measurement_device_type  'Bruker-Nonius KappaCCD Area Detector'
+_diffrn_measurement_method       '\f and \w scans'
+_diffrn_radiation_monochromator  '10cm confocal mirrors'
+_diffrn_radiation_source         'Bruker-Nonius FR591 rotating anode'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0887
+_diffrn_reflns_av_sigmaI/netI    0.0936
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       31
+_diffrn_reflns_limit_k_min       -30
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            10463
+_diffrn_reflns_theta_full        27.49
+_diffrn_reflns_theta_max         27.49
+_diffrn_reflns_theta_min         2.90
+_exptl_absorpt_coefficient_mu    6.558
+_exptl_absorpt_correction_T_max  0.7351
+_exptl_absorpt_correction_T_min  0.1896
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS V2.10 (Sheldrick, G.M., 2003)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.946
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       slab
+_exptl_crystal_F_000             752
+_exptl_crystal_size_max          0.38
+_exptl_crystal_size_mid          0.14
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         1.393
+_refine_diff_density_min         -1.029
+_refine_diff_density_rms         0.204
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.066
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     137
+_refine_ls_number_reflns         3000
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.066
+_refine_ls_R_factor_all          0.1188
+_refine_ls_R_factor_gt           0.0806
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0708P)^2^+15.2706P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1903
+_refine_ls_wR_factor_ref         0.2108
+_reflns_number_gt                2089
+_reflns_number_total             3000
+_reflns_threshold_expression     >2\s(I)
+_cod_data_source_file            eCrystal-1006.cif
+_cod_data_source_block           04src0821
+_cod_depositor_comments
+;
+Citation :
+Skabara, Peter J. and Coles, Simon J. and Hursthouse, Michael B. (2004) 
+University of Southampton, Crystal Structure Report Archive. 
+(doi:10.5258/ecrystals/1006)
+
+More at:
+http://ecrystals.chem.soton.ac.uk/1006/
+;
+_cod_original_sg_symbol_H-M      'P 2(1)/c'
+_cod_database_code               1519592
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+C10 C 1.5494(14) 0.1649(4) 0.3512(14) 0.035(2) Uani 1 1 d . . .
+H10A H 1.6162 0.1298 0.4040 0.053 Uiso 1 1 calc R . .
+H10B H 1.6367 0.1914 0.3399 0.053 Uiso 1 1 calc R . .
+H10C H 1.4403 0.1583 0.2229 0.053 Uiso 1 1 calc R . .
+C7 C 1.2744(14) 0.1699(4) 0.6511(14) 0.032(2) Uani 1 1 d . . .
+H7A H 1.3838 0.1785 0.7794 0.039 Uiso 1 1 calc R . .
+H7B H 1.2082 0.2052 0.5945 0.039 Uiso 1 1 calc R . .
+C8 C 1.3516(15) 0.1470(4) 0.5218(15) 0.037(2) Uani 1 1 d . . .
+H8A H 1.2436 0.1365 0.3949 0.044 Uiso 1 1 calc R . .
+H8B H 1.4267 0.1131 0.5818 0.044 Uiso 1 1 calc R . .
+C6 C 0.9264(14) 0.1241(4) 0.8822(13) 0.033(2) Uani 1 1 d . . .
+C9 C 1.4776(16) 0.1889(5) 0.4893(15) 0.041(2) Uani 1 1 d . . .
+H9A H 1.5883 0.1985 0.6155 0.049 Uiso 1 1 calc R . .
+H9B H 1.4041 0.2233 0.4325 0.049 Uiso 1 1 calc R . .
+C5 C 1.140(3) 0.1329(6) 0.682(3) 0.094(7) Uani 1 1 d . . .
+C1 C 0.8527(14) 0.1375(4) 1.0010(14) 0.032(2) Uani 1 1 d . . .
+C2 C 0.7590(16) 0.0458(4) 0.8674(15) 0.039(2) Uani 1 1 d . . .
+C3 C 0.8723(14) 0.0696(4) 0.8016(13) 0.032(2) Uani 1 1 d . . .
+C4 C 1.096(4) 0.0856(9) 0.636(5) 0.225(19) Uani 1 1 d . . .
+H4 H 1.1678 0.0700 0.5805 0.270 Uiso 1 1 calc R . .
+S1 S 0.7161(4) 0.08580(11) 1.0226(4) 0.0359(6) Uani 1 1 d . . .
+S2 S 0.9369(4) 0.03739(11) 0.6428(4) 0.0408(7) Uani 1 1 d . . .
+S3 S 1.0724(4) 0.17114(10) 0.8411(4) 0.0359(6) Uani 1 1 d . . .
+Br1 Br 0.88309(16) 0.20626(4) 1.12289(15) 0.0385(3) Uani 1 1 d . . .
+Br2 Br 0.64649(18) -0.02482(5) 0.79415(17) 0.0479(4) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+C10 0.034(5) 0.041(6) 0.032(5) -0.001(4) 0.017(4) 0.000(4)
+C7 0.042(6) 0.024(5) 0.039(5) 0.000(4) 0.027(5) -0.003(4)
+C8 0.045(6) 0.033(6) 0.044(5) 0.010(5) 0.031(5) 0.005(5)
+C6 0.040(6) 0.034(6) 0.036(5) 0.003(4) 0.028(5) 0.004(4)
+C9 0.050(7) 0.042(6) 0.041(6) 0.003(5) 0.029(5) -0.001(5)
+C5 0.143(14) 0.065(10) 0.163(15) -0.064(10) 0.145(14) -0.065(10)
+C1 0.051(6) 0.015(5) 0.044(5) -0.001(4) 0.033(5) 0.002(4)
+C2 0.052(7) 0.029(6) 0.049(6) -0.014(5) 0.034(5) -0.019(5)
+C3 0.035(5) 0.041(6) 0.028(5) 0.007(4) 0.020(4) 0.008(4)
+C4 0.38(4) 0.125(17) 0.42(4) -0.18(2) 0.39(4) -0.18(2)
+S1 0.0439(15) 0.0356(14) 0.0415(13) 0.0045(11) 0.0311(12) -0.0003(11)
+S2 0.0593(17) 0.0316(14) 0.0510(15) -0.0107(12) 0.0422(14) -0.0104(12)
+S3 0.0515(16) 0.0258(13) 0.0475(14) -0.0046(11) 0.0374(13) -0.0063(11)
+Br1 0.0555(7) 0.0313(6) 0.0453(6) 0.0000(4) 0.0375(5) 0.0045(5)
+Br2 0.0639(8) 0.0404(7) 0.0527(7) -0.0058(5) 0.0386(6) -0.0178(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Br Br -0.2901 2.4595 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+C9 C10 H10A 109.5 . .
+C9 C10 H10B 109.5 . .
+H10A C10 H10B 109.5 . .
+C9 C10 H10C 109.5 . .
+H10A C10 H10C 109.5 . .
+H10B C10 H10C 109.5 . .
+C5 C7 C8 116.2(9) . .
+C5 C7 H7A 108.2 . .
+C8 C7 H7A 108.2 . .
+C5 C7 H7B 108.2 . .
+C8 C7 H7B 108.2 . .
+H7A C7 H7B 107.4 . .
+C7 C8 C9 112.3(9) . .
+C7 C8 H8A 109.2 . .
+C9 C8 H8A 109.2 . .
+C7 C8 H8B 109.2 . .
+C9 C8 H8B 109.1 . .
+H8A C8 H8B 107.9 . .
+C1 C6 C3 112.6(8) . .
+C1 C6 S3 120.8(8) . .
+C3 C6 S3 126.7(6) . .
+C8 C9 C10 111.0(9) . .
+C8 C9 H9A 109.4 . .
+C10 C9 H9A 109.4 . .
+C8 C9 H9B 109.4 . .
+C10 C9 H9B 109.4 . .
+H9A C9 H9B 108.0 . .
+C4 C5 C7 130.4(12) . .
+C4 C5 S3 123.1(10) . .
+C7 C5 S3 106.0(8) . .
+C6 C1 S1 113.4(7) . .
+C6 C1 Br1 124.7(7) . .
+S1 C1 Br1 121.9(5) . .
+C3 C2 S1 115.1(8) . .
+C3 C2 Br2 124.9(8) . .
+S1 C2 Br2 120.0(5) . .
+C2 C3 C6 109.6(8) . .
+C2 C3 S2 123.9(8) . .
+C6 C3 S2 126.5(7) . .
+C5 C4 S2 138.0(13) . .
+C5 C4 H4 111.0 . .
+S2 C4 H4 111.0 . .
+C2 S1 C1 89.4(4) . .
+C4 S2 C3 101.0(6) . .
+C6 S3 C5 103.5(5) . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+C10 C9 1.557(13) .
+C10 H10A 0.9800 .
+C10 H10B 0.9800 .
+C10 H10C 0.9800 .
+C7 C5 1.502(14) .
+C7 C8 1.517(12) .
+C7 H7A 0.9900 .
+C7 H7B 0.9900 .
+C8 C9 1.528(14) .
+C8 H8A 0.9900 .
+C8 H8B 0.9900 .
+C6 C1 1.357(12) .
+C6 C3 1.431(14) .
+C6 S3 1.761(9) .
+C9 H9A 0.9900 .
+C9 H9B 0.9900 .
+C5 C4 1.20(2) .
+C5 S3 1.825(12) .
+C1 S1 1.716(9) .
+C1 Br1 1.869(9) .
+C2 C3 1.362(13) .
+C2 S1 1.710(10) .
+C2 Br2 1.881(10) .
+C3 S2 1.741(9) .
+C4 S2 1.737(15) .
+C4 H4 0.9500 .

@@ -1,0 +1,227 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/43/2004323.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004323
+loop_
+_publ_author_name
+'Gainsford, G. J.'
+'Meinhold, R. H.'
+'Woolhouse, A. D.'
+_publ_section_title
+;
+ Styrylboronic Acid
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2694
+_journal_page_last               2696
+_journal_paper_doi               10.1107/S010827019500919X
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'C8 H9 B O2'
+_chemical_formula_weight         148.0
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 100.11(6)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   19.362(16)
+_cell_length_b                   5.128(6)
+_cell_length_c                   8.159(6)
+_cell_measurement_reflns_used    21
+_cell_measurement_temperature    193
+_cell_measurement_theta_max      18.0
+_cell_measurement_theta_min      2.0
+_cell_volume                     797.5(13)
+_computing_cell_refinement       'Nicolet Siemens R3m'
+_computing_data_collection       'Nicolet Siemens R3m (Siemens, 1983)'
+_computing_data_reduction        'Nicolet Siemens R3m'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_structure_refinement  'NRCVAX (Larson et al., 1991)'
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1985)'
+_diffrn_measurement_device       'Nicolet R3m four-circle'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.065
+_diffrn_reflns_limit_h_max       22
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1543
+_diffrn_reflns_theta_max         24
+_diffrn_standards_decay_%        2
+_diffrn_standards_interval_count 97
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.09
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.232
+_exptl_crystal_density_method    none
+_exptl_crystal_description       plate
+_exptl_crystal_size_max          0.52
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         0.19
+_refine_diff_density_min         -0.24
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.36
+_refine_ls_number_parameters     99
+_refine_ls_number_reflns         317
+_refine_ls_R_factor_obs          0.055
+_refine_ls_shift/esd_max         0.03
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0006F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.055
+_reflns_number_observed          317
+_reflns_number_total             1238
+_reflns_observed_criterion       I>2.5\s(I)
+_cod_data_source_file            ta1036.cif
+_cod_data_source_block           ta1036a
+_cod_depositor_comments
+;
+
+  Adding _atom_site_type_symbol tag to prevent confusion between Ho and H
+  atoms.
+
+  Andrius Merkys
+  2013-10-29
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' 1/[\s^2^(F)+0.0006F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.0006F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2004323
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,-y,-z
+-x,1/2+y,1/2-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+O O(1) .0665(5) .2207(17) .4827(13) 4.3(5)
+O O(2) .0665(4) -.2267(16) .4443(9) 3.6(4)
+C C(1) .1802(4) .004(3) .4226(11) 2.1(2)
+C C(2) .2073(4) -.188(2) .3338(12) 2.3(2)
+C C(3) .2764(5) -.193(2) .3121(13) 2.9(3)
+C C(4) .3229(4) .001(3) .3841(11) 2.6(2)
+C C(5) .2961(5) .191(2) .4755(13) 3.2(3)
+C C(6) .2267(5) .197(2) .4937(11) 2.6(2)
+C C(7) .3977(5) .003(3) .3691(15) 3.4(7)
+C C(8) .4281(6) -.163(3) .2906(18) 4.8(7)
+B B(1) .1019(6) .002(4) .4514(15) 5.5(8)
+H H(2) .176(4) -.343(15) .280(9) .048(11)
+H H(3) .292(4) -.318(17) .264(10) .048(11)
+H H(5) .323(4) .289(18) .494(10) .048(11)
+H H(6) .205(4) .344(15) .549(9) .048(11)
+H H(7) .421(4) .170(18) .405(10) .048(11)
+H H(8A) .406(4) -.347(18) .242(11) .048(11)
+H H(8B) .473(4) -.182(18) .287(10) .048(11)
+H HO(1) .076(7) .348(26) .480(19) .091(37)
+H HO(2) .028(5) -.273(26) .485(13) .091(37)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+B(1) O(1) HO(1) 129(12) no
+B(1) O(2) HO(2) 131(8) no
+C(2) C(1) C(6) 116.6(8) yes
+C(2) C(1) B(1) 122.6(10) yes
+C(6) C(1) B(1) 120.7(10) yes
+C(1) C(2) C(3) 123.3(9) yes
+C(1) C(2) H(2) 120(4) no
+C(3) C(2) H(2) 116(4) no
+C(2) C(3) C(4) 119.9(9) yes
+C(2) C(3) H(3) 120(5) no
+C(4) C(3) H(3) 119(5) no
+C(3) C(4) C(5) 116.9(8) yes
+C(3) C(4) C(7) 122.7(10) yes
+C(5) C(4) C(7) 120.4(10) yes
+C(6) C(5) H(5) 130(6) no
+C(1) C(6) C(5) 120.6(9) yes
+C(1) C(6) H(6) 115(4) no
+C(5) C(6) H(6) 123(4) no
+C(4) C(7) C(8) 125.8(12) yes
+C(4) C(7) H(7) 113(5) no
+C(8) C(7) H(7) 119(5) no
+C(7) C(8) H(8A) 125(5) no
+C(7) C(8) H(8B) 130(6) no
+H(8A) C(8) H(8B) 103(8) no
+O(1) B(1) O(2) 116.9(9) yes
+O(1) B(1) C(1) 123.6(13) yes
+O(2) B(1) C(1) 119.5(13) yes
+C(4) C(5) H(5) 105(6) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O(1) B(1) 1.361(19) yes
+O(1) HO(1) .68(13) no
+O(2) B(1) 1.356(19) yes
+O(2) HO(2) .90(11) no
+C(1) C(2) 1.379(15) yes
+C(1) C(6) 1.395(14) yes
+C(1) B(1) 1.574(13) yes
+C(2) C(3) 1.379(13) yes
+C(2) H(2) 1.05(8) no
+C(3) C(4) 1.401(15) yes
+C(4) C(5) 1.383(16) yes
+C(4) C(7) 1.475(13) yes
+C(5) C(6) 1.378(13) yes
+C(5) H(5) .73(9) no
+C(6) H(6) 1.00(8) no
+C(7) C(8) 1.27(2) yes
+C(7) H(7) .99(9) no
+C(8) H(8A) 1.08(9) no
+C(8) H(8B) .88(7) no
+C(3) H(3) .83(9) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+HO(1) O(1) B(1) O(2) -171(11) no
+HO(2) O(2) B(1) O(1) -20(7) no
+B(1) C(1) C(2) C(3) -177.9(12) yes
+C(2) C(1) B(1) O(1) -155.6(14) yes
+C(6) C(1) B(1) O(1) 27.5(6) yes
+HO(1) O(1) B(1) C(1) 9(11) no
+HO(2) O(2) B(1) C(1) 160(7) no
+C(2) C(1) B(1) O(2) 24.1(5) yes
+C(6) C(1) B(1) O(2) -152.9(14) yes

@@ -1,0 +1,329 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 02:03:34 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176798 $
+#$URL: svn://www.crystallography.net/cod/cif/2/23/38/2233803.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2233803
+loop_
+_publ_author_name
+'Rukiah, Mwaffak'
+'Arfan, Atef'
+_publ_section_title
+;
+ 6-Hydrazinylnicotinic acid: a powder study
+;
+_journal_coeditor_code           FY2040
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              o783
+_journal_page_last               o784
+_journal_paper_doi               10.1107/S160053681200637X
+_journal_volume                  68
+_journal_year                    2012
+_chemical_formula_iupac          'C6 H7 N3 O2'
+_chemical_formula_moiety         'C6 H7 N3 O2'
+_chemical_formula_sum            'C6 H7 N3 O2'
+_chemical_formula_weight         153.15
+_chemical_name_common
+;
+6-Hydrazinylnicotinic acid
+;
+_chemical_name_systematic
+;
+6-Hydrazinylpyridine-3-carboxylic acid
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   difmap
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.0
+_cell_angle_beta                 91.7805(11)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   6.69930(14)
+_cell_length_b                   13.8834(2)
+_cell_length_c                   7.10677(9)
+_cell_measurement_temperature    298
+_cell_volume                     660.675(19)
+_computing_cell_refinement
+;
+FULLPROF (Rodriguez-Carvajal, 2001) and GSAS (Larson & Von Dreele,
+2004)
+;
+_computing_data_collection       'WinXPOW (Stoe & Cie, 1999)'
+_computing_data_reduction
+;
+WinXPOW (Stoe & Cie, 1999), DICVOL04 (Boultif & Lou\"er, 2004),
+and
+CheckGroup interfaced by WinPLOTR (Roisnel & Rodriguez-Carvajal, 2001)
+;
+_computing_molecular_graphics    'ORTEP-3 (Farrugia, 1997)'
+_computing_publication_material  'publCIF  (Westrip, 2010)'
+_computing_structure_refinement
+;
+GSAS (Larson & Von Dreele, 2004) interfaced by EXPGUI (Toby,
+2001)
+;
+_computing_structure_solution    'EXPO2009 (Altomare <i>et al.</i>, 2009)'
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'Stoe STADI P'
+_diffrn_radiation_monochromator  'curved Ge(111)'
+_diffrn_radiation_type           'Cu K\a~1~'
+_diffrn_radiation_wavelength     1.5406
+_exptl_absorpt_coefficient_mu    1.012
+_exptl_absorpt_correction_T_max  0.79474
+_exptl_absorpt_correction_T_min  0.73239
+_exptl_absorpt_correction_type   cylinder
+_exptl_absorpt_process_details
+;
+[Flat-plate transmission absorption correction (GSAS absorption/surface
+roughness correction function number 4 with a non-refined term of \md =
+0.1482)]
+;
+_exptl_crystal_density_diffrn    1.54
+_exptl_crystal_F_000             320
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  'pale brown'
+_pd_char_particle_morphology     'Fine powder'
+_pd_instr_dist_mono/spec         130
+_pd_instr_dist_spec/detc         173
+_pd_instr_dist_src/mono          260
+_pd_instr_location
+;
+Chemistry Department
+ Atomic Energy Commission
+ Damascus
+ PO Box 6091
+ Syrian Arab Republic
+;
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        84.98
+_pd_meas_2theta_range_min        10.0
+_pd_meas_number_of_points        4250
+_pd_meas_scan_method             step
+_pd_phase_name                   HYNIC
+_pd_prep_pressure                101.3
+_pd_prep_temperature             298
+_pd_proc_2theta_range_inc        0.02
+_pd_proc_2theta_range_max        84.94924
+_pd_proc_2theta_range_min        9.96924
+_pd_proc_info_data_reduction     none
+_pd_proc_info_datetime           2012-01-25T09:05:52
+_pd_proc_info_excluded_regions
+;
+The use of the excluded region from 85 to 95\% (2\q)
+leads to better molecular geometry.
+;
+_pd_proc_ls_background_function
+;
+Shifted Chebyshev function of 1st kind (GSAS Background function number 1)
+with 15 terms
+      1:    1800.66     2:   -1847.80     3:    941.880     4:   -249.680
+      5:    12.6164     6:    58.5368     7:   -22.4573     8:   -39.9081
+      9:    32.2315    10:   0.665645    11:   -20.8095    12:    16.0647
+     13:   -6.68008    14:   -5.95330    15:    5.95798
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_pref_orient_corr     'spherical hamonics function'
+_pd_proc_ls_profile_function
+;
+GSAS CW profile function number 4 with 21 terms, i.e.,
+pseudovoigt profile coefficients as parameterized in (Thompson <i>et al.</i>,
+1987),
+asymmetry correction of Finger <i>et al.</i> (1994) and
+microstrain broadening by Stephens (1999).
+Peak tails are ignored  where the intensity is below 0.0010 times the peak.
+Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0226
+_pd_proc_ls_prof_wR_expected     0.0213
+_pd_proc_ls_prof_wR_factor       0.0298
+_pd_proc_number_of_points        4250
+_pd_spec_mounting
+;
+powder loaded between two Mylar foils
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_axial              8
+_pd_spec_size_equat              8
+_refine_diff_density_max         0.069
+_refine_diff_density_min         -0.077
+_refine_ls_goodness_of_fit_all   1.42
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     146
+_refine_ls_number_restraints     26
+_refine_ls_shift/su_max          0.03
+_refine_ls_shift/su_mean         0.00
+_reflns_number_total             466
+_cod_data_source_file            fy2040.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        660.673(19)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2233803
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+C C1 0.0949(15) 0.0911(6) 0.7824(15) 0.025(3) Uiso 1.0 4
+C C2 0.3019(11) 0.0838(5) 0.8434(12) 0.024(3) Uiso 1.0 4
+C C3 0.4127(11) 0.1653(6) 0.8763(12) 0.035(4) Uiso 1.0 4
+C C4 0.3286(12) 0.2568(6) 0.8428(14) 0.018(3) Uiso 1.0 4
+C C5 0.0146(12) 0.1829(7) 0.7521(12) 0.039(5) Uiso 1.0 4
+C C6 -0.035(2) 0.0069(9) 0.7503(17) 0.047(4) Uiso 1.0 4
+N N1 0.1331(11) 0.2628(5) 0.7828(11) 0.026(3) Uiso 1.0 4
+N N2 0.4164(12) 0.3424(4) 0.8716(12) 0.034(3) Uiso 1.0 4
+N N3 0.6139(10) 0.3455(6) 0.9453(13) 0.050(3) Uiso 1.0 4
+O O1 -0.2097(8) 0.0126(4) 0.7110(10) 0.032(3) Uiso 1.0 4
+O O2 0.0600(8) -0.0758(5) 0.7824(11) 0.043(3) Uiso 1.0 4
+H H2 0.362(2) 0.0198(11) 0.869(3) 0.029(4) Uiso 1.0 4
+H H3 0.554(3) 0.1597(10) 0.917(3) 0.042(4) Uiso 1.0 4
+H H5 -0.127(3) 0.1905(12) 0.707(3) 0.047(5) Uiso 1.0 4
+H H1N2 0.364(4) 0.3948(12) 0.816(6) 0.052(4) Uiso 1.0 4
+H H1N3 0.696(2) 0.325(5) 0.861(5) 0.075(5) Uiso 1.0 4
+H H2N3 0.644(4) 0.4040(17) 0.977(10) 0.075(5) Uiso 1.0 4
+H H1O2 -0.018(3) -0.1211(10) 0.768(4) 0.065(4) Uiso 1.0 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C 24.0 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500 51.6512 0.21560
+0.018 0.009 International_Tables_Vol_C
+N 12.0 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630 0.58260 -11.529
+0.031 0.018 International_Tables_Vol_C
+O 8.0 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700 32.9089 0.25080
+0.049 0.032 International_Tables_Vol_C
+H 28.0 0.49300 10.5109 0.32291 26.1257 0.14019 3.14236 0.04081 57.7997 0.00304
+0.000 0.000 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C2 C1 C5 1_555 1_555 118.2(7) n
+C2 C1 C6 1_555 1_555 123.3(9) n
+C5 C1 C6 1_555 1_555 118.6(9) n
+C1 C2 C3 1_555 1_555 120.3(6) n
+C1 C2 H2 1_555 1_555 119.9(6) n
+C3 C2 H2 1_555 1_555 119.7(6) n
+C2 C3 C4 1_555 1_555 120.3(7) n
+C2 C3 H3 1_555 1_555 119.8(6) n
+C4 C3 H3 1_555 1_555 119.8(6) n
+C3 C4 N1 1_555 1_555 118.9(7) n
+C3 C4 N2 1_555 1_555 127.1(8) n
+N1 C4 N2 1_555 1_555 113.9(8) n
+C1 C5 N1 1_555 1_555 119.5(6) n
+C1 C5 H5 1_555 1_555 120.3(13) n
+N1 C5 H5 1_555 1_555 120.2(13) n
+C1 C6 O1 1_555 1_555 123.5(12) n
+C1 C6 O2 1_555 1_555 112.5(10) n
+O1 C6 O2 1_555 1_555 123.8(13) n
+C4 N1 C5 1_555 1_555 122.8(8) n
+C4 N2 N3 1_555 1_555 119.2(7) n
+C4 N2 H1N2 1_555 1_555 119.(2) n
+N3 N2 H1N2 1_555 1_555 119.4(18) n
+N2 N3 H1N3 1_555 1_555 110.(2) n
+N2 N3 H2N3 1_555 1_555 110.(2) n
+H1N3 N3 H2N3 1_555 1_555 110.(5) n
+C6 O2 H1O2 1_555 1_555 109.9(15) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C1 C2 1_555 1.444(10) n
+C2 C3 1_555 1.369(9) n
+C2 H2 1_555 0.990(14) n
+C3 C4 1_555 1.407(10) n
+C3 H3 1_555 0.981(14) n
+C4 N1 1_555 1.367(9) n
+N1 C5 1_555 1.378(9) n
+C5 C1 1_555 1.397(12) n
+C5 H5 1_555 0.997(14) n
+C6 C1 1_555 1.471(15) n
+C6 O1 1_555 1.198(12) n
+C6 O2 1_555 1.328(11) n
+N2 C4 1_555 1.339(7) n
+N2 N3 1_555 1.409(7) n
+N2 H1N2 1_555 0.89(3) n
+N3 H1N3 1_555 0.87(3) n
+N3 H2N3 1_555 0.87(3) n
+O2 H1O2 1_555 0.824(14) n
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+N2 H1N2 O1 2_556 0.89(3) 1.94(2) 2.792(8) 158(4) y
+N3 H1N3 O2 2_656 0.87(3) 2.39(4) 2.967(10) 124(6) y
+N3 H2N3 O1 -2_655 0.87(3) 2.23(6) 2.950(11) 141(5) y
+O2 H1O2 N1 2_546 0.822(15) 1.818(16) 2.622(10) 165.2(18) y
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+C4 N1 C5 C1 -0.1(13) n
+C5 N1 C4 N2 -177.5(8) n
+C5 N1 C4 C3 -0.5(13) n
+N3 N2 C4 N1 175.9(8) n
+N3 N2 C4 C3 -0.8(15) n
+C2 C1 C5 N1 -0.7(13) n
+C6 C1 C5 N1 179.5(9) n
+C6 C1 C2 C3 -178.0(10) n
+C5 C1 C2 C3 2.2(14) n
+C2 C1 C6 O2 -0.5(15) n
+C5 C1 C6 O1 -4.9(17) n
+C2 C1 C6 O1 175.2(10) n
+C5 C1 C6 O2 179.4(9) n
+C1 C2 C3 C4 -2.9(13) n
+C2 C3 C4 N2 178.6(9) n
+C2 C3 C4 N1 2.1(13) n

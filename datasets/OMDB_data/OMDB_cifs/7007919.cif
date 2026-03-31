@@ -1,0 +1,425 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/00/79/7007919.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7007919
+loop_
+_publ_author_name
+'Manz, Thomas A.'
+'Fenwick, Andrew E.'
+'Phomphrai, Khamphee'
+'Rothwell, Ian P.'
+'Thomson, Kendall T.'
+_publ_section_title
+;
+ The nature of aryloxide and arylsulfide ligand bonding in
+ dimethyltitanium complexes containing cyclopentadienyl ligation.
+;
+_journal_issue                   4
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              668
+_journal_page_last               674
+_journal_paper_doi               10.1039/b412455c
+_journal_year                    2005
+_chemical_formula_moiety         'C16 H22 S1 Ti1'
+_chemical_formula_sum            'C16 H22 S Ti'
+_chemical_formula_weight         294.32
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source
+'International Tables for Crystallography (Vol C)'
+_audit_creation_date             3-10-03
+_audit_creation_method           from_MolEN_and_SHELXL
+_audit_update_record
+;
+?
+;
+_cell_angle_alpha                75.487(8)
+_cell_angle_beta                 80.377(7)
+_cell_angle_gamma                80.912(9)
+_cell_formula_units_Z            2
+_cell_length_a                   6.9470(11)
+_cell_length_b                   7.8874(13)
+_cell_length_c                   15.0380(18)
+_cell_measurement_reflns_used    12026
+_cell_measurement_temperature    150
+_cell_measurement_theta_max      27
+_cell_measurement_theta_min      2
+_cell_volume                     780.6(2)
+_computing_cell_refinement       DENZO/SCALEPACK_(Otwinowski,_1996)
+_computing_data_collection       Collect_(Nonius,_1998)
+_computing_data_reduction        DENZO/SCALEPACK_(Otwinowski,_1996)
+_computing_molecular_graphics
+;
+ORTEP (Johnson, 1976)
+PLATON (Spek, 1997)
+;
+_computing_publication_material  CIF_VAX_MolEN_(Fair,_1990)
+_computing_structure_refinement  SHELX97_(Sheldrick,_1997)
+_computing_structure_solution    PATTY_(DIRDIF99,_Beurskins,_1999)
+_diffrn_ambient_temperature      150
+_diffrn_measured_fraction_theta_full 0.9550
+_diffrn_measured_fraction_theta_max 0.8816
+_diffrn_measurement_device_type  Nonius_KappaCCD
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           MO-K\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.047
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            12026
+_diffrn_reflns_theta_full        20.2
+_diffrn_reflns_theta_max         27.86
+_diffrn_reflns_theta_min         2.69
+_exptl_absorpt_coefficient_mu    0.652
+_exptl_absorpt_correction_T_max  0.8223
+_exptl_absorpt_correction_T_min  0.6746
+_exptl_absorpt_correction_type   multi-scan_(Otwinowski_&_Minor,_1
+_exptl_crystal_colour            orange
+_exptl_crystal_density_diffrn    1.25
+_exptl_crystal_description       chunk
+_exptl_crystal_F_000             312
+_exptl_crystal_size_max          0.40
+_exptl_crystal_size_mid          0.34
+_exptl_crystal_size_min          0.30
+_refine_diff_density_max         0.42
+_refine_diff_density_min         -0.56
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.059
+_refine_ls_hydrogen_treatment    H_atoms_riding
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     168
+_refine_ls_number_reflns         3659
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.059
+_refine_ls_R_factor_gt           0.045
+_refine_ls_shift/su_max          0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'1/[\s^2^(Fo^2^)+(0.0732P)^2^+0.2936P] where P=(Fo^2^+2Fc^2^)/3  '
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.123
+_refine_ls_wR_factor_ref         0.129
+_reflns_number_gt                3177
+_reflns_number_total             3659
+_reflns_threshold_expression     >2.0\s(I)
+_cod_data_source_file            b412455c.txt
+_cod_data_source_block           AF3118
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_refine_ls_weighting_scheme' value 'calc ' changed to 'calc' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_formula_sum        'C16 H22 S1 Ti1'
+_cod_database_code               7007919
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ti Ti 0.16988(6) -0.23921(5) -0.32585(3) 0.02554(14) Uani 1 1 d . . .
+S S -0.17110(8) -0.20197(8) -0.29325(4) 0.02882(16) Uani 1 1 d . . .
+C(1) C 0.3179(6) -0.4727(4) -0.3948(2) 0.0596(10) Uani 1 1 d . . .
+C(2) C 0.1315(5) -0.4271(4) -0.4199(2) 0.0527(8) Uani 1 1 d . . .
+C(3) C 0.1220(5) -0.2578(4) -0.47475(18) 0.0499(8) Uani 1 1 d . . .
+C(4) C 0.2986(6) -0.1972(5) -0.48405(19) 0.0573(9) Uani 1 1 d . . .
+C(5) C 0.4233(5) -0.3289(6) -0.4344(3) 0.0672(11) Uani 1 1 d . . .
+C(6) C 0.2917(4) -0.3954(4) -0.20847(17) 0.0368(6) Uani 1 1 d . . .
+C(7) C 0.2708(3) 0.0077(3) -0.33360(15) 0.0297(5) Uani 1 1 d . . .
+C(11) C -0.1977(3) -0.1351(3) -0.18599(14) 0.0243(4) Uani 1 1 d . . .
+C(12) C -0.2053(3) -0.2631(3) -0.10154(15) 0.0267(5) Uani 1 1 d . . .
+C(13) C -0.2289(3) -0.2078(3) -0.01928(16) 0.0302(5) Uani 1 1 d . . .
+C(14) C -0.2489(3) -0.0313(3) -0.01649(15) 0.0294(5) Uani 1 1 d . . .
+C(15) C -0.2487(3) 0.0926(3) -0.10064(16) 0.0295(5) Uani 1 1 d . . .
+C(16) C -0.2241(3) 0.0453(3) -0.18525(15) 0.0266(5) Uani 1 1 d . . .
+C(17) C -0.1991(4) -0.4561(3) -0.09736(18) 0.0362(6) Uani 1 1 d . . .
+C(18) C -0.2719(4) 0.0244(4) 0.07343(17) 0.0401(6) Uani 1 1 d . . .
+C(19) C -0.2349(4) 0.1875(3) -0.27298(17) 0.0374(6) Uani 1 1 d . . .
+H(1) H 0.3661 -0.5821 -0.3572 0.072 Uiso 1 1 calc R . .
+H(2) H 0.0279 -0.4994 -0.4027 0.063 Uiso 1 1 calc R . .
+H(3) H 0.0100 -0.1939 -0.5017 0.060 Uiso 1 1 calc R . .
+H(4) H 0.3310 -0.0845 -0.5185 0.069 Uiso 1 1 calc R . .
+H(5) H 0.5559 -0.3225 -0.4284 0.081 Uiso 1 1 calc R . .
+H(13) H -0.2314 -0.2945 0.0375 0.036 Uiso 1 1 calc R . .
+H(15) H -0.2662 0.2143 -0.1002 0.035 Uiso 1 1 calc R . .
+H(6A) H 0.4331 -0.3870 -0.2167 0.055 Uiso 1 1 calc R . .
+H(6B) H 0.2708 -0.5186 -0.2007 0.055 Uiso 1 1 calc R . .
+H(6C) H 0.2280 -0.3535 -0.1534 0.055 Uiso 1 1 calc R . .
+H(7A) H 0.2083 0.0534 -0.2795 0.045 Uiso 1 1 calc R . .
+H(7B) H 0.2363 0.0922 -0.3902 0.045 Uiso 1 1 calc R . .
+H(7C) H 0.4139 -0.0096 -0.3346 0.045 Uiso 1 1 calc R . .
+H(17A) H -0.1899 -0.5238 -0.0337 0.054 Uiso 1 1 calc R . .
+H(17B) H -0.0843 -0.4938 -0.1385 0.054 Uiso 1 1 calc R . .
+H(17C) H -0.3192 -0.4765 -0.1172 0.054 Uiso 1 1 calc R . .
+H(18A) H -0.2927 -0.0778 0.1251 0.060 Uiso 1 1 calc R . .
+H(18B) H -0.3853 0.1152 0.0761 0.060 Uiso 1 1 calc R . .
+H(18C) H -0.1528 0.0722 0.0778 0.060 Uiso 1 1 calc R . .
+H(19A) H -0.2565 0.3035 -0.2579 0.056 Uiso 1 1 calc R . .
+H(19B) H -0.3441 0.1744 -0.3035 0.056 Uiso 1 1 calc R . .
+H(19C) H -0.1113 0.1770 -0.3146 0.056 Uiso 1 1 calc R . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ti 0.0267(2) 0.0298(2) 0.0208(2) -0.00149(16) -0.00236(15) -0.00879(15)
+S 0.0273(3) 0.0349(3) 0.0268(3) -0.0018(2) -0.0038(2) -0.0130(2)
+C(1) 0.089(3) 0.0484(18) 0.0374(15) 0.0302(18) -0.0115(16) -0.0237(13)
+C(2) 0.067(2) 0.062(2) 0.0412(15) -0.0237(16) 0.0107(14) -0.0351(14)
+C(3) 0.0603(19) 0.064(2) 0.0280(13) 0.0112(15) -0.0121(12) -0.0231(13)
+C(4) 0.089(3) 0.0551(19) 0.0278(13) -0.0209(18) 0.0181(14) -0.0185(13)
+C(5) 0.0344(15) 0.122(3) 0.062(2) -0.0039(18) 0.0088(14) -0.066(2)
+C(6) 0.0337(13) 0.0431(14) 0.0301(12) 0.0007(11) -0.0041(10) -0.0053(10)
+C(7) 0.0241(10) 0.0401(13) 0.0263(10) -0.0062(9) 0.0003(8) -0.0113(9)
+C(11) 0.0226(10) 0.0270(11) 0.0237(10) -0.0022(8) -0.0017(8) -0.0081(8)
+C(12) 0.0256(10) 0.0261(11) 0.0271(11) -0.0029(8) -0.0011(8) -0.0052(9)
+C(13) 0.0267(11) 0.0369(13) 0.0253(10) -0.0038(9) -0.0032(9) -0.0041(9)
+C(14) 0.0245(11) 0.0413(13) 0.0256(10) -0.0050(9) -0.0009(8) -0.0148(9)
+C(15) 0.0292(11) 0.0292(11) 0.0328(12) -0.0044(9) -0.0003(9) -0.0145(9)
+C(16) 0.0250(11) 0.0274(11) 0.0268(10) -0.0017(9) -0.0003(8) -0.0084(9)
+C(17) 0.0413(14) 0.0260(12) 0.0378(13) -0.0048(10) -0.0035(11) -0.0015(10)
+C(18) 0.0331(13) 0.0618(18) 0.0331(13) -0.0083(12) -0.0020(10) -0.0248(12)
+C(19) 0.0465(15) 0.0270(12) 0.0345(13) -0.0001(11) -0.0017(11) -0.0044(10)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C(6) Ti C(7) 100.23(10) . . ?
+C(6) Ti S 109.74(7) . . ?
+C(7) Ti S 107.62(6) . . ?
+C(6) Ti C(5) 95.54(13) . . ?
+C(7) Ti C(5) 95.62(13) . . ?
+S Ti C(5) 141.29(9) . . ?
+C(6) Ti C(1) 83.89(11) . . ?
+C(7) Ti C(1) 129.86(12) . . ?
+S Ti C(1) 117.89(11) . . ?
+C(5) Ti C(1) 34.68(14) . . ?
+C(6) Ti C(4) 129.74(12) . . ?
+C(7) Ti C(4) 85.52(10) . . ?
+S Ti C(4) 115.84(10) . . ?
+C(5) Ti C(4) 34.40(13) . . ?
+C(1) Ti C(4) 57.02(12) . . ?
+C(6) Ti C(2) 108.07(12) . . ?
+C(7) Ti C(2) 141.60(10) . . ?
+S Ti C(2) 86.89(9) . . ?
+C(5) Ti C(2) 56.91(12) . . ?
+C(1) Ti C(2) 34.01(12) . . ?
+C(4) Ti C(2) 56.46(11) . . ?
+C(6) Ti C(3) 139.80(11) . . ?
+C(7) Ti C(3) 109.89(11) . . ?
+S Ti C(3) 86.21(8) . . ?
+C(5) Ti C(3) 56.44(12) . . ?
+C(1) Ti C(3) 56.46(11) . . ?
+C(4) Ti C(3) 33.48(12) . . ?
+C(2) Ti C(3) 34.00(12) . . ?
+C(11) S Ti 99.78(7) . . ?
+C(2) C(1) C(5) 107.6(3) . . ?
+C(2) C(1) Ti 73.40(16) . . ?
+C(5) C(1) Ti 72.36(17) . . ?
+C(1) C(2) C(3) 107.8(3) . . ?
+C(1) C(2) Ti 72.60(17) . . ?
+C(3) C(2) Ti 73.02(17) . . ?
+C(4) C(3) C(2) 109.1(3) . . ?
+C(4) C(3) Ti 73.09(16) . . ?
+C(2) C(3) Ti 72.98(16) . . ?
+C(3) C(4) C(5) 108.0(3) . . ?
+C(3) C(4) Ti 73.43(16) . . ?
+C(5) C(4) Ti 72.24(17) . . ?
+C(4) C(5) C(1) 107.4(3) . . ?
+C(4) C(5) Ti 73.36(17) . . ?
+C(1) C(5) Ti 72.96(17) . . ?
+C(16) C(11) C(12) 119.7(2) . . ?
+C(16) C(11) S 120.28(16) . . ?
+C(12) C(11) S 119.84(17) . . ?
+C(13) C(12) C(11) 118.8(2) . . ?
+C(13) C(12) C(17) 118.9(2) . . ?
+C(11) C(12) C(17) 122.2(2) . . ?
+C(14) C(13) C(12) 122.8(2) . . ?
+C(13) C(14) C(15) 117.3(2) . . ?
+C(13) C(14) C(18) 121.6(2) . . ?
+C(15) C(14) C(18) 121.2(2) . . ?
+C(16) C(15) C(14) 122.6(2) . . ?
+C(15) C(16) C(11) 118.8(2) . . ?
+C(15) C(16) C(19) 119.4(2) . . ?
+C(11) C(16) C(19) 121.8(2) . . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ti C(6) 2.105(2) . ?
+Ti C(7) 2.142(2) . ?
+Ti S 2.3242(8) . ?
+Ti C(5) 2.343(3) . ?
+Ti C(1) 2.351(3) . ?
+Ti C(4) 2.357(3) . ?
+Ti C(2) 2.361(3) . ?
+Ti C(3) 2.361(3) . ?
+S C(11) 1.792(2) . ?
+C(1) C(2) 1.378(5) . ?
+C(1) C(5) 1.399(6) . ?
+C(2) C(3) 1.380(5) . ?
+C(3) C(4) 1.359(5) . ?
+C(4) C(5) 1.390(5) . ?
+C(11) C(16) 1.409(3) . ?
+C(11) C(12) 1.410(3) . ?
+C(12) C(13) 1.388(3) . ?
+C(12) C(17) 1.501(3) . ?
+C(13) C(14) 1.388(4) . ?
+C(14) C(15) 1.392(3) . ?
+C(14) C(18) 1.500(3) . ?
+C(15) C(16) 1.390(3) . ?
+C(16) C(19) 1.506(3) . ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+C(6) Ti S C(11) 49.49(11) . . . . ?
+C(7) Ti S C(11) -58.69(10) . . . . ?
+C(5) Ti S C(11) 177.2(2) . . . . ?
+C(1) Ti S C(11) 143.04(11) . . . . ?
+C(4) Ti S C(11) -152.29(12) . . . . ?
+C(2) Ti S C(11) 157.58(12) . . . . ?
+C(3) Ti S C(11) -168.37(11) . . . . ?
+C(6) Ti C(1) C(2) 135.7(2) . . . . ?
+C(7) Ti C(1) C(2) -126.0(2) . . . . ?
+S Ti C(1) C(2) 26.6(2) . . . . ?
+C(5) Ti C(1) C(2) -115.3(3) . . . . ?
+C(4) Ti C(1) C(2) -77.5(2) . . . . ?
+C(3) Ti C(1) C(2) -37.25(19) . . . . ?
+C(6) Ti C(1) C(5) -109.0(2) . . . . ?
+C(7) Ti C(1) C(5) -10.8(3) . . . . ?
+S Ti C(1) C(5) 141.9(2) . . . . ?
+C(4) Ti C(1) C(5) 37.7(2) . . . . ?
+C(2) Ti C(1) C(5) 115.3(3) . . . . ?
+C(3) Ti C(1) C(5) 78.0(2) . . . . ?
+C(5) C(1) C(2) C(3) 0.3(3) . . . . ?
+Ti C(1) C(2) C(3) 65.03(19) . . . . ?
+C(5) C(1) C(2) Ti -64.7(2) . . . . ?
+C(6) Ti C(2) C(1) -46.9(2) . . . . ?
+C(7) Ti C(2) C(1) 88.5(3) . . . . ?
+S Ti C(2) C(1) -156.6(2) . . . . ?
+C(5) Ti C(2) C(1) 37.9(2) . . . . ?
+C(4) Ti C(2) C(1) 79.3(2) . . . . ?
+C(3) Ti C(2) C(1) 115.5(3) . . . . ?
+C(6) Ti C(2) C(3) -162.41(19) . . . . ?
+C(7) Ti C(2) C(3) -27.0(3) . . . . ?
+S Ti C(2) C(3) 87.83(19) . . . . ?
+C(5) Ti C(2) C(3) -77.7(2) . . . . ?
+C(1) Ti C(2) C(3) -115.5(3) . . . . ?
+C(4) Ti C(2) C(3) -36.2(2) . . . . ?
+C(1) C(2) C(3) C(4) -0.1(3) . . . . ?
+Ti C(2) C(3) C(4) 64.7(2) . . . . ?
+C(1) C(2) C(3) Ti -64.7(2) . . . . ?
+C(6) Ti C(3) C(4) -90.4(3) . . . . ?
+C(7) Ti C(3) C(4) 45.8(2) . . . . ?
+S Ti C(3) C(4) 153.1(2) . . . . ?
+C(5) Ti C(3) C(4) -37.6(2) . . . . ?
+C(1) Ti C(3) C(4) -79.5(2) . . . . ?
+C(2) Ti C(3) C(4) -116.8(3) . . . . ?
+C(6) Ti C(3) C(2) 26.4(3) . . . . ?
+C(7) Ti C(3) C(2) 162.56(19) . . . . ?
+S Ti C(3) C(2) -90.06(19) . . . . ?
+C(5) Ti C(3) C(2) 79.2(2) . . . . ?
+C(1) Ti C(3) C(2) 37.3(2) . . . . ?
+C(4) Ti C(3) C(2) 116.8(3) . . . . ?
+C(2) C(3) C(4) C(5) -0.2(3) . . . . ?
+Ti C(3) C(4) C(5) 64.4(2) . . . . ?
+C(2) C(3) C(4) Ti -64.6(2) . . . . ?
+C(6) Ti C(4) C(3) 122.9(2) . . . . ?
+C(7) Ti C(4) C(3) -137.5(2) . . . . ?
+S Ti C(4) C(3) -30.1(2) . . . . ?
+C(5) Ti C(4) C(3) 115.8(3) . . . . ?
+C(1) Ti C(4) C(3) 77.7(2) . . . . ?
+C(2) Ti C(4) C(3) 36.78(19) . . . . ?
+C(6) Ti C(4) C(5) 7.2(3) . . . . ?
+C(7) Ti C(4) C(5) 106.8(2) . . . . ?
+S Ti C(4) C(5) -145.8(2) . . . . ?
+C(1) Ti C(4) C(5) -38.0(2) . . . . ?
+C(2) Ti C(4) C(5) -79.0(2) . . . . ?
+C(3) Ti C(4) C(5) -115.8(3) . . . . ?
+C(3) C(4) C(5) C(1) 0.3(3) . . . . ?
+Ti C(4) C(5) C(1) 65.5(2) . . . . ?
+C(3) C(4) C(5) Ti -65.2(2) . . . . ?
+C(2) C(1) C(5) C(4) -0.4(3) . . . . ?
+Ti C(1) C(5) C(4) -65.8(2) . . . . ?
+C(2) C(1) C(5) Ti 65.4(2) . . . . ?
+C(6) Ti C(5) C(4) -174.5(2) . . . . ?
+C(7) Ti C(5) C(4) -73.6(2) . . . . ?
+S Ti C(5) C(4) 53.9(3) . . . . ?
+C(1) Ti C(5) C(4) 114.7(3) . . . . ?
+C(2) Ti C(5) C(4) 77.6(2) . . . . ?
+C(3) Ti C(5) C(4) 36.6(2) . . . . ?
+C(6) Ti C(5) C(1) 70.8(2) . . . . ?
+C(7) Ti C(5) C(1) 171.7(2) . . . . ?
+S Ti C(5) C(1) -60.7(3) . . . . ?
+C(4) Ti C(5) C(1) -114.7(3) . . . . ?
+C(2) Ti C(5) C(1) -37.13(19) . . . . ?
+C(3) Ti C(5) C(1) -78.1(2) . . . . ?
+Ti S C(11) C(16) 93.96(18) . . . . ?
+Ti S C(11) C(12) -90.26(17) . . . . ?
+C(16) C(11) C(12) C(13) -3.3(3) . . . . ?
+S C(11) C(12) C(13) -179.07(17) . . . . ?
+C(16) C(11) C(12) C(17) 173.6(2) . . . . ?
+S C(11) C(12) C(17) -2.2(3) . . . . ?
+C(11) C(12) C(13) C(14) 1.2(3) . . . . ?
+C(17) C(12) C(13) C(14) -175.7(2) . . . . ?
+C(12) C(13) C(14) C(15) 1.3(3) . . . . ?
+C(12) C(13) C(14) C(18) -179.3(2) . . . . ?
+C(13) C(14) C(15) C(16) -1.9(3) . . . . ?
+C(18) C(14) C(15) C(16) 178.8(2) . . . . ?
+C(14) C(15) C(16) C(11) -0.2(3) . . . . ?
+C(14) C(15) C(16) C(19) 177.2(2) . . . . ?
+C(12) C(11) C(16) C(15) 2.8(3) . . . . ?
+S C(11) C(16) C(15) 178.54(17) . . . . ?
+C(12) C(11) C(16) C(19) -174.6(2) . . . . ?
+S C(11) C(16) C(19) 1.2(3) . . . . ?

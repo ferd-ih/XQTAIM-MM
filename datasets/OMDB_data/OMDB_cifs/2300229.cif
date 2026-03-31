@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-07-31 14:43:45 +0300 (Tue, 31 Jul 2018) $
+#$Revision: 209310 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/30/02/2300229.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300229
+loop_
+_publ_author_name
+'Stone, Kevin H.'
+'Lapidus, Saul H.'
+'Stephens, Peter W.'
+_publ_section_title
+;
+ Implementation and use of robust refinement in powder diffraction in
+ the presence of impurities
+;
+_journal_coeditor_code           DB5058
+_journal_issue                   3
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              385
+_journal_page_last               391
+_journal_paper_doi               10.1107/S0021889809008450
+_journal_volume                  42
+_journal_year                    2009
+_chemical_formula_moiety         'C8 H9 N O2'
+_chemical_formula_structural     'C8 H9 N O2'
+_chemical_formula_sum            'C8 H9 N O2'
+_chemical_formula_weight         151.16
+_chemical_name_common            acetaminophen
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2yab'
+_space_group_name_H-M_alt        'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 115.7015(8)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.88606(18)
+_cell_length_b                   9.38115(12)
+_cell_length_c                   7.10099(10)
+_cell_volume                     773.484(19)
+_diffrn_radiation_monochromator  'double Si(111)'
+_diffrn_radiation_wavelength     0.698291
+_cod_data_source_file            db5058.cif
+_cod_data_source_block           Acet_pure_Rietveld
+_cod_depositor_comments
+;
+ Updating space group information.
+
+ 2018-07-31
+
+The following automatic conversions were performed:
+'_space_group_crystal_system' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_database_code               2300229
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x+1/2,y+1/2,-z
+3 -x,-y,-z
+4 x+1/2,-y+1/2,z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+C C1a 0.439 0.351118 -0.1491014 1
+C C2a 0.51319 0.354309 -0.243711 1
+C C3a 0.60885 0.265858 -0.1722597 1
+C C4a 0.63033 0.174216 -0.00619879 1
+C C5a 0.55615 0.171025 0.08841078 1
+C C6a 0.46048 0.259476 0.01695948 1
+C C7a 0.28253 0.510617 -0.3948493 1
+C C8a 0.17732 0.594543 -0.4212758 1
+N N1a 0.34199 0.440558 -0.2161286 1
+O O1a 0.72212 0.079352 0.05493847 1
+O O2a 0.30699 0.499579 -0.545488 1
+H H1a 0.7783 0.100093 0.2023184 1
+H H2a 0.4977 0.420392 -0.3634582 1
+H H3a 0.66235 0.268158 -0.240483 1
+H H5a 0.57164 0.104942 0.208158 1
+H H6a 0.40699 0.257176 0.08518285 1
+H H8a 0.1388 0.633031 -0.5668259 1
+H H8b 0.12585 0.53344 -0.3828515 1
+H H8c 0.19967 0.669984 -0.3111489 1
+H H9a 0.31654 0.444164 -0.101699 1

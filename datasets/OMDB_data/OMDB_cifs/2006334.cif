@@ -1,0 +1,231 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 03:08:28 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201955 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/63/2006334.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006334
+loop_
+_publ_author_name
+'Wouters, Johan'
+'Ooms, Frederic'
+'Durant, Francois'
+_publ_section_title
+;
+ 2-Oxazolidinone
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              895
+_journal_page_last               897
+_journal_paper_doi               10.1107/S0108270197003752
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'C3 H5 N O2'
+_chemical_formula_weight         87.08
+_chemical_name_common            oxazolidinone
+_chemical_name_systematic
+;
+ 2-oxazolidinone
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 110.79(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.3180(15)
+_cell_length_b                   5.6730(11)
+_cell_length_c                   9.989(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      45
+_cell_measurement_theta_min      40
+_cell_volume                     387.69(15)
+_computing_data_collection       'CAD-4 EXPRESS (Enraf-Nonius, 1992)'
+_computing_publication_material  Platon94
+_computing_structure_refinement  SHELXL93
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54178
+_diffrn_reflns_av_R_equivalents  0.0293
+_diffrn_reflns_av_sigmaI/netI    0.0277
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       0
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            1163
+_diffrn_reflns_theta_max         71.89
+_diffrn_reflns_theta_min         1.95
+_diffrn_standards_decay_%        0.01
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    1.087
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.492
+_exptl_crystal_density_method    'not determined'
+_exptl_crystal_description       cube
+_exptl_crystal_F_000             184
+_exptl_crystal_size_max          0.40
+_exptl_crystal_size_mid          0.40
+_exptl_crystal_size_min          0.40
+_refine_diff_density_max         .191
+_refine_diff_density_min         -.265
+_refine_ls_extinction_coef       0.55(3)
+_refine_ls_extinction_method     'SHELXL93 (Sheldrick, 1993)'
+_refine_ls_goodness_of_fit_all   1.120
+_refine_ls_goodness_of_fit_obs   1.134
+_refine_ls_hydrogen_treatment    'H atoms: see text'
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     76
+_refine_ls_number_reflns         760
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.119
+_refine_ls_restrained_S_obs      1.134
+_refine_ls_R_factor_all          0.0395
+_refine_ls_R_factor_obs          .0390
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0544P)^2^+0.0456P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1000
+_refine_ls_wR_factor_obs         .0995
+_reflns_number_observed          737
+_reflns_number_total             760
+_reflns_observed_criterion       >2\s(I)
+_cod_data_source_file            sk1055.cif
+_cod_data_source_block           oxazo
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0544P)^2^+0.0456P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(Fo^2^)+(0.0544P)^2^+0.0456P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        387.70(13)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2006334
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+N .0508(6) .0420(7) .0349(6) .0064(4) -.0006(5) .0045(4)
+O1 .0532(6) .0359(6) .0353(5) .0048(3) -.0016(4) -.0008(3)
+O2 .0681(7) .0548(7) .0429(6) .0001(4) -.0009(5) -.0162(4)
+C1 .0633(9) .0369(7) .0437(8) .0009(6) .0070(6) -.0022(5)
+C2 .0515(7) .0427(7) .0340(6) .0007(5) .0016(5) -.0050(5)
+C3 .0397(6) .0404(7) .0311(6) -.0020(4) .0042(4) -.0008(4)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+N .3559(2) -.1725(2) .57370(10) .0469(4) Uani d . 1 . N
+O1 .16090(10) .0954(2) .43782(8) .0461(4) Uani d . 1 . O
+O2 .3471(2) .2011(2) .65960(10) .0608(4) Uani d . 1 . O
+C1 .2481(2) -.3047(2) .44700(10) .0512(4) Uani d . 1 . C
+C2 .1400(2) -.1082(2) .34740(10) .0464(4) Uani d . 1 . C
+C3 .2960(2) .0492(2) .56750(10) .0393(4) Uani d . 1 . C
+H .439(2) -.227(4) .6537(18) .061(4) Uiso d . 1 . H
+H1A .152(3) -.414(4) .470(2) .081(6) Uiso d . 1 . H
+H1B .335(3) -.388(4) .411(2) .079(6) Uiso d . 1 . H
+H2A .208(3) -.068(3) .276(2) .070(5) Uiso d . 1 . H
+H2B .006(3) -.138(3) .304(2) .070(5) Uiso d . 1 . H
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C .0181 .0091 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H .0000 .0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N .0311 .0180 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0492 .0322 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C3 N C1 112.60(10) yes
+C3 O1 C2 109.00(10) yes
+N C1 C2 100.90(10) yes
+O1 C2 C1 105.30(10) yes
+O2 C3 N 128.90(10) yes
+O2 C3 O1 120.80(10) yes
+N C3 O1 110.30(10) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+N C3 . 1.326(2) yes
+N C1 . 1.441(2) yes
+O1 C3 . 1.347(2) yes
+O1 C2 . 1.440(2) yes
+O2 C3 . 1.219(2) yes
+C1 C2 . 1.516(2) yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+C3 N C1 C2 11.9(2) yes
+C3 O1 C2 C1 11.70(10) yes
+N C1 C2 O1 -13.60(10) yes
+C1 N C3 O2 174.60(10) yes
+C1 N C3 O1 -5.3(2) yes
+C2 O1 C3 O2 175.60(10) yes
+C2 O1 C3 N -4.40(10) yes
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 66579

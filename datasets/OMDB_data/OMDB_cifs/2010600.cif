@@ -1,0 +1,263 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 03:48:21 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201957 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/01/06/2010600.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010600
+loop_
+_publ_author_name
+'Parsons, Simon'
+'Smith, Andrew G.'
+'Tasker, Peter A.'
+'White, David J.'
+_publ_section_title
+;
+ Acetone-4-methylthiosemicarbazone at 220K
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              237
+_journal_page_last               238
+_journal_paper_doi               10.1107/S0108270199014559
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_sum            'C5 H11 N3 S'
+_chemical_formula_weight         145.23
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 103.43(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.067(4)
+_cell_length_b                   9.783(5)
+_cell_length_c                   11.440(6)
+_cell_measurement_reflns_used    31
+_cell_measurement_temperature    220(2)
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      20
+_cell_volume                     769.3(7)
+_computing_cell_refinement       DIF4
+_computing_data_collection       'DIF4 (Stoe & Cie, 1990a)'
+_computing_data_reduction        'REDU4 (Stoe & Cie, 1990b)'
+_computing_molecular_graphics    'SHELXTL (Sheldrick, 1994)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997a)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1997b)'
+_diffrn_ambient_temperature      220(2)
+_diffrn_measured_fraction_theta_full .925
+_diffrn_measured_fraction_theta_max .925
+_diffrn_measurement_device_type
+;
+Stoe Stadi-4 diffractometer equipped with an Oxford Cryosystems open
+flow cryostat device.
+;
+_diffrn_measurement_method       \w-\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54178
+_diffrn_reflns_av_R_equivalents  .0132
+_diffrn_reflns_av_sigmaI/netI    .0190
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            2687
+_diffrn_reflns_theta_full        69.93
+_diffrn_reflns_theta_max         69.93
+_diffrn_reflns_theta_min         6.02
+_diffrn_standards_decay_%        +/-1
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    3.092
+_exptl_absorpt_correction_T_max  .658
+_exptl_absorpt_correction_T_min  .302
+_exptl_absorpt_correction_type   'Optimised numerical'
+_exptl_absorpt_process_details
+;
+A numerical absorption was performed by Gaussian integration after
+refinement of the crystal form and dimensions against a set of psi-scans
+(X-shape; Stoe & Cie, 1997).
+;
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    1.254
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'plate developed in (001)'
+_exptl_crystal_F_000             312
+_exptl_crystal_size_max          .42
+_exptl_crystal_size_mid          .31
+_exptl_crystal_size_min          .12
+_refine_diff_density_max         .300
+_refine_diff_density_min         -.401
+_refine_ls_extinction_coef       .0144(15)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997a)'
+_refine_ls_goodness_of_fit_ref   1.055
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     94
+_refine_ls_number_reflns         1348
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.055
+_refine_ls_R_factor_all          .0495
+_refine_ls_R_factor_gt           .0431
+_refine_ls_shift/su_max          .018
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0622P)^2^+0.7050P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .1221
+_reflns_number_gt                1181
+_reflns_number_total             1348
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            bm1372.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'Not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2010600
+_cod_database_fobs_code          2010600
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+S1 .26869(10) .14281(6) .64775(5) .0360(3) Uani d . 1 . . S
+C1 .2538(3) .2408(2) .5243(2) .0290(6) Uani d . 1 . . C
+N1 .2563(3) .3793(2) .53596(19) .0332(5) Uani d . 1 . . N
+H1 .270(4) .415(3) .603(3) .036(8) Uiso d . 1 . . H
+N2 .2411(3) .4609(2) .43562(18) .0306(5) Uani d . 1 . . N
+C3 .2443(3) .5906(2) .4509(2) .0288(6) Uani d . 1 . . C
+C31 .2621(4) .6599(3) .5697(2) .0402(7) Uani d . 1 . . C
+H31A .2545 .7581 .5580 .060 Uiso calc R 1 . . H
+H31B .3861 .6365 .6227 .060 Uiso calc R 1 . . H
+H31C .1572 .6300 .6053 .060 Uiso calc R 1 . . H
+C32 .2273(4) .6770(3) .3415(2) .0365(6) Uani d . 1 . . C
+H32A .3421 .7340 .3506 .055 Uiso calc R 1 . . H
+H32B .1127 .7345 .3311 .055 Uiso calc R 1 . . H
+H32C .2159 .6187 .2716 .055 Uiso calc R 1 . . H
+N4 .2394(3) .1933(2) .41414(19) .0335(5) Uani d . 1 . . N
+H4 .247(4) .255(3) .363(2) .027(7) Uiso d . 1 . . H
+C41 .2341(5) .0490(3) .3840(3) .0428(7) Uani d . 1 . . C
+H41A .3637 .0107 .4099 .064 Uiso calc R 1 . . H
+H41B .1889 .0381 .2977 .064 Uiso calc R 1 . . H
+H41C .1463 .0019 .4241 .064 Uiso calc R 1 . . H
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+S1 .0502(5) .0286(4) .0314(4) .0003(3) .0141(3) .0064(2)
+C1 .0300(14) .0261(12) .0318(12) .0002(9) .0090(9) .0000(9)
+N1 .0514(15) .0223(10) .0269(11) -.0003(9) .0115(9) .0003(8)
+N2 .0416(13) .0240(10) .0273(10) -.0004(8) .0103(9) .0014(8)
+C3 .0298(14) .0243(12) .0324(12) -.0010(9) .0076(10) .0000(9)
+C31 .0527(19) .0291(14) .0385(14) -.0016(11) .0102(12) -.0068(11)
+C32 .0479(17) .0243(12) .0377(14) -.0007(11) .0108(12) .0026(10)
+N4 .0496(14) .0217(10) .0314(11) -.0007(9) .0139(9) .0011(9)
+C41 .062(2) .0254(14) .0422(14) .0016(12) .0140(13) -.0060(11)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C .0181 .0091 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H .0000 .0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N .0311 .0180 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S .3331 .5567 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+N4 C1 N1 116.0(2) yes
+N4 C1 S1 124.93(19) yes
+N1 C1 S1 119.08(18) yes
+C1 N1 N2 119.8(2) yes
+C3 N2 N1 117.6(2) yes
+N2 C3 C32 116.8(2) yes
+N2 C3 C31 124.6(2) yes
+C32 C3 C31 118.6(2) yes
+C1 N4 C41 124.0(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+S1 C1 . 1.689(2) yes
+C1 N4 . 1.325(3) yes
+C1 N1 . 1.361(3) yes
+N1 N2 . 1.382(3) yes
+N2 C3 . 1.281(3) yes
+C3 C32 . 1.492(3) yes
+C3 C31 . 1.497(3) yes
+N4 C41 . 1.451(3) yes
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 10302189

@@ -1,0 +1,158 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/34/2003427.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003427
+loop_
+_publ_author_name
+'Echeverria, G.'
+'Punte, G.'
+'Rivero, B. E.'
+'Bar\'on, M.'
+_publ_section_title
+;
+ Conformational Studies of <i>trans</i>-1,4-Substituted Cyclohexanes.
+ II. <i>trans</i>-1,4-Dibromo-1,4-cyclohexanedicarbonitrile,
+ C~8~H~8~Br~2~N~2~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1023
+_journal_page_last               1026
+_journal_paper_doi               10.1107/S010827019401098X
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'C8 H8 Br2 N2'
+_chemical_formula_weight         291.98
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_atom_type_scat_source           'IntTabIV Table 2.2B'
+_cell_angle_alpha                90
+_cell_angle_beta                 112.14(5)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   11.920(8)
+_cell_length_b                   6.885(5)
+_cell_length_c                   6.457(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      8.5
+_cell_measurement_theta_min      2.5
+_cell_volume                     490.8(6)
+_diffrn_measurement_device       CAD-4
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7093
+_diffrn_reflns_av_R_equivalents  0.028
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            440
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        4
+_diffrn_standards_interval_count 30
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    8.1
+_exptl_absorpt_correction_T_max  1.48
+_exptl_absorpt_correction_T_min  0.6
+_exptl_absorpt_correction_type   'empirical (DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.976
+_exptl_crystal_description       irregular
+_exptl_crystal_size_max          0.25
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.075
+_refine_diff_density_max         0.68
+_refine_diff_density_min         -0.56
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.39
+_refine_ls_number_parameters     35
+_refine_ls_number_reflns         306
+_refine_ls_R_factor_obs          0.037
+_refine_ls_shift/esd_max         0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = k/[\s^2^(F~o~)+0.00037F~o~^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.037
+_reflns_number_observed          306
+_reflns_number_total             370
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            cr1127.cif
+_cod_data_source_block           cr1127a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w =
+k/[\s^2^(F~o~)+0.00037F~o~^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = k/[\s^2^(F~o~)+0.00037F~o~^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        490.8(5)
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               2003427
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,z
+-x,-y,-z
+-x,y,-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Br .1761(1) 0 .5381(2) .0399(4)
+C(1) .1062(8) 0 .210(2) .029(4)
+C(2) .0307(6) .1835(9) .126(1) .029(2)
+C(3) .2125(9) 0 .140(2) .029(4)
+N .2908(8) 0 .081(2) .044(4)
+H(2a) -.0223(6) .1934(9) .231(1) .025(1)
+H(2e) .0865(6) .3136(9) .163(1) .025(1)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Br C(1) C(2) . 109.6(2) yes
+Br C(1) C(3) . 105.2(7) yes
+C(2) C(1) C(3) . 110.2(3) yes
+C(1) C(3) N . 178.0(10) yes
+C(1) C(2) C(2) 4 111.2(5) yes
+C(2) C(1) C(2) 2 111.7(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Br C(1) . 1.960(10) yes
+C(1) C(2) . 1.527(8) yes
+C(1) C(3) . 1.50(2) yes
+C(3) N . 1.13(2) yes
+C(2) C(2) 4 1.514(9) yes

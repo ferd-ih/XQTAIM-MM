@@ -1,0 +1,238 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 03:48:21 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201957 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/01/26/2012680.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2012680
+loop_
+_publ_author_name
+'Britton, Doyle'
+'Young Jr, Victor G.'
+'Schlemper, Elmer O.'
+_publ_section_title
+;
+ Intermolecular interactions in cyanodimethylarsine and
+ cyanodimethylstibine
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              m307
+_journal_page_last               m309
+_journal_paper_doi               10.1107/S0108270102006030
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_moiety         '[As (C H3)2 C N]'
+_chemical_formula_sum            'C3 H6 As N'
+_chemical_formula_weight         131.01
+_chemical_name_common            'cacodyl cyanide'
+_chemical_name_systematic
+;
+ cyanodimethylarsine
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1 (1/2*x+1/2*y,1/2*x-1/2*y,-z)'
+_symmetry_space_group_name_H-M   'C -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           'SHELXTL plus manual additions'
+_cell_angle_alpha                98.30(3)
+_cell_angle_beta                 108.39(3)
+_cell_angle_gamma                90.68(3)
+_cell_formula_units_Z            4
+_cell_length_a                   10.738(2)
+_cell_length_b                   6.253(2)
+_cell_length_c                   7.875(2)
+_cell_measurement_reflns_used    2568
+_cell_measurement_temperature    173(2)
+_cell_measurement_theta_max      27.5
+_cell_measurement_theta_min      2.8
+_cell_volume                     495.6(2)
+_computing_cell_refinement       'SAINT (Siemens, 1995)'
+_computing_data_collection       'SMART (Siemens, 1995)'
+_computing_data_reduction        SAINT
+_computing_molecular_graphics    SHELXTL
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  SHELXTL
+_computing_structure_solution    'SHELXTL (Sheldrick, 1994)'
+_diffrn_ambient_temperature      173(2)
+_diffrn_measured_fraction_theta_full 0.991
+_diffrn_measured_fraction_theta_max 0.991
+_diffrn_measurement_device_type  'Siemens SMART area-detector'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.026
+_diffrn_reflns_av_sigmaI/netI    0.029
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            2927
+_diffrn_reflns_theta_full        27.51
+_diffrn_reflns_theta_max         27.51
+_diffrn_reflns_theta_min         2.76
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_time  360
+_diffrn_standards_number         48
+_exptl_absorpt_coefficient_mu    6.681
+_exptl_absorpt_correction_T_max  0.51
+_exptl_absorpt_correction_T_min  0.28
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Sheldrick, 1996; Blessing, 1995)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.756
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             256
+_exptl_crystal_size_max          0.50
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         1.66
+_refine_diff_density_min         -1.33
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.05
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     46
+_refine_ls_number_reflns         1125
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.05
+_refine_ls_R_factor_all          0.035
+_refine_ls_R_factor_gt           0.033
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.070P)^2^+0.110P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.089
+_refine_ls_wR_factor_ref         0.090
+_reflns_number_gt                1058
+_reflns_number_total             1125
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            bk1648.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      C-1
+_cod_database_code               2012680
+_cod_database_fobs_code          2012680
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x+1/2, y+1/2, z'
+'-x, -y, -z'
+'-x+1/2, -y+1/2, -z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+As1 0.83363(3) 0.04319(4) 0.35626(4) 0.02295(16) Uani d . 1 . . As
+C3 0.9127(4) 0.0553(6) 0.1661(5) 0.0335(7) Uani d . 1 . . C
+H3A 1.0084 0.0515 0.2171 0.050 Uiso calc R 1 . . H
+H3B 0.8912 0.1896 0.1156 0.050 Uiso calc R 1 . . H
+H3C 0.8784 -0.0691 0.0701 0.050 Uiso calc R 1 . . H
+C1 0.8271(3) -0.2706(5) 0.3337(5) 0.0273(6) Uani d . 1 . . C
+C2 0.6502(3) 0.0542(6) 0.2111(5) 0.0326(7) Uani d . 1 . . C
+H2A 0.5944 0.0497 0.2880 0.049 Uiso calc R 1 . . H
+H2B 0.6255 -0.0701 0.1135 0.049 Uiso calc R 1 . . H
+H2C 0.6385 0.1886 0.1590 0.049 Uiso calc R 1 . . H
+N1 0.8243(3) -0.4534(5) 0.3301(5) 0.0397(8) Uani d . 1 . . N
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+As1 0.0222(2) 0.0195(2) 0.0264(2) 0.00164(13) 0.00633(15) 0.00468(14)
+C3 0.0375(19) 0.0303(17) 0.0395(18) 0.0052(14) 0.0195(15) 0.0110(14)
+C1 0.0235(16) 0.0265(16) 0.0339(16) 0.0041(12) 0.0097(13) 0.0094(12)
+C2 0.0227(16) 0.0280(16) 0.0426(18) 0.0042(12) 0.0027(14) 0.0083(14)
+N1 0.042(2) 0.0286(19) 0.051(2) 0.0041(15) 0.0170(16) 0.0115(15)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+As As 0.0499 2.0058 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+C1 As1 C2 94.51(15)
+C1 As1 C3 94.99(14)
+C2 As1 C3 98.36(16)
+As1 C3 H3A 109.5
+As1 C3 H3B 109.5
+H3A C3 H3B 109.5
+As1 C3 H3C 109.5
+H3A C3 H3C 109.5
+H3B C3 H3C 109.5
+N1 C1 As1 176.3(3)
+As1 C2 H2A 109.5
+As1 C2 H2B 109.5
+H2A C2 H2B 109.5
+As1 C2 H2C 109.5
+H2A C2 H2C 109.5
+H2B C2 H2C 109.5
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+As1 C1 . 1.943(3) ?
+As1 C2 . 1.948(4) ?
+As1 C3 . 1.950(3) ?
+C3 H3A . 0.9800 ?
+C3 H3B . 0.9800 ?
+C3 H3C . 0.9800 ?
+C1 N1 . 1.139(4) ?
+C2 H2A . 0.9800 ?
+C2 H2B . 0.9800 ?
+C2 H2C . 0.9800 ?
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 12169

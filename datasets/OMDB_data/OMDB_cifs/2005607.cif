@@ -1,0 +1,234 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/56/2005607.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005607
+loop_
+_publ_author_name
+'Palmer, M. H.'
+'Parsons, S.'
+_publ_section_title
+;
+ 4-Methyl-1,2,4-triazole and 1-Methyltetrazole
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2818
+_journal_page_last               2822
+_journal_paper_doi               10.1107/S0108270196008232
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'C2 H4 N4'
+_chemical_formula_weight         84.09
+_chemical_name_systematic        1-Methyltetrazole
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.578(2)
+_cell_length_b                   6.324(2)
+_cell_length_c                   10.799(6)
+_cell_measurement_reflns_used    32
+_cell_measurement_temperature    150.0(2)
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      20
+_cell_volume                     380.9(3)
+_computing_cell_refinement       DIF4
+_computing_data_collection       'DIF4 (Stoe & Cie, 1990a)'
+_computing_data_reduction        'REDU4 (Stoe & Cie, 1990b)'
+_computing_molecular_graphics    SHELXTL
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  'SHELXTL (Sheldrick, 1995)'
+_computing_structure_solution    'SIR92 (Altomare et al., 1994)'
+_diffrn_ambient_temperature      150.0(2)
+_diffrn_measurement_device
+'Stoe Stadi-4 diffractometer with Cryostream cooler (Cosier & Glazer, 1986)'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54184
+_diffrn_reflns_av_R_equivalents  0.0498
+_diffrn_reflns_av_sigmaI/netI    0.0229
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            1774
+_diffrn_reflns_theta_max         60.14
+_diffrn_reflns_theta_min         8.12
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.918
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    1.466
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       Needle
+_exptl_crystal_F_000             176
+_exptl_crystal_size_max          0.51
+_exptl_crystal_size_mid          0.19
+_exptl_crystal_size_min          0.16
+_refine_diff_density_max         0.199
+_refine_diff_density_min         -0.163
+_refine_ls_extinction_coef       0.018(3)
+_refine_ls_extinction_method     'SHELXTL (Sheldrick, 1995)'
+_refine_ls_goodness_of_fit_all   1.138
+_refine_ls_goodness_of_fit_obs   1.152
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     48
+_refine_ls_number_reflns         314
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.138
+_refine_ls_restrained_S_obs      1.152
+_refine_ls_R_factor_all          0.0360
+_refine_ls_R_factor_obs          0.0353
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0494P)^2^+0.0791P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0825
+_refine_ls_wR_factor_obs         0.0817
+_reflns_number_observed          303
+_reflns_number_total             314
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            cf1129.cif
+_cod_data_source_block           II
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'Not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0494P)^2^+0.0791P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0494P)^2^+0.0791P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2005607
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'-x-1/2, y-1/2, z-1/2'
+'x, -y-1/2, z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+N1 0.0196(8) 0.0290(9) 0.0181(9) 0.000 -0.0024(5) 0.000
+C1M 0.0281(12) 0.0430(12) 0.0219(11) 0.000 0.0055(8) 0.000
+N2 0.0196(8) 0.0335(10) 0.0254(9) 0.000 -0.0017(6) 0.000
+N3 0.0250(8) 0.0363(10) 0.0276(9) 0.000 0.0028(7) 0.000
+N4 0.0304(9) 0.0393(10) 0.0212(9) 0.000 0.0015(6) 0.000
+C5 0.0234(9) 0.0313(10) 0.0206(10) 0.000 -0.0021(7) 0.000
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_type_symbol
+N1 1 0.7935(2) 0.2500 0.53002(11) 0.0222(5) Uani d S N
+C1M 1 0.6392(4) 0.2500 0.6387(2) 0.0310(6) Uani d S C
+H1A 1 0.4716(41) 0.2500 0.6105(21) 0.035(5) Uiso d S H
+H1B 1 0.6769(24) 0.3734(26) 0.6883(15) 0.050(4) Uiso d . H
+N2 1 1.0334(3) 0.2500 0.54185(12) 0.0262(5) Uani d S N
+N3 1 1.1194(2) 0.2500 0.43009(14) 0.0296(5) Uani d S N
+N4 1 0.9395(3) 0.2500 0.34509(13) 0.0303(6) Uani d S N
+C5 1 0.7399(3) 0.2500 0.4099(2) 0.0251(5) Uani d S C
+H5 1 0.5817(33) 0.2500 0.3768(19) 0.028(5) Uiso d S H
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0181 0.0091 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0311 0.0180 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C5 N1 N2 108.42(14) n
+C5 N1 C1M 130.78(15) n
+N2 N1 C1M 120.81(13) n
+N3 N2 N1 106.23(12) n
+N2 N3 N4 110.78(14) n
+C5 N4 N3 105.39(14) n
+N4 C5 N1 109.2(2) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+N1 C5 1.331(2) n
+N1 N2 1.344(2) n
+N1 C1M 1.455(2) n
+N2 N3 1.299(2) n
+N3 N4 1.360(2) n
+N4 C5 1.315(2) n

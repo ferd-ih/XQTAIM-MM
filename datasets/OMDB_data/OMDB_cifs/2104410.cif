@@ -1,0 +1,210 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/44/2104410.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104410
+loop_
+_publ_author_name
+'St\%ahl, Kenny'
+'Andersen, Jens E. T.'
+'Shim, Irene'
+'Christgau, Stephan'
+_publ_section_title
+;
+ Structures of strontium diformate and strontium fumarate. A
+ synchrotron powder diffraction study
+;
+_journal_coeditor_code           ZB5005
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              481
+_journal_page_last               487
+_journal_paper_doi               10.1107/S0108768109023489
+_journal_volume                  65
+_journal_year                    2009
+_chemical_formula_moiety         'C2 H2 O4 Sr'
+_chemical_formula_sum            'C2 H2 O4 Sr'
+_chemical_formula_weight         177.66
+_chemical_name_common            'Strontium diformate'
+_chemical_name_systematic
+;
+ Strontium diformate
+;
+_space_group_IT_number           19
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   6.86744(3)
+_cell_length_b                   8.75087(4)
+_cell_length_c                   7.26091(3)
+_cell_measurement_temperature    293(2)
+_cell_volume                     436.352(3)
+_computing_cell_refinement       'WINPOW, local Rietveld program'
+_computing_data_collection       'Huber G670'
+_computing_data_reduction        'WINPOW, local Rietveld program'
+_computing_molecular_graphics    'ATOMS 6.2, Shape Software, USA'
+_computing_publication_material  'WINPOW, local Rietveld program'
+_computing_structure_refinement  'WINPOW, local Rietveld program'
+_computing_structure_solution    'EXPO, Altomari et al., 1994, 1995'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device_type  'HUBER G670 Guinier camera'
+_diffrn_radiation_monochromator  Si(111)
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     1.28406
+_exptl_absorpt_coefficient_mu    9.63
+_exptl_absorpt_correction_T_max  0.368
+_exptl_absorpt_correction_T_min  0.327
+_exptl_absorpt_correction_type   cylinder
+_exptl_absorpt_process_details
+;
+Bond, W.L. (1972) Int. Tabl. Vol II
+;
+_exptl_crystal_density_diffrn    2.704
+_exptl_crystal_F_000             336.0
+_pd_block_diffractogram_id       alphastrontiumdiformate293K
+_pd_char_colour                  colorless
+_pd_instr_location
+;
+Beamline 711, MAX II, MAXlab, Lund, Sweden
+;
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        100.000
+_pd_meas_2theta_range_min        4.000
+_pd_meas_number_of_points        19200
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        100.000
+_pd_proc_2theta_range_min        12.005
+_pd_proc_info_data_reduction
+;
+ ?
+;
+_pd_proc_ls_background_function  'Chebyshev polynomial'
+_pd_proc_ls_profile_function     pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.0275
+_pd_proc_ls_prof_wR_expected     0.0070
+_pd_proc_ls_prof_wR_factor       0.0378
+_pd_proc_number_of_points        17600
+_pd_proc_wavelength              1.28406
+_pd_spec_mounting                'quartz capillary'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              2.0
+_pd_spec_size_equat              0.3
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   5.43
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     55
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.0190
+_refine_ls_shift/su_mean         0.0020
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            zb5005.cif
+_cod_data_source_block           alphastrontiumdiformate293K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        436.352(4)
+_cod_database_code               2104410
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z
+-x,y+1/2,-z+1/2
+-x+1/2,-y,z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Sr Sr .74509(11) .58551(4) .49192(8) .01261(15) Uiso 1.0000
+C C1 .3516(5) .5488(5) .6931(6) .0138(4) Uiso 1.0000
+O O1 .4977(3) .4744(4) .7515(6) .0138(4) Uiso 1.0000
+O O2 .3683(3) .6433(3) .5663(3) .0138(4) Uiso 1.0000
+C C2 .5222(9) .2367(8) .3957(5) .0138(4) Uiso 1.0000
+O O3 .4119(5) .1486(4) .3319(5) .0138(4) Uiso 1.0000
+O O4 .6093(5) .3352(4) .3112(5) .0138(4) Uiso 1.0000
+H H1 .23278 .53403 .74441 .0201(4) Uiso 1.0000
+H H2 .54251 .23213 .51833 .0201(4) Uiso 1.0000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0150 0.0070 'International Tables for Crystallography (Vol. IV)'
+O O 0.0300 0.0200 'International Tables for Crystallography (Vol. IV)'
+Sr Sr -0.6300 1.3300 'International Tables for Crystallography (Vol. IV)'
+H H 0.0000 0.0000 'International Tables for Crystallography (Vol. IV)'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 C1 O2 . . 121.1(3) y
+O1 C1 H1 . . 120.1(4) n
+O2 C1 H1 . . 118.9(4) n
+O3 C2 O4 . . 125.7(4) y
+O3 C2 H2 . . 117.4(6) n
+O4 C2 H2 . . 116.9(6) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr O1 4_664 2.538(3) y
+Sr O2 2_566 2.555(2) y
+Sr O4 4_665 2.619(4) y
+Sr O3 3_655 2.645(4) y
+Sr O3 2_556 2.673(4) y
+Sr O2 . 2.691(2) y
+Sr O1 . 2.718(3) y
+Sr O4 . 2.719(4) y
+C1 H1 . .906(4) n
+C1 O2 . 1.243(5) y
+C1 O1 . 1.269(5) y
+C2 H2 . .902(3) n
+C2 O3 . 1.176(7) y
+C2 O4 . 1.216(7) y

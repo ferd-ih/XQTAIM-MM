@@ -1,0 +1,108 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 14:42:48 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201982 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/06/20/4062000.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4062000
+_journal_name_full               Organometallics
+_journal_year                    2003
+_chemical_formula_moiety         Me3Tl
+_chemical_formula_sum            'C3 H9 Tl'
+_chemical_formula_weight         249.47
+_space_group_IT_number           86
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4bc'
+_symmetry_space_group_name_H-M   'P 42/n :2'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   13.3049(7)
+_cell_length_b                   13.3049(7)
+_cell_length_c                   6.2891(5)
+_cell_measurement_temperature    150(2)
+_cell_volume                     1113.30(12)
+_diffrn_ambient_temperature      150(2)
+_exptl_crystal_density_diffrn    2.977
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Tetragonal' changed to 'tetragonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P 42/n'
+_cod_database_code               4062000
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y+1/2, z'
+'-y, x+1/2, z+1/2'
+'y+1/2, -x, z+1/2'
+'-x, -y, -z'
+'x-1/2, y-1/2, -z'
+'y, -x-1/2, -z-1/2'
+'-y-1/2, x, -z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Tl1 Tl 0.786923(19) 0.49015(2) 0.07261(4) 0.02051(16) Uani 1 1 d . . .
+C1 C 0.8428(6) 0.5463(7) -0.2337(13) 0.035(2) Uani 1 1 d . . .
+H1A H 0.8236 0.6169 -0.2506 0.052 Uiso 1 1 calc R . .
+H1B H 0.8135 0.5065 -0.3494 0.052 Uiso 1 1 calc R . .
+H1C H 0.9162 0.5404 -0.2379 0.052 Uiso 1 1 calc R . .
+C2 C 0.6579(6) 0.5627(7) 0.2310(13) 0.0335(19) Uani 1 1 d . . .
+H2A H 0.6745 0.6329 0.2626 0.050 Uiso 1 1 calc R . .
+H2B H 0.6428 0.5271 0.3636 0.050 Uiso 1 1 calc R . .
+H2C H 0.5992 0.5602 0.1370 0.050 Uiso 1 1 calc R . .
+C3 C 0.8560(6) 0.3642(6) 0.2512(13) 0.0297(18) Uani 1 1 d . . .
+H3A H 0.8767 0.3115 0.1516 0.045 Uiso 1 1 calc R . .
+H3B H 0.8070 0.3368 0.3519 0.045 Uiso 1 1 calc R . .
+H3C H 0.9149 0.3887 0.3291 0.045 Uiso 1 1 calc R . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Tl1 0.0227(2) 0.0254(2) 0.0134(2) -0.00103(10) 0.00099(10) 0.00120(10)
+C1 0.030(4) 0.058(6) 0.017(4) 0.001(4) 0.000(3) -0.012(4)
+C2 0.034(4) 0.045(5) 0.021(4) -0.004(4) 0.000(3) 0.013(3)
+C3 0.035(4) 0.027(4) 0.028(5) 0.007(3) 0.000(4) 0.004(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Tl1 C1 2.196(8) . ?
+Tl1 C2 2.206(8) . ?
+Tl1 C3 2.216(7) . ?
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 121439

@@ -1,0 +1,125 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-14 22:27:35 +0300 (Sat, 14 Oct 2017) $
+#$Revision: 202017 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/05/11/7051152.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7051152
+loop_
+_publ_author_name
+'Claramunt, Rosa M.'
+'Lopez, Concepcion'
+'Garcia, M. Angeles'
+'Otero, M. Dolores'
+'Torres, M. Rosario'
+'Pinilla, Elena'
+'Alarcon, Sergio H.'
+'AlKorta, Ibon'
+'Elguero, Jose'
+_publ_section_title
+;
+The structure of halogeno-1,2,4-triazoles in the solid state and in
+solution.
+;
+_journal_name_full               'New Journal of Chemistry'
+_journal_paper_doi               10.1039/b103405g
+_journal_year                    2001
+_chemical_formula_sum            'C2 H2 Br N3'
+_chemical_formula_weight         147.98
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   8.2101(8)
+_cell_length_b                   9.9396(10)
+_cell_length_c                   10.6382(10)
+_cell_measurement_temperature    296(2)
+_cell_volume                     868.13(15)
+_diffrn_ambient_temperature      296(2)
+_exptl_crystal_density_diffrn    2.264
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' tag value 'Orthorombic' was replaced with
+'orthorhombic' value.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_database_code               7051152
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Br1 Br 0.03181(6) 0.29103(5) 0.26263(4) 0.0497(3) Uani 1 1 d . . .
+N1 N 0.2324(4) 0.5578(3) 0.4791(3) 0.0381(8) Uani 1 1 d . . .
+H1 H 0.2623 0.6345 0.4898 0.047(13) Uiso 1 1 d R . .
+N2 N 0.1458(3) 0.5273(3) 0.3745(3) 0.0376(8) Uani 1 1 d . . .
+C3 C 0.1385(4) 0.3962(3) 0.3826(3) 0.0307(8) Uani 1 1 d . . .
+N4 N 0.2130(4) 0.3406(3) 0.4826(3) 0.0373(8) Uani 1 1 d . . .
+C5 C 0.2712(5) 0.4476(4) 0.5414(4) 0.0401(10) Uani 1 1 d . . .
+H5 H 0.3299 0.4458 0.6146 0.049(11) Uiso 1 1 d R . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Br1 0.0565(4) 0.0545(4) 0.0381(3) -0.00877(17) -0.00496(17) -0.0117(2)
+N1 0.052(2) 0.0198(18) 0.043(2) -0.0017(14) -0.0005(15) -0.0037(13)
+N2 0.0478(18) 0.0293(17) 0.0356(18) 0.0032(13) -0.0040(15) 0.0016(14)
+C3 0.038(2) 0.030(2) 0.0239(18) -0.0020(14) 0.0063(16) -0.0002(15)
+N4 0.059(2) 0.0211(18) 0.0318(18) -0.0008(14) -0.0047(14) -0.0014(13)
+C5 0.056(2) 0.031(2) 0.033(2) 0.0003(18) -0.0073(18) 0.0038(18)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Br1 C3 1.868(3) . ?
+N1 C5 1.319(6) . ?
+N1 N2 1.356(4) . ?
+N1 H1 0.8093 . ?
+N2 C3 1.308(4) . ?
+C3 N4 1.346(4) . ?
+N4 C5 1.323(5) . ?
+C5 H5 0.9167 . ?
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 122593

@@ -1,0 +1,187 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/15/2001558.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001558
+loop_
+_publ_author_name
+'Okabe, N.'
+_publ_section_title
+;
+ Structure of 1-phenylsemicarbazide
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1402
+_journal_page_last               1404
+_journal_paper_doi               10.1107/S0108270193000198
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'C7 H9 N3 O'
+_chemical_formula_weight         151.17
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 91.740(10)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   9.609(2)
+_cell_length_b                   5.0870(10)
+_cell_length_c                   15.923(2)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      44.2
+_cell_measurement_theta_min      30.0
+_cell_volume                     778.0(2)
+_diffrn_measurement_device       'Rigaku AFC5R'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.037
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -19
+_diffrn_reflns_number            2108
+_diffrn_reflns_theta_max         27.5
+_diffrn_standards_decay_%        -0.60
+_diffrn_standards_interval_count 150
+_diffrn_standards_interval_time  47.25
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.085
+_exptl_absorpt_correction_T_max  1.09
+_exptl_absorpt_correction_T_min  0.84
+_exptl_absorpt_correction_type   'DIFABS (Walker \& Stuart, 1983)'
+_exptl_crystal_colour            'Light orange'
+_exptl_crystal_density_diffrn    1.291
+_exptl_crystal_density_meas      1.291(2)
+_exptl_crystal_description       Plate
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.30
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.131
+_refine_diff_density_min         -0.108
+_refine_ls_goodness_of_fit_obs   1.96
+_refine_ls_hydrogen_treatment    'H atoms not refined'
+_refine_ls_number_parameters     100
+_refine_ls_number_reflns         764
+_refine_ls_R_factor_obs          0.034
+_refine_ls_shift/esd_max         0.003
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 4F~o~^2^/\s^2^(F~o~^2^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.06
+_reflns_number_observed          764
+_reflns_number_total             1995
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            oh1004.cif
+_cod_data_source_block           oh1004a_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 4F~o~^2^/\s^2^(F~o~^2^)' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+4F~o~^2^/\s^2^(F~o~^2^)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        778.0(3)
+_cod_original_formula_sum        'C7 H9 N3 O1'
+_cod_database_code               2001558
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,y+1/2,-z
+-x,-y,-z
+1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+O(1) .8612(2) .0185(5) .0633(2)
+N(1) 1.0997(3) .4641(6) .1587(2)
+N(2) 1.0353(3) .2313(6) .1312(2)
+N(3) .8534(3) .4634(6) .0707(2)
+C(1) 1.1257(4) .4803(8) .2467(2)
+C(2) 1.2282(4) .6520(10) .2754(3)
+C(3) 1.2558(5) .6790(10) .3598(4)
+C(4) 1.1826(6) .5400(10) .4174(3)
+C(5) 1.0798(6) .3680(10) .3896(3)
+C(6) 1.0511(4) .3380(10) .3036(3)
+C(7) .9133(3) .2312(8) .0870(2)
+H(1') 1.1932 .4812 .1252
+H(2) 1.2970 .6994 .2415
+H(2') 1.0744 .0385 .1428
+H(3) 1.3348 .8547 .3753
+H(3'A) .7705 .4690 .0354
+H(3'B) .8967 .6108 .0994
+H(4) 1.2273 .5402 .4776
+H(5) 1.0076 .2652 .4396
+H(6) .9679 .2153 .2891
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+N(2) N(1) C(1) 114.9(3) yes
+N(1) N(2) C(7) 122.2(3) yes
+N(1) C(1) C(2) 117.8(4) yes
+N(1) C(1) C(6) 122.6(4) yes
+C(2) C(1) C(6) 119.6(4) yes
+C(1) C(2) C(3) 120.2(4) yes
+C(2) C(3) C(4) 121.1(5) yes
+C(3) C(4) C(5) 119.3(5) yes
+C(4) C(5) C(6) 120.0(5) yes
+C(1) C(6) C(5) 119.7(4) yes
+O(1) C(7) N(2) 119.5(4) yes
+O(1) C(7) N(3) 122.8(3) yes
+N(2) C(7) N(3) 117.6(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O(1) C(7) 1.264(4) yes
+N(1) N(2) 1.400(4) yes
+N(1) C(1) 1.419(5) yes
+N(2) C(7) 1.349(4) yes
+N(3) C(7) 1.336(4) yes
+C(1) C(2) 1.384(5) yes
+C(1) C(6) 1.378(6) yes
+C(2) C(3) 1.368(6) yes
+C(3) C(4) 1.369(7) yes
+C(4) C(5) 1.383(7) yes
+C(5) C(6) 1.397(7) yes
+N(1) O(1) 2.976(4) yes
+N(3) O(1) 2.827(4) yes
+N(3) O(1) 2.935(4) yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+N(1) O(1) 2.976(4) . 4_555 yes
+N(3) O(1) 2.827(4) . ._565 yes
+N(3) O(1) 2.935(4) . 4_665 yes

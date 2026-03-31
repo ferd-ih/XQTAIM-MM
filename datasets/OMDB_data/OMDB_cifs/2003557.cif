@@ -1,0 +1,162 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/35/2003557.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003557
+loop_
+_publ_author_name
+'Bruckmann, J.'
+'Kr\"uger, C.'
+_publ_section_title
+;
+ Trimethylphosphine and Triethylphosphine in the Solid State
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1155
+_journal_page_last               1158
+_journal_paper_doi               10.1107/S0108270194014368
+_journal_volume                  51
+_journal_year                    1995
+_chemical_compound_source        'see text'
+_chemical_formula_moiety         'C6 H15 P1'
+_chemical_formula_sum            'C6 H15 P'
+_chemical_formula_weight         118.16
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90.71(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.495(4)
+_cell_length_b                   7.421(1)
+_cell_length_c                   11.151(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    102
+_cell_measurement_theta_max      23
+_cell_measurement_theta_min      10
+_cell_volume                     785.7(4)
+_diffrn_measurement_device       'Enraf-Nonius CAD4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0476
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            9739
+_diffrn_reflns_theta_max         27.5
+_diffrn_standards_decay_%        9.8
+_diffrn_standards_interval_time  30
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.243
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.00
+_exptl_crystal_description       cylindrical
+_exptl_crystal_size_min          'Height: 0.6 mm'
+_exptl_crystal_size_rad          'Diameter: 0.3 mm'
+_refine_diff_density_max         1.04
+_refine_diff_density_min         -0.68
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   4.7
+_refine_ls_number_parameters     124
+_refine_ls_number_reflns         1727
+_refine_ls_R_factor_obs          0.059
+_refine_ls_shift/esd_max         0.04
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.068
+_reflns_number_observed          1727
+_reflns_number_total             1805
+_reflns_observed_criterion       >2\s(I)
+_cod_data_source_file            hr1047.cif
+_cod_data_source_block           hr1047b
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/a'
+_cod_original_formula_sum        'C6 H15 P1'
+_cod_database_code               2003557
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,z
+-x,-y,-z
+1/2-x,1/2+y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+P .1752(1) .1711(1) .2565(1) 0.020(1)
+C(1) .0330(2) .0143(3) .2964(2) 0.027(1)
+C(2) .0383(3) -.1625(3) .2266(2) 0.037(1)
+C(3) .0987(2) .2666(3) .1180(2) 0.029(1)
+C(4) .1942(3) .4034(3) .0571(2) 0.034(1)
+C(5) .1358(3) .3536(3) .3631(2) 0.028(1)
+C(6) .1883(3) .3119(3) .4902(2) 0.036(1)
+H(1a) -.059(3) .081(4) .280(2) 0.034(6)
+H(1b) .047(3) -.008(4) .383(2) 0.041(7)
+H(2a) .029(4) -.132(5) .141(3) 0.058(9)
+H(2b) -.026(3) -.228(5) .252(3) 0.050(8)
+H(2c) .131(4) -.230(5) .242(3) 0.055(8)
+H(3a) .085(3) .167(4) .063(3) 0.042(8)
+H(3b) .016(3) .333(4) .136(2) 0.036(7)
+H(4a) .155(3) .436(4) -.015(3) 0.043(7)
+H(4b) .287(4) .350(5) .035(3) 0.07(1)
+H(4c) .218(3) .503(5) .112(3) 0.054(9)
+H(5a) .040(3) .376(4) .362(2) 0.040(7)
+H(5b) .181(3) .449(4) .332(2) 0.038(7)
+H(6a) .174(3) .411(5) .544(3) 0.055(8)
+H(6b) .295(3) .306(4) .493(3) 0.047(9)
+H(6c) .133(4) .230(6) .521(3) 0.054(9)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C(5) P C(3) 100.20(10) yes
+C(3) P C(1) 99.40(10) yes
+C(4) C(3) P 113.5(2) yes
+C(5) P C(1) 98.80(10) yes
+C(2) C(1) P 113.0(2) yes
+C(6) C(5) P 112.5(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+P C(1) 1.842(2) yes
+P C(5) 1.844(2) yes
+C(3) C(4) 1.527(3) yes
+P C(3) 1.841(2) yes
+C(1) C(2) 1.527(3) yes
+C(5) C(6) 1.528(3) yes

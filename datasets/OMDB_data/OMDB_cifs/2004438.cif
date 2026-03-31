@@ -1,0 +1,190 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/44/2004438.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004438
+loop_
+_publ_author_name
+'Prayzner, P.'
+'Ojadi, E. C. A.'
+'Golen, J. A.'
+'Williard, P. G.'
+_publ_section_title
+;
+ <i>N</i>-Acetyliminodiacetate Dimethyl Ester
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              112
+_journal_page_last               113
+_journal_paper_doi               10.1107/S0108270195010225
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_moiety         'C8 H13 N1 O5'
+_chemical_formula_sum            'C8 H13 N O5'
+_chemical_formula_weight         203.2
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 105.95(3)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   9.411(2)
+_cell_length_b                   14.457(3)
+_cell_length_c                   7.853(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    297
+_cell_measurement_theta_max      12.5
+_cell_measurement_theta_min      12.0
+_cell_volume                     1027.3(4)
+_diffrn_measurement_device       'Siemens R3m/V'
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.022
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       -1
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -1
+_diffrn_reflns_number            2061
+_diffrn_reflns_theta_max         23.5
+_diffrn_standards_decay_%        2.0
+_diffrn_standards_interval_count 97
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.110
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.314
+_exptl_crystal_description       wedge
+_exptl_crystal_size_max          0.40
+_exptl_crystal_size_mid          0.35
+_exptl_crystal_size_min          0.20
+_refine_diff_density_max         0.22
+_refine_diff_density_min         -0.22
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.51
+_refine_ls_hydrogen_treatment
+' H atoms were refined as a riding model with fixed isotropic U'
+_refine_ls_number_parameters     127
+_refine_ls_number_reflns         925
+_refine_ls_R_factor_obs          0.0536
+_refine_ls_shift/esd_max         0.000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F) + 0.0005F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0603
+_reflns_number_observed          925
+_reflns_number_total             1519
+_reflns_observed_criterion       F>4\s(F)
+_cod_data_source_file            sz1021.cif
+_cod_data_source_block           sz1021a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F) + 0.0005F^2^]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/[\s^2^(F) +
+0.0005F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1027.2(4)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_original_formula_sum        'C8 H13 N1 O5'
+_cod_database_code               2004438
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,-y,-z
+-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+O(1) .4549(3) .2094(2) .1065(4) .077(1)
+O(2) .2602(3) .2718(2) -.0838(4) .077(1)
+O(3) .7418(3) .4752(2) -.1287(4) .070(1)
+O(4) .9021(3) .3648(2) -.1442(4) .068(1)
+O(5) .8259(3) .4024(2) .3067(4) .074(1)
+N(1) .6253(3) .3650(2) .0926(4) .052(1)
+C(1) .4676(4) .3647(3) .0059(5) .051(2)
+C(2) .3963(4) .2733(3) .0190(6) .049(2)
+C(3) .1762(5) .1878(3) -.0882(8) .098(3)
+C(4) .7216(4) .3255(3) -.0066(6) .059(2)
+C(5) .7871(4) .3984(3) -.0987(5) .050(2)
+C(6) .9768(4) .4271(4) -.2367(6) .078(2)
+C(7) .6906(4) .4020(3) .2524(5) .050(2)
+C(8) .5968(4) .4405(3) .3607(6) .066(2)
+H(1A) .4507 .3817 -.1162 .080
+H(1B) .4224 .4108 .0620 .080
+H(3A) .0797 .1970 -.1679 .080
+H(3B) .2250 .1382 -.1308 .080
+H(3C) .1671 .1726 .0273 .080
+H(4A) .6652 .2831 -.0931 .080
+H(4B) .7992 .2914 .0737 .080
+H(6A) 1.0580 .3955 -.2630 .080
+H(6B) .9081 .4470 -.3450 .080
+H(6C) 1.0130 .4799 -.1636 .080
+H(8A) .6537 .4657 .4717 .080
+H(8B) .5361 .4882 .2923 .080
+H(8C) .5353 .3914 .3823 .080
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C(2) O(2) C(3) 117.6(3) yes
+C(1) N(1) C(4) 116.9(3) yes
+C(4) N(1) C(7) 117.4(3) yes
+O(1) C(2) O(2) 124.1(4) yes
+O(2) C(2) C(1) 110.6(3) yes
+O(3) C(5) O(4) 124.4(4) yes
+O(4) C(5) C(4) 110.3(4) yes
+O(5) C(7) C(8) 121.3(4) yes
+C(5) O(4) C(6) 116.9(3) yes
+C(1) N(1) C(7) 125.7(4) yes
+N(1) C(1) C(2) 112.9(3) yes
+O(1) C(2) C(1) 125.3(3) yes
+N(1) C(4) C(5) 112.3(3) yes
+O(3) C(5) C(4) 125.3(4) yes
+O(5) C(7) N(1) 119.3(4) yes
+N(1) C(7) C(8) 119.4(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O(1) C(2) 1.193(5) yes
+O(2) C(3) 1.444(6) yes
+O(4) C(5) 1.322(5) yes
+O(5) C(7) 1.227(4) yes
+N(1) C(4) 1.463(6) yes
+C(1) C(2) 1.499(6) yes
+C(7) C(8) 1.492(7) yes
+O(2) C(2) 1.313(4) yes
+O(3) C(5) 1.190(6) yes
+O(4) C(6) 1.453(6) yes
+N(1) C(1) 1.453(4) yes
+N(1) C(7) 1.347(5) yes
+C(4) C(5) 1.502(7) yes

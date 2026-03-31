@@ -1,0 +1,285 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 08:28:26 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201972 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/25/2102528.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102528
+loop_
+_publ_author_name
+'Prof. Clemente Dore Augusto'
+'Prof. Marzotto Armando'
+_publ_section_title
+;
+ 30 Space-group corrections: two examples of false polymorphism and one
+ of incorrect interpretation of the fine details of an IR spectrum
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              287
+_journal_page_last               292
+_journal_paper_doi               10.1107/S0108768104006391
+_journal_volume                  60
+_journal_year                    2004
+_chemical_formula_moiety         'C10 H7 N3 S2'
+_chemical_formula_sum            'C10 H7 N3 S2'
+_chemical_formula_weight         233.33
+_chemical_name_systematic
+;
+2-(4'-Cyanphenylthio)-5-methylthiadiazole
+;
+_space_group_IT_number           11
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_atom_sites_solution_hydrogens   ' ?               '
+_atom_sites_solution_primary     ' ?               '
+_atom_sites_solution_secondary   ' ?               '
+_cell_angle_alpha                90
+_cell_angle_beta                 100.12(6)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.6280(10)
+_cell_length_b                   7.207(2)
+_cell_length_c                   13.126(2)
+_cell_measurement_temperature    0
+_cell_volume                     524.1(2)
+_computing_publication_material  'PLATON (Spek, 1990)'
+_diffrn_radiation_type           MoK\\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_reduction_process
+;
+ ?
+;
+_exptl_absorpt_coefficient_mu    0.474
+_exptl_absorpt_correction_type   ' ?               '
+_exptl_crystal_colour            ' ?               '
+_exptl_crystal_density_diffrn    1.479
+_exptl_crystal_density_method    'nt Measured'
+_exptl_crystal_description       ' ?               '
+_exptl_crystal_F_000             240
+_refine_ls_abs_structure_Flack   nne
+_refine_ls_extinction_method     ' ?               '
+_refine_ls_hydrogen_treatment    'see text         '
+_refine_ls_number_restraints     0
+_refine_ls_weighting_scheme      ?
+_cod_data_source_file            bs0022.cif
+_cod_data_source_block           20
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' tag value 'Monclinic' was replaced with
+'monoclinic' value.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_sg_symbol_H-M      'P 21/m'
+_cod_database_code               2102528
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,1/2+y,-z
+-x,-y,-z
+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+S1 0.41806 0.25 0.18596 0.05 Uiso 1 S
+S2 0.79678 0.25 0.04157 0.05 Uiso 1 S
+N1 0.3413 0.25 -0.01690 0.05 Uiso 1 N
+N2 0.4406 0.25 -0.10660 0.05 Uiso 1 N
+N3 1.5272 0.25 0.54220 0.05 Uiso 1 N
+C1 0.5051 0.25 0.0643 0.05 Uiso 1 C
+C2 0.6743 0.25 -0.08820 0.05 Uiso 1 C
+C3 0.8246 0.25 -0.17030 0.05 Uiso 1 C
+C4 0.70310 0.25 0.2703 0.05 Uiso 1 C
+C5 0.8097 0.0831 0.30425 0.05 Uiso 1 C
+C6 1.0244 0.0828 0.37345 0.05 Uiso 1 C
+C7 1.1292 0.25 0.4088 0.05 Uiso 1 C
+C10 1.3526 0.25 0.4826 0.05 Uiso 1 C
+H1 0.9921 0.25 -0.13910 0.05 Uiso 1 H
+H2 0.78945 0.14135 -0.21250 0.05 Uiso 1 H
+H4 0.73695 -0.02825 0.2806 0.05 Uiso 1 H
+H5 1.098 -0.02875 0.39625 0.05 Uiso 1 H
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C1 S1 C4 . . 101.60(6) y
+C1 S2 C2 . . 86.74(6) y
+N2 N1 C1 . . 111.55(6) y
+N1 N2 C2 . . 112.87(6) y
+S1 C1 S2 . . 125.95(6) y
+S1 C1 N1 . . 118.89(6) y
+S2 C1 N1 . . 115.16(6) y
+S2 C2 N2 . . 113.67(6) y
+S2 C2 C3 . . 122.61(6) y
+N2 C2 C3 . . 123.72(6) y
+S1 C4 C5 . . 119.51 y
+S1 C4 C5 . 4_555 119.51 y
+C5 C4 C5 . 4_555 120.92 n
+C4 C5 C6 . . 119.63 n
+C5 C6 C7 . . 119.46 n
+C6 C7 C10 . . 119.56 n
+C6 C7 C6 . 4_555 120.88 n
+C6 C7 C10 4_555 . 119.56 n
+N3 C10 C7 . . 178.92(6) y
+C2 C3 H1 . . 109.45 n
+C2 C3 H2 . . 109.49 n
+C2 C3 H2 . 4_555 109.49 n
+H1 C3 H2 . . 109.5 n
+H1 C3 H2 . 4_555 109.5 n
+H2 C3 H2 . 4_555 109.39 n
+C4 C5 H4 . . 120.2 n
+C6 C5 H4 . . 120.18 n
+C5 C6 H5 . . 120.2 n
+C7 C6 H5 . . 120.34 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+S1 C1 1.7507(5) y
+S1 C4 1.7818(5) y
+S2 C1 1.7193(5) y
+S2 C2 1.7216(5) y
+N1 N2 1.3892(4) y
+N1 C1 1.2808(4) y
+N2 C2 1.2948(4) y
+N3 C10 1.1434(3) y
+C2 C3 1.4823(4) n
+C4 C5 1.3825 n
+C5 C6 1.3782 n
+C6 C7 1.3853 n
+C7 C10 1.4461(4) n
+C3 H1 0.9595 n
+C3 H2 0.9595 n
+C5 H4 0.9292 n
+C6 H5 0.9295 n
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+S1 S2 3.6728(10) 1_455 n
+S1 C7 3.5874(10) 1_455 n
+S1 C7 3.5874(10) 4_455 n
+S1 S2 3.6728(10) 4_455 n
+S2 N1 3.2874(9) 4_655 n
+S2 S1 3.6728(10) 4_655 n
+S2 S1 3.6728(10) 1_655 n
+S2 N1 3.2874(9) 1_655 n
+S2 C5 3.6404 . n
+S2 C5 3.6404 4_555 n
+S1 H2 3.0957 2_655 n
+S1 H2 3.0957 3_655 n
+N1 S2 3.2874(9) 1_455 n
+N1 C3 3.2331(9) 1_455 n
+N1 S2 3.2874(9) 4_455 n
+N1 C3 3.2331(9) 4_455 n
+N2 C3 3.4204(9) 1_455 n
+N2 C3 3.4204(9) 4_455 n
+N1 H1 2.3081 1_455 n
+N1 H1 2.3081 4_455 n
+N2 H4 2.8226 2_655 n
+N2 H4 2.8226 3_655 n
+N2 H1 2.4849 1_455 n
+N2 H1 2.4849 4_455 n
+N3 H5 2.6544 2_856 n
+N3 H5 2.6544 3_856 n
+C3 N1 3.2331(9) 1_655 n
+C3 N2 3.4204(9) 1_655 n
+C3 N1 3.2331(9) 4_655 n
+C3 N2 3.4204(9) 4_655 n
+C5 S2 3.6404 . n
+C6 C6 3.5857 3_756 n
+C7 S1 3.5874(10) 1_655 n
+C7 S1 3.5874(10) 4_655 n
+C6 H2 2.9914 3_755 n
+H1 N1 2.3081 1_655 n
+H1 N2 2.4849 1_655 n
+H1 N1 2.3081 4_655 n
+H1 N2 2.4849 4_655 n
+H2 S1 3.0957 2_645 n
+H2 S1 3.0957 3_655 n
+H2 C6 2.9914 3_755 n
+H4 N2 2.8226 2_645 n
+H4 N2 2.8226 3_655 n
+H5 N3 2.6544 2_846 n
+H5 N3 2.6544 3_856 n
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+C3 H1 N1 1_655 0.96 2.31 3.2331(9) 162 y
+C3 H1 N2 1_655 0.96 2.48 3.4204(9) 165 y
+C3 H1 N1 4_655 0.96 2.31 3.2331(9) 162 y
+C3 H1 N2 4_655 0.96 2.48 3.4204(9) 165 y
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+C4 S1 C1 S2 . . 0.00(6) n
+C4 S1 C1 N1 . . 180.00(6) n
+C1 S1 C4 C5 . . -91.33 n
+C1 S2 C2 N2 . . 0.00(6) n
+C2 S2 C1 S1 . . 180.00(6) n
+C1 S2 C2 C3 . . 180.00(6) n
+C2 S2 C1 N1 . . 0.00(6) n
+N2 N1 C1 S2 . . 0.00(6) n
+C1 N1 N2 C2 . . 0.00(6) n
+N2 N1 C1 S1 . . 180.00(6) n
+N1 N2 C2 S2 . . 0.00(6) n
+N1 N2 C2 C3 . . 180.00(6) n
+S1 C4 C5 C6 . . -176.85 n
+C5 C4 C5 C6 4_555 . 0.45 n
+C4 C5 C6 C7 . . 0.63 n
+C5 C6 C7 C10 . . 179.08 n
+C5 C6 C7 C6 . 4_555 -1.71 n
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 21140217

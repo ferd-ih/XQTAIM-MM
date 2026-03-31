@@ -1,0 +1,193 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 04:41:52 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178477 $
+#$URL: svn://www.crystallography.net/cod/cif/4/02/98/4029898.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4029898
+loop_
+_publ_author_name
+'Vo, Hoa-Lan'
+'Arthur, Jordan L.'
+'Capdevila-Cortada, Mar\,cal'
+'Lapidus, Saul H.'
+'Stephens, Peter W.'
+'Novoa, Juan J.'
+'Arif, Atta M.'
+'Nagi, Ramneet K.'
+'Bartl, Michael H.'
+'Miller, Joel S.'
+_publ_section_title
+;
+ Structure and Properties of Nitrogen-Rich 1,4-Dicyanotetrazine, C4N6: A
+ Comparative Study with Related Tetracyano Electron Acceptors.
+;
+_journal_issue                   17
+_journal_name_full               'The Journal of organic chemistry'
+_journal_page_first              8189
+_journal_page_last               8201
+_journal_paper_doi               10.1021/jo5014004
+_journal_volume                  79
+_journal_year                    2014
+_chemical_formula_sum            'C4 H4 N6 O2'
+_chemical_formula_weight         168.1
+_chemical_name_common
+;
+1,2,4,5-tetrazine-3,6dicarboxamide
+;
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 91.508(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.1187(3)
+_cell_length_b                   5.06264(19)
+_cell_length_c                   6.6952(3)
+_cell_measurement_temperature    295
+_cell_volume                     308.97(2)
+_computing_cell_refinement       'TOPAS Academic'
+_computing_data_collection       Spec
+_computing_data_reduction        asap
+_computing_molecular_graphics    'Crystal Maker'
+_computing_publication_material  'PLATON (Spek, 2003)'
+_computing_structure_refinement  'TOPAS Academic'
+_computing_structure_solution    'TOPAS Academic'
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'NaI scintillation counter'
+_diffrn_measurement_device_type  'Huber diffractometer'
+_diffrn_radiation_monochromator  'double Si(111)'
+_diffrn_radiation_wavelength     0.69998
+_diffrn_source                   synchrotron
+_exptl_absorpt_correction_type   none
+_pd_block_diffractogram_id       LV01-20_profile
+_pd_char_colour                  magenta
+_pd_instr_location
+; 
+X16C, National Synchrotron Light Source, Brookhaven National Laboratory
+;
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        42
+_pd_meas_2theta_range_min        2
+_pd_meas_number_of_points        8001
+_pd_meas_scan_method             step
+_pd_proc_info_excluded_regions   none
+_pd_proc_ls_background_function
+;
+Chebyshev polynomial with 14 coeffecients
+;
+_pd_proc_ls_pref_orient_corr
+; 
+none 
+;
+_pd_proc_ls_profile_function
+;
+TOPAS Simple_Axial_Model function with Rp=9999,Rs=300
+Peaks pseudo-Voigt shape, with refined anisotropic strain broadening
+per Stephens, P. W., J. Appl. Cryst. (1999). 32, 281-289.
+;
+_pd_proc_ls_prof_R_factor        0.0600
+_pd_proc_ls_prof_wR_expected     0.0380
+_pd_proc_ls_prof_wR_factor       0.0846
+_pd_spec_mounting
+;
+Sealed glass capillary of 1 mm nom diameter
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              8
+_pd_spec_size_equat              1
+_pd_spec_size_thick              1
+_refine_ls_extinction_method     None
+_refine_ls_goodness_of_fit_all   2.223
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     49
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            0.0480
+_refine_ls_shift/su_max          0.01
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            jo5014004_si_001.cif
+_cod_data_source_block           TetrazineDicarboxamide
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_space_group_crystal_system' value 'Monoclinic' changed to
+'monoclinic' according to
+/home/saulius/struct/COD-crude-data--automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+
+ Adding full bibliography for 4029897--4029898.cif.
+;
+_cod_database_code               4029898
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 -x,-y,-z
+4 x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+C1 C Uiso 0.1314(8) 0.4849(2) 0.5591(3) 1 0.0231(7)
+N1 N Uiso 0.0932(2) 0.7000(5) 0.4527(3) 1 0.0231(7)
+N2 N Uiso 0.0432(3) 0.2843(5) 0.6086(3) 1 0.0231(7)
+C2 C Uiso 0.2890(3) 0.4668(4) 0.6300(3) 1 0.0231(7)
+O1 O Uiso 0.3423(3) 0.2401(7) 0.6965(3) 1 0.0231(7)
+N3 N Uiso 0.3735(5) 0.6766(8) 0.6256(5) 1 0.0231(7)
+H1 H Uiso 0.3418 0.830 0.555 1 0.0231(7)
+H2 H Uiso 0.4664 0.675 0.693 1 0.0231(7)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_publ_flag
+N2 N1 C1 116.7(4) 3_566 yes
+N1 N2 C1 116.7(3) 3_566 yes
+N1 C1 N2 126.6(5) . yes
+N1 C1 C2 116.7(4) . yes
+N2 C1 C2 116.7(2) . yes
+O1 C2 N3 120.0(3) . yes
+O1 C2 C1 120.0(2) . yes
+N3 C2 C1 120.0(2) . yes
+C2 N3 H1 120 . no
+C2 N3 H2 120 . no
+H1 N3 H2 120 . no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O1 C2 1.319(4) . yes
+N1 C1 1.342(3) . yes
+N1 N2 1.302(3) 3_566 yes
+N2 C1 1.342(5) . yes
+N3 C2 1.313(5) . yes
+C1 C2 1.504(7) . no
+N3 H1 0.950 . no
+N3 H2 0.950 . no

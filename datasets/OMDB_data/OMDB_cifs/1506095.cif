@@ -1,0 +1,258 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 02:32:00 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201954 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/50/60/1506095.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1506095
+loop_
+_publ_author_name
+'Gao, Yongnian'
+'Lam, Yulin'
+_publ_section_title
+;
+ [3+2] cycloaddition reactions in the solid-phase synthesis of
+ 1,2,3-triazoles.
+;
+_journal_issue                   15
+_journal_name_full               'Organic letters'
+_journal_page_first              3283
+_journal_page_last               3285
+_journal_paper_doi               10.1021/ol0611494
+_journal_volume                  8
+_journal_year                    2006
+_chemical_formula_sum            'C8 H7 N3'
+_chemical_formula_weight         145.17
+_chemical_name_systematic
+; 
+ 4-Phenyl-2H-[1,2,3]triazole  
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 95.037(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   17.0442(16)
+_cell_length_b                   5.7349(5)
+_cell_length_c                   7.3883(7)
+_cell_measurement_temperature    223(2)
+_cell_volume                     719.39(11)
+_computing_cell_refinement       'Bruker XSCANS'
+_computing_data_collection       'Bruker XSCANS'
+_computing_data_reduction        'Bruker SHELXTL'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      223(2)
+_diffrn_measured_fraction_theta_full 0.999
+_diffrn_measured_fraction_theta_max 0.999
+_diffrn_measurement_device_type  'Bruker P4'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0382
+_diffrn_reflns_av_sigmaI/netI    0.0191
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       -20
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            6818
+_diffrn_reflns_theta_full        24.99
+_diffrn_reflns_theta_max         24.99
+_diffrn_reflns_theta_min         2.40
+_exptl_absorpt_coefficient_mu    0.086
+_exptl_absorpt_correction_T_max  0.9914
+_exptl_absorpt_correction_T_min  0.9746
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    1.340
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             304
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.28
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.230
+_refine_diff_density_min         -0.152
+_refine_diff_density_rms         0.044
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.132
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     128
+_refine_ls_number_reflns         1269
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.132
+_refine_ls_R_factor_all          0.0482
+_refine_ls_R_factor_gt           0.0446
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0537P)^2^+0.2906P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1112
+_refine_ls_wR_factor_ref         0.1135
+_reflns_number_gt                1163
+_reflns_number_total             1269
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ol0611494si20060511_031509.cif
+_cod_data_source_block           4-Phenyl-2H-[1,2,3]triazole
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      P2(1)/c
+_cod_database_code               1506095
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+N1 N 0.06702(8) 0.2712(3) 0.3183(2) 0.0365(4) Uani 1 1 d
+N2 N 0.06516(9) 0.5013(3) 0.3287(2) 0.0378(4) Uani 1 1 d
+H2 H 0.0193(13) 0.592(4) 0.287(3) 0.053(6) Uiso 1 1 d
+N3 N 0.13106(8) 0.6010(2) 0.3968(2) 0.0355(4) Uani 1 1 d
+C1 C 0.13971(10) 0.2168(3) 0.3852(2) 0.0323(4) Uani 1 1 d
+H1 H 0.1571(11) 0.060(4) 0.396(3) 0.042(5) Uiso 1 1 d
+C2 C 0.18045(10) 0.4218(3) 0.4351(2) 0.0271(4) Uani 1 1 d
+C3 C 0.26182(9) 0.4576(3) 0.5130(2) 0.0256(4) Uani 1 1 d
+C4 C 0.28346(10) 0.6608(3) 0.6104(2) 0.0289(4) Uani 1 1 d
+H4 H 0.2433(11) 0.776(3) 0.625(3) 0.039(5) Uiso 1 1 d
+C5 C 0.36069(10) 0.6956(3) 0.6783(2) 0.0322(4) Uani 1 1 d
+H5 H 0.3745(12) 0.838(4) 0.743(3) 0.043(5) Uiso 1 1 d
+C6 C 0.41783(10) 0.5299(3) 0.6512(2) 0.0333(4) Uani 1 1 d
+H6 H 0.4709(12) 0.553(3) 0.696(3) 0.036(5) Uiso 1 1 d
+C7 C 0.39675(10) 0.3273(3) 0.5564(2) 0.0317(4) Uani 1 1 d
+H7 H 0.4363(11) 0.210(3) 0.538(3) 0.037(5) Uiso 1 1 d
+C8 C 0.31955(10) 0.2908(3) 0.4883(2) 0.0280(4) Uani 1 1 d
+H8 H 0.3040(11) 0.148(3) 0.423(3) 0.034(5) Uiso 1 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+N1 0.0285(8) 0.0343(8) 0.0459(9) -0.0015(7) -0.0019(6) -0.0032(6)
+N2 0.0244(8) 0.0351(9) 0.0525(10) 0.0026(7) -0.0046(6) 0.0024(6)
+N3 0.0267(8) 0.0310(8) 0.0476(9) 0.0013(6) -0.0034(6) 0.0021(6)
+C1 0.0275(9) 0.0277(9) 0.0411(10) -0.0005(7) -0.0006(7) -0.0005(7)
+C2 0.0272(8) 0.0260(8) 0.0282(8) 0.0003(6) 0.0036(6) 0.0009(6)
+C3 0.0270(8) 0.0239(8) 0.0261(8) 0.0038(6) 0.0032(6) -0.0010(6)
+C4 0.0326(9) 0.0239(8) 0.0304(8) 0.0008(7) 0.0049(7) 0.0013(7)
+C5 0.0377(10) 0.0299(9) 0.0289(8) -0.0010(7) 0.0022(7) -0.0082(7)
+C6 0.0256(9) 0.0450(10) 0.0291(9) 0.0041(7) 0.0002(7) -0.0074(7)
+C7 0.0285(9) 0.0347(9) 0.0320(9) 0.0028(7) 0.0035(7) 0.0038(7)
+C8 0.0312(9) 0.0248(8) 0.0280(8) -0.0007(7) 0.0019(6) 0.0006(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+N2 N1 C1 103.82(14)
+N3 N2 N1 115.50(14)
+N2 N3 C2 104.20(14)
+N1 C1 C2 109.01(15)
+N3 C2 C1 107.47(15)
+N3 C2 C3 121.90(15)
+C1 C2 C3 130.62(15)
+C8 C3 C4 118.68(15)
+C8 C3 C2 120.37(15)
+C4 C3 C2 120.94(15)
+C5 C4 C3 120.37(16)
+C4 C5 C6 120.49(16)
+C7 C6 C5 119.49(16)
+C8 C7 C6 120.40(16)
+C7 C8 C3 120.55(16)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+N1 N2 1.322(2)
+N1 C1 1.330(2)
+N2 N3 1.320(2)
+N3 C2 1.343(2)
+C1 C2 1.398(2)
+C2 C3 1.468(2)
+C3 C8 1.395(2)
+C3 C4 1.402(2)
+C4 C5 1.381(2)
+C5 C6 1.388(3)
+C6 C7 1.388(3)
+C7 C8 1.383(2)
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+C1 N1 N2 N3 0.2(2)
+N1 N2 N3 C2 -0.2(2)
+N2 N1 C1 C2 -0.01(19)
+N2 N3 C2 C1 0.21(18)
+N2 N3 C2 C3 179.40(14)
+N1 C1 C2 N3 -0.1(2)
+N1 C1 C2 C3 -179.22(16)
+N3 C2 C3 C8 -155.39(16)
+C1 C2 C3 C8 23.6(3)
+N3 C2 C3 C4 23.5(2)
+C1 C2 C3 C4 -157.55(17)
+C8 C3 C4 C5 0.8(2)
+C2 C3 C4 C5 -178.03(14)
+C3 C4 C5 C6 -0.1(2)
+C4 C5 C6 C7 -0.5(3)
+C5 C6 C7 C8 0.4(3)
+C6 C7 C8 C3 0.4(2)
+C4 C3 C8 C7 -1.0(2)
+C2 C3 C8 C7 177.91(14)
+loop_
+_cod_related_entry_id
+_cod_related_entry_code
+_cod_related_entry_database
+1 120855 ChemSpider

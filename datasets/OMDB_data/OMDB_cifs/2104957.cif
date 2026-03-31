@@ -1,0 +1,318 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/49/2104957.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104957
+loop_
+_publ_author_name
+'Johnstone, Russell D. L.'
+'Allan, David'
+'Lennie, Alistair'
+'Pidcock, Elna'
+'Valiente, Rafael'
+'Rodr\'iguez, Fernando'
+'Gonzalez, Jes\'us'
+'Warren, John'
+'Parsons, Simon'
+_publ_section_title
+;
+ The effect of pressure on the crystal structure of bianthrone
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              226
+_journal_page_last               237
+_journal_paper_doi               10.1107/S0108768111009657
+_journal_volume                  67
+_journal_year                    2011
+_chemical_formula_moiety         'C28 H16 O2'
+_chemical_formula_sum            'C28 H16 O2'
+_chemical_formula_weight         384.43
+_chemical_name_common            Bianthrone
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_cell_angle_alpha                90
+_cell_angle_beta                 110.028(4)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.7854(7)
+_cell_length_b                   7.2988(11)
+_cell_length_c                   11.3074(7)
+_cell_measurement_reflns_used    1122
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      15
+_cell_measurement_theta_min      3
+_cell_volume                     758.75(14)
+_computing_cell_refinement       'USER DEFINED CELL REFINEMENT'
+_computing_data_collection       'USER DEFINED DATA COLLECTION'
+_computing_data_reduction        'USER DEFINED DATA REDUCTION'
+_computing_molecular_graphics    'CAMERON (Watkin et al., 1996)'
+_computing_publication_material  'CRYSTALS (Betteridge et al., 2003)'
+_computing_structure_refinement  'CRYSTALS (Betteridge et al., 2003)'
+_computing_structure_solution    'SIR92 (Altomare et al., 1994)'
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.635
+_diffrn_measured_fraction_theta_max 0.631
+_diffrn_measurement_device       Unknown
+_diffrn_measurement_device_type  Serial
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  silicon
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.47920
+_diffrn_reflns_av_R_equivalents  0.0740
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            3269
+_diffrn_reflns_reduction_process
+;
+ Merged with SORTAV
+ R.H. Blessing, (1987) Cryst. Rev. 1, 3-58
+;
+_diffrn_reflns_theta_full        14.976
+_diffrn_reflns_theta_max         15.439
+_diffrn_reflns_theta_min         2.961
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    0.105
+_exptl_absorpt_correction_T_max  0.99
+_exptl_absorpt_correction_T_min  0.84
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS (Siemens, 1996)'
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.683
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             400
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.16
+_refine_diff_density_min         -0.16
+_refine_ls_extinction_method     None
+_refine_ls_goodness_of_fit_ref   1.0722
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     136
+_refine_ls_number_reflns         554
+_refine_ls_number_restraints     187
+_refine_ls_R_factor_all          0.0587
+_refine_ls_R_factor_gt           0.0424
+_refine_ls_shift/su_max          0.000230
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+;
+ Method, part 1, Chebychev polynomial, (Watkin, 1994, Prince, 1982)
+ [weight] = 1.0/[A~0~*T~0~(x)+A~1~*T~1~(x) ... +A~n-1~]*T~n-1~(x)]
+ where A~i~ are the Chebychev coefficients listed below and x= Fcalc/Fmax
+ Method = Robust Weighting (Prince, 1982)
+ W = [weight] * [1-(deltaF/6*sigmaF)^2^]^2^
+ A~i~ are:
+ 13.2 -13.0 7.93
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0553
+_refine_ls_wR_factor_gt          0.0442
+_refine_ls_wR_factor_ref         0.0442
+_reflns_number_gt                554
+_reflns_number_total             689
+_reflns_threshold_expression     I>2.0\s(I)
+_cod_data_source_file            gw5012.cif
+_cod_data_source_block           4.2GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1698 2011-06-07 10:41:20Z adriana 
+;
+_cod_original_sg_symbol_H-M      'P 1 21/n 1 '
+_cod_database_code               2104957
+_cod_database_fobs_code          2104957
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+-x+1/2,y+1/2,-z+1/2
+x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+O O1 0.85799(15) 0.4518(3) 0.06830(13) 0.0277 Uani 1.0000 . .
+C C1 0.8837(2) 0.5106(4) 0.17486(16) 0.0212 Uani 1.0000 . .
+C C2 0.77342(18) 0.5187(5) 0.23608(17) 0.0210 Uani 1.0000 . .
+C C3 0.6271(2) 0.5170(5) 0.16074(19) 0.0258 Uani 1.0000 . .
+C C4 0.5223(2) 0.5514(5) 0.2120(2) 0.0285 Uani 1.0000 . .
+C C5 0.5626(2) 0.5845(5) 0.3396(2) 0.0308 Uani 1.0000 . .
+C C6 0.7066(2) 0.5848(5) 0.41546(18) 0.0272 Uani 1.0000 . .
+C C7 0.81505(19) 0.5482(4) 0.36579(17) 0.0186 Uani 1.0000 . .
+C C8 0.9729(2) 0.5384(4) 0.44205(16) 0.0200 Uani 1.0000 . .
+C C9 1.0651(2) 0.6232(4) 0.37471(16) 0.0220 Uani 1.0000 . .
+C C10 1.1911(2) 0.7221(5) 0.43416(17) 0.0210 Uani 1.0000 . .
+C C11 1.2723(2) 0.7916(5) 0.36745(18) 0.0224 Uani 1.0000 . .
+C C12 1.2270(2) 0.7713(5) 0.23783(19) 0.0268 Uani 1.0000 . .
+C C13 1.1013(2) 0.6805(5) 0.17590(18) 0.0238 Uani 1.0000 . .
+C C14 1.02043(19) 0.6035(4) 0.24345(16) 0.0223 Uani 1.0000 . .
+H H1 0.6003 0.4915 0.0733 0.0287 Uiso 1.0000 . .
+H H2 0.4226 0.5525 0.1604 0.0322 Uiso 1.0000 . .
+H H3 0.4897 0.6077 0.3756 0.0388 Uiso 1.0000 . .
+H H4 0.7320 0.6104 0.5027 0.0326 Uiso 1.0000 . .
+H H5 1.2213 0.7418 0.5224 0.0262 Uiso 1.0000 . .
+H H6 1.3606 0.8539 0.4103 0.0263 Uiso 1.0000 . .
+H H7 1.2837 0.8210 0.1922 0.0344 Uiso 1.0000 . .
+H H8 1.0689 0.6698 0.0868 0.0292 Uiso 1.0000 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 0.0369(9) 0.027(2) 0.0185(7) -0.0033(8) 0.0085(6) -0.0039(8)
+C1 0.0288(11) 0.020(3) 0.0142(9) 0.0035(10) 0.0065(8) 0.0046(11)
+C2 0.0242(10) 0.016(3) 0.0219(10) -0.0010(11) 0.0067(8) 0.0018(12)
+C3 0.0276(10) 0.022(3) 0.0226(11) -0.0071(12) 0.0020(8) 0.0018(13)
+C4 0.0231(11) 0.018(3) 0.0405(11) -0.0047(12) 0.0055(9) 0.0016(15)
+C5 0.0240(11) 0.030(4) 0.0410(11) 0.0010(12) 0.0151(9) 0.0029(15)
+C6 0.0266(11) 0.032(4) 0.0241(11) 0.0038(12) 0.0108(8) 0.0041(14)
+C7 0.0237(10) 0.010(3) 0.0221(9) -0.0003(10) 0.0081(7) 0.0023(13)
+C8 0.0235(10) 0.020(3) 0.0165(9) -0.0015(10) 0.0073(7) -0.0055(11)
+C9 0.0216(11) 0.027(3) 0.0176(9) 0.0062(9) 0.0071(7) 0.0035(11)
+C10 0.0251(11) 0.019(3) 0.0187(10) 0.0044(10) 0.0079(8) 0.0005(12)
+C11 0.0215(10) 0.020(3) 0.0251(10) 0.0030(11) 0.0068(8) 0.0035(12)
+C12 0.0230(11) 0.037(3) 0.0253(10) 0.0010(11) 0.0142(8) 0.0058(13)
+C13 0.0253(11) 0.029(3) 0.0183(10) 0.0066(10) 0.0095(8) 0.0025(12)
+C14 0.0181(11) 0.030(3) 0.0185(9) 0.0077(10) 0.0060(8) 0.0040(12)
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C 2.3100 1.0200 1.5886 0.8650 20.8439 10.2075 0.5687 51.6512 0.2156 0.0010
+0.0010 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+H 0.4930 0.3229 0.1402 0.0408 10.5109 26.1257 3.1424 57.7998 0.0030 0.0000
+0.0000 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+O 3.0485 2.2868 1.5463 0.8670 13.2771 5.7011 0.3239 32.9089 0.2508 0.0030
+0.0030 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 C1 C2 . . . 122.85(17) yes
+O1 C1 C14 . . . 121.86(15) yes
+C2 C1 C14 . . . 114.69(17) yes
+C1 C2 C3 . . . 118.57(16) yes
+C1 C2 C7 . . . 120.22(15) yes
+C3 C2 C7 . . . 120.82(15) yes
+C2 C3 C4 . . . 120.25(17) yes
+C2 C3 H1 . . . 119.9 no
+C4 C3 H1 . . . 119.9 no
+C3 C4 C5 . . . 119.31(16) yes
+C3 C4 H2 . . . 120.3 no
+C5 C4 H2 . . . 120.3 no
+C4 C5 C6 . . . 121.11(17) yes
+C4 C5 H3 . . . 119.4 no
+C6 C5 H3 . . . 119.5 no
+C5 C6 C7 . . . 120.64(17) yes
+C5 C6 H4 . . . 119.7 no
+C7 C6 H4 . . . 119.7 no
+C2 C7 C6 . . . 117.80(15) yes
+C2 C7 C8 . . . 118.12(15) yes
+C6 C7 C8 . . . 124.07(16) yes
+C7 C8 C8 . . 2_766 124.3(2) yes
+C7 C8 C9 . . . 111.76(16) yes
+C8 C8 C9 2_766 . . 123.9(2) yes
+C8 C9 C10 . . . 123.92(15) yes
+C8 C9 C14 . . . 118.15(17) yes
+C10 C9 C14 . . . 117.93(16) yes
+C9 C10 C11 . . . 120.91(16) yes
+C9 C10 H5 . . . 119.5 no
+C11 C10 H5 . . . 119.6 no
+C10 C11 C12 . . . 120.53(18) yes
+C10 C11 H6 . . . 119.7 no
+C12 C11 H6 . . . 119.8 no
+C11 C12 C13 . . . 120.11(17) yes
+C11 C12 H7 . . . 119.9 no
+C13 C12 H7 . . . 120.0 no
+C12 C13 C14 . . . 119.82(16) yes
+C12 C13 H8 . . . 120.1 no
+C14 C13 H8 . . . 120.1 no
+C1 C14 C9 . . . 120.31(15) yes
+C1 C14 C13 . . . 118.99(15) yes
+C9 C14 C13 . . . 120.61(17) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 C1 . . 1.221(2) yes
+C1 C2 . . 1.469(2) yes
+C1 C14 . . 1.463(3) yes
+C2 C3 . . 1.393(3) yes
+C2 C7 . . 1.398(3) yes
+C3 C4 . . 1.363(3) yes
+C3 H1 . . 0.950 no
+C4 C5 . . 1.381(3) yes
+C4 H2 . . 0.950 no
+C5 C6 . . 1.376(3) yes
+C5 H3 . . 0.950 no
+C6 C7 . . 1.386(3) yes
+C6 H4 . . 0.950 no
+C7 C8 . . 1.491(3) yes
+C8 C8 . 2_766 1.355(4) yes
+C8 C9 . . 1.499(3) yes
+C9 C10 . . 1.388(3) yes
+C9 C14 . . 1.404(2) yes
+C10 C11 . . 1.367(3) yes
+C10 H5 . . 0.950 no
+C11 C12 . . 1.386(3) yes
+C11 H6 . . 0.950 no
+C12 C13 . . 1.360(3) yes
+C12 H7 . . 0.950 no
+C13 C14 . . 1.393(3) yes
+C13 H8 . . 0.950 no

@@ -1,0 +1,219 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/42/2004202.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004202
+loop_
+_publ_author_name
+'Honda, T.'
+'Fujii, I.'
+'Hirayama, N.'
+'Aoyama, N.'
+'Miike, A.'
+_publ_section_title
+;
+ 7-Hydroxy-3-phenylcoumarin, C~15~H~10~O~3~
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2712
+_journal_page_last               2714
+_journal_paper_doi               10.1107/S0108270195008821
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'C15 H10 O3'
+_chemical_formula_weight         238.24
+_space_group_IT_number           19
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.0126(8)
+_cell_length_b                   13.075(2)
+_cell_length_c                   7.4562(8)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      35
+_cell_measurement_theta_min      30
+_cell_volume                     1171.1(2)
+_computing_cell_refinement       'CAD-4 Software'
+_computing_data_collection       'CAD-4 Software (Enraf-Nonius, 1989)'
+_computing_data_reduction        'CAD-4 Software'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_structure_refinement
+'TEXSAN (Molecular Structure Corporation, 1992)'
+_computing_structure_solution    'SAPI91 (Fan, 1991)'
+_diffrn_measurement_device       'Enraf-Nonius CAD-4 Turbo'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54184
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       0
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            1425
+_diffrn_reflns_theta_max         74.9
+_diffrn_standards_decay_%        -1.21
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.776
+_exptl_absorpt_correction_T_max  0.989
+_exptl_absorpt_correction_T_min  0.950
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.35
+_exptl_crystal_density_method    none
+_exptl_crystal_description       rod
+_exptl_crystal_size_max          0.75
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.15
+_refine_diff_density_max         0.15
+_refine_diff_density_min         -0.14
+_refine_ls_extinction_coef       1.501E-6
+_refine_ls_extinction_method     |F~c~|/(1+gI~c~)
+_refine_ls_goodness_of_fit_obs   2.01
+_refine_ls_hydrogen_treatment    'H atoms see text'
+_refine_ls_number_parameters     204
+_refine_ls_number_reflns         1175
+_refine_ls_R_factor_obs          0.038
+_refine_ls_shift/esd_max         0.02
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.043
+_reflns_number_observed          1175
+_reflns_number_total             1425
+_reflns_observed_criterion       F>3\s(F)
+_cod_data_source_file            as1193.cif
+_cod_data_source_block           as1193a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2004202
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,-y,1/2+z
+-x,1/2+y,1/2-z
+1/2+x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+O1 .0944(9) .16580(10) .1873(2) 4.25(3)
+O2 .06270(10) .00380(10) .2342(2) 5.43(3)
+O7 .1343(2) .52190(10) .0860(3) 5.69(4)
+C2 .1294(2) .0669(2) .1834(3) 4.20(4)
+C3 .2426(2) .0454(2) .1209(3) 4.17(4)
+C4 .3047(2) .1258(2) .0639(3) 4.36(4)
+C5 .3254(2) .3139(2) .0051(3) 4.87(5)
+C6 .2813(2) .4100(2) .0137(3) 5.08(5)
+C7 .1741(2) .4250(2) .0821(3) 4.37(4)
+C8 .1128(2) .3417(2) .1425(3) 4.23(4)
+C9 .1587(2) .24670(10) .1309(3) 3.82(4)
+C10 .2659(2) .2285(2) .0661(3) 4.11(4)
+C1' .2840(2) -.0610(2) .1222(3) 4.58(5)
+C2' .2177(2) -0.1435(2) .0708(4) 5.35(6)
+C3' .2612(3) -0.2423(2) .0704(4) 6.53(7)
+C4' .3684(3) -0.2602(2) .1202(4) 7.37(8)
+C5' .4350(3) -0.1801(3) .1693(4) 6.95(7)
+C6' .3934(2) -.0807(2) .1733(3) 5.67(6)
+H4 .376(2) .115(2) .010(3) 4.9(5)
+H5 .403(2) .304(2) -.036(3) 5.7(5)
+H6 .316(2) .473(2) -.030(4) 5.9(6)
+H7 .065(2) .526(2) .126(5) 7.9(8)
+H8 .049(2) .3480(10) .190(3) 3.9(4)
+H2' .139(2) -0.133(2) .039(3) 4.8(5)
+H3' .212(3) -0.295(2) .034(5) 8.6(8)
+H4' .397(2) -0.328(2) .114(4) 7.1(7)
+H5' .510(2) -0.190(2) .189(4) 5.8(5)
+H6' .437(2) -.021(2) .205(3) 5.4(5)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C9 O1 C2 123.40(10) yes
+O1 C2 C3 118.5(2) yes
+C2 C3 C4 117.5(2) yes
+C2 C3 C1' 119.4(2) yes
+C10 C5 C6 121.3(2) yes
+C6 C7 O7 117.6(2) yes
+C6 C7 C8 119.8(2) yes
+C8 C9 O1 117.1(2) yes
+O1 C9 C10 119.5(2) yes
+C4 C10 C9 117.9(2) yes
+C2' C1' C3 122.3(2) yes
+O1 C2 O2 115.8(2) yes
+O2 C2 C3 125.7(2) yes
+C1' C3 C4 123.1(2) yes
+C3 C4 C10 123.2(2) yes
+C5 C6 C7 120.0(2) yes
+O7 C7 C8 122.6(2) yes
+C7 C8 C9 118.7(2) yes
+C8 C9 C10 123.4(2) yes
+C4 C10 C5 125.6(2) yes
+C9 C10 C5 116.5(2) yes
+C3 C1' C6' 119.6(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 C2 1.360(2) yes
+C2 C3 1.464(3) yes
+C3 C4 1.358(3) yes
+C10 C9 1.396(3) yes
+C5 C6 1.365(3) yes
+C7 O7 1.355(3) yes
+C7 C8 1.389(3) yes
+C9 O1 1.376(2) yes
+C2 O2 1.212(2) yes
+C3 C1' 1.478(3) yes
+C4 C10 1.421(3) yes
+C10 C5 1.402(3) yes
+C6 C7 1.399(3) yes
+O7 H7 0.89(3) yes
+C8 C9 1.361(3) yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+C2 C3 C1' C2' 40.9(3) yes
+O7 C7 C6 C5 179.4(2) yes
+O2 C2 O1 C9 178.6(2) yes
+O2 C2 C3 C1' 1.9(3) yes
+C4 C3 C1' C6' 39.8(3) yes
+O7 C7 C8 C9 178.9(2) yes
+O2 C2 C3 C4 178.1(2) yes
+C10 C4 C3 C1' 178.6(2) yes

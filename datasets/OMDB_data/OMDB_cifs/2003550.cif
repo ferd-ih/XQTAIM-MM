@@ -1,0 +1,201 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/35/2003550.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003550
+loop_
+_publ_author_name
+'Adatia, T.'
+'Barjesteh, H.'
+'Charalambous, J.'
+'Choi, N.'
+'McPartlin, M.'
+_publ_section_title
+;
+ 3-Acetylamino-1,4-benzoquinone 4-Oxime
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1187
+_journal_page_last               1189
+_journal_paper_doi               10.1107/S0108270194012837
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_moiety         'C8 H8 N2 O3'
+_chemical_formula_sum            'C8 H8 N2 O3'
+_chemical_formula_weight         180.16
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_type_scat_source           'SHELX86 (Sheldrick, 1985)'
+_cell_angle_alpha                90.
+_cell_angle_beta                 94.39(2)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   16.652(3)
+_cell_length_b                   12.754(3)
+_cell_length_c                   3.841(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      25
+_cell_measurement_theta_min      3
+_cell_volume                     813.4(5)
+_diffrn_measurement_device       'Philips PW1100'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.001
+_diffrn_reflns_limit_h_max       19
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       4
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1684
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        <3
+_diffrn_standards_interval_time  300
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.107
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.47
+_exptl_crystal_description       needle-like
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.16
+_exptl_crystal_size_min          0.12
+_refine_diff_density_max         0.3
+_refine_diff_density_min         0.1
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.37
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     79
+_refine_ls_number_reflns         548
+_refine_ls_R_factor_obs          0.0560
+_refine_ls_shift/esd_max         0.02
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F~o~)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0545
+_reflns_number_observed          548
+_reflns_number_total             1341
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            ha1105.cif
+_cod_data_source_block           ha1105a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s^2^(F~o~)' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/\s^2^(F~o~)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_database_code               2003550
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+-x,-y,-z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+O(1) .1333(2) .6175(3) -.4465(13) .059(3)
+O(2) .0963(2) 1.0774(3) -.0783(13) .058(3)
+O(3) .3630(2) .7528(3) .2234(13) .054(3)
+N(1) .2920(2) .8976(3) .0772(12) .032(3)
+N(2) .1632(3) 1.0167(4) -.0211(15) .041(3)
+C(1) .1524(3) .9219(4) -.1408(15) .030(1)
+C(2) .0788(3) .8823(4) -.3181(18) .041(2)
+C(3) .0734(3) .7819(4) -.4186(17) .040(2)
+C(4) .1406(4) .7099(5) -.3545(18) .040(2)
+C(5) .2142(3) .7503(5) -.1840(16) .037(2)
+C(6) .2212(3) .8508(4) -.0862(16) .030(1)
+C(7) .3572(3) .8484(4) .2245(17) .032(1)
+C(8) .4216(3) .9176(5) .3818(17) .044(2)
+H(1)n .2691 .9560 .0544 ?
+H(2)o .0759 1.1020 .0905 ?
+H(2) .0415 .9298 -.3352 ?
+H(3) .0206 .7631 -.5386 ?
+H(5) .2593 .7060 -.1288 ?
+H(8a) .4521 .8733 .5620 ?
+H(8b) .4581 .9504 .2347 ?
+H(8c) .4032 .9670 .5279 ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C(7) N(1) C(6) 127.4(5) yes
+C(2) C(1) N(2) 125.4(5) yes
+C(6) C(1) C(2) 118.5(5) yes
+C(4) C(3) C(2) 121.4(5) yes
+C(5) C(4) O(1) 122.3(5) yes
+C(6) C(5) C(4) 121.5(5) yes
+C(5) C(6) N(1) 125.1(5) yes
+N(1) C(7) O(3) 121.8(5) yes
+C(8) C(7) N(1) 115.5(5) yes
+C(1) N(2) O(2) 112.5(4) yes
+C(6) C(1) N(2) 116.1(5) yes
+C(3) C(2) C(1) 120.3(5) yes
+C(3) C(4) O(1) 119.8(5) yes
+C(5) C(4) C(3) 118.0(5) yes
+C(1) C(6) N(1) 114.6(5) yes
+C(5) C(6) C(1) 120.2(5) yes
+C(8) C(7) O(3) 122.8(5) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O(1) C(4) 1.234(7) yes
+O(3) C(7) 1.222(7) yes
+N(1) C(7) 1.341(7) yes
+C(1) C(2) 1.446(8) yes
+C(2) C(3) 1.339(8) yes
+C(4) C(5) 1.440(8) yes
+C(7) C(8) 1.482(8) yes
+O(2) N(2) 1.361(6) yes
+N(1) C(6) 1.424(7) yes
+N(2) C(1) 1.301(7) yes
+C(1) C(6) 1.462(7) yes
+C(3) C(4) 1.453(8) yes
+C(5) C(6) 1.339(8) yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+N(1) O(1) 3.13 4_554 no
+C(8) O(1) 3.15 4_554 no
+C(8) C(8) 2.93 3_676 no
+Hn(1) O(1) 2.68 4_554 no
+H2(C8) O(1) 2.80 4_554 no
+H3(C8) O(1) 2.61 4_555 no
+H(2) O(2) 2.89 3_575 no
+O(3) O(2) 2.68 4_545 no
+N(2) O(3) 3.26 4_555 no
+Ho(2) O(3) 2.27 4_555 no
+H(3) O(3) 2.89 2_575 no
+Ho(2) C(2) 2.79 3_575 no
+H2(C8) C(8) 2.93 3_676 no

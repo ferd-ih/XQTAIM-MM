@@ -1,0 +1,266 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 17:07:09 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180375 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/44/7204425.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7204425
+loop_
+_publ_author_name
+'Michael Oelgem\"oller'
+'Bernhard Brem'
+'Rudolf Frank'
+'Siegfried Schneider'
+'Dieter Lenoir'
+'Norbert Hertkorn'
+'Yumi Origane'
+'Peter Lemmen'
+'Johann Lex'
+'Yoshihisa Inoue'
+_publ_section_title
+;
+ Cyclic trans-stilbenes: synthesis, structural and spectroscopic
+ characterization, photophysical and photochemical properties
+;
+_journal_issue                   10
+_journal_name_full               'J. Chem. Soc., Perkin Trans. 2'
+_journal_page_first              1760
+_journal_page_last               1771
+_journal_paper_doi               10.1039/b203167a
+_journal_year                    2002
+_chemical_formula_sum            'C16 H12'
+_chemical_formula_weight         204.26
+_chemical_melting_point          455.1(10)
+_chemical_name_common            japoe08
+_chemical_name_systematic
+; 
+trans-1-(1-Benzocyclobutenyliden)benzocyclobutene  
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90
+_cell_angle_beta                 101.07(1)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   12.259(1)
+_cell_length_b                   5.283(1)
+_cell_length_c                   8.856(1)
+_cell_measurement_reflns_used    1220
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      26.98
+_cell_measurement_theta_min      339
+_cell_volume                     562.88(13)
+_computing_cell_refinement       'Nonius DENZO'
+_computing_data_collection       'Nonius COLLECT'
+_computing_data_reduction        'Nonius DENZO'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.996
+_diffrn_measured_fraction_theta_max 0.996
+_diffrn_measurement_device_type  'Nonius KappaCCD'
+_diffrn_measurement_method       Phi/Omega-scans
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0136
+_diffrn_reflns_av_sigmaI/netI    0.0228
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            2297
+_diffrn_reflns_theta_full        26.98
+_diffrn_reflns_theta_max         26.98
+_diffrn_reflns_theta_min         3.39
+_exptl_absorpt_coefficient_mu    0.068
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.205
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             216
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.15
+_refine_diff_density_max         0.137
+_refine_diff_density_min         -0.105
+_refine_diff_density_rms         0.026
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.051
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     98
+_refine_ls_number_reflns         1220
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.051
+_refine_ls_R_factor_all          0.0541
+_refine_ls_R_factor_gt           0.0419
+_refine_ls_shift/su_max          0.004
+_refine_ls_shift/su_mean         0.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0680P)^2^+0.0390P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1114
+_refine_ls_wR_factor_ref         0.1192
+_reflns_number_gt                968
+_reflns_number_total             1220
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            b203167a.txt
+_cod_data_source_block           structure_4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value '181-183 deg.' was changed to
+'455.1(10)' - it was converted from degrees Celsius(C) to Kelvins(K),
+the average value was taken and precision was estimated.
+
+Automatic conversion script
+Id: cif_fix_values 1569 2011-02-09 13:29:24Z adriana 
+;
+_cod_original_sg_symbol_H-M      P21/c
+_cod_database_code               7204425
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y+1/2, z+1/2'
+'-x, -y, -z'
+'-x, y-1/2, -z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+C1 C 0.16643(9) 0.0357(2) 0.04123(12) 0.0511(3) Uani 1 1 d . . .
+C2 C 0.23674(11) 0.2012(3) -0.01402(16) 0.0665(4) Uani 1 1 d . . .
+H2 H 0.2082(12) 0.328(3) -0.0914(17) 0.081(4) Uiso 1 1 d . . .
+C3 C 0.34954(11) 0.1699(3) 0.04459(19) 0.0741(4) Uani 1 1 d . . .
+H3 H 0.4013(15) 0.282(3) 0.0070(19) 0.098(5) Uiso 1 1 d . . .
+C4 C 0.38858(11) -0.0161(3) 0.15132(18) 0.0746(4) Uani 1 1 d . . .
+H4 H 0.4704(15) -0.033(3) 0.1904(18) 0.093(5) Uiso 1 1 d . . .
+C5 C 0.31783(10) -0.1821(3) 0.20668(17) 0.0702(4) Uani 1 1 d . . .
+H5 H 0.3471(14) -0.315(3) 0.286(2) 0.092(5) Uiso 1 1 d . . .
+C6 C 0.20614(9) -0.1507(2) 0.14836(13) 0.0549(3) Uani 1 1 d . . .
+C7 C 0.09018(10) -0.2500(3) 0.15439(15) 0.0610(4) Uani 1 1 d . . .
+H7A H 0.0668(13) -0.229(3) 0.2551(19) 0.086(4) Uiso 1 1 d . . .
+H7B H 0.0734(12) -0.434(3) 0.1127(17) 0.079(4) Uiso 1 1 d . . .
+C8 C 0.04970(9) -0.0388(2) 0.03602(12) 0.0507(3) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+C1 0.0478(6) 0.0569(7) 0.0486(6) -0.0040(5) 0.0094(4) 0.0035(5)
+C2 0.0618(7) 0.0683(8) 0.0707(8) 0.0078(7) 0.0161(6) -0.0004(6)
+C3 0.0583(7) 0.0754(9) 0.0913(10) -0.0054(8) 0.0213(7) -0.0114(7)
+C4 0.0484(7) 0.0802(10) 0.0915(10) -0.0109(8) 0.0042(7) 0.0002(6)
+C5 0.0538(7) 0.0726(9) 0.0789(9) 0.0024(7) -0.0003(6) 0.0092(6)
+C6 0.0501(6) 0.0570(7) 0.0561(6) -0.0023(5) 0.0062(5) 0.0045(5)
+C7 0.0525(6) 0.0674(8) 0.0624(7) 0.0110(6) 0.0091(5) 0.0038(6)
+C8 0.0478(5) 0.0594(7) 0.0456(6) -0.0017(5) 0.0106(4) 0.0045(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C2 C1 C6 122.00(11) . . ?
+C2 C1 C8 145.53(11) . . ?
+C6 C1 C8 92.47(9) . . ?
+C1 C2 C3 115.85(13) . . ?
+C4 C3 C2 121.88(13) . . ?
+C5 C4 C3 122.18(13) . . ?
+C6 C5 C4 115.81(13) . . ?
+C5 C6 C1 122.29(12) . . ?
+C5 C6 C7 144.22(12) . . ?
+C1 C6 C7 93.49(9) . . ?
+C6 C7 C8 84.73(9) . . ?
+C8 C8 C1 136.71(14) 3 . ?
+C8 C8 C7 133.97(14) 3 . ?
+C1 C8 C7 89.31(8) . . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C1 C2 1.3816(18) . ?
+C1 C6 1.3890(16) . ?
+C1 C8 1.4763(16) . ?
+C2 C3 1.3904(19) . ?
+C3 C4 1.384(2) . ?
+C4 C5 1.387(2) . ?
+C5 C6 1.3775(16) . ?
+C6 C7 1.5257(16) . ?
+C7 C8 1.5462(16) . ?
+C8 C8 1.327(2) 3 ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+C6 C1 C2 C3 -0.18(19) . . . . ?
+C8 C1 C2 C3 178.85(15) . . . . ?
+C1 C2 C3 C4 0.2(2) . . . . ?
+C2 C3 C4 C5 -0.2(2) . . . . ?
+C3 C4 C5 C6 0.2(2) . . . . ?
+C4 C5 C6 C1 -0.22(19) . . . . ?
+C4 C5 C6 C7 -179.53(16) . . . . ?
+C2 C1 C6 C5 0.21(18) . . . . ?
+C8 C1 C6 C5 -179.24(12) . . . . ?
+C2 C1 C6 C7 179.81(12) . . . . ?
+C8 C1 C6 C7 0.36(9) . . . . ?
+C5 C6 C7 C8 179.07(18) . . . . ?
+C1 C6 C7 C8 -0.34(8) . . . . ?
+C2 C1 C8 C8 -0.2(3) . . . 3 ?
+C6 C1 C8 C8 178.93(18) . . . 3 ?
+C2 C1 C8 C7 -179.53(18) . . . . ?
+C6 C1 C8 C7 -0.35(9) . . . . ?
+C6 C7 C8 C8 -178.99(18) . . . 3 ?
+C6 C7 C8 C1 0.32(8) . . . . ?

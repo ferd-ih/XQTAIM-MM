@@ -1,5 +1,5 @@
 # ss_qtaim_gen
-This directory contains scripts for generating, processing, and analyzing QTAIM-based graph representations of molecular crystals starting from electron densities files. The scripts extract critical point (CP) properties, compute graph descriptors, and perform feature embedding for machine learning applications.
+This directory contains scripts for generating, processing, and analyzing QTAIM-based graph representations of molecular crystals starting from electron density analysis files. The scripts extract critical point (CP) properties, compute graph descriptors, and perform feature embedding for machine learning applications.
 
 ## Directory structure
 

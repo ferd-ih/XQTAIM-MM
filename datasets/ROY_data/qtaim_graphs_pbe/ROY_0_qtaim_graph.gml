@@ -6,16 +6,15 @@ graph [
     pos 3.2488509041
     pos 0.92037758514
     pos 7.361160488529
-    e_density 0.4358704056
-    iri 1.043761127E-14
-    rdg 100.0
-    sign_lambda2_rho -0.2974500777
+    e_density 0.3617712197568879
+    iri 1.0437611269999945E-14
+    sign_lambda2_rho -0.26040085955661657
     delta_g_promolecular 0.1107395091
     delta_g_hirsh 0.1937738958
     e_loc_func 0.9999046809
-    esp_nuc 53.08297131
+    esp_nuc 3.990519373087831
     esp_e -18.0516647
-    grad_norm 4.186915913E-15
+    grad_norm 4.186915912999991E-15
     ellip_e_dens 0.000869
   ]
   node [
@@ -25,16 +24,15 @@ graph [
     pos 3.166999935357
     pos 1.756000141663
     pos 8.032000157492
-    e_density 122.0987406
-    iri 9.6668284E-13
-    rdg 100.0
-    sign_lambda2_rho -121.397303
+    e_density 4.812986802431332
+    iri 9.666828399995327E-13
+    sign_lambda2_rho -4.807272335521741
     delta_g_promolecular 0.04715998521
     delta_g_hirsh 0.06215853048
     e_loc_func 0.9999989061
-    esp_nuc 16232914.33
+    esp_nuc 16.602551549361188
     esp_e -33.39837867
-    grad_norm 1.908386396E-10
+    grad_norm 1.908386395817903E-10
     ellip_e_dens 6.E-06
   ]
   node [
@@ -44,16 +42,15 @@ graph [
     pos 5.236264833604
     pos 1.753414045047
     pos 8.606428857157
-    e_density 0.4313565166
-    iri 1.298404685E-14
-    rdg 100.0
-    sign_lambda2_rho -0.2971972172
+    e_density 0.3586226076298299
+    iri 1.2984046849999917E-14
+    sign_lambda2_rho -0.2602059502128321
     delta_g_promolecular 0.1117367639
     delta_g_hirsh 0.1955420734
     e_loc_func 0.9998992999
-    esp_nuc 53.781423
+    esp_nuc 4.003351140131353
     esp_e -20.1078859
-    grad_norm 5.149085147E-15
+    grad_norm 5.149085146999987E-15
     ellip_e_dens 0.000576
   ]
   node [
@@ -63,16 +60,15 @@ graph [
     pos 0.211000232887
     pos 3.416002993208
     pos 12.517998286141
-    e_density 199.3576393
-    iri 3.289422908E-12
-    rdg 100.0
-    sign_lambda2_rho -193.1517588
+    e_density 5.3001039661281295
+    iri 3.28942290799459E-12
+    sign_lambda2_rho -5.268640115111664
     delta_g_promolecular 0.07512155044
     delta_g_hirsh 0.1054685616
     e_loc_func 0.999998131
-    esp_nuc 1066295.438
+    esp_nuc 13.879701929477386
     esp_e -34.97073212
-    grad_norm 1.113565797E-09
+    grad_norm 1.1135657963799855E-09
     ellip_e_dens 2.E-06
   ]
   node [
@@ -82,16 +78,15 @@ graph [
     pos 1.07577357876
     pos 2.104374826989
     pos 7.65049721355
-    e_density 0.4368463279
-    iri 9.015381925E-15
-    rdg 100.0
-    sign_lambda2_rho -0.2973727121
+    e_density 0.3624506618516571
+    iri 9.015381924999959E-15
+    sign_lambda2_rho -0.2603412288178031
     delta_g_promolecular 0.1101822291
     delta_g_hirsh 0.1932888661
     e_loc_func 0.9999123165
-    esp_nuc 54.20453441
+    esp_nuc 4.01104509501802
     esp_e -19.10863447
-    grad_norm 3.6253145E-15
+    grad_norm 3.6253144999999934E-15
     ellip_e_dens 0.000707
   ]
   node [
@@ -101,16 +96,15 @@ graph [
     pos 4.274999822873
     pos 2.218000456901
     pos 8.715000390011
-    e_density 122.1441603
-    iri 2.279328117E-12
-    rdg 100.0
-    sign_lambda2_rho -121.3963369
+    e_density 4.813355704034985
+    iri 2.2793281169974023E-12
+    sign_lambda2_rho -4.807264442342814
     delta_g_promolecular 0.04527702873
     delta_g_hirsh 0.06024059648
     e_loc_func 0.999998916
-    esp_nuc 5330683.947
+    esp_nuc 15.488990295765522
     esp_e -34.85788911
-    grad_norm 4.501599222E-10
+    grad_norm 4.50159922098678E-10
     ellip_e_dens 8.E-06
   ]
   node [
@@ -120,16 +114,15 @@ graph [
     pos 1.943000053825
     pos 2.426000025069
     pos 8.201000087066
-    e_density 122.1451277
-    iri 6.867442941E-13
-    rdg 100.0
-    sign_lambda2_rho -121.3975868
+    e_density 4.813363559837467
+    iri 6.867442940997642E-13
+    sign_lambda2_rho -4.807274654197594
     delta_g_promolecular 0.04719529313
     delta_g_hirsh 0.0620354184
     e_loc_func 0.9999989293
-    esp_nuc 47530556.52
+    esp_nuc 17.67688337837623
     esp_e -34.2065817
-    grad_norm 1.356309559E-10
+    grad_norm 1.3563095589080211E-10
     ellip_e_dens 9.E-06
   ]
   node [
@@ -139,16 +132,15 @@ graph [
     pos 0.30100018536
     pos 4.417001547426
     pos 11.924999139052
-    e_density 122.4429924
-    iri 1.780068951E-12
-    rdg 100.0
-    sign_lambda2_rho -121.3940976
+    e_density 4.815779449497955
+    iri 1.7800689509984158E-12
+    sign_lambda2_rho -4.8072461466932745
     delta_g_promolecular 0.02926478684
     delta_g_hirsh 0.05438668633
     e_loc_func 0.999998893
-    esp_nuc 1770748.82
+    esp_nuc 14.386913641964021
     esp_e -35.16575495
-    grad_norm 3.525040841E-10
+    grad_norm 3.525040840378704E-10
     ellip_e_dens 0.0
   ]
   node [
@@ -158,16 +150,15 @@ graph [
     pos 4.192001002271
     pos 3.340000816134
     pos 9.555000825539
-    e_density 122.0724187
-    iri 1.904789483E-12
-    rdg 100.0
-    sign_lambda2_rho -121.39236
+    e_density 4.81277295203411
+    iri 1.9047894829981855E-12
+    sign_lambda2_rho -4.807231949829469
     delta_g_promolecular 0.03697083099
     delta_g_hirsh 0.04790138444
     e_loc_func 0.9999989214
-    esp_nuc 2135695.26
+    esp_nuc 14.574303268576259
     esp_e -38.00685395
-    grad_norm 3.759467104E-10
+    grad_norm 3.7594671032933204E-10
     ellip_e_dens 6.E-06
   ]
   node [
@@ -177,16 +168,15 @@ graph [
     pos 1.836000451474
     pos 3.519000184027
     pos 9.041000297591
-    e_density 122.0927507
-    iri 1.902686484E-12
-    rdg 100.0
-    sign_lambda2_rho -121.3961608
+    e_density 4.812938141935637
+    iri 1.9026864839981897E-12
+    sign_lambda2_rho -4.80726300357323
     delta_g_promolecular 0.04277965457
     delta_g_hirsh 0.0572572564
     e_loc_func 0.9999988988
-    esp_nuc 5928634.612
+    esp_nuc 15.595304662207493
     esp_e -36.9269974
-    grad_norm 3.75600446E-10
+    grad_norm 3.7560044592946216E-10
     ellip_e_dens 4.E-06
   ]
   node [
@@ -196,16 +186,15 @@ graph [
     pos 6.48599692425
     pos 3.246001522545
     pos 9.824000927943
-    e_density 302.2381103
-    iri 4.982210195E-12
-    rdg 100.0
-    sign_lambda2_rho -292.3634507
+    e_density 5.714518339471021
+    iri 4.982210194987589E-12
+    sign_lambda2_rho -5.681412286374556
     delta_g_promolecular 0.05729013883
     delta_g_hirsh 0.08461587453
     e_loc_func 0.9999963165
-    esp_nuc 1188567.28
+    esp_nuc 13.988260014700108
     esp_e -39.12101558
-    grad_norm 2.66566883E-09
+    grad_norm 2.665668826447105E-09
     ellip_e_dens 1.E-05
   ]
   node [
@@ -215,16 +204,15 @@ graph [
     pos 0.892050682471
     pos 4.022212683176
     pos 9.141693574047
-    e_density 0.4346217721
-    iri 1.443453412E-14
-    rdg 100.0
-    sign_lambda2_rho -0.2978089761
+    e_density 0.3609012410205207
+    iri 1.4434534119999895E-14
+    sign_lambda2_rho -0.2606774395779924
     delta_g_promolecular 0.1112865453
     delta_g_hirsh 0.1944832767
     e_loc_func 0.9998866856
-    esp_nuc 58.47303157
+    esp_nuc 4.085522958877966
     esp_e -23.71723232
-    grad_norm 5.771987707E-15
+    grad_norm 5.771987706999983E-15
     ellip_e_dens 0.000637
   ]
   node [
@@ -234,16 +222,15 @@ graph [
     pos 5.428000471428
     pos 3.800000263218
     pos 10.146000319752
-    e_density 198.443619
-    iri 1.225502084E-12
-    rdg 100.0
-    sign_lambda2_rho -193.1684854
+    e_density 5.295531584858932
+    iri 1.2255020839992492E-12
+    sign_lambda2_rho -5.2687262635948295
     delta_g_promolecular 0.07216799547
     delta_g_hirsh 0.0966397212
     e_loc_func 0.9999979907
-    esp_nuc 6411475.738
+    esp_nuc 15.67360018270659
     esp_e -39.94006375
-    grad_norm 4.12776445E-10
+    grad_norm 4.1277644491480777E-10
     ellip_e_dens 2.E-06
   ]
   node [
@@ -253,16 +240,15 @@ graph [
     pos 2.955000247151
     pos 4.027000860897
     pos 9.743000868435
-    e_density 122.0931547
-    iri 1.120833246E-12
-    rdg 100.0
-    sign_lambda2_rho -121.3948665
+    e_density 4.812941424008177
+    iri 1.120833245999372E-12
+    sign_lambda2_rho -4.807252428839227
     delta_g_promolecular 0.04431027443
     delta_g_hirsh 0.05699992385
     e_loc_func 0.9999989551
-    esp_nuc 2648376.767
+    esp_nuc 14.789457847117664
     esp_e -39.24933116
-    grad_norm 2.212592577E-10
+    grad_norm 2.2125925767552216E-10
     ellip_e_dens 3.E-06
   ]
   node [
@@ -272,16 +258,15 @@ graph [
     pos 5.390999831684
     pos 4.751997513599
     pos 10.952997787158
-    e_density 302.1851679
-    iri 5.059153185E-12
-    rdg 100.0
-    sign_lambda2_rho -292.364566
+    e_density 5.714343734036046
+    iri 5.059153184987202E-12
+    sign_lambda2_rho -5.681416088136082
     delta_g_promolecular 0.05475978653
     delta_g_hirsh 0.08101506591
     e_loc_func 0.9999963046
-    esp_nuc 1250124.196
+    esp_nuc 14.038754261063126
     esp_e -41.03088072
-    grad_norm 2.706314647E-09
+    grad_norm 2.7063146433379305E-09
     ellip_e_dens 1.2E-05
   ]
   node [
@@ -291,16 +276,15 @@ graph [
     pos 2.84399927805
     pos 5.151000266161
     pos 10.525999102716
-    e_density 198.0104281
-    iri 3.289482272E-12
-    rdg 100.0
-    sign_lambda2_rho -193.1692374
+    e_density 5.293357225864091
+    iri 3.28948227199459E-12
+    sign_lambda2_rho -5.268730136512426
     delta_g_promolecular 0.05007500632
     delta_g_hirsh 0.07330607614
     e_loc_func 0.9999976624
-    esp_nuc 3024681.892
+    esp_nuc 14.922316814861217
     esp_e -42.01124422
-    grad_norm 1.105310814E-09
+    grad_norm 1.1053108133891441E-09
     ellip_e_dens 5.E-06
   ]
   node [
@@ -310,16 +294,15 @@ graph [
     pos 0.480999813891
     pos 5.626999062605
     pos 11.215000436834
-    e_density 122.0429277
-    iri 5.283932121E-13
-    rdg 100.0
-    sign_lambda2_rho -121.3969529
+    e_density 4.812533300175155
+    iri 5.283932120998603E-13
+    sign_lambda2_rho -4.807269475160506
     delta_g_promolecular 0.04158145431
     delta_g_hirsh 0.05495247792
     e_loc_func 0.9999988975
-    esp_nuc 3003149.466
+    esp_nuc 14.915172450938348
     esp_e -37.66515589
-    grad_norm 1.042608134E-10
+    grad_norm 1.0426081339456484E-10
     ellip_e_dens 1.E-06
   ]
   node [
@@ -329,16 +312,15 @@ graph [
     pos 3.710821696675
     pos 5.546603362748
     pos 10.854285575992
-    e_density 0.4044667117
-    iri 3.530211418E-14
-    rdg 100.0
-    sign_lambda2_rho -0.2985173129
+    e_density 0.33965766610648873
+    iri 3.5302114179999375E-14
+    sign_lambda2_rho -0.26122308503139735
     delta_g_promolecular 0.1646007885
     delta_g_hirsh 0.2681711308
     e_loc_func 0.999124205
-    esp_nuc 50.90269211
+    esp_nuc 3.94937065992485
     esp_e -25.26322691
-    grad_norm 1.304282832E-14
+    grad_norm 1.3042828319999914E-14
     ellip_e_dens 0.001885
   ]
   node [
@@ -348,16 +330,15 @@ graph [
     pos 1.696001259063
     pos 5.931000068302
     pos 10.601999488075
-    e_density 122.0726021
-    iri 1.556095372E-12
-    rdg 100.0
-    sign_lambda2_rho -121.389991
+    e_density 4.812774442212538
+    iri 1.5560953719987894E-12
+    sign_lambda2_rho -4.807212593858825
     delta_g_promolecular 0.03693764325
     delta_g_hirsh 0.04789701259
     e_loc_func 0.9999989619
-    esp_nuc 2311330.167
+    esp_nuc 14.653334179292909
     esp_e -39.51865362
-    grad_norm 3.071257525E-10
+    grad_norm 3.071257524528369E-10
     ellip_e_dens 5.E-06
   ]
   node [
@@ -367,16 +348,15 @@ graph [
     pos -1.48911411992
     pos 6.607831429436
     pos 11.465534047517
-    e_density 0.4305331335
-    iri 2.404920746E-14
-    rdg 100.0
-    sign_lambda2_rho -0.2972621644
+    e_density 0.3580471954208443
+    iri 2.404920745999971E-14
+    sign_lambda2_rho -0.2602560162886198
     delta_g_promolecular 0.1112851363
     delta_g_hirsh 0.1933721337
     e_loc_func 0.9999011906
-    esp_nuc 54.01406257
+    esp_nuc 4.0075888356420295
     esp_e -19.6690561
-    grad_norm 9.517173942E-15
+    grad_norm 9.517173941999954E-15
     ellip_e_dens 0.000748
   ]
   node [
@@ -386,16 +366,15 @@ graph [
     pos -0.492999627829
     pos 6.666999708326
     pos 11.072000025504
-    e_density 122.1097453
-    iri 6.982418731E-13
-    rdg 100.0
-    sign_lambda2_rho -121.3960714
+    e_density 4.813076195775896
+    iri 6.982418730997562E-13
+    sign_lambda2_rho -4.807262273157896
     delta_g_promolecular 0.04398674599
     delta_g_hirsh 0.05946375851
     e_loc_func 0.9999989127
-    esp_nuc 6440293.836
+    esp_nuc 15.678084879020151
     esp_e -35.11730589
-    grad_norm 1.378577696E-10
+    grad_norm 1.3785776959049762E-10
     ellip_e_dens 3.E-06
   ]
   node [
@@ -405,16 +384,15 @@ graph [
     pos -0.017998921939
     pos 7.747000410244
     pos 10.369999526939
-    e_density 122.1368293
-    iri 1.745484115E-12
-    rdg 100.0
-    sign_lambda2_rho -121.3908093
+    e_density 4.81329617041029
+    iri 1.7454841149984767E-12
+    sign_lambda2_rho -4.807219279840724
     delta_g_promolecular 0.03263069607
     delta_g_hirsh 0.04481954795
     e_loc_func 0.9999989658
-    esp_nuc 2529523.529
+    esp_nuc 14.743541909840465
     esp_e -35.70140967
-    grad_norm 3.447047012E-10
+    grad_norm 3.447047011405894E-10
     ellip_e_dens 2.E-06
   ]
   node [
@@ -424,16 +402,15 @@ graph [
     pos 1.622999775615
     pos 7.493999837101
     pos 9.866000250063
-    e_density 2571.67821
-    iri 6.989213938E-12
-    rdg 100.0
-    sign_lambda2_rho -2661.123651
+    e_density 7.852702740333096
+    iri 6.989213937975575E-12
+    sign_lambda2_rho -7.886879448289493
     delta_g_promolecular 0.01498398128
     delta_g_hirsh 0.07933927975
     e_loc_func 0.9999505805
-    esp_nuc 22993582.29
+    esp_nuc 16.9507257475779
     esp_e -76.69048893
-    grad_norm 3.941546205E-08
+    grad_norm 3.941546127321069E-08
     ellip_e_dens 4.E-06
   ]
   node [
@@ -443,16 +420,15 @@ graph [
     pos -1.709819273342
     pos 9.009109111928
     pos 10.436127269426
-    e_density 0.435019958
-    iri 3.38324364E-14
-    rdg 100.0
-    sign_lambda2_rho -0.2978455741
+    e_density 0.3611787571288062
+    iri 3.383243639999943E-14
+    sign_lambda2_rho -0.2607056390161646
     delta_g_promolecular 0.1097691449
     delta_g_hirsh 0.1895862582
     e_loc_func 0.999895437
-    esp_nuc 53.75465689
+    esp_nuc 4.002862422431037
     esp_e -17.17556435
-    grad_norm 1.354232943E-14
+    grad_norm 1.3542329429999909E-14
     ellip_e_dens 0.000208
   ]
   node [
@@ -462,16 +438,15 @@ graph [
     pos -0.697999652716
     pos 9.032999478064
     pos 10.056000154829
-    e_density 121.9498962
-    iri 2.797150246E-12
-    rdg 100.0
-    sign_lambda2_rho -121.3941174
+    e_density 4.8117769244162165
+    iri 2.7971502459960878E-12
+    sign_lambda2_rho -4.807246308465769
     delta_g_promolecular 0.04042162649
     delta_g_hirsh 0.05381246789
     e_loc_func 0.9999988962
-    esp_nuc 4701834.803
+    esp_nuc 15.363463586800357
     esp_e -30.81055033
-    grad_norm 5.514617225E-10
+    grad_norm 5.51461722347945E-10
     ellip_e_dens 3.E-06
   ]
   node [
@@ -481,16 +456,15 @@ graph [
     pos -0.743284521514
     pos 9.222428459064
     pos 8.98763417651
-    e_density 0.4328823376
-    iri 2.451050967E-14
-    rdg 100.0
-    sign_lambda2_rho -0.2973626634
+    e_density 0.3596880363332338
+    iri 2.45105096699997E-14
+    sign_lambda2_rho -0.2603334833651493
     delta_g_promolecular 0.1076036554
     delta_g_hirsh 0.1848741911
     e_loc_func 0.9998936017
-    esp_nuc 54.54801822
+    esp_nuc 4.017247839841689
     esp_e -17.53593153
-    grad_norm 9.757963626E-15
+    grad_norm 9.757963625999953E-15
     ellip_e_dens 0.00035
   ]
   node [
@@ -500,38 +474,36 @@ graph [
     pos -0.191345963308
     pos 9.879028024619
     pos 10.508225328582
-    e_density 0.4329314058
-    iri 4.415610762E-14
-    rdg 100.0
-    sign_lambda2_rho -0.2974504879
+    e_density 0.3597222801497539
+    iri 4.415610761999903E-14
+    sign_lambda2_rho -0.2604011757151665
     delta_g_promolecular 0.1080466481
     delta_g_hirsh 0.1856874081
     e_loc_func 0.9998921053
-    esp_nuc 54.3276968
+    esp_nuc 4.0132736294395945
     esp_e -17.4123425
-    grad_norm 1.758133236E-14
+    grad_norm 1.7581332359999845E-14
     ellip_e_dens 0.000345
   ]
   edge [
     source 0
     target 1
     Lagrangian_K 0.03800332788
+    bcp_pos 3.220078087801
+    bcp_pos 1.208192721444
+    bcp_pos 7.592931411577
     e_density 0.2798413237
-    iri 1.489114912E-15
-    rdg 100.0
+    iri 1.4891149119999988E-15
     sign_lambda2_rho -0.1785981986
     ave_loc_ion_E 0.4576883834
     delta_g_promolecular 0.3047279637
     e_loc_func 0.987919543
     esp_nuc 21.13898812
     esp_e -20.28364897
-    grad_norm 3.668860877E-16
-    det_hessian 0.300233043
+    grad_norm 3.6688608769999995E-16
+    det_hessian 0.2625435122478016
     ellip_e_dens 0.020522
     eta 1.418732
-    bcp_pos 3.220078087801
-    bcp_pos 1.208192721444
-    bcp_pos 7.592931411577
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -541,22 +513,21 @@ graph [
     source 1
     target 5
     Lagrangian_K 0.1135000889
+    bcp_pos 3.711590571777
+    bcp_pos 1.98426276278
+    bcp_pos 8.370018654637
     e_density 0.3192196303
-    iri 1.161622561E-15
-    rdg 100.0
+    iri 1.1616225609999994E-15
     sign_lambda2_rho -0.223370472
     ave_loc_ion_E 0.5335758735
     delta_g_promolecular 0.390965893
     e_loc_func 0.934315909
     esp_nuc 26.0608332
     esp_e -25.14862091
-    grad_norm 3.307985428E-16
-    det_hessian 0.1315314681
+    grad_norm 3.3079854279999994E-16
+    det_hessian 0.12357199666364158
     ellip_e_dens 0.203334
     eta 2.011517
-    bcp_pos 3.711590571777
-    bcp_pos 1.98426276278
-    bcp_pos 8.370018654637
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -566,22 +537,21 @@ graph [
     source 1
     target 6
     Lagrangian_K 0.1003897225
+    bcp_pos 2.560041517532
+    bcp_pos 2.086475075584
+    bcp_pos 8.114409880899
     e_density 0.3060889957
-    iri 1.373465429E-15
-    rdg 100.0
+    iri 1.373465428999999E-15
     sign_lambda2_rho -0.214450418
     ave_loc_ion_E 0.5237072707
     delta_g_promolecular 0.3821913896
     e_loc_func 0.9404986305
     esp_nuc 25.67373996
     esp_e -24.81071434
-    grad_norm 3.734652693E-16
-    det_hessian 0.1234850719
+    grad_norm 3.7346526929999993E-16
+    det_hessian 0.11643552541656524
     ellip_e_dens 0.163982
     eta 1.877611
-    bcp_pos 2.560041517532
-    bcp_pos 2.086475075584
-    bcp_pos 8.114409880899
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -591,22 +561,21 @@ graph [
     source 2
     target 5
     Lagrangian_K 0.03520894303
+    bcp_pos 4.913236776554
+    bcp_pos 1.908401897118
+    bcp_pos 8.642517122926
     e_density 0.2829435653
-    iri 4.907227638E-15
-    rdg 100.0
+    iri 4.907227637999988E-15
     sign_lambda2_rho -0.1781011089
     ave_loc_ion_E 0.4565988936
     delta_g_promolecular 0.3166643927
     e_loc_func 0.9899836214
     esp_nuc 23.01851297
     esp_e -22.15649319
-    grad_norm 1.223787488E-15
-    det_hessian 0.3368650499
+    grad_norm 1.2237874879999991E-15
+    det_hessian 0.2903273580217861
     ellip_e_dens 0.010696
     eta 1.398315
-    bcp_pos 4.913236776554
-    bcp_pos 1.908401897118
-    bcp_pos 8.642517122926
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -616,47 +585,45 @@ graph [
     source 3
     target 7
     Lagrangian_K 0.8371955669
+    bcp_pos 0.270807112005
+    bcp_pos 4.06769981996
+    bcp_pos 12.131732971723
     e_density 0.4783499165
-    iri 1.010438676E-15
-    rdg 100.0
+    iri 1.0104386759999995E-15
     sign_lambda2_rho -0.4048399444
     ave_loc_ion_E 1.131702138
     delta_g_promolecular 0.4968967506
     e_loc_func 0.5017031213
     esp_nuc 28.51783052
     esp_e -26.22650179
-    grad_norm 4.489833476E-16
-    det_hessian 1.808907705
+    grad_norm 4.489833475999999E-16
+    det_hessian 1.0327956906937348
     ellip_e_dens 0.021131
     eta 0.61411
-    bcp_pos 0.270807112005
-    bcp_pos 4.06769981996
-    bcp_pos 12.131732971723
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
-    bond_distance 1.1669387667911064
+    bond_distance 1.1669387667911066
   ]
   edge [
     source 4
     target 6
     Lagrangian_K 0.03659796954
+    bcp_pos 1.373918600027
+    bcp_pos 2.21474859494
+    bcp_pos 7.840281928121
     e_density 0.2803879725
-    iri 1.930324705E-15
-    rdg 100.0
+    iri 1.930324704999998E-15
     sign_lambda2_rho -0.1780912206
     ave_loc_ion_E 0.4621387697
     delta_g_promolecular 0.3053189924
     e_loc_func 0.9888583311
     esp_nuc 22.1377701
     esp_e -21.27976354
-    grad_norm 4.766127842E-16
-    det_hessian 0.3073930175
+    grad_norm 4.766127841999999E-16
+    det_hessian 0.2680350914295914
     ellip_e_dens 0.009309
     eta 1.410149
-    bcp_pos 1.373918600027
-    bcp_pos 2.21474859494
-    bcp_pos 7.840281928121
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -666,22 +633,21 @@ graph [
     source 5
     target 8
     Lagrangian_K 0.1037393787
+    bcp_pos 4.237505691491
+    bcp_pos 2.761001702813
+    bcp_pos 9.121261470451
     e_density 0.3066393361
-    iri 1.692919905E-15
-    rdg 100.0
+    iri 1.6929199049999985E-15
     sign_lambda2_rho -0.2152955809
     ave_loc_ion_E 0.5461177699
     delta_g_promolecular 0.3668366803
     e_loc_func 0.9370715503
     esp_nuc 28.1886974
     esp_e -27.29783975
-    grad_norm 4.612401067E-16
-    det_hessian 0.1197245746
+    grad_norm 4.612401066999999E-16
+    det_hessian 0.11308273952910541
     ellip_e_dens 0.194694
     eta 1.910844
-    bcp_pos 4.237505691491
-    bcp_pos 2.761001702813
-    bcp_pos 9.121261470451
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -691,22 +657,21 @@ graph [
     source 6
     target 9
     Lagrangian_K 0.1125835547
+    bcp_pos 1.894020520001
+    bcp_pos 2.970660652816
+    bcp_pos 8.621944889642
     e_density 0.3183696983
-    iri 8.399925712E-16
-    rdg 100.0
+    iri 8.399925711999996E-16
     sign_lambda2_rho -0.2225823289
     ave_loc_ion_E 0.5360140388
     delta_g_promolecular 0.3982743573
     e_loc_func 0.9347641705
     esp_nuc 27.4254943
     esp_e -26.51512643
-    grad_norm 2.385065683E-16
-    det_hessian 0.1303976688
+    grad_norm 2.3850656829999995E-16
+    det_hessian 0.12256949010721478
     ellip_e_dens 0.206472
     eta 2.005961
-    bcp_pos 1.894020520001
-    bcp_pos 2.970660652816
-    bcp_pos 8.621944889642
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -716,22 +681,21 @@ graph [
     source 7
     target 16
     Lagrangian_K 0.09485580906
+    bcp_pos 0.393687161395
+    bcp_pos 5.057453333843
+    bcp_pos 11.54863209248
     e_density 0.2895916406
-    iri 2.935478198E-15
-    rdg 100.0
+    iri 2.9354781979999955E-15
     sign_lambda2_rho -0.2114662155
     ave_loc_ion_E 0.5942980542
     delta_g_promolecular 0.3399564665
     e_loc_func 0.9363817402
     esp_nuc 27.97350182
     esp_e -27.03613639
-    grad_norm 7.510061314E-16
-    det_hessian 0.0946280857
+    grad_norm 7.510061313999997E-16
+    det_hessian 0.09041465781254178
     ellip_e_dens 0.092055
     eta 1.897974
-    bcp_pos 0.393687161395
-    bcp_pos 5.057453333843
-    bcp_pos 11.54863209248
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -741,22 +705,21 @@ graph [
     source 8
     target 12
     Lagrangian_K 0.1481453356
+    bcp_pos 4.671041438155
+    bcp_pos 3.522398353775
+    bcp_pos 9.788663005132
     e_density 0.2727371396
-    iri 3.225052855E-15
-    rdg 100.0
+    iri 3.225052854999995E-15
     sign_lambda2_rho -0.2321528247
     ave_loc_ion_E 0.670268248
     delta_g_promolecular 0.2950879208
     e_loc_func 0.8316895577
     esp_nuc 29.66345286
     esp_e -28.47601256
-    grad_norm 7.72423621E-16
-    det_hessian 0.1158197033
+    grad_norm 7.724236209999997E-16
+    det_hessian 0.10958929472471766
     ellip_e_dens 0.203852
     eta 1.470039
-    bcp_pos 4.671041438155
-    bcp_pos 3.522398353775
-    bcp_pos 9.788663005132
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -766,22 +729,21 @@ graph [
     source 8
     target 13
     Lagrangian_K 0.09289209312
+    bcp_pos 3.587556630848
+    bcp_pos 3.69600379672
+    bcp_pos 9.664143106594
     e_density 0.293789746
-    iri 2.886270787E-15
-    rdg 100.0
+    iri 2.8862707869999956E-15
     sign_lambda2_rho -0.2057828608
     ave_loc_ion_E 0.5598510231
     delta_g_promolecular 0.363752392
     e_loc_func 0.9415266901
     esp_nuc 30.17085401
     esp_e -29.31015493
-    grad_norm 7.502005372E-16
-    det_hessian 0.1089274456
+    grad_norm 7.502005371999997E-16
+    det_hessian 0.1033932829638329
     ellip_e_dens 0.224436
     eta 1.818033
-    bcp_pos 3.587556630848
-    bcp_pos 3.69600379672
-    bcp_pos 9.664143106594
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -791,22 +753,21 @@ graph [
     source 9
     target 13
     Lagrangian_K 0.09971836296
+    bcp_pos 2.369012307146
+    bcp_pos 3.765118377184
+    bcp_pos 9.380509457851
     e_density 0.3005972251
-    iri 7.921886077E-16
-    rdg 100.0
+    iri 7.921886076999997E-16
     sign_lambda2_rho -0.2119675612
     ave_loc_ion_E 0.5465066951
     delta_g_promolecular 0.355633284
     e_loc_func 0.9378174372
     esp_nuc 29.89886861
     esp_e -29.02081627
-    grad_norm 2.11160196E-16
-    det_hessian 0.114743231
+    grad_norm 2.1116019599999997E-16
+    det_hessian 0.10862409229351223
     ellip_e_dens 0.186951
     eta 1.864922
-    bcp_pos 2.369012307146
-    bcp_pos 3.765118377184
-    bcp_pos 9.380509457851
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -816,22 +777,21 @@ graph [
     source 9
     target 11
     Lagrangian_K 0.03870578692
+    bcp_pos 1.216578049721
+    bcp_pos 3.850893968776
+    bcp_pos 9.108555954065
     e_density 0.2803038109
-    iri 9.383151846E-16
-    rdg 100.0
+    iri 9.383151845999995E-16
     sign_lambda2_rho -0.1787678798
     ave_loc_ion_E 0.4635793618
     delta_g_promolecular 0.3076001487
     e_loc_func 0.987542484
     esp_nuc 26.15483191
     esp_e -25.29253715
-    grad_norm 2.316011156E-16
-    det_hessian 0.3048006594
+    grad_norm 2.3160111559999997E-16
+    det_hessian 0.26605027768934625
     ellip_e_dens 0.020598
     eta 1.410445
-    bcp_pos 1.216578049721
-    bcp_pos 3.850893968776
-    bcp_pos 9.108555954065
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -841,22 +801,21 @@ graph [
     source 10
     target 12
     Lagrangian_K 0.3776796006
+    bcp_pos 5.929239151479
+    bcp_pos 3.540256497572
+    bcp_pos 9.9959814208
     e_density 0.4888931455
-    iri 3.67408544E-15
-    rdg 100.0
+    iri 3.674085439999993E-15
     sign_lambda2_rho -0.3298271141
     ave_loc_ion_E 0.8446988655
     delta_g_promolecular 0.9801165483
     e_loc_func 0.8417727604
     esp_nuc 28.78901714
     esp_e -27.42491823
-    grad_norm 1.672186044E-15
-    det_hessian 2.240930128
+    grad_norm 1.6721860439999987E-15
+    det_hessian 1.1758603651488617
     ellip_e_dens 0.104917
     eta 0.898235
-    bcp_pos 5.929239151479
-    bcp_pos 3.540256497572
-    bcp_pos 9.9959814208
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -866,22 +825,21 @@ graph [
     source 12
     target 14
     Lagrangian_K 0.3567298598
+    bcp_pos 5.412390048301
+    bcp_pos 4.249088267685
+    bcp_pos 10.526365196309
     e_density 0.4744413519
-    iri 2.317538606E-15
-    rdg 100.0
+    iri 2.3175386059999972E-15
     sign_lambda2_rho -0.3218799416
     ave_loc_ion_E 0.8410527002
     delta_g_promolecular 0.9662764487
     e_loc_func 0.8436432953
     esp_nuc 29.70669176
     esp_e -28.37230243
-    grad_norm 1.020534675E-15
-    det_hessian 2.094915484
+    grad_norm 1.0205346749999994E-15
+    det_hessian 1.1297605984939192
     ellip_e_dens 0.113094
     eta 0.885075
-    bcp_pos 5.412390048301
-    bcp_pos 4.249088267685
-    bcp_pos 10.526365196309
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -891,22 +849,21 @@ graph [
     source 13
     target 15
     Lagrangian_K 0.190277135
+    bcp_pos 2.911430427428
+    bcp_pos 4.461162121723
+    bcp_pos 10.039671924364
     e_density 0.3125881273
-    iri 1.780053772E-15
-    rdg 100.0
+    iri 1.7800537719999986E-15
     sign_lambda2_rho -0.2653022575
     ave_loc_ion_E 0.711557854
     delta_g_promolecular 0.3464680482
     e_loc_func 0.8251586316
     esp_nuc 31.79116645
     esp_e -30.41972962
-    grad_norm 4.953393709E-16
-    det_hessian 0.1581985801
+    grad_norm 4.953393708999999E-16
+    det_hessian 0.14686584985473425
     ellip_e_dens 0.138719
     eta 1.876234
-    bcp_pos 2.911430427428
-    bcp_pos 4.461162121723
-    bcp_pos 10.039671924364
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -916,9 +873,11 @@ graph [
     source 14
     target 17
     Lagrangian_K 0.03192468108
+    bcp_pos 4.294947195746
+    bcp_pos 5.193247605058
+    bcp_pos 10.859153257201
     e_density 0.0367651588
-    iri 3.130511688E-15
-    rdg 1.03099526E-15
+    iri 3.130511687999995E-15
     sign_lambda2_rho -0.04242786604
     ave_loc_ion_E 0.4777224381
     delta_g_promolecular 0.06993519364
@@ -926,37 +885,33 @@ graph [
     esp_nuc 24.58475909
     esp_e -24.41255044
     grad_norm 8.271712294E-17
-    det_hessian 0.0006487947461
+    det_hessian 0.0006485843697778335
     ellip_e_dens 0.052054
     eta 0.238205
-    bcp_pos 4.294947195746
-    bcp_pos 5.193247605058
-    bcp_pos 10.859153257201
-    bcp_category_standard 1
+    bcp_category_standard 0
     bcp_category_orphaned 0
-    bcp_category_hydrogen_bond 0
+    bcp_category_hydrogen_bond 1
     bond_distance 1.8612203312604891
   ]
   edge [
     source 15
     target 17
     Lagrangian_K 0.05086868176
+    bcp_pos 3.510623386328
+    bcp_pos 5.458897519407
+    bcp_pos 10.778109929422
     e_density 0.3226622103
-    iri 5.421626976E-15
-    rdg 100.0
+    iri 5.421626975999985E-15
     sign_lambda2_rho -0.2071840074
     ave_loc_ion_E 0.5654676879
     delta_g_promolecular 0.4716894043
     e_loc_func 0.9865549591
     esp_nuc 28.01885492
     esp_e -26.6592291
-    grad_norm 1.562257249E-15
-    det_hessian 1.282614861
+    grad_norm 1.5622572489999989E-15
+    det_hessian 0.8253216546743045
     ellip_e_dens 0.039022
     eta 1.583167
-    bcp_pos 3.510623386328
-    bcp_pos 5.458897519407
-    bcp_pos 10.778109929422
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -966,22 +921,21 @@ graph [
     source 15
     target 18
     Lagrangian_K 0.1631568973
+    bcp_pos 2.1470889252
+    bcp_pos 5.622188059149
+    bcp_pos 10.563976304149
     e_density 0.3049425918
-    iri 2.085361056E-15
-    rdg 100.0
+    iri 2.0853610559999978E-15
     sign_lambda2_rho -0.2514047857
     ave_loc_ion_E 0.6913724822
     delta_g_promolecular 0.3531000609
     e_loc_func 0.855285774
     esp_nuc 31.57774367
     esp_e -30.3063824
-    grad_norm 5.647043779E-16
-    det_hessian 0.1495038881
+    grad_norm 5.647043778999998E-16
+    det_hessian 0.13933044764252103
     ellip_e_dens 0.08179
     eta 1.755267
-    bcp_pos 2.1470889252
-    bcp_pos 5.622188059149
-    bcp_pos 10.563976304149
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -991,22 +945,21 @@ graph [
     source 16
     target 18
     Lagrangian_K 0.1149351596
+    bcp_pos 1.080918129462
+    bcp_pos 5.765415081644
+    bcp_pos 10.917331685674
     e_density 0.3091253807
-    iri 1.761467143E-15
-    rdg 100.0
+    iri 1.7614671429999985E-15
     sign_lambda2_rho -0.2184489191
     ave_loc_ion_E 0.5673279569
     delta_g_promolecular 0.3787869887
     e_loc_func 0.925719514
     esp_nuc 30.51271508
     esp_e -29.58813461
-    grad_norm 4.841976499E-16
-    det_hessian 0.116244883
+    grad_norm 4.841976498999999E-16
+    det_hessian 0.1099702690995205
     ellip_e_dens 0.306028
     eta 1.933812
-    bcp_pos 1.080918129462
-    bcp_pos 5.765415081644
-    bcp_pos 10.917331685674
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -1016,22 +969,21 @@ graph [
     source 16
     target 20
     Lagrangian_K 0.09216766952
+    bcp_pos -0.023695491137
+    bcp_pos 6.150770223935
+    bcp_pos 11.14731849941
     e_density 0.288053376
-    iri 8.412689824E-16
-    rdg 100.0
+    iri 8.412689823999996E-16
     sign_lambda2_rho -0.2062589047
     ave_loc_ion_E 0.5401591182
     delta_g_promolecular 0.3613175089
     e_loc_func 0.9387082959
     esp_nuc 28.01227907
     esp_e -27.17032594
-    grad_norm 2.139711117E-16
-    det_hessian 0.1025040847
+    grad_norm 2.1397111169999999E-16
+    det_hessian 0.09758403327531137
     ellip_e_dens 0.173704
     eta 1.75986
-    bcp_pos -0.023695491137
-    bcp_pos 6.150770223935
-    bcp_pos 11.14731849941
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -1041,47 +993,45 @@ graph [
     source 18
     target 22
     Lagrangian_K 0.07214796907
+    bcp_pos 1.674477461842
+    bcp_pos 6.686573836067
+    bcp_pos 10.242257887714
     e_density 0.2113623714
-    iri 2.47519902E-15
-    rdg 100.0
+    iri 2.4751990199999967E-15
     sign_lambda2_rho -0.1523654686
     ave_loc_ion_E 0.5709482453
     delta_g_promolecular 0.2626316313
     e_loc_func 0.8990465089
     esp_nuc 30.95741225
     esp_e -30.1986298
-    grad_norm 4.478582355E-16
-    det_hessian 0.01934250859
+    grad_norm 4.478582354999999E-16
+    det_hessian 0.01915782003108193
     ellip_e_dens 0.282465
     eta 1.662404
-    bcp_pos 1.674477461842
-    bcp_pos 6.686573836067
-    bcp_pos 10.242257887714
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
-    bond_distance 1.7291594409439466
+    bond_distance 1.7291594409439468
   ]
   edge [
     source 19
     target 20
     Lagrangian_K 0.03716367054
+    bcp_pos -1.148822305899
+    bcp_pos 6.627563340052
+    bcp_pos 11.331842053408
     e_density 0.279345413
-    iri 2.202998962E-14
-    rdg 100.0
+    iri 2.2029989619999758E-14
     sign_lambda2_rho -0.1784426912
     ave_loc_ion_E 0.4783761403
     delta_g_promolecular 0.3094041541
     e_loc_func 0.9883734824
     esp_nuc 22.8111689
     esp_e -21.93035177
-    grad_norm 5.417139149E-15
-    det_hessian 0.3048575684
+    grad_norm 5.417139148999985E-15
+    det_hessian 0.2660938918296216
     ellip_e_dens 0.025342
     eta 1.418532
-    bcp_pos -1.148822305899
-    bcp_pos 6.627563340052
-    bcp_pos 11.331842053408
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -1091,22 +1041,21 @@ graph [
     source 20
     target 21
     Lagrangian_K 0.1254104003
+    bcp_pos -0.264574494737
+    bcp_pos 7.197721799304
+    bcp_pos 10.7288250619
     e_density 0.3217133757
-    iri 1.008083209E-15
-    rdg 100.0
+    iri 1.0080832089999995E-15
     sign_lambda2_rho -0.2261270237
     ave_loc_ion_E 0.5568447207
     delta_g_promolecular 0.3894723256
     e_loc_func 0.9228231125
     esp_nuc 27.48209949
     esp_e -26.53211418
-    grad_norm 2.895425604E-16
-    det_hessian 0.1237998627
+    grad_norm 2.8954256039999996E-16
+    det_hessian 0.11671567752118912
     ellip_e_dens 0.286026
     eta 2.058836
-    bcp_pos -0.264574494737
-    bcp_pos 7.197721799304
-    bcp_pos 10.7288250619
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -1116,22 +1065,21 @@ graph [
     source 21
     target 22
     Lagrangian_K 0.06925336511
+    bcp_pos 0.758374013056
+    bcp_pos 7.634842975468
+    bcp_pos 10.129496335846
     e_density 0.2087752151
-    iri 1.721144124E-15
-    rdg 100.0
+    iri 1.7211441239999983E-15
     sign_lambda2_rho -0.1501460848
     ave_loc_ion_E 0.5583876203
     delta_g_promolecular 0.2775109497
     e_loc_func 0.902692422
     esp_nuc 28.97358736
     esp_e -28.2441709
-    grad_norm 3.072303194E-16
-    det_hessian 0.02014962189
+    grad_norm 3.0723031939999995E-16
+    det_hessian 0.019949304665979325
     ellip_e_dens 0.216723
     eta 1.529964
-    bcp_pos 0.758374013056
-    bcp_pos 7.634842975468
-    bcp_pos 10.129496335846
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -1141,22 +1089,21 @@ graph [
     source 21
     target 24
     Lagrangian_K 0.06969128199
+    bcp_pos -0.368056223626
+    bcp_pos 8.415350568586
+    bcp_pos 10.205266290985
     e_density 0.2582154904
-    iri 1.957232285E-15
-    rdg 100.0
+    iri 1.957232284999998E-15
     sign_lambda2_rho -0.186894192
     ave_loc_ion_E 0.523032213
     delta_g_promolecular 0.3213529184
     e_loc_func 0.9489889194
     esp_nuc 24.3666207
     esp_e -23.61317698
-    grad_norm 4.413904092E-16
-    det_hessian 0.08029751619
+    grad_norm 4.413904091999999E-16
+    det_hessian 0.0772364811527476
     ellip_e_dens 0.033988
     eta 1.50223
-    bcp_pos -0.368056223626
-    bcp_pos 8.415350568586
-    bcp_pos 10.205266290985
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -1166,22 +1113,21 @@ graph [
     source 23
     target 24
     Lagrangian_K 0.04122443471
+    bcp_pos -1.355907224711
+    bcp_pos 9.014251604143
+    bcp_pos 10.30446896078
     e_density 0.2734296441
-    iri 2.113711986E-15
-    rdg 100.0
+    iri 2.1137119859999978E-15
     sign_lambda2_rho -0.1781016656
     ave_loc_ion_E 0.4647196207
     delta_g_promolecular 0.298529142
     e_loc_func 0.9846938668
     esp_nuc 19.86318308
     esp_e -19.00965567
-    grad_norm 5.076635321E-16
-    det_hessian 0.2692041736
+    grad_norm 5.076635320999999E-16
+    det_hessian 0.23839006909212393
     ellip_e_dens 0.010666
     eta 1.377698
-    bcp_pos -1.355907224711
-    bcp_pos 9.014251604143
-    bcp_pos 10.30446896078
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -1191,22 +1137,21 @@ graph [
     source 24
     target 25
     Lagrangian_K 0.04093462366
+    bcp_pos -0.725081398888
+    bcp_pos 9.153581416981
+    bcp_pos 9.360641493256
     e_density 0.2705057223
-    iri 1.72451079E-15
-    rdg 100.0
+    iri 1.7245107899999984E-15
     sign_lambda2_rho -0.176439696
     ave_loc_ion_E 0.4622752296
     delta_g_promolecular 0.2961238447
     e_loc_func 0.9843628731
     esp_nuc 20.12557167
     esp_e -19.28199405
-    grad_norm 4.093172223E-16
-    det_hessian 0.257239781
+    grad_norm 4.093172222999999E-16
+    det_hessian 0.2289186679796364
     ellip_e_dens 0.014728
     eta 1.372363
-    bcp_pos -0.725081398888
-    bcp_pos 9.153581416981
-    bcp_pos 9.360641493256
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0
@@ -1216,22 +1161,21 @@ graph [
     source 24
     target 26
     Lagrangian_K 0.04112486132
+    bcp_pos -0.365574181672
+    bcp_pos 9.581366697981
+    bcp_pos 10.350853648589
     e_density 0.2709206361
-    iri 4.38499891E-15
-    rdg 100.0
+    iri 4.384998909999991E-15
     sign_lambda2_rho -0.1767777563
     ave_loc_ion_E 0.4627202694
     delta_g_promolecular 0.2968272932
     e_loc_func 0.9842986795
     esp_nuc 20.04594998
     esp_e -19.19973674
-    grad_norm 1.042547341E-15
-    det_hessian 0.2593614668
+    grad_norm 1.0425473409999994E-15
+    det_hessian 0.2306048201299119
     ellip_e_dens 0.014178
     eta 1.372216
-    bcp_pos -0.365574181672
-    bcp_pos 9.581366697981
-    bcp_pos 10.350853648589
     bcp_category_standard 1
     bcp_category_orphaned 0
     bcp_category_hydrogen_bond 0

@@ -1,9 +1,3 @@
----
-noteId: "4936d9c0316711f1a37b67cfbea112b9"
-tags: []
-
----
-
 # XQTAIM-MM Training
 
 This directory contains the scripts for training XQTAIM-MM, a multimodal machine learning model that combines Quantum Theory of Atoms in Molecules (QTAIM) graph features with crystal graph representations.
